@@ -27,6 +27,23 @@ class Crf
     words
   end
   
+  def sentences
+    sentences = []
+    currentSentence = ""
+    allWords.each do |word|
+      currentSentence = "#{currentSentence} #{word}"
+      t1 = (word =~ /\./) != nil
+      t2 = (word =~ /!/) != nil
+      t3 = (word =~ /\?/) != nil
+      
+      if(t1 || t2 || t3)
+        sentences.push currentSentence
+        currentSentence = ""
+      end
+    end
+    sentences
+  end
+  
   def corefs
     ret = []
     if @rawXml != nil && @rawXml.length > 0
