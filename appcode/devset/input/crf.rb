@@ -67,6 +67,11 @@ class Crf
         end
       end
     end
+    
+    if currentSentence != ""
+      sentences.push currentSentence.lstrip.rstrip
+    end
+    
     sentences
   end
   
