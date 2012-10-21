@@ -13,6 +13,7 @@ class Crf
     if @rawXml != nil && @rawXml.length > 0
       rootXml = @rawXml[0]
       rootXml.each do |element|
+        
         if element.class == REXML::Element
           element.get_text.to_s.split(/\s+/).each do |word|
             words.push word
@@ -22,6 +23,7 @@ class Crf
             words.push word
           end
         end
+      
       end
     end
     words
@@ -30,15 +32,39 @@ class Crf
   def sentences
     sentences = []
     currentSentence = ""
-    allWords.each do |word|
-      currentSentence = "#{currentSentence} #{word}"
-      t1 = (word =~ /\./) != nil
-      t2 = (word =~ /!/) != nil
-      t3 = (word =~ /\?/) != nil
-      
-      if(t1 || t2 || t3)
-        sentences.push currentSentence
-        currentSentence = ""
+    if @rawXml != nil && @rawXml.length > 0
+      rootXml = @rawXml[0]
+      rootXml.each do |element|
+        
+        #check if we're an element or raw text
+        if element.class == REXML::Element
+          
+          element.get_text.to_s.split(/\s+/).each do |word|
+            currentSentence = "#{currentSentence} #{word}"
+          end
+        
+        elsif element.class == REXML::Text
+          
+          existingSentence = false
+          if currentSentence != ""
+            existingSentence = true
+          end
+          
+          element.to_s.split(/\n/).each do |sentence|
+            
+            if existingSentence
+              existingSentence = false
+            elsif currentSentence != ""
+              sentences.push currentSentence.lstrip.rstrip
+              currentSentence = ""
+            end
+                        
+            sentence.split(/\s+/).each do |word|
+              currentSentence = "#{currentSentence} #{word}"
+            end
+          end
+        
+        end
       end
     end
     sentences
