@@ -1,4 +1,5 @@
 require 'rexml/document'
+require './parseAdapter.rb'
 
 class Crf
   attr_accessor :rawXml
@@ -27,6 +28,19 @@ class Crf
       end
     end
     words
+  end
+  
+  def generateSentenceTuples
+    sentenceTuples = []
+    pa = ParseAdapter.new
+    sentences.each do |sentence|
+      parse = pa.executeParser sentence
+      hash = {}
+      hash[:sentence] = sentence
+      hash[:parse] = parse
+      sentenceTuples.push hash
+    end
+    sentenceTuples
   end
   
   def sentences
