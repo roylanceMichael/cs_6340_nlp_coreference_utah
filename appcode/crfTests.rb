@@ -1,5 +1,6 @@
 require './crf.rb'
 require './parseAdapter.rb'
+require './parseData.rb'
 
 class CrfTests
   def runAll
@@ -33,4 +34,47 @@ class CrfTests
     sentenceTuples != nil && sentenceTuples.length > 0
   end
   
+  def parseTes
+    #arrange
+    content = "(ROOT Test)"
+    pd = ParseData.new
+    #act
+    result = pd.processParen(content, 0)
+    #assert
+    puts result
+    result != nil && result["ROOT"].lstrip.rstrip == "Test"
+  end
+  
+  def parseTes2
+    #arrange
+    content = "(ROOT (DT Test))"
+    pd = ParseData.new
+    #act
+    result = pd.processParen(content, 0)
+    #assert
+    puts result
+    result != nil && result["ROOT"].class == Hash && result["ROOT"]["DT"].lstrip.rstrip == "Test"
+  end
+  
+  def npOnlyTest1
+    #arrange
+    content = "(NP (DT Test))"
+    pd = ParseData.new
+    #act
+    result = pd.onlyNP(content)
+    #assert
+    puts result
+    result != nil && result[0] == "Test"
+  end
+  
+  def npOnlyTest2
+    #arrange
+    content = "(NP (DT Test) (FF What) (CC The))"
+    pd = ParseData.new
+    #act
+    result = pd.onlyNP(content)
+    #assert
+    puts result
+    result != nil && result[0] == "Test What The"
+  end
 end

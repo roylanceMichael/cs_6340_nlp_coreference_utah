@@ -1,5 +1,6 @@
 require 'rexml/document'
 require './parseAdapter.rb'
+require './parseData.rb'
 
 class Crf
   attr_accessor :rawXml
@@ -33,11 +34,13 @@ class Crf
   def generateSentenceTuples
     sentenceTuples = []
     pa = ParseAdapter.new
+    pd = ParseData.new
     sentences.each do |sentence|
       parse = pa.executeParser sentence
       hash = {}
       hash[:sentence] = sentence
       hash[:parse] = parse
+      hash[:nps] = pd.onlyNP parse
       sentenceTuples.push hash
     end
     sentenceTuples
@@ -69,7 +72,7 @@ class Crf
             if existingSentence
               existingSentence = false
             elsif currentSentence != ""
-              sentences.push currentSentence.lstrip.rstrip
+              sentences.push currentSentence.gsub(/\s+/, " ").lstrip.rstrip
               currentSentence = ""
             end
                         
@@ -83,7 +86,7 @@ class Crf
     end
     
     if currentSentence != ""
-      sentences.push currentSentence.lstrip.rstrip
+      sentences.push currentSentence.gsub(/\s+/, " ").lstrip.rstrip
     end
     
     sentences
