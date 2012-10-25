@@ -19,7 +19,7 @@ class ParseData
       j = 0
       while i > 0 && j < c.length
         char = c[j]
-        #puts "#{char} - #{tmp} - #{npPhrase}"
+        puts "#{char} - #{tmp} - #{npPhrase}"
         if char == ")"
           i = i - 1
           npPhrase = "#{npPhrase} #{tmp}"
