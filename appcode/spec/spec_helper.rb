@@ -1,6 +1,6 @@
-require_relative '../crf.rb'
-require_relative '../parseData.rb'
-require_relative '../parseAdapter.rb'
+require '../crf.rb'
+require '../parseData.rb'
+require '../parseAdapter.rb'
 
 require 'yaml'
 
