@@ -1,12 +1,14 @@
 require './npModel.rb'
+require './utilities.rb'
 #this class houses a sentence, which is just an array of words
 #we're going to do cool stuff with it as well to allow us to add xml tags
 class Sentence
-  attr_accessor :sent, :npModels
+  attr_accessor :sent, :npModels, :acceptableNps
   
   def initialize
     @sent = []
     @npModels = []
+    @acceptableNps = []
   end
   
   def strRep
@@ -31,6 +33,11 @@ class Sentence
         else
           xmlSentence = "#{xmlSentence} <COREF ID='#{currentNp.id}'>#{word}"
         end
+        
+        if currentNp.endIdx == idx
+          xmlSentence = "#{xmlSentence}</COREF>"
+        end
+        
         #including this next in here for sanity
         idx = idx + 1
         next
@@ -88,5 +95,34 @@ class Sentence
     npModel
   end
   
-  
+  def npAdd(np, id)
+    util = Utilities.new
+    
+    result = util.sentIdxInfo(@sent, np.split(/\s+/))
+    
+    if result[:startIdx] != nil && result[:endIdx] != nil
+      startIdx = result[:startIdx]
+      endIdx = result[:endIdx]
+      
+      #we need to make sure that startIdx isn't within the start/end of existing
+      #we need to make sure that endIdx isn't within the start/end of existing
+      
+      foundNps = @npModels.select{|t| t.startIdx <= startIdx && t.endIdx >= startIdx }
+      if foundNps.length > 0
+        return
+      end
+      
+      foundNps = @npModels.select{|t| t.startIdx <= endIdx && t.endIdx >= endIdx }
+      if foundNps.length > 0
+        return
+      end
+      
+      npModel = NpModel.new id, startIdx, endIdx, np.lstrip.rstrip, self
+      
+      puts strRep
+      puts "start => #{startIdx}, end => #{endIdx}, np => #{np}"
+      
+      @acceptableNps.push npModel
+    end
+  end
 end

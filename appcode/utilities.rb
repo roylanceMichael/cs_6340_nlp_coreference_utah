@@ -2,7 +2,11 @@ class Utilities
   def returnIdxInfo(sent, sub)
     sentArray = sent.split(/\s+/)
     subArray = sub.split(/\s+/)
-    
+    res = sentIdxInfo sentArray, subArray
+    res
+  end
+  
+  def sentIdxInfo(sentArray, subArray)
     # going to find the last occurrence...
     startIdx = nil
     endIdx = nil

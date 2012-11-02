@@ -5,14 +5,22 @@ require './utilities.rb'
 require './sentence.rb'
 require './npModel.rb'
 
+require './parseData.rb'
 class Ncrf
-  attr_accessor :xml, :fileName, :sentences, :nps
+  attr_accessor :xml, :fileName, :sentences, :nps, :seed, :parseAdapter
   
   #send in the xml as a string
   def initialize(xml, fileName)
     @xml = REXML::Document.new(xml) 
     @fileName = fileName
     @nps = []
+    @seed = 0
+    @parseAdapter = ParseAdapter.new
+  end
+  
+  def newId
+    @seed = @seed + 1
+    "X#{@seed}"
   end
   
   #extract sentence structures
@@ -60,6 +68,24 @@ class Ncrf
     
     if currentSentence.sent.length != 0
       sentences.push currentSentence
+    end
+  end
+  
+  #identify and add nps
+  def identifyAddNps
+    pd = ParseData.new
+    @sentences.each do |sentence|
+      strSent = sentence.strRep
+      
+      sentNps = @parseAdapter.parse strSent
+      
+      #in the future, do a little better on matching
+      foundNps = pd.onlyNP sentNps
+      
+      foundNps.each do |foundNp|
+        sentence.npAdd foundNp, newId
+      end
+      
     end
   end
 
