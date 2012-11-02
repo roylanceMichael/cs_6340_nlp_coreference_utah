@@ -88,5 +88,53 @@ class Ncrf
       
     end
   end
+  
+  #this is where we'll apply most of our logic
+  def applyNps
+    currentIdx = 0
+    
+    @sentences.each do |sentence|
+      #right now we're just going to select the first NP per sentence... this will need to be fixed later
+      if sentence.acceptableNps.length > 0 && sentence.npModels.length > 0
+        
+        np = sentence.acceptableNps[0]
+        sentence.npModels.push np
+        
+        sentence.npModels.select{|t| t.coref}.each do |npModel|
+          npModel.ref = np
+        end
+      end
+    end
+  end
+  
+  def printXml
+    xml = "<TXT>"
+    @sentences.each do |sentence|
+      xml = "#{xml}\n#{sentence.xmlRep}\n"
+    end
+    xml = "#{xml}</TXT>"
+    xml
+  end
+  
+  #call this after we've set up the models
+  def saveOutput
+    tmpFile = "results/#{@fileName}.response"
+    if File.exists?(tmpFile)
+      File.delete(tmpFile)
+    end
+    
+    file = File.open(tmpFile, "w")
+    file.write printXml
+    file.close
+    
+    lstFile = "listfile.txt"
+    if File.exists? lstFile
+      File.delete(lstFile)
+    end
+    
+    file = File.open(lstFile, "w")
+    file.write tmpFile
+    file.close
+  end
 
 end

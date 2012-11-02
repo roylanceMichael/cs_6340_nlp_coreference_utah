@@ -91,6 +91,7 @@ class Sentence
     id = xmlElement.attributes["ID"]
     #return back!
     npModel = NpModel.new id, startIdx, endIdx, words.gsub(/\s+/, " ").lstrip.rstrip, self
+    npModel.coref = true
     @npModels.push npModel
     npModel
   end
@@ -118,9 +119,6 @@ class Sentence
       end
       
       npModel = NpModel.new id, startIdx, endIdx, np.lstrip.rstrip, self
-      
-      puts strRep
-      puts "start => #{startIdx}, end => #{endIdx}, np => #{np}"
       
       @acceptableNps.push npModel
     end

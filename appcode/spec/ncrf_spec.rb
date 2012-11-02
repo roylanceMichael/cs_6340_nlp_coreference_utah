@@ -73,7 +73,30 @@ describe Ncrf do
        crfInstance = Ncrf.new tXml, "1"
        crfInstance.constructSentencesFromXml
        crfInstance.identifyAddNps
-       
+       #no exceptions means pass
+    end
+  end
+  
+  describe "#applyNps" do
+    
+    it "first test" do
+      tXml = '<TXT>
+       870123-0009. 
+       Eastern Air Proposes Date
+      For Talks on Pay-Cut Plan
+       01/23/87
+       WALL STREET JOURNAL (J)
+       LABOR TEX
+      AIRLINES (AIR) 
+       MIAMI  
+
+
+       <COREF ID="3">Eastern Airlines</COREF> executives notified union leaders that the carrier wishes to discuss selective wage reductions on <COREF ID="6">Feb. 3</COREF>.
+       </TXT>'
+       crfInstance = Ncrf.new tXml, "1"
+       crfInstance.constructSentencesFromXml
+       crfInstance.identifyAddNps
+       crfInstance.applyNps
        
        crfInstance.sentences.each do |sentence|
         puts sentence.xmlRep
