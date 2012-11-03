@@ -9,13 +9,42 @@ require './parseData.rb'
 class Ncrf
   attr_accessor :xml, :fileName, :sentences, :nps, :seed, :parseAdapter
   
+  #factory method for reading in a ton
+  def self.factory(inputLoc)
+	#inputLoc is a directory, read all files and process each one
+	pa = ParseAdapter.new
+	listFileContent = ""
+	Dir.foreach(inputLoc) do |file|
+		if (file =~ /(.+)\.crf/) != nil
+			puts "processing #{$1}.crf..."
+			content = (File.new "#{inputLoc}/#{$1}.crf").read
+			ncrf = Ncrf.new content, $1, pa
+			ncrf.produceXml
+			listFileContent = "#{listFileContent}\nresults/#{$1}.response"
+		end
+	end
+	
+    lstFile = "listfile.txt"
+    if File.exists? lstFile
+      File.delete(lstFile)
+    end
+    
+    file = File.open(lstFile, "w")
+    file.write listFileContent.lstrip.rstrip
+    file.close
+  end
+  
   #send in the xml as a string
-  def initialize(xml, fileName)
+  def initialize(xml, fileName, pa)
     @xml = REXML::Document.new(xml) 
     @fileName = fileName
     @nps = []
     @seed = 0
-    @parseAdapter = ParseAdapter.new
+	if pa == nil
+		@parseAdapter = ParseAdapter.new
+	else
+		@parseAdapter = pa
+	end
   end
   
   def produceXml

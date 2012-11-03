@@ -18,7 +18,7 @@ describe Ncrf do
 
        <COREF ID="3">Eastern Airlines</COREF> executives notified union leaders that the carrier wishes to discuss selective wage reductions on <COREF ID="6">Feb. 3</COREF>.
        </TXT>'
-       crfInstance = Ncrf.new tXml, "1"
+       crfInstance = Ncrf.new tXml, "1", nil
        crfInstance.constructSentencesFromXml
        crfInstance.sentences.length.should eq(9)
        crfInstance.sentences[0].strRep.should eq("870123-0009.")
@@ -46,7 +46,7 @@ describe Ncrf do
 
        <COREF ID="3">Eastern Airlines</COREF> executives notified union leaders that the carrier wishes to discuss selective wage reductions on <COREF ID="6">Feb. 3</COREF>.
        </TXT>'
-       crfInstance = Ncrf.new tXml, "1"
+       crfInstance = Ncrf.new tXml, "1", nil
        crfInstance.constructSentencesFromXml
        crfInstance.sentences.length.should eq(9)
        crfInstance.sentences[8].xmlRep.should eq("<COREF ID='3'>Eastern Airlines</COREF> executives notified union leaders that the carrier wishes to discuss selective wage reductions on <COREF ID='6'>Feb. 3</COREF> .")
@@ -70,7 +70,7 @@ describe Ncrf do
 
        <COREF ID="3">Eastern Airlines</COREF> executives notified union leaders that the carrier wishes to discuss selective wage reductions on <COREF ID="6">Feb. 3</COREF>.
        </TXT>'
-       crfInstance = Ncrf.new tXml, "1"
+       crfInstance = Ncrf.new tXml, "1", nil
        crfInstance.constructSentencesFromXml
        crfInstance.identifyAddNps
        #no exceptions means pass
@@ -93,7 +93,7 @@ describe Ncrf do
 
        <COREF ID="3">Eastern Airlines</COREF> executives notified union leaders that the carrier wishes to discuss selective wage reductions on <COREF ID="6">Feb. 3</COREF>.
        </TXT>'
-       crfInstance = Ncrf.new tXml, "1"
+       crfInstance = Ncrf.new tXml, "1", nil
        crfInstance.constructSentencesFromXml
        crfInstance.identifyAddNps
        crfInstance.applyNps
