@@ -5,7 +5,6 @@ require './utilities.rb'
 require './sentence.rb'
 require './npModel.rb'
 
-require './parseData.rb'
 class Ncrf
   attr_accessor :xml, :fileName, :sentences, :nps, :seed, :parseAdapter
   
