@@ -18,6 +18,13 @@ class Ncrf
     @parseAdapter = ParseAdapter.new
   end
   
+  def produceXml
+	constructSentencesFromXml
+	identifyAddNps
+	applyNps
+	saveOutput
+  end
+  
   def newId
     @seed = @seed + 1
     "X#{@seed}"
