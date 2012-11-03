@@ -20,7 +20,13 @@ class Ncrf
 			content = (File.new "#{inputLoc}/#{$1}.crf").read
 			ncrf = Ncrf.new content, $1, pa
 			ncrf.produceXml
-			listFileContent = "#{listFileContent}\nresults/#{$1}.response"
+			
+			#the scorer doesn't like empty results...
+			if listFileContent == ""
+		    listFileContent = "results/#{$1}.response"
+		  else
+		    listFileContent = "#{listFileContent}\nresults/#{$1}.response"
+		  end
 		end
 	end
 	
