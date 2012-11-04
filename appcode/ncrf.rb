@@ -13,6 +13,9 @@ class Ncrf
 	#inputLoc is a directory, read all files and process each one
 	pa = ParseAdapter.new
 	listFileContent = ""
+	
+	Dir.mkdir("results") unless File.exists?("results")
+	
 	Dir.foreach(inputLoc) do |file|
 		if (file =~ /(.+)\.crf/) != nil
 			puts "processing #{$1}.crf..."
