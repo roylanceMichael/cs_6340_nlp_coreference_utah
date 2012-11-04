@@ -121,6 +121,42 @@ class Sentence
       npModel = NpModel.new id, startIdx, endIdx, np.lstrip.rstrip, self
       
       @acceptableNps.push npModel
+      
+      cleanUpRogueNps
+    end
+  end
+  
+  #the purpose of this function is to remove all rogue nps
+  #for example, we might get an np "union representatives"
+  #and we might also get another np "union representatives who do something"
+  #we want only the one with the longer length
+  def cleanUpRogueNps
+
+    removeNps = []
+    @acceptableNps.each do |acceptableNp|
+      idx = 0
+      @acceptableNps.each do |otherNp|
+        if otherNp.id != acceptableNp.id && otherNp.startIdx == acceptableNp.startIdx && otherNp.endIdx <= acceptableNp.endIdx
+          removeNps.push otherNp
+        end
+        idx = idx + 1
+      end
+    end
+    
+    while removeNps.length > 0
+      removeNp = removeNps[0]
+      
+      removeIdx = 0
+      @acceptableNps.each do |np|
+        if np.id == removeNp.id
+          break
+        end
+        removeIdx = removeIdx + 1
+      end
+      
+      @acceptableNps.slice!(removeIdx)
+      
+      removeNps.slice!(0)
     end
   end
 end

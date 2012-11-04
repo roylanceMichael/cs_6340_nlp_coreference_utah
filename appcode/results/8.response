@@ -1,25 +1,25 @@
 <TXT>
 870917-0001.
 
-Chrysler Plans
+<COREF ID='X2'>Chrysler Plans</COREF>
 
-New Canadian
+<COREF ID='X3'>New Canadian</COREF>
 
-Contract Offer
+<COREF ID='X4'>Contract Offer</COREF>
 
 ---
 
 Walkout Could Be Settled
 
-By Weekend; Ford Talks
+By Weekend; <COREF ID='X8'>Ford Talks</COREF>
 
-With UAW Progressing
+With <COREF ID='X9'>UAW Progressing</COREF>
 
 ---
 
 By Gary Lamphier and Jacob M. Schlesinger
 
-Staff Reporters of The Wall Street Journal
+<COREF ID='X13'>Staff Reporters of The Wall Street Journal</COREF>
 
 09/17/87
 
@@ -29,83 +29,83 @@ F C CANDA LABOR
 
 AUTOS, AUTO PARTS (AUT)
 
-<COREF ID='X25'>Striking auto workers</COREF> and Chrysler Corp.'s Canadian unit appeared to be making progress in negotiations yesterday, as <COREF ID='4'>the company</COREF> said <COREF ID='5'>it</COREF> planned to make <COREF ID='6'>a new contract offer</COREF> by this morning.
+<COREF ID='X25'>Striking auto workers</COREF> and Chrysler Corp.'s Canadian unit appeared to be making <COREF ID='X28'>progress in negotiations</COREF> yesterday, as <COREF ID='4' REF='X13'>the company</COREF> said <COREF ID='5'>it</COREF> planned to make <COREF ID='6' REF='X2'>a new contract offer</COREF> by this morning.
 
-Meanwhile, in Dearborn, Mich., Ford Motor <COREF ID='X37'>Co. and the United Auto Workers union</COREF> continued <COREF ID='9' REF='X25'>negotiations</COREF> into the evening <COREF ID='10' REF='X25'>yesterday</COREF> , but neither side would officially discuss progress.
+Meanwhile, in Dearborn, Mich., Ford Motor <COREF ID='X37'>Co. and the United Auto Workers union</COREF> continued <COREF ID='9' REF='X28'>negotiations</COREF> into the evening <COREF ID='10' REF='X25'>yesterday</COREF> , but neither side would officially discuss progress.
 
-Early in <COREF ID='11' REF='X37'>the day</COREF> , <COREF ID='X46'>bargaining committee members</COREF> had reported to <COREF ID='12' REF='X37'>their</COREF> <COREF ID='13' REF='X37'>union</COREF> locals that a settlement was imminent.
+Early in <COREF ID='11' REF='X13'>the day</COREF> , bargaining committee members had reported to <COREF ID='12' REF='X37'>their</COREF> <COREF ID='13' REF='X37'>union</COREF> locals that a settlement was imminent.
 
-Still, <COREF ID='14' REF='X46'>negotiations</COREF> dragged on.
+Still, <COREF ID='14' REF='X28'>negotiations</COREF> dragged on.
 
-Late last night <COREF ID='15'>union</COREF> officials were still hoping to announce <COREF ID='16'>a settlement</COREF> by early this morning.
+Late last night <COREF ID='15' REF='X37'>union</COREF> officials were still hoping to announce <COREF ID='16' REF='X2'>a settlement</COREF> by early this morning.
 
 <COREF ID='X54'>UAW President Owen Bieber</COREF> was absent from the talks all day.
 
-<COREF ID='18' REF='X54'>The 57-year-old union leader</COREF> checked into <COREF ID='X59'>Henry Ford Hospital in Detroit Tuesday</COREF> night for testing because of abdominal pain, one source said.
+<COREF ID='18' REF='X13'>The 57-year-old union leader</COREF> checked into <COREF ID='X59'>Henry Ford Hospital in Detroit Tuesday</COREF> night for testing because of abdominal pain, one source said.
 
-<COREF ID='X65'>The tests</COREF> ruled out any heart problems, and <COREF ID='20' REF='X59'>Mr. Bieber</COREF> was apparently in "good condition," <COREF ID='21' REF='X59'>the source</COREF> said.
+The tests ruled out any heart problems, and <COREF ID='20' REF='X54'>Mr. Bieber</COREF> was apparently in "good condition," <COREF ID='21' REF='X13'>the source</COREF> said.
 
-<COREF ID='22' REF='X65'>He</COREF> added that <COREF ID='23' REF='X65'>Mr. Bieber</COREF> 's hospitalization doesn't affect <COREF ID='X74'>the pace</COREF> of <COREF ID='24' REF='X65'>negotiations</COREF> .
+<COREF ID='22' REF='X13'>He</COREF> added that <COREF ID='23' REF='X54'>Mr. Bieber</COREF> 's hospitalization doesn't affect the pace of <COREF ID='24' REF='X28'>negotiations</COREF> .
 
-<COREF ID='X76'>A <COREF ID='25' REF='X74'>UAW</COREF> spokesman</COREF> would neither confirm nor deny the report.
+A <COREF ID='25' REF='X9'>UAW</COREF> spokesman would neither confirm nor deny the report.
 
-In Toronto, Robert White, <COREF ID='26' REF='X76'>president of the Canadian Auto Workers union</COREF> , said <COREF ID='28' REF='X76'>he</COREF> expects <COREF ID='29' REF='X76'>the new offer</COREF> from <COREF ID='30' REF='X76'>Chrysler Canada Ltd.</COREF> to contain <COREF ID='X88'>sweetened cost-of-living adjustments</COREF> for pensioners.
+In Toronto, Robert White, <COREF ID='26' REF='X3'>president of the Canadian Auto Workers union</COREF> , said <COREF ID='28' REF='X13'>he</COREF> expects <COREF ID='29' REF='X3'>the new offer</COREF> from <COREF ID='30' REF='X2'>Chrysler Canada Ltd.</COREF> to contain <COREF ID='X88'>sweetened cost-of-living adjustments</COREF> for pensioners.
 
-<COREF ID='X90'>The Canadian union</COREF> has made <COREF ID='32' REF='X88'>inflation-indexed pension payments</COREF> <COREF ID='34' REF='X88'>its</COREF> top priority in <COREF ID='35' REF='X88'>the talks</COREF> .
+<COREF ID='X90'>The Canadian union</COREF> has made <COREF ID='32' REF='X88'>inflation-indexed pension payments</COREF> <COREF ID='34' REF='X88'>its</COREF> top priority in <COREF ID='35' REF='X8'>the talks</COREF> .
 
-<COREF ID='36' REF='X90'>Mr. White</COREF> said <COREF ID='X96'>negotiators</COREF> "unlocked the logjam on the main issue" after all-night meetings <COREF ID='37' REF='X90'>Tuesday</COREF> and <COREF ID='38' REF='X90'>yesterday</COREF> .
+<COREF ID='36' REF='X90'>Mr. White</COREF> said negotiators "unlocked the logjam on the main issue" after all-night meetings <COREF ID='37' REF='X59'>Tuesday</COREF> and <COREF ID='38' REF='X90'>yesterday</COREF> .
 
-<COREF ID='39' REF='X96'>The union</COREF> struck <COREF ID='40' REF='X96'>Chrysler Canada</COREF> <COREF ID='41' REF='X96'>Tuesday</COREF> after rejecting <COREF ID='42' REF='X96'>a company</COREF> offer on pension adjustments.
+<COREF ID='39' REF='X13'>The union</COREF> struck <COREF ID='40' REF='X2'>Chrysler Canada</COREF> <COREF ID='41' REF='X59'>Tuesday</COREF> after rejecting <COREF ID='42' REF='X2'>a company</COREF> offer on pension adjustments.
 
-<COREF ID='44'>The union</COREF> said <COREF ID='X111'>the size</COREF> of <COREF ID='45'>the adjustments</COREF> was inadequate.
+<COREF ID='44' REF='X13'>The union</COREF> said <COREF ID='X111'>the size</COREF> of <COREF ID='45' REF='X13'>the adjustments</COREF> was inadequate.
 
-But Chrysler Canada's chief negotiator, <COREF ID='47' REF='X111'>William Fisher</COREF> , said <COREF ID='48' REF='X111'>yesterday</COREF> that <COREF ID='X118'>the two sides</COREF> had reached "some understandings" on economic issues, including pensions.
+But Chrysler Canada's chief negotiator, <COREF ID='47' REF='X111'>William Fisher</COREF> , said <COREF ID='48' REF='X111'>yesterday</COREF> that the two sides had reached "some understandings" on economic issues, including pensions.
 
-" <COREF ID='50' REF='X118'>We</COREF> have <COREF ID='X125'>a good chance</COREF> of wrapping something up by <COREF ID='51' REF='X118'>the end of the week</COREF> ," <COREF ID='52' REF='X118'>he</COREF> said.
+" <COREF ID='50' REF='X54'>We</COREF> have <COREF ID='X125'>a good chance</COREF> of wrapping something up by <COREF ID='51' REF='X4'>the end of the week</COREF> ," <COREF ID='52' REF='X13'>he</COREF> said.
 
-<COREF ID='53' REF='X125'>Mr. White</COREF> allowed <COREF ID='X132'>negotiations</COREF> on local issues to resume <COREF ID='54' REF='X125'>yesterday</COREF> .
+<COREF ID='53' REF='X125'>Mr. White</COREF> allowed <COREF ID='X132'>negotiations</COREF> on <COREF ID='X133'>local issues</COREF> to resume <COREF ID='54' REF='X125'>yesterday</COREF> .
 
-<COREF ID='55' REF='X132'>About 200 local issues</COREF> that remain unsettled had been suspended while the <COREF ID='56' REF='X132'>CAW</COREF> and <COREF ID='57' REF='X132'>Chrysler</COREF> grappled with <COREF ID='58' REF='X132'>the pension issue</COREF> .
+<COREF ID='55' REF='X133'>About 200 local issues</COREF> that remain unsettled had been suspended while the <COREF ID='56' REF='X132'>CAW</COREF> and <COREF ID='57' REF='X2'>Chrysler</COREF> grappled with <COREF ID='58' REF='X13'>the pension issue</COREF> .
 
-If <COREF ID='X139'>a settlement</COREF> comes <COREF ID='60'>today</COREF> or tomorrow, <COREF ID='61'>Chrysler</COREF> 's 10,000 Canadian workers could vote on <COREF ID='62'>a contract</COREF> <COREF ID='63'>this weekend</COREF> , when <COREF ID='64'>the union</COREF> has scheduled membership meetings for <COREF ID='65'>the striking workers</COREF> .
+If <COREF ID='X139'>a settlement</COREF> comes <COREF ID='60'>today</COREF> or tomorrow, <COREF ID='61' REF='X2'>Chrysler</COREF> 's 10,000 Canadian workers could vote on <COREF ID='62' REF='X2'>a contract</COREF> <COREF ID='63'>this weekend</COREF> , when <COREF ID='64' REF='X13'>the union</COREF> has scheduled membership meetings for <COREF ID='65' REF='X13'>the striking workers</COREF> .
 
-<COREF ID='66' REF='X139'>Chrysler</COREF> said <COREF ID='67' REF='X139'>its</COREF> four Canadian plants could resume <COREF ID='X150'>production</COREF> Monday if <COREF ID='68' REF='X139'>a new pact</COREF> is accepted.
+<COREF ID='66' REF='X2'>Chrysler</COREF> said <COREF ID='67' REF='X139'>its</COREF> four Canadian plants could resume production <COREF ID='X151'>Monday</COREF> if <COREF ID='68' REF='X2'>a new pact</COREF> is accepted.
 
-<COREF ID='X153'>A <COREF ID='69' REF='X150'>company</COREF> spokesman</COREF> said about 2,285 workers remain on layoff at two U.S. plants as a result of <COREF ID='70' REF='X150'>the Canadian strike</COREF> .
+<COREF ID='X153'>A <COREF ID='69' REF='X153'>company</COREF> spokesman</COREF> said about 2,285 workers remain on <COREF ID='X155'>layoff at two U.S. plants</COREF> as a result of <COREF ID='70' REF='X3'>the Canadian strike</COREF> .
 
-As previously reported, <COREF ID='71' REF='X153'>Chrysler</COREF> stopped <COREF ID='X162'>output of Dodge Dynasty and Chrysler New Yorker cars</COREF> yesterday at its Belvidere, Ill., plant because of a shortage of Canadian-made parts.
+As previously reported, <COREF ID='71' REF='X2'>Chrysler</COREF> stopped output of Dodge Dynasty and Chrysler New Yorker cars <COREF ID='X166'>yesterday</COREF> at its Belvidere, Ill., plant because of a shortage of Canadian-made parts.
 
-<COREF ID='X172'>Some 1,700 of <COREF ID='73' REF='X162'>the plant</COREF> 's 2,900 hourly employees</COREF> were laid off as a result.
+Some 1,700 of <COREF ID='73' REF='X13'>the plant</COREF> 's 2,900 hourly employees were laid off as a result.
 
-Also, <COREF ID='X177'>about 585 workers</COREF> were laid off at a stamping plant near Detroit because the parts <COREF ID='75' REF='X172'>they</COREF> make aren't needed in Canada during <COREF ID='76' REF='X172'>the strike</COREF> .
+Also, about 585 workers were laid off at a stamping plant near <COREF ID='X180'>Detroit</COREF> because the parts <COREF ID='75' REF='X180'>they</COREF> make aren't needed in Canada during <COREF ID='76' REF='X13'>the strike</COREF> .
 
-<COREF ID='77' REF='X177'>That plant</COREF> normally employs 2,800 hourly workers.
+<COREF ID='77' REF='X155'>That plant</COREF> normally employs 2,800 hourly workers.
 
-<COREF ID='X190'>The <COREF ID='78'>CAW</COREF> 's contracts</COREF> with <COREF ID='79'>Chrysler</COREF> and the Canadian units of General Motors Corp. and <COREF ID='80'>Ford Motor Co.</COREF> expired Monday.
+<COREF ID='X190'>The <COREF ID='78' REF='X190'>CAW</COREF> 's contracts</COREF> with <COREF ID='79' REF='X2'>Chrysler</COREF> and <COREF ID='X194'>the Canadian units</COREF> of General Motors Corp. and <COREF ID='80' REF='X4'>Ford Motor Co.</COREF> expired Monday.
 
-<COREF ID='X200'>Talks</COREF> with <COREF ID='81' REF='X190'>GM</COREF> and <COREF ID='82' REF='X190'>Ford</COREF> are on hold pending the outcome of <COREF ID='83' REF='X190'>the Chrysler talks</COREF> .
+Talks with <COREF ID='81' REF='X190'>GM</COREF> and <COREF ID='82' REF='X8'>Ford</COREF> are on hold pending the outcome of <COREF ID='83' REF='X2'>the Chrysler talks</COREF> .
 
-In <COREF ID='85' REF='X200'>the Ford-UAW talks</COREF> , <COREF ID='X208'>the two parties</COREF> turned to economics <COREF ID='88' REF='X200'>yesterday</COREF> in addition to the job-security issue.
+In <COREF ID='85' REF='X8'>the Ford-UAW talks</COREF> , the two parties turned to economics <COREF ID='88' REF='X166'>yesterday</COREF> in addition to the job-security issue.
 
-<COREF ID='X214'>Sources</COREF> said <COREF ID='90' REF='X208'>Ford</COREF> expressed willingness to offer some sort of base-wage raise, or annual improvement factor, but it wasn't clear how much or for how many years.
+Sources said <COREF ID='90' REF='X8'>Ford</COREF> expressed willingness to offer some sort of base-wage raise, or annual improvement factor, but it wasn't clear how much or for how many years.
 
-In the previous contract, <COREF ID='91' REF='X214'>the company</COREF> made <COREF ID='X226'>lump-sum payments instead of base-wage raises</COREF> in two of the three years.
+In the previous contract, <COREF ID='91' REF='X13'>the company</COREF> made lump-sum payments instead of base-wage raises in two of the three years.
 
-<COREF ID='92' REF='X226'>It</COREF> offered <COREF ID='X233'>no base-wage</COREF> raises in <COREF ID='93' REF='X226'>its</COREF> initial proposal this year.
+<COREF ID='92' REF='X37'>It</COREF> offered no base-wage raises in <COREF ID='93' REF='X194'>its</COREF> initial proposal this year.
 
-On <COREF ID='94' REF='X233'>the job-security issue</COREF> , <COREF ID='X238'>it</COREF> is understood that <COREF ID='96' REF='X233'>Ford</COREF> agreed not to lay off any workers during the life of the contract except during a major sales plunge.
+On <COREF ID='94' REF='X13'>the job-security issue</COREF> , it is understood that <COREF ID='96' REF='X8'>Ford</COREF> agreed not to lay off any workers during the life of the contract except during a major sales plunge.
 
-<COREF ID='97' REF='X238'>The company</COREF> also promised to replace <COREF ID='X248'>half</COREF> of all workers leaving <COREF ID='98' REF='X238'>the company</COREF> .
+<COREF ID='97' REF='X13'>The company</COREF> also promised to replace half of all workers leaving <COREF ID='98' REF='X13'>the company</COREF> .
 
-At last report, <COREF ID='99' REF='X248'>the two sides</COREF> were still haggling over <COREF ID='X255'>details</COREF> of the job-security plan, while also discussing the wage and benefit package.
+At last report, <COREF ID='99' REF='X13'>the two sides</COREF> were still haggling over details of the job-security plan, while also discussing the wage and benefit package.
 
-<COREF ID='101' REF='X255'>The contract</COREF> expired at <COREF ID='X260'>midnight</COREF> <COREF ID='102' REF='X255'>Monday</COREF> , but <COREF ID='103' REF='X255'>the union</COREF> , citing progress, agreed to an indefinite extension.
+<COREF ID='101' REF='X4'>The contract</COREF> expired at <COREF ID='X260'>midnight</COREF> <COREF ID='102' REF='X151'>Monday</COREF> , but <COREF ID='103' REF='X13'>the union</COREF> , citing progress, agreed to an indefinite extension.
 
-<COREF ID='X267'>The <COREF ID='104' REF='X260'>UAW</COREF> 's contract</COREF> with <COREF ID='105' REF='X260'>GM</COREF> also expired <COREF ID='106' REF='X260'>Monday</COREF> , but negotiations with <COREF ID='107' REF='X260'>the No. 1 auto maker</COREF> were postponed pending a settlement with <COREF ID='108' REF='X260'>Ford</COREF> .
+The <COREF ID='104' REF='X9'>UAW</COREF> 's contract with <COREF ID='105' REF='X260'>GM</COREF> also expired <COREF ID='106' REF='X151'>Monday</COREF> , but negotiations with <COREF ID='107' REF='X13'>the No. 1 auto maker</COREF> were postponed pending a settlement with <COREF ID='108' REF='X8'>Ford</COREF> .
 
-<COREF ID='109' REF='X267'>Chrysler</COREF> 's <COREF ID='110' REF='X267'>U.S.</COREF> contract doesn't expire until next year.
+<COREF ID='109' REF='X2'>Chrysler</COREF> 's <COREF ID='110' REF='X59'>U.S.</COREF> contract doesn't expire until next year.
 
-<COREF ID='111'>Yesterday</COREF> in New York Stock Exchange composite trading, <COREF ID='112'>Chrysler</COREF> closed at $42.25, down $1.
+<COREF ID='111' REF='X166'>Yesterday</COREF> in New York Stock Exchange composite trading, <COREF ID='112' REF='X2'>Chrysler</COREF> closed at $42.25, down $1.
 
-<COREF ID='113'>Ford</COREF> closed at $104, down 62.5 cents.
+<COREF ID='113' REF='X8'>Ford</COREF> closed at $104, down 62.5 cents.
 </TXT>

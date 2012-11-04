@@ -138,12 +138,93 @@ class Ncrf
     currentIdx = 0
     
     @sentences.each do |sentence|
+      
       #right now we're just going to select the first NP per sentence... this will need to be fixed later
       sentence.npModels.each do |npModel|
-        findCorrectAnt(npModel, currentIdx)
+        if npModel.coref
+          #handle if we have a "they" in there
+          if(findTheyAnt(npModel, currentIdx))
+          elsif(findSimilarName(npModel, currentIdx))
+          else
+            findCorrectAnt(npModel, currentIdx)
+          end
+        end
       end
       currentIdx = currentIdx + 1
     end
+  end
+  
+  #rules, apply when we find them
+  def findTheyAnt(npModel, sentIdx)
+    if (npModel.phrase.downcase =~ /they/) != nil
+      sent = @sentences[sentIdx]
+      
+      #we need the first NP that is before this one
+      acceptableNps = sent.acceptableNps.select{|t| t.endIdx < npModel.startIdx}
+      if acceptableNps.length > 0
+        lastAcceptableNp = acceptableNps[acceptableNps.length - 1]
+        
+        #do I exist in npModels?
+        existCheck = sent.npModels.select{|t| t.id == lastAcceptableNp.id}
+        if existCheck.length > 0
+          npModel.ref = existCheck[0]
+        else
+          sent.npModels.push lastAcceptableNp
+          npModel.ref = lastAcceptableNp
+        end
+        true
+      else
+        false
+      end
+    else
+      false
+    end
+  end
+  
+  def findSimilarName(npModel, sentIdx)
+    prevSentences = []
+    
+    for i in 0..sentIdx
+      prevSentences.push @sentences[i]
+    end
+    
+    #starting at the beginning, find the first np with any sort of match to our current phrase
+    npPhrase = npModel.phrase.split(/\s+/)
+    regexs = []
+    npPhrase.each do |word|
+      regex = Regexp.new word.downcase
+      regexs.push regex
+    end
+    
+    match = false
+    
+    prevSentences.each do |prevSent|
+      
+      prevSent.acceptableNps.each do |acceptableNp|
+        
+        regexs.each do |regex|
+          
+          if acceptableNp.phrase.downcase =~ regex
+            match = true
+            break
+          end
+          
+        end
+        
+        if match
+          #this acceptableNp is a match
+          npAlready = prevSent.npModels.select{|t| t.id == acceptableNp.id}
+          npModel.ref = acceptableNp
+          
+          if npAlready.length == 0
+            prevSent.npModels.push acceptableNp
+          end
+          return true
+        end
+      end
+    end
+    
+    false
   end
   
   def findCorrectAnt(npModel, sentIdx)
@@ -165,6 +246,7 @@ class Ncrf
       end
     end
   end
+  #end rules
   
   
   def printXml

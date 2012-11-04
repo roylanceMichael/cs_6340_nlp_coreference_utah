@@ -1,17 +1,17 @@
 <TXT>
 870209-0005.
 
-American Airlines
+<COREF ID='X2'>American Airlines</COREF>
 
-Calls for Mediation
+<COREF ID='X3'>Calls for Mediation</COREF>
 
-In Its Union Talks
+In <COREF ID='X6'>Its Union Talks</COREF>
 
 ---
 
 By Marj Charlier
 
-Staff Reporter of The Wall Street Journal
+<COREF ID='X8'>Staff Reporter of The Wall Street Journal</COREF>
 
 02/09/87
 
@@ -21,37 +21,37 @@ AMR LABOR
 
 AIRLINES (AIR)
 
-<COREF ID='X19'>Dallas</COREF>
+Dallas
 
-Amr corp.'s <COREF ID='5' REF='X19'>American Airlines unit</COREF> said <COREF ID='6' REF='X19'>it</COREF> has called for <COREF ID='7' REF='X19'>federal mediation</COREF> in <COREF ID='X25'>its contract talks</COREF> with unions representing its pilots and flight attendants.
+Amr corp.'s <COREF ID='5' REF='X2'>American Airlines unit</COREF> said <COREF ID='6' REF='X6'>it</COREF> has called for <COREF ID='7' REF='X3'>federal mediation</COREF> in its contract talks with unions representing its pilots and flight attendants.
 
-<COREF ID='X30'>A spokesman</COREF> for <COREF ID='14' REF='X25'>the company</COREF> said <COREF ID='15' REF='X25'>American</COREF> officials "felt talks had reached a point where <COREF ID='17' REF='X25'>mediation</COREF> would be helpful."
+<COREF ID='X30'>A spokesman</COREF> for <COREF ID='14' REF='X8'>the company</COREF> said <COREF ID='15' REF='X2'>American</COREF> officials "felt talks had reached a point where <COREF ID='17' REF='X3'>mediation</COREF> would be helpful."
 
-<COREF ID='X37'>Negotiations</COREF> with <COREF ID='18' REF='X30'>the pilots</COREF> have been going on for 11 months; talks with <COREF ID='19' REF='X30'>flight attendants</COREF> began six months ago.
+Negotiations with <COREF ID='18' REF='X8'>the pilots</COREF> have been going on for 11 months; talks with <COREF ID='19' REF='X30'>flight attendants</COREF> began six months ago.
 
-<COREF ID='X45'>The president</COREF> of the Association of Professional Flight Attendants, which represents American's more than 10,000 flight attendants, called the request for mediation "premature" and characterized <COREF ID='24' REF='X37'>it</COREF> as a bargaining tactic that could lead to a lockout.
+<COREF ID='X45'>The president</COREF> of the Association of Professional Flight Attendants, which represents American's more than 10,000 flight attendants, called the request for mediation "premature" and characterized <COREF ID='24' REF='X6'>it</COREF> as a bargaining tactic that could lead to a lockout.
 
-<COREF ID='25' REF='X45'>Patt gibbs</COREF> , <COREF ID='26' REF='X45'>president of the association</COREF> , said <COREF ID='X63'>talks with the company</COREF> seemed to be progressing well and <COREF ID='29' REF='X45'>the call for mediation</COREF> came as a surprise.
+<COREF ID='25' REF='X45'>Patt gibbs</COREF> , <COREF ID='26' REF='X8'>president of the association</COREF> , said talks with the company seemed to be progressing well and <COREF ID='29' REF='X3'>the call for mediation</COREF> came as a surprise.
 
-The major outstanding issue in the negotiations with the flight attendants is <COREF ID='33' REF='X63'>a two-tier wage scale</COREF> , in which recent employees' salaries increase on a different scale than the salaries of employees who have worked at <COREF ID='34' REF='X63'>american</COREF> for a longer time.
+The major outstanding issue in the negotiations with the flight attendants is <COREF ID='33' REF='X2'>a two-tier wage scale</COREF> , in which recent employees' salaries increase on a different scale than the salaries of employees who have worked at <COREF ID='34' REF='X2'>american</COREF> for a longer time.
 
-<COREF ID='X88'>The union</COREF> wants to narrow the differences between the new scale and the old one.
+The union wants to narrow the differences between the new scale and the old one.
 
-<COREF ID='36' REF='X88'>The company</COREF> declined to comment on <COREF ID='37' REF='X88'>the negotiations</COREF> or the outstanding issues.
+<COREF ID='36' REF='X8'>The company</COREF> declined to comment on <COREF ID='37' REF='X8'>the negotiations</COREF> or the outstanding issues.
 
-<COREF ID='X98'>Representatives for the 5,400-member Allied Pilots Association</COREF> didn't return phone calls.
+Representatives for the 5,400-member Allied Pilots Association didn't return phone calls.
 
-Under the Federal Railway Labor Act, if <COREF ID='X103'>the mediator</COREF> fails to bring the two sides together and <COREF ID='38' REF='X98'>the two sides</COREF> don't agree to binding arbitration, a 30-day cooling-off period follows.
+Under the Federal Railway Labor Act, if <COREF ID='X103'>the mediator</COREF> fails to bring the two sides together and <COREF ID='38' REF='X8'>the two sides</COREF> don't agree to binding arbitration, a 30-day cooling-off period follows.
 
-After <COREF ID='39' REF='X103'>that</COREF> , <COREF ID='X109'>the union</COREF> can strike or <COREF ID='40' REF='X103'>the company</COREF> can lock <COREF ID='41' REF='X103'>the union</COREF> out.
+After <COREF ID='39' REF='X103'>that</COREF> , the union can strike or <COREF ID='40' REF='X8'>the company</COREF> can lock <COREF ID='41' REF='X6'>the union</COREF> out.
 
-<COREF ID='42' REF='X109'>Ms. Gibbs</COREF> said <COREF ID='X113'>that</COREF> in response to <COREF ID='43' REF='X109'>the company</COREF> 's move, <COREF ID='44' REF='X109'>her union</COREF> will be "escalating" <COREF ID='46' REF='X109'>its</COREF> "corporate campaign" against <COREF ID='47' REF='X109'>American</COREF> over the next couple of months.
+<COREF ID='42'>Ms. Gibbs</COREF> said that in response to <COREF ID='43' REF='X8'>the company</COREF> 's move, <COREF ID='44' REF='X6'>her union</COREF> will be "escalating" <COREF ID='46' REF='X6'>its</COREF> "corporate campaign" against <COREF ID='47' REF='X2'>American</COREF> over the next couple of months.
 
-In a corporate campaign, <COREF ID='X126'>a union</COREF> tries to get a company's financiers, investors, directors and other financial partners to pressure <COREF ID='48' REF='X113'>the company</COREF> to meet <COREF ID='49' REF='X113'>union</COREF> demands.
+In a corporate campaign, <COREF ID='X126'>a union</COREF> tries to get a company's financiers, investors, directors and other financial partners to pressure <COREF ID='48' REF='X8'>the company</COREF> to meet <COREF ID='49' REF='X6'>union</COREF> demands.
 
-<COREF ID='50' REF='X126'>A corporate campaign</COREF> , <COREF ID='51' REF='X126'>she</COREF> said, appeals to <COREF ID='52' REF='X126'>her members</COREF> because " <COREF ID='54' REF='X126'>it</COREF> is a nice, clean way to take a job action, and <COREF ID='55' REF='X126'>our women</COREF> are hired to be nice." <COREF ID='56' REF='X126'>the union</COREF> has decided not to strike, <COREF ID='57' REF='X126'>she</COREF> said.
+<COREF ID='50' REF='X2'>A corporate campaign</COREF> , <COREF ID='51' REF='X126'>she</COREF> said, appeals to <COREF ID='52' REF='X126'>her members</COREF> because " <COREF ID='54' REF='X6'>it</COREF> is a nice, clean way to take a job action, and <COREF ID='55' REF='X8'>our women</COREF> are hired to be nice." <COREF ID='56' REF='X6'>the union</COREF> has decided not to strike, <COREF ID='57' REF='X126'>she</COREF> said.
 
-<COREF ID='58'>The union</COREF> has hired <COREF ID='X142'>a number of professional consultants in <COREF ID='59'>its</COREF> battle</COREF> with <COREF ID='60'>the company</COREF> , including Ray Rogers of Corporate Campaign Inc., <COREF ID='61'>the New York labor consultant</COREF> who developed the strategy at Geo. A. Hormel @amp; Co.'s Austin, Minn., meatpacking plant last year.
+<COREF ID='58' REF='X6'>The union</COREF> has hired a number of professional consultants in <COREF ID='59' REF='X6'>its</COREF> battle with <COREF ID='60' REF='X8'>the company</COREF> , including <COREF ID='X149'>Ray Rogers</COREF> of Corporate Campaign Inc., <COREF ID='61' REF='X8'>the New York labor consultant</COREF> who developed the strategy at Geo. A. Hormel @amp; Co.'s Austin, Minn., meatpacking plant last year.
 
-That campaign, which included a strike, faltered when <COREF ID='63' REF='X142'>the company</COREF> hired new workers and the International Meatpacking Union wrested control of the local union from <COREF ID='64' REF='X142'>Rogers</COREF> ' supporters.
+That campaign, which included a strike, faltered when <COREF ID='63' REF='X8'>the company</COREF> hired new workers and the International Meatpacking Union wrested control of the local union from <COREF ID='64' REF='X149'>Rogers</COREF> ' supporters.
 </TXT>
