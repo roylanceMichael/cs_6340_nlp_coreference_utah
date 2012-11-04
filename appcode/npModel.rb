@@ -1,7 +1,7 @@
 # poro for handling info... i like strongly typed for this stuff
 class NpModel
   #ref is a reference to another NpModel...
-  attr_accessor :id, :startIdx, :endIdx, :sentIdx, :phrase, :sent, :ref, 
+  attr_accessor :id, :startIdx, :endIdx, :sentIdx, :phrase, :sent, :ref, :included,
                 :coref, :position, :pronounType, :article, :appositive, 
                 :plurality, :properName, :semanticClass, :gender, :animacy, :headNoun
   

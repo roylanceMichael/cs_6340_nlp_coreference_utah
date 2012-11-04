@@ -163,16 +163,12 @@ class Ncrf
       prevSent = @sentences[sentIdx - 1]
       
       #get the first np
-      firstNp = prevSent.acceptableNps.sort{|a, b| a.startIdx <=> b.startIdx}
+      firstNp = prevSent.npModels.sort{|a, b| a.startIdx <=> b.startIdx}
       
       if firstNp.length > 0
-        
+        firstNp[0].included = true
         npModel.ref = firstNp[0]
-        inModels = prevSent.npModels.select{|t| t.id == firstNp[0].id}
         
-        if inModels.length == 0
-          prevSent.npModels.push firstNp[0]
-        end
         return true
       end
     end
@@ -190,18 +186,12 @@ class Ncrf
       sent = @sentences[sentIdx]
       
       #we need the first NP that is before this one
-      acceptableNps = sent.acceptableNps.select{|t| t.endIdx < npModel.startIdx}
+      acceptableNps = sent.npModels.select{|t| t.endIdx < npModel.startIdx}
       if acceptableNps.length > 0
         lastAcceptableNp = acceptableNps[acceptableNps.length - 1]
         
-        #do I exist in npModels?
-        existCheck = sent.npModels.select{|t| t.id == lastAcceptableNp.id}
-        if existCheck.length > 0
-          npModel.ref = existCheck[0]
-        else
-          sent.npModels.push lastAcceptableNp
-          npModel.ref = lastAcceptableNp
-        end
+        lastAcceptableNp.included = true
+        npModel.ref = lastAcceptableNp
         true
       else
         false
@@ -230,7 +220,7 @@ class Ncrf
     
     prevSentences.each do |prevSent|
       
-      prevSent.acceptableNps.each do |acceptableNp|
+      prevSent.npModels.each do |acceptableNp|
         
         regexs.each do |regex|
           
@@ -243,12 +233,9 @@ class Ncrf
         
         if match
           #this acceptableNp is a match
-          npAlready = prevSent.npModels.select{|t| t.id == acceptableNp.id}
+          acceptableNp.included = true
           npModel.ref = acceptableNp
-          
-          if npAlready.length == 0
-            prevSent.npModels.push acceptableNp
-          end
+
           return true
         end
       end

@@ -3,7 +3,7 @@ require './utilities.rb'
 #this class houses a sentence, which is just an array of words
 #we're going to do cool stuff with it as well to allow us to add xml tags
 class Sentence
-  attr_accessor :sent, :npModels, :acceptableNps
+  attr_accessor :sent, :npModels #, :acceptableNps
   
   def initialize
     @sent = []
@@ -21,7 +21,7 @@ class Sentence
     
     #going under the assumption that there is only startIdx, endIdx are unique
     @sent.each do |word|
-      np = @npModels.select{|t| t.startIdx == idx}
+      np = @npModels.select{|t| t.startIdx == idx && t.included == true}
       
       if np != nil && np.length > 0
         #handle the np...
@@ -43,7 +43,7 @@ class Sentence
         next
       end
       
-      np = @npModels.select{|t| t.endIdx == idx}
+      np = @npModels.select{|t| t.endIdx == idx && t.included == true}
       
       if np != nil && np.length > 0
         #handle the np...
@@ -92,6 +92,7 @@ class Sentence
     #return back!
     npModel = NpModel.new id, startIdx, endIdx, words.gsub(/\s+/, " ").lstrip.rstrip, self
     npModel.coref = true
+    npModel.included = true
     @npModels.push npModel
     npModel
   end
@@ -119,8 +120,10 @@ class Sentence
       end
       
       npModel = NpModel.new id, startIdx, endIdx, np.lstrip.rstrip, self
+      npModel.coref = false
+      npModel.included = false
       
-      @acceptableNps.push npModel
+      @npModels.push npModel
       
       cleanUpRogueNps
     end
@@ -133,10 +136,11 @@ class Sentence
   def cleanUpRogueNps
 
     removeNps = []
-    @acceptableNps.each do |acceptableNp|
+    @npModels.each do |acceptableNp|
       idx = 0
-      @acceptableNps.each do |otherNp|
-        if otherNp.id != acceptableNp.id && otherNp.startIdx == acceptableNp.startIdx && otherNp.endIdx <= acceptableNp.endIdx
+      
+      @npModels.each do |otherNp|
+        if otherNp.included == false && otherNp.id != acceptableNp.id && otherNp.startIdx == acceptableNp.startIdx && otherNp.endIdx <= acceptableNp.endIdx
           removeNps.push otherNp
         end
         idx = idx + 1
@@ -147,14 +151,14 @@ class Sentence
       removeNp = removeNps[0]
       
       removeIdx = 0
-      @acceptableNps.each do |np|
+      @npModels.each do |np|
         if np.id == removeNp.id
           break
         end
         removeIdx = removeIdx + 1
       end
       
-      @acceptableNps.slice!(removeIdx)
+      @npModels.slice!(removeIdx)
       
       removeNps.slice!(0)
     end
