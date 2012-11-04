@@ -19,9 +19,9 @@ TEX LABOR
 
 BANKRUPTCIES (BCY)
 
-<COREF ID='X18'>NEW YORK</COREF>
+NEW YORK
 
-<COREF ID='3' REF='X4'>Eastern Airlines pilots</COREF> won a round in <COREF ID='X21'>bankruptcy court</COREF> that <COREF ID='6' REF='X21'>they</COREF> say could bring <COREF ID='7' REF='X18'>them</COREF> as much as $250 million in back pay, but <COREF ID='X26'>an arbitrator</COREF> must decide how much -- if <COREF ID='X27'>anything</COREF> -- <COREF ID='9' REF='X27'>they</COREF> are owed.
+<COREF ID='3' REF='X4'>Eastern Airlines pilots</COREF> won a round in <COREF ID='X21'>bankruptcy court</COREF> that <COREF ID='6' REF='X21'>they</COREF> say could bring <COREF ID='7' REF='X21'>them</COREF> as much as $250 million in back pay, but <COREF ID='X26'>an arbitrator</COREF> must decide how much -- if <COREF ID='X27'>anything</COREF> -- <COREF ID='9' REF='X27'>they</COREF> are owed.
 
 <COREF ID='X29'>The decision by Bankruptcy Judge Burton R. Lifland in New York</COREF> will allow the Air Line Pilots Association to go forward with <COREF ID='X35'>a claim</COREF> that a "pay parity" clause in their contract was triggered when another Eastern union received a pay raise.
 
@@ -29,7 +29,7 @@ BANKRUPTCIES (BCY)
 
 But <COREF ID='22' REF='X29'>Judge Lifland</COREF> lifted that stay to let <COREF ID='23' REF='X29'>the three-year-old back-pay claim</COREF> go to arbitration, provided <COREF ID='25' REF='X43'>that process</COREF> is swift.
 
-If <COREF ID='26' REF='X26'>it</COREF> doesn't go quickly enough, <COREF ID='27' REF='X29'>the judge</COREF> said <COREF ID='28' REF='X29'>he</COREF> may invoke a provision of <COREF ID='29' REF='X21'>the bankruptcy code</COREF> that would let <COREF ID='31'>him</COREF> estimate what <COREF ID='32' REF='X4'>pilots</COREF> are owed.
+If <COREF ID='26' REF='X26'>it</COREF> doesn't go quickly enough, <COREF ID='27' REF='X29'>the judge</COREF> said <COREF ID='28' REF='X29'>he</COREF> may invoke <COREF ID='X60'>a provision</COREF> of <COREF ID='29' REF='X21'>the bankruptcy code</COREF> that would let <COREF ID='31' REF='X60'>him</COREF> estimate what <COREF ID='32' REF='X4'>pilots</COREF> are owed.
 
 <COREF ID='33' REF='X29'>The arbitration</COREF> is scheduled to begin Aug. 9.
 

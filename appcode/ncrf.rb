@@ -143,7 +143,8 @@ class Ncrf
       sentence.npModels.each do |npModel|
         if npModel.coref
           #handle if we have a "they" in there
-          if(findTheyAnt(npModel, currentIdx))
+          if(findItAnt(npModel, currentIdx))
+          elsif(findTheyAnt(npModel, currentIdx))
           elsif(findSimilarName(npModel, currentIdx))
           else
             findCorrectAnt(npModel, currentIdx)
@@ -155,8 +156,37 @@ class Ncrf
   end
   
   #rules, apply when we find them
+  
+  #it usually belongs to the sentence right before it. 
+  def findItAnt(npModel, sentIdx)
+    if(npModel.phrase.downcase.lstrip.rstrip == "it" && sentIdx > 0)
+      prevSent = @sentences[sentIdx - 1]
+      
+      #get the first np
+      firstNp = prevSent.acceptableNps.sort{|a, b| a.startIdx <=> b.startIdx}
+      
+      if firstNp.length > 0
+        
+        npModel.ref = firstNp[0]
+        inModels = prevSent.npModels.select{|t| t.id == firstNp[0].id}
+        
+        if inModels.length == 0
+          prevSent.npModels.push firstNp[0]
+        end
+        return true
+      end
+    end
+    false
+  end
+  
   def findTheyAnt(npModel, sentIdx)
-    if (npModel.phrase.downcase =~ /they/) != nil
+    pronoun = npModel.phrase.downcase.lstrip.rstrip
+    pronouns = ["i", "me", "my", "mine", "myself", "you", "your", "yours", 
+      "yourself", "we", "us", "our", "ours", "ourselves", "yourselves", "she",
+      "he", "him", "his", "himself", "hers", "her", "herself", "they", "them",
+      "their", "theirs", "themselves"]
+    
+    if (pronouns.include?(pronoun))
       sent = @sentences[sentIdx]
       
       #we need the first NP that is before this one
