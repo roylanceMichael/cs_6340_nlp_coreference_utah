@@ -139,17 +139,33 @@ class Ncrf
     
     @sentences.each do |sentence|
       #right now we're just going to select the first NP per sentence... this will need to be fixed later
-      if sentence.acceptableNps.length > 0 && sentence.npModels.length > 0
-        
-        np = sentence.acceptableNps[0]
-        sentence.npModels.push np
-        
-        sentence.npModels.select{|t| t.coref}.each do |npModel|
-          npModel.ref = np
-        end
+      sentence.npModels.each do |npModel|
+        findCorrectAnt(npModel, currentIdx)
+      end
+      currentIdx = currentIdx + 1
+    end
+  end
+  
+  def findCorrectAnt(npModel, sentIdx)
+    #right now, just going to find the first np in the preceding sentence
+    if sentIdx > 0
+      preSentIdx = sentIdx - 1
+      preSent = @sentences[preSentIdx]
+      
+      #do I exist in my npModels right now?
+      stanfordNps = preSent.npModels.select{|t| t.coref == false }
+      
+      if stanfordNps.length > 0
+        foundNp = stanfordNps[0]
+        npModel.ref = foundNp
+      elsif preSent.acceptableNps.length > 0
+        foundNp = preSent.acceptableNps[0]
+        preSent.npModels.push foundNp
+        npModel.ref = foundNp
       end
     end
   end
+  
   
   def printXml
     xml = "<TXT>"

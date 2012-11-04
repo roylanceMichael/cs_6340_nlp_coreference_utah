@@ -11,19 +11,19 @@ WALL STREET JOURNAL (J)
 
 GE LABOR
 
-NEW YORK
+<COREF ID='X12'>NEW YORK</COREF>
 
-<COREF ID='1' REF='X14'>National Broadcasting Co.</COREF> told <COREF ID='X14'>its technicians and news employees union</COREF> that <COREF ID='3' REF='X14'>the network</COREF> will put into effect next Monday <COREF ID='4' REF='X14'>its latest contract offer</COREF> .
+<COREF ID='1' REF='X12'>National Broadcasting Co.</COREF> told <COREF ID='X14'>its technicians and news employees union</COREF> that <COREF ID='3' REF='X12'>the network</COREF> will put into effect next Monday <COREF ID='4' REF='X12'>its latest contract offer</COREF> .
 
-<COREF ID='6' REF='X20'>Union</COREF> leaders said <COREF ID='X20'>the move</COREF> probably means the union's 2,800 NBC members -- <COREF ID='9' REF='X20'>about a third of the company's work force</COREF> -- will strike.
+<COREF ID='6' REF='X14'>Union</COREF> leaders said <COREF ID='X20'>the move</COREF> probably means the union's 2,800 NBC members -- <COREF ID='9' REF='X14'>about a third of the company's work force</COREF> -- will strike.
 
-"It looks like <COREF ID='11' REF='X31'>we</COREF> 're going to be <COREF ID='X31'>there</COREF> on the street, unless there is a miracle," said John Krieger, <COREF ID='12' REF='X31'>a spokesman</COREF> for the National Association of Broadcast Employees and Technicians, which last struck NBC, a General Electric Co. unit, in 1976.
+"It looks like <COREF ID='11' REF='X20'>we</COREF> 're going to be <COREF ID='X31'>there</COREF> on the street, unless there is a miracle," said John Krieger, <COREF ID='12' REF='X20'>a spokesman</COREF> for the National Association of Broadcast Employees and Technicians, which last struck NBC, a General Electric Co. unit, in 1976.
 
-<COREF ID='X47'>The possibility</COREF> of <COREF ID='15' REF='X47'>a strike</COREF> comes amid growing signs of a strike among members of the Directors Guild of America, whose talks with the three major networks on a contract to replace an agreement expiring June 30 appear to be stalling.
+<COREF ID='X47'>The possibility</COREF> of <COREF ID='15' REF='X31'>a strike</COREF> comes amid growing signs of a strike among members of the Directors Guild of America, whose talks with the three major networks on a contract to replace an agreement expiring June 30 appear to be stalling.
 
-On Tuesday, <COREF ID='X65'>a federal mediator</COREF> brought <COREF ID='16' REF='X65'>NBC</COREF> and <COREF ID='17' REF='X65'>the union</COREF> together for the first time since <COREF ID='18' REF='X65'>the union</COREF> 's four-year contract expired March 31.
+On Tuesday, a federal mediator brought <COREF ID='16' REF='X47'>NBC</COREF> and <COREF ID='17' REF='X47'>the union</COREF> together for the first time since <COREF ID='18' REF='X47'>the union</COREF> 's four-year contract expired March 31.
 
-Both sides were deadlocked.
+<COREF ID='X73'>Both sides</COREF> were deadlocked.
 
-<COREF ID='X74'>Areas of dispute</COREF> include use of temporary workers at <COREF ID='19' REF='X74'>NBC</COREF> , the length of the new contract and use of non-network news services.
+Areas of dispute include use of temporary workers at <COREF ID='19' REF='X73'>NBC</COREF> , the length of the new contract and use of non-network news services.
 </TXT>

@@ -7,51 +7,51 @@ James Tanner (WSJ Staff)
 
 MDEST
 
-PET MON
+<COREF ID='X13'>PET MON</COREF>
 
-<COREF ID='2' REF='X18'>The Organization of Petroleum Exporting Countries</COREF> appears to be pulling back from <COREF ID='X18'>the brink</COREF> of <COREF ID='3' REF='X18'>a possible price war</COREF> .
+<COREF ID='2' REF='X13'>The Organization of Petroleum Exporting Countries</COREF> appears to be pulling back from <COREF ID='X18'>the brink</COREF> of <COREF ID='3' REF='X13'>a possible price war</COREF> .
 
-After <COREF ID='X21'>recent major price declines</COREF> because of a sharp rise in OPEC production, <COREF ID='7' REF='X21'>total cartel output</COREF> has now dropped as much as one million barrels a day -- from the year's peak of 20 million barrels a day early this month.
+After <COREF ID='X21'>recent major price declines</COREF> because of a sharp rise in OPEC production, <COREF ID='7' REF='X18'>total cartel output</COREF> has now dropped as much as one million barrels a day -- from the year's peak of 20 million barrels a day early this month.
 
-And <COREF ID='X37'>there</COREF> are new indications that even <COREF ID='10' REF='X37'>the United Arab Emirates</COREF> , <COREF ID='11' REF='X37'>OPEC's most notable quota violator</COREF> , might soon cut its own output below a targeted 1.5 million barrels a day because of pressure from others in <COREF ID='15' REF='X37'>the cartel</COREF> , including Saudi Arabia.
+And <COREF ID='X37'>there</COREF> are new indications that even <COREF ID='10' REF='X21'>the United Arab Emirates</COREF> , <COREF ID='11' REF='X21'>OPEC's most notable quota violator</COREF> , might soon cut its own output below a targeted 1.5 million barrels a day because of pressure from others in <COREF ID='15' REF='X21'>the cartel</COREF> , including Saudi Arabia.
 
-<COREF ID='16' REF='X55'>The Emirates</COREF> aren't making <COREF ID='X55'>any promises</COREF> publicly.
+<COREF ID='16' REF='X37'>The Emirates</COREF> aren't making any promises publicly.
 
-But its government did offer conciliatory gestures to OPEC yesterday.
+But <COREF ID='X56'>its government</COREF> did offer conciliatory gestures to OPEC yesterday.
 
-<COREF ID='19' REF='X61'>The gestures</COREF> followed <COREF ID='X61'>the arrival</COREF> in Abu Dhabi of OPEC's new secretary-general, <COREF ID='21' REF='X61'>Subroto</COREF> .
+<COREF ID='19' REF='X56'>The gestures</COREF> followed <COREF ID='X61'>the arrival</COREF> in Abu Dhabi of OPEC's new secretary-general, <COREF ID='21' REF='X56'>Subroto</COREF> .
 
-<COREF ID='22' REF='X69'>Mr. Subroto</COREF> delivered <COREF ID='X69'>a letter</COREF> to Sheik Zayed Al Nahyyan, <COREF ID='23' REF='X69'>the Emirates' ruler</COREF> , from Rilwanu Lukman, <COREF ID='25' REF='X69'>Nigeria's oil minister and OPEC's president</COREF> , voicing concern over <COREF ID='29' REF='X69'>the Emirates</COREF> ' recent renunciation of its assigned quota of 948,000 barrels a day.
+<COREF ID='22' REF='X61'>Mr. Subroto</COREF> delivered <COREF ID='X69'>a letter</COREF> to Sheik Zayed Al Nahyyan, <COREF ID='23' REF='X61'>the Emirates' ruler</COREF> , from Rilwanu Lukman, <COREF ID='25' REF='X61'>Nigeria's oil minister and OPEC's president</COREF> , voicing concern over <COREF ID='29' REF='X61'>the Emirates</COREF> ' recent renunciation of its assigned quota of 948,000 barrels a day.
 
-<COREF ID='X90'>The chief conciliatory note at the round of talks with Mr. Subroto</COREF> came from <COREF ID='33' REF='X90'>Sheik Zayed</COREF> , who "reaffirmed" the Emirates' support for OPEC's "unity and cohesion."
+<COREF ID='X90'>The chief conciliatory note at the round of talks with Mr. Subroto</COREF> came from <COREF ID='33' REF='X69'>Sheik Zayed</COREF> , who "reaffirmed" the Emirates' support for OPEC's "unity and cohesion."
 
-According to the Emirates' official news agency, <COREF ID='37' REF='X109'>the ruler</COREF> also noted that <COREF ID='38' REF='X109'>his country</COREF> "has always been at <COREF ID='X109'>the forefront</COREF> for boosting <COREF ID='40' REF='X109'>OPEC</COREF> decisions and supporting the stability of the market."
+According to the Emirates' official news agency, <COREF ID='37' REF='X90'>the ruler</COREF> also noted that <COREF ID='38' REF='X90'>his country</COREF> "has always been at <COREF ID='X109'>the forefront</COREF> for boosting <COREF ID='40' REF='X90'>OPEC</COREF> decisions and supporting the stability of the market."
 
-<COREF ID='X114'>The <COREF ID='41' REF='X114'>news agency</COREF> report</COREF> didn't mention <COREF ID='42' REF='X114'>the Emirates' production level</COREF> .
+<COREF ID='X114'>The <COREF ID='41' REF='X109'>news agency</COREF> report</COREF> didn't mention <COREF ID='42' REF='X109'>the Emirates' production level</COREF> .
 
-But <COREF ID='X118'>senior oil officials</COREF> in <COREF ID='45' REF='X118'>the Emirates</COREF> were quoted by Dow Jones International Petroleum Report <COREF ID='46' REF='X118'>yesterday</COREF> as saying that while <COREF ID='47' REF='X118'>the government</COREF> isn't backing down on <COREF ID='48' REF='X118'>its</COREF> demand for a higher <COREF ID='49' REF='X118'>OPEC</COREF> quota, <COREF ID='50' REF='X118'>current production</COREF> is well under <COREF ID='51' REF='X118'>the target</COREF> .
+But <COREF ID='X118'>senior oil officials</COREF> in <COREF ID='45' REF='X114'>the Emirates</COREF> were quoted by Dow Jones International Petroleum Report <COREF ID='46' REF='X114'>yesterday</COREF> as saying that while <COREF ID='47' REF='X114'>the government</COREF> isn't backing down on <COREF ID='48' REF='X114'>its</COREF> demand for a higher <COREF ID='49' REF='X114'>OPEC</COREF> quota, <COREF ID='50' REF='X114'>current production</COREF> is well under <COREF ID='51' REF='X114'>the target</COREF> .
 
-<COREF ID='X128'>Industry estimates</COREF> generally place <COREF ID='52' REF='X128'>the Emirates' current production</COREF> at between 1.2 million and 1.5 million barrels <COREF ID='54' REF='X128'>a day</COREF> .
+Industry estimates generally place <COREF ID='52' REF='X118'>the Emirates' current production</COREF> at between 1.2 million and 1.5 million barrels <COREF ID='54' REF='X118'>a day</COREF> .
 
-Until recently, such excess output by the Emirates would have been ignored.
+Until recently, <COREF ID='X135'>such excess output by the Emirates</COREF> would have been ignored.
 
-But <COREF ID='56' REF='X139'>it</COREF> became <COREF ID='X139'>an issue for <COREF ID='57' REF='X139'>OPEC</COREF> -- as well as for the world oil markets --</COREF> last month, when Emirates' officials went public with <COREF ID='60' REF='X139'>their</COREF> intent to renounce <COREF ID='61' REF='X139'>their quota</COREF> .
+But <COREF ID='56' REF='X135'>it</COREF> became <COREF ID='X139'>an issue for <COREF ID='57' REF='X135'>OPEC</COREF> -- as well as for the world oil markets --</COREF> last month, when Emirates' officials went public with <COREF ID='60' REF='X135'>their</COREF> intent to renounce <COREF ID='61' REF='X135'>their quota</COREF> .
 
-<COREF ID='X154'>That</COREF> not only focused new attention on <COREF ID='63' REF='X154'>OPEC output</COREF> , which had begun climbing in late June, as previously reported, but <COREF ID='65' REF='X154'>it</COREF> also raised concern among other exporters.
+<COREF ID='X154'>That</COREF> not only focused new attention on <COREF ID='63' REF='X139'>OPEC output</COREF> , which had begun climbing in late June, as previously reported, but <COREF ID='65' REF='X139'>it</COREF> also raised concern among other exporters.
 
-With <COREF ID='X162'>Iraq</COREF> also excluded from <COREF ID='66' REF='X162'>the system</COREF> as a result of fallout from <COREF ID='67' REF='X162'>its</COREF> war with Iran, " <COREF ID='68' REF='X162'>they</COREF> are afraid that if <COREF ID='69' REF='X162'>the UAE</COREF> continues outside there will be no control over <COREF ID='70' REF='X162'>the others</COREF> ," said Bahman Karbassioun, a Vienna-based consultant on <COREF ID='71' REF='X162'>OPEC</COREF> affairs.
+With <COREF ID='X162'>Iraq</COREF> also excluded from <COREF ID='66' REF='X154'>the system</COREF> as a result of fallout from <COREF ID='67' REF='X154'>its</COREF> war with Iran, " <COREF ID='68' REF='X154'>they</COREF> are afraid that if <COREF ID='69' REF='X154'>the UAE</COREF> continues outside there will be no control over <COREF ID='70' REF='X154'>the others</COREF> ," said Bahman Karbassioun, a Vienna-based consultant on <COREF ID='71' REF='X154'>OPEC</COREF> affairs.
 
-In <COREF ID='X182'>addition</COREF> to <COREF ID='72' REF='X182'>Mr. Subroto</COREF> 's visit to <COREF ID='73' REF='X182'>Abu Dhabi</COREF> , <COREF ID='74' REF='X182'>OPEC</COREF> 's <COREF ID='75' REF='X182'>price</COREF> -monitoring committee of five leading <COREF ID='76' REF='X182'>oil</COREF> ministers also is tentatively scheduled to meet next Wednesday in Lausanne, Switzerland, to address the problem of <COREF ID='77' REF='X182'>the Emirates</COREF> ' unilateral <COREF ID='78' REF='X182'>quota</COREF> decision, and to review <COREF ID='79' REF='X182'>world oil prices</COREF> .
+In <COREF ID='X182'>addition</COREF> to <COREF ID='72' REF='X162'>Mr. Subroto</COREF> 's visit to <COREF ID='73' REF='X162'>Abu Dhabi</COREF> , <COREF ID='74' REF='X162'>OPEC</COREF> 's <COREF ID='75' REF='X162'>price</COREF> -monitoring committee of five leading <COREF ID='76' REF='X162'>oil</COREF> ministers also is tentatively scheduled to meet next Wednesday in Lausanne, Switzerland, to address the problem of <COREF ID='77' REF='X162'>the Emirates</COREF> ' unilateral <COREF ID='78' REF='X162'>quota</COREF> decision, and to review <COREF ID='79' REF='X162'>world oil prices</COREF> .
 
-But <COREF ID='81' REF='X205'>OPEC</COREF> 's headquarters <COREF ID='82' REF='X205'>yesterday</COREF> still declined to confirm <COREF ID='X205'>details</COREF> of the meeting.
+But <COREF ID='81' REF='X182'>OPEC</COREF> 's headquarters <COREF ID='82' REF='X182'>yesterday</COREF> still declined to confirm <COREF ID='X205'>details</COREF> of the meeting.
 
-" <COREF ID='83' REF='X210'>It</COREF> 's tentative because <COREF ID='84' REF='X210'>it</COREF> depends on <COREF ID='X210'>the outcome</COREF> of <COREF ID='85' REF='X210'>the talks in the UAE</COREF> ," said an <COREF ID='87' REF='X210'>OPEC</COREF> spokesman.
+" <COREF ID='83' REF='X205'>It</COREF> 's tentative because <COREF ID='84' REF='X205'>it</COREF> depends on <COREF ID='X210'>the outcome</COREF> of <COREF ID='85' REF='X205'>the talks in the UAE</COREF> ," said an <COREF ID='87' REF='X205'>OPEC</COREF> spokesman.
 
-Meanwhile, <COREF ID='88'>total OPEC output</COREF> has dropped as much as 5% after <COREF ID='90'>the recent run-up</COREF> -- with <COREF ID='91'>Saudi Arabia</COREF> , <COREF ID='92'>the cartel's biggest producer</COREF> , pacing the declines.
+Meanwhile, <COREF ID='88' REF='X210'>total OPEC output</COREF> has dropped as much as 5% after <COREF ID='90' REF='X210'>the recent run-up</COREF> -- with <COREF ID='91' REF='X210'>Saudi Arabia</COREF> , <COREF ID='92' REF='X210'>the cartel's biggest producer</COREF> , pacing the declines.
 
-PetroLogistics Ltd., <COREF ID='X226'>a Geneva-based consulting firm</COREF> that closely monitors <COREF ID='94' REF='X226'>OPEC output</COREF> , estimates production for July had averaged just over 19 million barrels a day after reaching <COREF ID='97' REF='X226'>20 million barrels a day in the first week of the month</COREF> .
+PetroLogistics Ltd., <COREF ID='X226'>a Geneva-based consulting firm</COREF> that closely monitors <COREF ID='94'>OPEC output</COREF> , estimates production for July had averaged just over 19 million barrels a day after reaching <COREF ID='97'>20 million barrels a day in the first week of the month</COREF> .
 
-<COREF ID='100' REF='X242'>That</COREF> 's in <COREF ID='X242'>line</COREF> with demand for <COREF ID='101' REF='X242'>OPEC</COREF> oil for the second half, according to a current report on <COREF ID='102' REF='X242'>world oil markets</COREF> by Charles L. McSpadden, <COREF ID='104' REF='X242'>manager of petroleum analysis</COREF> , and Antonio M. Szabo, <COREF ID='106' REF='X242'>manager of petroleum planning</COREF> , at Bonner @amp; Moore Market Consultants, Houston.
+<COREF ID='100' REF='X226'>That</COREF> 's in <COREF ID='X242'>line</COREF> with demand for <COREF ID='101' REF='X226'>OPEC</COREF> oil for the second half, according to a current report on <COREF ID='102' REF='X226'>world oil markets</COREF> by Charles L. McSpadden, <COREF ID='104' REF='X226'>manager of petroleum analysis</COREF> , and Antonio M. Szabo, <COREF ID='106' REF='X226'>manager of petroleum planning</COREF> , at Bonner @amp; Moore Market Consultants, Houston.
 
-" <COREF ID='108'>The 19 million barrels a day</COREF> is in <COREF ID='110'>OPEC</COREF> 's comfort zone," said <COREF ID='111'>Mr. Szabo</COREF> .
+" <COREF ID='108' REF='X242'>The 19 million barrels a day</COREF> is in <COREF ID='110' REF='X242'>OPEC</COREF> 's comfort zone," said <COREF ID='111' REF='X242'>Mr. Szabo</COREF> .
 </TXT>

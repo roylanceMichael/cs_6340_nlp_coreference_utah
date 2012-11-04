@@ -19,19 +19,19 @@ LABOR CCB
 
 MEDIA, PUBLISHING, BROADCASTING, ELECTRONIC PUBLISHING (MED)
 
-NEW YORK
+<COREF ID='X17'>NEW YORK</COREF>
 
-<COREF ID='3' REF='X22'>A six-month confrontation</COREF> between Capital Cities/ABC Inc. and <COREF ID='X22'>a technicians union</COREF> appears to be ending, in plenty of time for the fall season.
+<COREF ID='3' REF='X17'>A six-month confrontation</COREF> between Capital Cities/ABC Inc. and <COREF ID='X22'>a technicians union</COREF> appears to be ending, in plenty of time for the fall season.
 
-<COREF ID='6' REF='X29'>ABC</COREF> said <COREF ID='X29'>more than 2,000</COREF> out of about 2,150 employees belonging to <COREF ID='7' REF='X29'>the union</COREF> have ratified a new four-year contract.
+<COREF ID='6' REF='X22'>ABC</COREF> said <COREF ID='X29'>more than 2,000</COREF> out of about 2,150 employees belonging to <COREF ID='7' REF='X22'>the union</COREF> have ratified a new four-year contract.
 
-<COREF ID='X33'>A few small work units</COREF> rejected <COREF ID='8' REF='X33'>the contract</COREF> , <COREF ID='9' REF='X33'>ABC</COREF> said, but are expected to be persuaded to approve <COREF ID='10' REF='X33'>it</COREF> soon.
+<COREF ID='X33'>A few small work units</COREF> rejected <COREF ID='8' REF='X29'>the contract</COREF> , <COREF ID='9' REF='X29'>ABC</COREF> said, but are expected to be persuaded to approve <COREF ID='10' REF='X29'>it</COREF> soon.
 
-<COREF ID='X37'>A <COREF ID='11' REF='X37'>union</COREF> press release</COREF> said <COREF ID='12' REF='X37'>the union</COREF> will schedule further negotiations "as soon as possible" for <COREF ID='13' REF='X37'>the units that rejected the offer</COREF> .
+<COREF ID='X37'>A <COREF ID='11' REF='X33'>union</COREF> press release</COREF> said <COREF ID='12' REF='X33'>the union</COREF> will schedule further negotiations "as soon as possible" for <COREF ID='13' REF='X33'>the units that rejected the offer</COREF> .
 
-<COREF ID='15' REF='X47'>The National Association of Broadcast Employees and Technicians</COREF> represents mostly engineers, <COREF ID='X47'>camera operators</COREF> and tape editors at <COREF ID='16' REF='X47'>the network</COREF> .
+<COREF ID='15' REF='X37'>The National Association of Broadcast Employees and Technicians</COREF> represents mostly engineers, <COREF ID='X47'>camera operators</COREF> and tape editors at <COREF ID='16' REF='X37'>the network</COREF> .
 
-<COREF ID='17' REF='X53'>ABC</COREF> applauded <COREF ID='18' REF='X53'>the new contract</COREF> , which gives <COREF ID='X53'>the network</COREF> more flexibility in such areas as hiring temporary crews.
+<COREF ID='17' REF='X47'>ABC</COREF> applauded <COREF ID='18' REF='X47'>the new contract</COREF> , which gives <COREF ID='X53'>the network</COREF> more flexibility in such areas as hiring temporary crews.
 
-<COREF ID='X58'>Two years</COREF> ago, <COREF ID='20' REF='X58'>the union</COREF> and NBC fought over work rules, which led to a 17-week strike.
+Two years ago, <COREF ID='20' REF='X53'>the union</COREF> and NBC fought over work rules, which led to a 17-week strike.
 </TXT>
