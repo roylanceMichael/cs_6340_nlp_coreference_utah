@@ -1,4 +1,5 @@
 require 'rexml/document'
+require 'pathname'
 require './parseAdapter.rb'
 require './parseData.rb'
 require './utilities.rb'
@@ -6,30 +7,34 @@ require './sentence.rb'
 require './npModel.rb'
 
 class Ncrf
-  attr_accessor :xml, :fileName, :sentences, :nps, :seed, :parseAdapter
+  attr_accessor :xml, :fileName, :sentences, :nps, :seed, :parseAdapter, :responseDir
   
   #factory method for reading in a ton
-  def self.factory(inputLoc)
+  def self.factory(inputLoc, responseDir)
 	#inputLoc is a directory, read all files and process each one
 	pa = ParseAdapter.new
+	listFileLocations = (File.new inputLoc).read
 	listFileContent = ""
 	
-	Dir.mkdir("results") unless File.exists?("results")
+	Dir.mkdir(responseDir) unless File.exists?(responseDir)
+	arrayT = listFileLocations.split(/\s+/)
 	
-	Dir.foreach(inputLoc) do |file|
-		if (file =~ /(.+)\.crf/) != nil
-			puts "processing #{$1}.crf..."
-			content = (File.new "#{inputLoc}/#{$1}.crf").read
-			ncrf = Ncrf.new content, $1, pa
+	listFileLocations.split(/\s+/).each do |file|
+    
+		  realFileName = Pathname.new(file).basename
+		  realFileName.to_s =~ /(.+)\.crf/
+			puts "processing #{file}..."
+			content = (File.new file).read
+			ncrf = Ncrf.new content, $1, pa, responseDir
 			ncrf.produceXml
 			
 			#the scorer doesn't like empty results...
 			if listFileContent == ""
-		    listFileContent = "results/#{$1}.response"
+		    listFileContent = "#{responseDir}/#{$1}.response"
 		  else
-		    listFileContent = "#{listFileContent}\nresults/#{$1}.response"
+		    listFileContent = "#{listFileContent}\n#{responseDir}/#{$1}.response"
 		  end
-		end
+
 	end
 	
     lstFile = "listfile.txt"
@@ -43,7 +48,8 @@ class Ncrf
   end
   
   #send in the xml as a string
-  def initialize(xml, fileName, pa)
+  def initialize(xml, fileName, pa, responseDir)
+    @responseDir = responseDir
     @xml = REXML::Document.new(xml) 
     @fileName = fileName
     @nps = []
@@ -277,7 +283,7 @@ class Ncrf
   
   #call this after we've set up the models
   def saveOutput
-    tmpFile = "results/#{@fileName}.response"
+    tmpFile = "#{@responseDir}/#{@fileName}.response"
     if File.exists?(tmpFile)
       File.delete(tmpFile)
     end
