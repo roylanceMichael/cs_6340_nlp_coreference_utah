@@ -6,6 +6,13 @@ class Utilities
     res
   end
   
+  def self.cleanseRegexString(val)
+    if val == nil
+      return ""
+    end
+    return val.gsub(/[\[\]]/, "")
+  end
+  
   def sentIdxInfo(sentArray, subArray)
     # going to find the last occurrence...
     startIdx = nil

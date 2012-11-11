@@ -218,6 +218,7 @@ class Ncrf
     npPhrase = npModel.phrase.split(/\s+/)
     regexs = []
     npPhrase.each do |word|
+      word = Utilities.cleanseRegexString(word)
       regex = Regexp.new word.downcase
       regexs.push regex
     end
@@ -258,13 +259,12 @@ class Ncrf
       
       #do I exist in my npModels right now?
       stanfordNps = preSent.npModels.select{|t| t.coref == false }
-      
+      otherNps = preSent.npModels.select{|t| t.coref == true}
       if stanfordNps.length > 0
         foundNp = stanfordNps[0]
         npModel.ref = foundNp
-      elsif preSent.acceptableNps.length > 0
-        foundNp = preSent.acceptableNps[0]
-        preSent.npModels.push foundNp
+      elsif otherNps.length > 0
+        foundNp = otherNps[0]
         npModel.ref = foundNp
       end
     end
