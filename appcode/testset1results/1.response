@@ -5,7 +5,7 @@ UK Government: <COREF ID='X3'>Another area</COREF> free from <COREF ID='X4'>clas
 
 .
 
-<COREF ID='X6'>A second infected <COREF ID='1' REF='X3'>area</COREF> in East Anglia</COREF> was declared free from <COREF ID='2' REF='X4'>classical swine fever</COREF> ( <COREF ID='3' REF='3'>CSF</COREF> ) today and the relevant Infected Area Order has been
+<COREF ID='X6'>A second infected <COREF ID='1' REF='X3'>area</COREF> in East Anglia</COREF> was declared free from <COREF ID='2' REF='X4'>classical swine fever</COREF> ( <COREF ID='3' REF='3'>CSF</COREF> ) today and <COREF ID='X15'>the relevant Infected Area Order has been</COREF>
 
 revoked.
 
@@ -13,37 +13,37 @@ Pigs can now be freely moved on and off <COREF ID='X18'>about 160 farms</COREF> 
 
 is believed to have originated. <COREF ID='5' REF='X18'>It</COREF> had been confirmed as infected on 9
 
-<COREF ID='X29'>August - the <COREF ID='6' REF='X6'>second</COREF> of 15 premises to be confirmed with <COREF ID='7' REF='3'>CSF</COREF> following the</COREF>
+August - the <COREF ID='6' REF='X6'>second</COREF> of 15 premises to be confirmed with <COREF ID='7' REF='3'>CSF</COREF> following the
 
-start of the <COREF ID='8' REF='X22'>outbreak</COREF> on <COREF ID='9' REF='X29'>8 Aug 2000</COREF> .
+start of the <COREF ID='8' REF='X22'>outbreak</COREF> on <COREF ID='9' REF='X6'>8 Aug 2000</COREF> .
 
-The infected area in north Essex was <COREF ID='10' REF='X3'>the first</COREF> to be pronounced clear of
+The infected area in north Essex was <COREF ID='10' REF='X15'>the first</COREF> to be pronounced clear of
 
-<COREF ID='11' REF='X3'>the disease</COREF> , and movement restrictions lifted on more than 90 farms
+<COREF ID='11' REF='X15'>the disease</COREF> , and movement restrictions lifted on more than 90 farms
 
-<COREF ID='12' REF='12'>there</COREF> , on 22 Sep 2000.
+<COREF ID='12' REF='X15'>there</COREF> , on 22 Sep 2000.
 
 The decision to lift the infected <COREF ID='13' REF='X3'>area</COREF> was made following full veterinary
 
 investigation. Similar investigations will be progressively undertaken in
 
-<COREF ID='X61'>the other infected areas</COREF> with <COREF ID='X63'>a view</COREF> to lifting <COREF ID='14' REF='X63'>them</COREF> as soon as possible.
+the other infected areas with <COREF ID='X63'>a view</COREF> to lifting <COREF ID='14' REF='X63'>them</COREF> as soon as possible.
 
 Notes for Editors
 
-1. <COREF ID='X70'>Farmers</COREF> in the remaining infected <COREF ID='15' REF='X61'>areas</COREF> who have animal welfare
+1. Farmers in the remaining infected <COREF ID='15' REF='X3'>areas</COREF> who have animal welfare
 
 problems because of overstocking may apply for a licence to move <COREF ID='16' REF='16'>pigs</COREF>
 
 within the same surveillance zone of an infected area, subject to strict
 
-conditions. <COREF ID='17' REF='17'>They</COREF> can also apply to send <COREF ID='18' REF='16'>pigs</COREF> to slaughter under the Pig
+conditions. <COREF ID='17' REF='X15'>They</COREF> can also apply to send <COREF ID='18' REF='16'>pigs</COREF> to slaughter under the Pig
 
 Disposal (Welfare) Scheme. Details of both options are available from the
 
-Bury St Edmunds control center helpline on <COREF ID='19' REF='19'>08702 414215</COREF> . <COREF ID='20' REF='X70'>Farmers</COREF> in
+Bury St Edmunds control center helpline on <COREF ID='19' REF='19'>08702 414215</COREF> . <COREF ID='20' REF='X18'>Farmers</COREF> in
 
-infected <COREF ID='21' REF='X61'>areas</COREF> can also phone this <COREF ID='22' REF='22'>number</COREF> for general information
+infected <COREF ID='21' REF='X3'>areas</COREF> can also phone this <COREF ID='22' REF='22'>number</COREF> for general information
 
 relating to the <COREF ID='23' REF='X22'>outbreak</COREF> of <COREF ID='24' REF='3'>CSF</COREF> .
 
@@ -51,7 +51,7 @@ relating to the <COREF ID='23' REF='X22'>outbreak</COREF> of <COREF ID='24' REF=
 
 Suffolk remains in place until November 15. <COREF ID='28' REF='X109'>It</COREF> will be reconsidered at
 
-the next meeting of the Standing Veterinary Committee of <COREF ID='29' REF='X3'>the EU</COREF> .
+the next meeting of the Standing Veterinary Committee of <COREF ID='29' REF='X15'>the EU</COREF> .
 
 3. More information can be found on the MAFF website. The address is:
 

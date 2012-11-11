@@ -218,9 +218,7 @@ class Ncrf
     npPhrase = npModel.phrase.split(/\s+/)
     regexs = []
     npPhrase.each do |word|
-      word = Utilities.cleanseRegexString(word)
-      regex = Regexp.new word.downcase
-      regexs.push regex
+      regexs.push word
     end
     
     match = false
@@ -231,19 +229,16 @@ class Ncrf
         
         regexs.each do |regex|
           
-          if acceptableNp.phrase.downcase =~ regex
-            match = true
-            break
-          end
-          
-        end
-        
-        if match
-          #this acceptableNp is a match
-          acceptableNp.included = true
-          npModel.ref = acceptableNp
+          acceptableNp.phrase.split(/\s+/).each do |word|
+            
+            if Utilities.editDistance(regex, word) <= 2
+              #this acceptableNp is a match
+              acceptableNp.included = true
+              npModel.ref = acceptableNp
 
-          return true
+              return true
+            end
+          end
         end
       end
     end

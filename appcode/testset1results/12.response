@@ -1,35 +1,35 @@
 <TXT>
 nyt960227.0636
 
-<COREF ID='X2'>A7779</COREF>
+A7779
 
-<COREF ID='X3'>BC-NTSB-CRASH-SPI</COREF>
+BC-NTSB-CRASH-SPI
 
 @amp;LR;
 
 02-27
 
-BC- <COREF ID='1' REF='X3'>NTSB</COREF> - <COREF ID='2' REF='X3'>CRASH</COREF> -SPI <COREF ID='3' REF='X3'>NTSB</COREF> TESTS BORROWED <COREF ID='X12'>737</COREF> IN CRASH PROBE
+BC- <COREF ID='1' REF='1'>NTSB</COREF> - <COREF ID='2' REF='2'>CRASH</COREF> -SPI <COREF ID='3' REF='1'>NTSB</COREF> TESTS BORROWED <COREF ID='X12'>737</COREF> IN CRASH PROBE
 
 (For use by New York Times News Service clients.)
 
-By <COREF ID='X15'>BILL VIRGIN</COREF>
+By BILL VIRGIN
 
 c.1996 <COREF ID='X17'>Seattle Post-Intelligencer</COREF>
 
-SEATTLE @amp;MD; The <COREF ID='5' REF='5'>National Transportation Safety Board</COREF> is borrowing <COREF ID='6' REF='X2'>a Boeing 737</COREF> from Seattle's Museum of <COREF ID='X27'>Flight</COREF> as part of <COREF ID='9' REF='9'>its investigation</COREF> into why <COREF ID='X31'>a similar jetliner</COREF> crashed near <COREF ID='X32'>Pittsburgh</COREF>
+SEATTLE @amp;MD; The <COREF ID='5' REF='5'>National Transportation Safety Board</COREF> is borrowing <COREF ID='6' REF='X12'>a Boeing 737</COREF> from Seattle's Museum of <COREF ID='X27'>Flight</COREF> as part of <COREF ID='9' REF='9'>its investigation</COREF> into why a similar jetliner crashed near <COREF ID='X32'>Pittsburgh</COREF>
 
 in 1994. <COREF ID='11' REF='11'>The museum's aircraft</COREF> , ironically enough, was donated by USAir,
 
-which operated <COREF ID='13' REF='11'>the airplane that crashed</COREF> , killing 132 people on
+which operated <COREF ID='13' REF='2'>the airplane that crashed</COREF> , killing 132 people on
 
 board. <COREF ID='14' REF='5'>The board</COREF> is testing the plane's rudder controls to learn why <COREF ID='16' REF='X27'>Flight 427</COREF> suddenly rolled and crashed while on <COREF ID='17' REF='9'>its</COREF> approach to the <COREF ID='18' REF='X32'>Pittsburgh</COREF> airport Sept. 8, 1994. <COREF ID='X52'>Aviation safety investigators</COREF> say
 
-a sharp movement of the rudder @amp;MD; <COREF ID='19' REF='X15'>the movable vertical piece in the plane's tail</COREF> @amp;MD; could have caused <COREF ID='21' REF='X31'>the jet</COREF> 's deadly roll.
+a sharp movement of the rudder @amp;MD; <COREF ID='19' REF='11'>the movable vertical piece in the plane's tail</COREF> @amp;MD; could have caused <COREF ID='21' REF='11'>the jet</COREF> 's deadly roll.
 
 <COREF ID='X67'>NTSB Chairman Jim Hall</COREF> is to address a briefing on the <COREF ID='23' REF='9'>investigation</COREF> in <COREF ID='24' REF='X17'>Seattle</COREF> Thursday, but <COREF ID='X73'>board spokesman Mike Benson</COREF>
 
-said <COREF ID='26' REF='X67'>Hall</COREF> isn't expected to announce any findings. <COREF ID='27' REF='X73'>Benson</COREF> said <COREF ID='28' REF='X52'>investigators</COREF> are simulating <COREF ID='X77'>air loads</COREF> on <COREF ID='29' REF='11'>the 737's rudder</COREF> . ``It's a slow, methodical job since <COREF ID='31' REF='X77'>we</COREF> don't have adequate
+said <COREF ID='26' REF='X67'>Hall</COREF> isn't expected to announce any findings. <COREF ID='27' REF='X73'>Benson</COREF> said <COREF ID='28' REF='X52'>investigators</COREF> are simulating <COREF ID='X77'>air loads</COREF> on <COREF ID='29' REF='X12'>the 737's rudder</COREF> . ``It's a slow, methodical job since <COREF ID='31' REF='X77'>we</COREF> don't have adequate
 
 black boxes,'' <COREF ID='32' REF='11'>he</COREF> said.
 
@@ -37,25 +37,25 @@ Newer models of flight data recorders, or ``black boxes,'' would
 
 record the angle of the rudder and the pedal controlling it. But
 
-because <COREF ID='37' REF='11'>the plane</COREF> was reduced to debris by the force of <COREF ID='38' REF='X3'>the crash</COREF> ,
+because <COREF ID='37' REF='11'>the plane</COREF> was reduced to debris by the force of <COREF ID='38' REF='2'>the crash</COREF> ,
 
 and <COREF ID='39' REF='X12'>the 737</COREF> was equipped with older-model flight recorders that
 
 didn't measure <COREF ID='40' REF='40'>such information</COREF> , <COREF ID='41' REF='X52'>investigators</COREF> are running tests to
 
-``surmise'' <COREF ID='42' REF='29'>rudder and pedal position</COREF> , <COREF ID='43' REF='X73'>Benson</COREF> said.
+``surmise'' <COREF ID='42' REF='6'>rudder and pedal position</COREF> , <COREF ID='43' REF='X73'>Benson</COREF> said.
 
 Installation of <COREF ID='44' REF='X27'>improved flight recorders</COREF> was an official
 
-recommendation of <COREF ID='45' REF='5'>the board</COREF> after earlier hearings into the <COREF ID='46' REF='X3'>Pittsburgh crash</COREF> . <COREF ID='48' REF='X27'>Museum of Flight</COREF> spokesman Bill Hayes said <COREF ID='49' REF='11'>the plane</COREF> , donated
+recommendation of <COREF ID='45' REF='5'>the board</COREF> after earlier hearings into the <COREF ID='46' REF='2'>Pittsburgh crash</COREF> . <COREF ID='48' REF='X27'>Museum of Flight</COREF> spokesman Bill Hayes said <COREF ID='49' REF='11'>the plane</COREF> , donated
 
-last September, was to be partially dismantled as an exhibit. The <COREF ID='50' REF='X3'>NTSB</COREF> was looking for <COREF ID='51' REF='5'>an intact plane on which to conduct tests</COREF> , so <COREF ID='53' REF='11'>the museum</COREF> delayed <COREF ID='54' REF='9'>its</COREF> plans. <COREF ID='55' REF='11'>The tests</COREF> are being conducted at a Boeing hangar at Boeing
+last September, was to be partially dismantled as an exhibit. The <COREF ID='50' REF='1'>NTSB</COREF> was looking for <COREF ID='51' REF='6'>an intact plane on which to conduct tests</COREF> , so <COREF ID='53' REF='11'>the museum</COREF> delayed <COREF ID='54' REF='9'>its</COREF> plans. <COREF ID='55' REF='11'>The tests</COREF> are being conducted at <COREF ID='X135'>a Boeing hangar at Boeing</COREF>
 
 Field. No airborne tests are planned.
 
-The <COREF ID='57' REF='X3'>NTSB</COREF> also conducted tests <COREF ID='58' REF='58'>last September</COREF> to determine if
+The <COREF ID='57' REF='1'>NTSB</COREF> also conducted tests <COREF ID='58' REF='X135'>last September</COREF> to determine if
 
-wake turbulence from another plane could have contributed to <COREF ID='59' REF='X3'>the crash</COREF> . <COREF ID='60' REF='X73'>Benson</COREF> said those results are still being analyzed.
+wake turbulence from another plane could have contributed to <COREF ID='59' REF='2'>the crash</COREF> . <COREF ID='60' REF='X73'>Benson</COREF> said those results are still being analyzed.
 
 NYT- <COREF ID='61' REF='61'>02-27-96</COREF> 2052EST
 </TXT>

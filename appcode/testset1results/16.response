@@ -3,15 +3,15 @@ nyt960409.0732
 
 A3781
 
-<COREF ID='X3'>BC-HK-AIRCRASH-CHINA-SCM</COREF>
+BC-HK-AIRCRASH-CHINA-SCM
 
 04-09
 
 0270
 
-BC-HK- <COREF ID='1' REF='X3'>AIRCRASH</COREF> - <COREF ID='2' REF='X3'>CHINA</COREF> -SCMP
+BC-HK- <COREF ID='1' REF='1'>AIRCRASH</COREF> - <COREF ID='2' REF='2'>CHINA</COREF> -SCMP
 
-<COREF ID='X11'>TWO</COREF> DIE IN <COREF ID='40' REF='X3'>HELO CRASH</COREF> OFF <COREF ID='4' REF='X3'>CHINA</COREF>
+<COREF ID='X11'>TWO</COREF> DIE IN <COREF ID='40' REF='40'>HELO CRASH</COREF> OFF <COREF ID='4' REF='2'>CHINA</COREF>
 
 c.1996 South China Morning Post
 
@@ -43,13 +43,13 @@ the Chinese island of <COREF ID='21' REF='21'>Daiwaishan</COREF> .
 
 ``Someone on <COREF ID='22' REF='X25'>the island</COREF> heard a noise and called <COREF ID='23' REF='23'>Zhuhai</COREF> airport
 
-authorities,'' said a <COREF ID='24' REF='8'>Macau</COREF> aviation source. `` <COREF ID='25' REF='X3'>China</COREF> sent a
+authorities,'' said a <COREF ID='24' REF='8'>Macau</COREF> aviation source. `` <COREF ID='25' REF='2'>China</COREF> sent a
 
-helicopter and confirmed <COREF ID='26' REF='X3'>the crash</COREF> on <COREF ID='27' REF='X25'>the island</COREF> .'' <COREF ID='28' REF='8'>Macau</COREF> authorities, who lost radar contact at 10 am, said <COREF ID='29' REF='X25'>the pilots</COREF> had been found at the site ``and appeared dead''. <COREF ID='30' REF='23'>Zhuhai</COREF> officials confirmed <COREF ID='31' REF='5'>the crew</COREF> had been killed.
+helicopter and confirmed <COREF ID='26' REF='40'>the crash</COREF> on <COREF ID='27' REF='X25'>the island</COREF> .'' <COREF ID='28' REF='8'>Macau</COREF> authorities, who lost radar contact at 10 am, said <COREF ID='29' REF='X25'>the pilots</COREF> had been found at the site ``and appeared dead''. <COREF ID='30' REF='23'>Zhuhai</COREF> officials confirmed <COREF ID='31' REF='5'>the crew</COREF> had been killed.
 
-Sources suggested that poor weather was <COREF ID='32' REF='X3'>the likely cause of the crash</COREF> .
+Sources suggested that poor weather was <COREF ID='32' REF='40'>the likely cause of the crash</COREF> .
 
-The Royal Observatory reported strong winds in the area at <COREF ID='34' REF='X25'>the time</COREF> . Rescuers also reported poor visibility. <COREF ID='35' REF='X3'>China</COREF> , as <COREF ID='36' REF='X25'>the country of registration</COREF> , would investigate <COREF ID='37' REF='X25'>the incident</COREF> , the <COREF ID='38' REF='20'>Civil Aviation Department</COREF> said.
+The Royal Observatory reported strong winds in the area at <COREF ID='34' REF='X25'>the time</COREF> . Rescuers also reported poor visibility. <COREF ID='35' REF='2'>China</COREF> , as <COREF ID='36' REF='X25'>the country of registration</COREF> , would investigate <COREF ID='37' REF='X25'>the incident</COREF> , the <COREF ID='38' REF='20'>Civil Aviation Department</COREF> said.
 
 NYT- <COREF ID='39' REF='39'>04-09-96</COREF> 2213EDT
 </TXT>
