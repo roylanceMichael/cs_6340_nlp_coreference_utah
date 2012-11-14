@@ -39,6 +39,53 @@ class ParseData
     nps
   end
   
+  def parseSentences(content)
+    sentences = []
+    if content == nil
+      return sentences
+    end
+    
+    #find first index
+    conChar = content.chars.to_a
+    
+    sentenceIdx = content =~ /\(ROOT/
+    
+    if sentenceIdx == nil
+      return sentences
+    end
+    
+    sentenceIdx = sentenceIdx + 5
+    cursLevel = 0
+    tmpSentence = ""
+    tmpWord = ""
+    while sentenceIdx < conChar.length
+      #i care about words that have a space then followed by 
+      char = conChar[sentenceIdx]
+      
+      if char == ")"
+        cursLevel = cursLevel - 1
+        tmpSentence = "#{tmpSentence} #{tmpWord}"
+        tmpWord = ""
+        
+        #add and reset
+        if cursLevel == 0
+            sentences.push tmpSentence.lstrip.rstrip
+            tmpSentence = ""
+        end
+      elsif char == "("
+        cursLevel = cursLevel + 1
+      elsif (char =~ /\s/) != nil
+        tmpWord = ""
+      else
+        tmpWord = "#{tmpWord}#{char}"
+      end
+      
+      sentenceIdx = sentenceIdx + 1
+    end
+    
+    return sentences
+  end
+  
   def processParen(content, i)
     if content == nil || i >= content.length || content[i] != "("
       return ""
