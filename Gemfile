@@ -1,11 +1,16 @@
 source 'https://rubygems.org'
-
 gem 'rails', '3.2.3'
+
+#rspec for testing
+gem 'rspec'
+
+#shit to try and get metrics to work
+gem 'simplecov', :require => false, :group => :test
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+#gem 'sqlite3'
 
 
 # Gems used only for assets and not required

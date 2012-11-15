@@ -16,4 +16,12 @@ class ParseAdapter
 	    parse =	@lp.apply(sentence)
 	    return parse.toString()	
     end
+
+    def testNotExec(exec)
+	if(exec)
+	    return 1
+	else
+	    return 0
+	end
+    end
 end
