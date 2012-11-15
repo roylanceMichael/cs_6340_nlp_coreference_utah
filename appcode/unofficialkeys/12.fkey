@@ -1,0 +1,75 @@
+<TXT>
+ nyt960227.0636 
+ A7779 
+ BC-<COREF ID="X1">NTSB</COREF>-<COREF ID="X2">CRASH</COREF>-SPI 
+ @amp;LR; 
+ <COREF ID="X3">02-27</COREF> 
+
+BC-<COREF ID="1" REF="X1">NTSB</COREF>-<COREF ID="2" REF="X2">CRASH</COREF>-SPI
+<COREF ID="3" REF="1">NTSB</COREF> TESTS BORROWED <COREF ID="X4">737</COREF> IN <COREF ID="X5">CRASH PROBE</COREF>
+(For use by New York Times News Service clients.)
+By BILL VIRGIN
+c.1996 Seattle Post-Intelligencer
+
+
+
+<COREF ID="X6">SEATTLE</COREF>  @amp;MD;  The <COREF ID="5" REF="3">National Transportation Safety Board</COREF> is borrowing
+<COREF ID="6" REF="X4">a Boeing 737</COREF> from <COREF ID="X7">Seattle's Museum of Flight</COREF> as part of <COREF ID="9" REF="X5">its
+investigation</COREF> into why <COREF ID="X8">a similar jetliner</COREF> crashed near <COREF ID="X9">Pittsburgh</COREF>
+in 1994.
+
+
+<COREF ID="11" REF="6">The museum's aircraft</COREF>, ironically enough, was donated by USAir,
+which operated <COREF ID="13" REF="X8">the airplane that crashed</COREF>, killing 132 people on
+board.
+
+
+<COREF ID="14" REF="5">The board</COREF> is testing <COREF ID="X10">the plane's rudder</COREF> controls to learn why
+<COREF ID="16" REF="13">Flight 427</COREF> suddenly rolled and crashed while on <COREF ID="17" REF="16">its</COREF> approach to the
+<COREF ID="18" REF="X9">Pittsburgh</COREF> airport Sept. 8, 1994. <COREF ID="X11">Aviation safety investigators</COREF> say
+a sharp movement of <COREF ID="X12">the rudder</COREF>  @amp;MD;  <COREF ID="19" REF="X12">the movable vertical piece in the
+plane's tail</COREF>  @amp;MD;  could have caused <COREF ID="21" REF="17">the jet</COREF>'s deadly roll.
+
+
+<COREF ID="X13">NTSB Chairman Jim Hall</COREF> is to address a briefing on the
+<COREF ID="23" REF="9">investigation</COREF> in <COREF ID="24" REF="X6">Seattle</COREF> Thursday, but <COREF ID="X14">board spokesman Mike Benson</COREF>
+said <COREF ID="26" REF="X13">Hall</COREF> isn't expected to announce any findings.
+
+
+<COREF ID="27" REF="X14">Benson</COREF> said <COREF ID="28" REF="X11">investigators</COREF> are simulating air loads on <COREF ID="29" REF="X10">the 737's
+rudder</COREF>. ``It's a slow, methodical job since <COREF ID="31" REF="14">we</COREF> don't have adequate
+black boxes,'' <COREF ID="32" REF="27">he</COREF> said.
+
+
+<COREF ID="X15">Newer models of flight data recorders</COREF>, or ``black boxes,'' would
+record <COREF ID="X16">the angle of the rudder and the pedal controlling it</COREF>. But
+because <COREF ID="37" REF="21">the plane</COREF> was reduced to debris by the force of <COREF ID="38" REF="2">the crash</COREF>,
+and <COREF ID="39" REF="37">the 737</COREF> was equipped with older-model flight recorders that
+didn't measure <COREF ID="40" REF="X16">such information</COREF>, <COREF ID="41" REF="28">investigators</COREF> are running <COREF ID="X17">tests</COREF> to
+``surmise'' <COREF ID="42" REF="40">rudder and pedal position</COREF>, <COREF ID="43" REF="32">Benson</COREF> said.
+
+
+Installation of <COREF ID="44" REF="X15">improved flight recorders</COREF> was an official
+recommendation of <COREF ID="45" REF="31">the board</COREF> after earlier hearings into the
+<COREF ID="46" REF="38">Pittsburgh crash</COREF>.
+
+
+<COREF ID="48" REF="X7">Museum of Flight</COREF> spokesman Bill Hayes said <COREF ID="49" REF="11">the plane</COREF>, donated
+<COREF ID="X18">last September</COREF>, was to be partially dismantled as an exhibit. The
+<COREF ID="50" REF="45">NTSB</COREF> was looking for <COREF ID="51" REF="49">an intact plane on which to conduct tests</COREF>, so
+<COREF ID="53" REF="48">the museum</COREF> delayed <COREF ID="54" REF="53">its</COREF> plans.
+
+
+<COREF ID="55" REF="X17">The tests</COREF> are being conducted at a Boeing hangar at Boeing
+Field. No airborne tests are planned.
+
+
+The <COREF ID="57" REF="50">NTSB</COREF> also conducted tests <COREF ID="58" REF="X18">last September</COREF> to determine if
+wake turbulence from another plane could have contributed to <COREF ID="59" REF="46">the
+crash</COREF>. <COREF ID="60" REF="43">Benson</COREF> said those results are still being analyzed.
+
+
+
+NYT-<COREF ID="61" REF="X3">02-27-96</COREF> 2052EST
+
+</TXT>

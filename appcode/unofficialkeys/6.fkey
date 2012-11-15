@@ -1,0 +1,24 @@
+<TXT>
+ <COREF ID="X1">West Nile Virus</COREF> in <COREF ID="X2">Canada</COREF> - WHO Update 6
+ ----------------------------------------
+ .
+ As of <COREF ID="X3">Tue</COREF> <COREF ID="1" REF="X3">22 Oct 2002</COREF>, <COREF ID="X4">Health Canada</COREF> has reported a total number of 
+ 96 human <COREF ID="X5">cases</COREF> of West Nile virus <COREF ID="2" REF="X1">infection</COREF>: 65 suspected cases, 31 
+ confirmed cases, including 1 death. One confirmed <COREF ID="X6">case</COREF> is resident in 
+ the province of <COREF ID="X7">Alberta</COREF> [For <COREF ID="X8">details</COREF> see: ProMED-mail <COREF ID="3" REF="X8">post</COREF> "<COREF ID="4" REF="X1">West Nile 
+ virus</COREF>, human, imported - <COREF ID="5" REF="X2">Canada</COREF> (<COREF ID="6" REF="X7">Alberta</COREF>)20021023.5625" - Mod.CP], 
+ one suspected case and 3 confirmed cases are resident in the province 
+ of Quebec, and the remaining 64 suspected cases and 27 confirmed 
+ cases are resident in the province of <COREF ID="X9">Ontario</COREF> (see previous <COREF ID="X10">report</COREF>:
+ &lt;http://www.who.int/disease-outbreak-news/n2002/october/22aoctober2002.html&gt;).
+ There have also been 2 <COREF ID="X11">deaths</COREF> in <COREF ID="X12">individuals</COREF> identified as suspected 
+ cases. The cause of <COREF ID="7" REF="X11">death</COREF> in these <COREF ID="8" REF="X12">persons</COREF> is under investigation. 
+ The one confirmed <COREF ID="9" REF="X6">case</COREF> in <COREF ID="10" REF="6">Alberta</COREF> and one confirmed case in <COREF ID="11" REF="X9">Ontario</COREF> 
+ likely acquired <COREF ID="12" REF="2">infection</COREF> while travelling in the United States, 
+ whereas all other <COREF ID="X13">cases</COREF> acquired <COREF ID="13" REF="X13">their</COREF> <COREF ID="14" REF="12">infection</COREF> within <COREF ID="15" REF="13">their</COREF> home 
+ province.
+ For more information about this <COREF ID="16" REF="X5">outbreak</COREF> see the <COREF ID="17" REF="X4">Health Canada</COREF> web <COREF ID="X14">site</COREF>:
+ <COREF ID="18" REF="4">West Nile virus</COREF> surveillance information
+ &lt;http://www.hc-sc.gc.ca/pphb-dgspsp/wnv-vwn/index.html&gt;
+
+</TXT>

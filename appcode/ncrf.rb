@@ -1,4 +1,5 @@
 require 'rexml/document'
+require 'pathname'
 require './parseAdapter.rb'
 require './parseData.rb'
 require './utilities.rb'
@@ -6,30 +7,34 @@ require './sentence.rb'
 require './npModel.rb'
 
 class Ncrf
-  attr_accessor :xml, :fileName, :sentences, :nps, :seed, :parseAdapter
+  attr_accessor :xml, :fileName, :sentences, :nps, :seed, :parseAdapter, :responseDir
   
   #factory method for reading in a ton
-  def self.factory(inputLoc)
+  def self.factory(inputLoc, responseDir)
 	#inputLoc is a directory, read all files and process each one
 	pa = ParseAdapter.new
+	listFileLocations = (File.new inputLoc).read
 	listFileContent = ""
 	
-	Dir.mkdir("results") unless File.exists?("results")
+	Dir.mkdir(responseDir) unless File.exists?(responseDir)
+	arrayT = listFileLocations.split(/\s+/)
 	
-	Dir.foreach(inputLoc) do |file|
-		if (file =~ /(.+)\.crf/) != nil
-			puts "processing #{$1}.crf..."
-			content = (File.new "#{inputLoc}/#{$1}.crf").read
-			ncrf = Ncrf.new content, $1, pa
+	listFileLocations.split(/\s+/).each do |file|
+    
+		  realFileName = Pathname.new(file).basename
+		  realFileName.to_s =~ /(.+)\.crf/
+			puts "processing #{file}..."
+			content = (File.new file).read
+			ncrf = Ncrf.new content, $1, pa, responseDir
 			ncrf.produceXml
 			
 			#the scorer doesn't like empty results...
 			if listFileContent == ""
-		    listFileContent = "results/#{$1}.response"
+		    listFileContent = "#{responseDir}/#{$1}.response"
 		  else
-		    listFileContent = "#{listFileContent}\nresults/#{$1}.response"
+		    listFileContent = "#{listFileContent}\n#{responseDir}/#{$1}.response"
 		  end
-		end
+
 	end
 	
     lstFile = "listfile.txt"
@@ -43,7 +48,8 @@ class Ncrf
   end
   
   #send in the xml as a string
-  def initialize(xml, fileName, pa)
+  def initialize(xml, fileName, pa, responseDir)
+    @responseDir = responseDir
     @xml = REXML::Document.new(xml) 
     @fileName = fileName
     @nps = []
@@ -163,16 +169,12 @@ class Ncrf
       prevSent = @sentences[sentIdx - 1]
       
       #get the first np
-      firstNp = prevSent.acceptableNps.sort{|a, b| a.startIdx <=> b.startIdx}
+      firstNp = prevSent.npModels.sort{|a, b| a.startIdx <=> b.startIdx}
       
       if firstNp.length > 0
-        
+        firstNp[0].included = true
         npModel.ref = firstNp[0]
-        inModels = prevSent.npModels.select{|t| t.id == firstNp[0].id}
         
-        if inModels.length == 0
-          prevSent.npModels.push firstNp[0]
-        end
         return true
       end
     end
@@ -190,18 +192,12 @@ class Ncrf
       sent = @sentences[sentIdx]
       
       #we need the first NP that is before this one
-      acceptableNps = sent.acceptableNps.select{|t| t.endIdx < npModel.startIdx}
+      acceptableNps = sent.npModels.select{|t| t.endIdx < npModel.startIdx}
       if acceptableNps.length > 0
         lastAcceptableNp = acceptableNps[acceptableNps.length - 1]
         
-        #do I exist in npModels?
-        existCheck = sent.npModels.select{|t| t.id == lastAcceptableNp.id}
-        if existCheck.length > 0
-          npModel.ref = existCheck[0]
-        else
-          sent.npModels.push lastAcceptableNp
-          npModel.ref = lastAcceptableNp
-        end
+        lastAcceptableNp.included = true
+        npModel.ref = lastAcceptableNp
         true
       else
         false
@@ -222,34 +218,27 @@ class Ncrf
     npPhrase = npModel.phrase.split(/\s+/)
     regexs = []
     npPhrase.each do |word|
-      regex = Regexp.new word.downcase
-      regexs.push regex
+      regexs.push word
     end
     
     match = false
     
     prevSentences.each do |prevSent|
       
-      prevSent.acceptableNps.each do |acceptableNp|
+      prevSent.npModels.each do |acceptableNp|
         
         regexs.each do |regex|
           
-          if acceptableNp.phrase.downcase =~ regex
-            match = true
-            break
+          acceptableNp.phrase.split(/\s+/).each do |word|
+            
+            if Utilities.editDistance(regex, word) <= 2
+              #this acceptableNp is a match
+              acceptableNp.included = true
+              npModel.ref = acceptableNp
+
+              return true
+            end
           end
-          
-        end
-        
-        if match
-          #this acceptableNp is a match
-          npAlready = prevSent.npModels.select{|t| t.id == acceptableNp.id}
-          npModel.ref = acceptableNp
-          
-          if npAlready.length == 0
-            prevSent.npModels.push acceptableNp
-          end
-          return true
         end
       end
     end
@@ -265,13 +254,12 @@ class Ncrf
       
       #do I exist in my npModels right now?
       stanfordNps = preSent.npModels.select{|t| t.coref == false }
-      
+      otherNps = preSent.npModels.select{|t| t.coref == true}
       if stanfordNps.length > 0
         foundNp = stanfordNps[0]
         npModel.ref = foundNp
-      elsif preSent.acceptableNps.length > 0
-        foundNp = preSent.acceptableNps[0]
-        preSent.npModels.push foundNp
+      elsif otherNps.length > 0
+        foundNp = otherNps[0]
         npModel.ref = foundNp
       end
     end
@@ -290,7 +278,7 @@ class Ncrf
   
   #call this after we've set up the models
   def saveOutput
-    tmpFile = "results/#{@fileName}.response"
+    tmpFile = "#{@responseDir}/#{@fileName}.response"
     if File.exists?(tmpFile)
       File.delete(tmpFile)
     end
