@@ -14,6 +14,10 @@ class NpModel
     @sent = sent
     identifyPlurality
   end
+
+  def to_s 
+    "#{phrase}"
+  end
  
  #TODO change this to get the global head noun (since identifyHeadNoun should be called first) and identify if that is plural 
   def identifyPlurality

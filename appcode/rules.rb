@@ -11,6 +11,8 @@ class Rules
 		firstNp[0].included = true
 		npModel.ref = firstNp[0]
 		
+		puts "SUCCESS FOR findItAnt - #{npModel} #{firstNp[0]}"
+
 		return true
 	  end
 	end
