@@ -18,7 +18,6 @@ class ParseAdapter
 	    parse =	@lp.apply(sentence)
 	    return parse.toString()	
     end
-<<<<<<< HEAD
     
     def returnSentences(text)
       returnSentences = []
@@ -40,6 +39,3 @@ class ParseAdapter
       returnSentences
     end
 end
-=======
-end
->>>>>>> latest changes, change structure of solution
