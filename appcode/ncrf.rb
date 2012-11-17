@@ -136,7 +136,9 @@ class Ncrf
       #in the future, do a little better on matching
       foundNps = pd.onlyNP sentNps
       
-      foundNps.each do |foundNp|
+      foundNps.sort_by{|word| word.length}.each do |foundNp|
+        #puts "#{foundNp}"
+        
         sentence.npAdd foundNp, newId
       end
       
@@ -168,7 +170,7 @@ class Ncrf
   def printXml
     xml = "<TXT>"
     @sentences.each do |sentence|
-      xml = "#{xml}\n#{sentence.xmlRep}\n"
+      xml = "#{xml}\n#{sentence.xmlRep}"
     end
     xml = "#{xml}</TXT>"
     xml

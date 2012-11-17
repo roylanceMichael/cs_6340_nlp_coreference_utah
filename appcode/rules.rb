@@ -6,12 +6,16 @@ class Rules
 	  
 	  #get the first np
 	  firstNp = prevSent.npModels.sort{|a, b| a.startIdx <=> b.startIdx}
+
+	  prevSent.npModels.each do |model|
+	  	#puts model
+	  end
 	  
 	  if firstNp.length > 0
 		firstNp[0].included = true
 		npModel.ref = firstNp[0]
 		
-		puts "SUCCESS FOR findItAnt - #{npModel} #{firstNp[0]}"
+		#puts "findItAnt - #{npModel} - #{firstNp[0]}"
 
 		return true
 	  end
