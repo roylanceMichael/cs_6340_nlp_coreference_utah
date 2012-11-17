@@ -2,14 +2,14 @@ class Rules
 	#it usually belongs to the sentence right before it. 
   def self.findItAnt(npModel, sentIdx, sentences)
 	if(npModel.phrase.downcase.lstrip.rstrip == "it" && sentIdx > 0)
-	  prevSent = sentences[sentIdx - 1]
+	  prevSent = sentences[sentIdx]
 	  
 	  #get the first np
 	  firstNp = prevSent.npModels.sort{|a, b| a.startIdx <=> b.startIdx}
 
-	  prevSent.npModels.each do |model|
+	  #prevSent.npModels.each do |model|
 	  	#puts model
-	  end
+	  #end
 	  
 	  if firstNp.length > 0
 		firstNp[0].included = true

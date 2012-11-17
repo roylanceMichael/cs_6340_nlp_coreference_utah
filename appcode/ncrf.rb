@@ -138,7 +138,7 @@ class Ncrf
       
       foundNps.sort_by{|word| word.length}.each do |foundNp|
         #puts "#{foundNp}"
-        
+
         sentence.npAdd foundNp, newId
       end
       
