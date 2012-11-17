@@ -1,11 +1,11 @@
 require 'java'
 include Java
 require 'stanford-parser/stanford-parser.jar'
-include_class 'java.io.StringReader'
-include_class 'edu.stanford.nlp.parser.lexparser.LexicalizedParser'
-include_class 'edu.stanford.nlp.trees.PennTreebankLanguagePack'
-include_class 'edu.stanford.nlp.process.DocumentPreprocessor'
-include_class 'java.io.Reader'
+java_import 'java.io.StringReader'
+java_import 'edu.stanford.nlp.parser.lexparser.LexicalizedParser'
+java_import 'edu.stanford.nlp.trees.PennTreebankLanguagePack'
+java_import 'edu.stanford.nlp.process.DocumentPreprocessor'
+java_import 'java.io.Reader'
 
 class ParseAdapter
     attr_accessor :lp
@@ -18,6 +18,7 @@ class ParseAdapter
 	    parse =	@lp.apply(sentence)
 	    return parse.toString()	
     end
+<<<<<<< HEAD
     
     def returnSentences(text)
       returnSentences = []
@@ -39,3 +40,6 @@ class ParseAdapter
       returnSentences
     end
 end
+=======
+end
+>>>>>>> latest changes, change structure of solution
