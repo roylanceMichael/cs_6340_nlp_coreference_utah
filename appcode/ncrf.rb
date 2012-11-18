@@ -5,12 +5,14 @@ require './parseData.rb'
 require './utilities.rb'
 require './sentence.rb'
 require './npModel.rb'
+require './rules.rb'
 
 class Ncrf
   attr_accessor :xml, :fileName, :sentences, :nps, :seed, :parseAdapter, :responseDir
   
   #factory method for reading in a ton
   def self.factory(inputLoc, responseDir)
+
 	#inputLoc is a directory, read all files and process each one
 	pa = ParseAdapter.new
 	listFileLocations = (File.new inputLoc).read
@@ -54,20 +56,22 @@ class Ncrf
     @fileName = fileName
     @nps = []
     @seed = 0
-	if pa == nil
-		@parseAdapter = ParseAdapter.new
-	else
-		@parseAdapter = pa
-	end
+
+  	if pa == nil
+	   	@parseAdapter = ParseAdapter.new
+	  else
+	   	@parseAdapter = pa
+  	end
   end
   
   def produceXml
-	constructSentencesFromXml
-	identifyAddNps
-	applyNps
-	saveOutput
+    constructSentencesFromXml
+    identifyAddNps
+    applyNps
+    saveOutput
   end
   
+  #defines the ids used for processing new corefs
   def newId
     @seed = @seed + 1
     "X#{@seed}"
@@ -132,7 +136,9 @@ class Ncrf
       #in the future, do a little better on matching
       foundNps = pd.onlyNP sentNps
       
-      foundNps.each do |foundNp|
+      foundNps.sort_by{|word| word.length}.each do |foundNp|
+        #puts "#{foundNp}"
+
         sentence.npAdd foundNp, newId
       end
       
@@ -149,11 +155,11 @@ class Ncrf
       sentence.npModels.each do |npModel|
         if npModel.coref
           #handle if we have a "they" in there
-          if(findItAnt(npModel, currentIdx))
-          elsif(findTheyAnt(npModel, currentIdx))
-          elsif(findSimilarName(npModel, currentIdx))
+          if(Rules.findItAnt(npModel, currentIdx, @sentences))
+          elsif(Rules.findTheyAnt(npModel, currentIdx, @sentences))
+          elsif(Rules.findSimilarName(npModel, currentIdx, @sentences))
           else
-            findCorrectAnt(npModel, currentIdx)
+            Rules.findCorrectAnt(npModel, currentIdx, @sentences)
           end
         end
       end
@@ -161,116 +167,10 @@ class Ncrf
     end
   end
   
-  #rules, apply when we find them
-  
-  #it usually belongs to the sentence right before it. 
-  def findItAnt(npModel, sentIdx)
-    if(npModel.phrase.downcase.lstrip.rstrip == "it" && sentIdx > 0)
-      prevSent = @sentences[sentIdx - 1]
-      
-      #get the first np
-      firstNp = prevSent.npModels.sort{|a, b| a.startIdx <=> b.startIdx}
-      
-      if firstNp.length > 0
-        firstNp[0].included = true
-        npModel.ref = firstNp[0]
-        
-        return true
-      end
-    end
-    false
-  end
-  
-  def findTheyAnt(npModel, sentIdx)
-    pronoun = npModel.phrase.downcase.lstrip.rstrip
-    pronouns = ["i", "me", "my", "mine", "myself", "you", "your", "yours", 
-      "yourself", "we", "us", "our", "ours", "ourselves", "yourselves", "she",
-      "he", "him", "his", "himself", "hers", "her", "herself", "they", "them",
-      "their", "theirs", "themselves"]
-    
-    if (pronouns.include?(pronoun))
-      sent = @sentences[sentIdx]
-      
-      #we need the first NP that is before this one
-      acceptableNps = sent.npModels.select{|t| t.endIdx < npModel.startIdx}
-      if acceptableNps.length > 0
-        lastAcceptableNp = acceptableNps[acceptableNps.length - 1]
-        
-        lastAcceptableNp.included = true
-        npModel.ref = lastAcceptableNp
-        true
-      else
-        false
-      end
-    else
-      false
-    end
-  end
-  
-  def findSimilarName(npModel, sentIdx)
-    prevSentences = []
-    
-    for i in 0..sentIdx
-      prevSentences.push @sentences[i]
-    end
-    
-    #starting at the beginning, find the first np with any sort of match to our current phrase
-    npPhrase = npModel.phrase.split(/\s+/)
-    regexs = []
-    npPhrase.each do |word|
-      regexs.push word
-    end
-    
-    match = false
-    
-    prevSentences.each do |prevSent|
-      
-      prevSent.npModels.each do |acceptableNp|
-        
-        regexs.each do |regex|
-          
-          acceptableNp.phrase.split(/\s+/).each do |word|
-            
-            if Utilities.editDistance(regex, word) <= 2
-              #this acceptableNp is a match
-              acceptableNp.included = true
-              npModel.ref = acceptableNp
-
-              return true
-            end
-          end
-        end
-      end
-    end
-    
-    false
-  end
-  
-  def findCorrectAnt(npModel, sentIdx)
-    #right now, just going to find the first np in the preceding sentence
-    if sentIdx > 0
-      preSentIdx = sentIdx - 1
-      preSent = @sentences[preSentIdx]
-      
-      #do I exist in my npModels right now?
-      stanfordNps = preSent.npModels.select{|t| t.coref == false }
-      otherNps = preSent.npModels.select{|t| t.coref == true}
-      if stanfordNps.length > 0
-        foundNp = stanfordNps[0]
-        npModel.ref = foundNp
-      elsif otherNps.length > 0
-        foundNp = otherNps[0]
-        npModel.ref = foundNp
-      end
-    end
-  end
-  #end rules
-  
-  
   def printXml
     xml = "<TXT>"
     @sentences.each do |sentence|
-      xml = "#{xml}\n#{sentence.xmlRep}\n"
+      xml = "#{xml}\n#{sentence.xmlRep}"
     end
     xml = "#{xml}</TXT>"
     xml
