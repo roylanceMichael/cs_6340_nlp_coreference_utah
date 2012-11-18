@@ -1,0 +1,30 @@
+<TXT>
+  890922-0189. 
+ = 890922 
+ 890922-0189. 
+ <COREF ID="X1">Nynex</COREF>, <COREF ID="X2">Unions</COREF> Fail to Hold
+@  <COREF ID="X3">Talks</COREF> <COREF ID="X4">This Week</COREF> on <COREF ID="X5">Accord</COREF>
+@  ----
+@  A Wall Street Journal News Roundup 
+ 09/22/89 
+ WALL STREET JOURNAL (J) 
+ NYN PAC LABOR 
+ TELEPHONE SYSTEMS (TLS) 
+
+
+ <COREF ID="1" REF="X1">Nynex Corp.</COREF> and <COREF ID="2" REF="X2">its unions</COREF> haven't held <COREF ID="4" REF="X3">negotiations</COREF> <COREF ID="5" REF="X4">this week</COREF> and haven't scheduled <COREF ID="6" REF="4">any further talks</COREF> on <COREF ID="7" REF="X5">a new contract to end a seven-week strike</COREF>. 
+
+
+ A <COREF ID="8" REF="1">company</COREF> spokesman said that <COREF ID="9" REF="6">talks</COREF> with the <COREF ID="X8">Communications Workers of America</COREF> and the <COREF ID="X9">International Brotherhood of Electrical Workers</COREF> broke down last weekend. 
+ Since then, neither side has taken steps to resume <COREF ID="12" REF="9">discussions</COREF>. 
+ <COREF ID="13" REF="2">Union</COREF> spokesmen have said that <COREF ID="14" REF="12">talks</COREF> are stalled over a <COREF ID="15" REF="8">company</COREF> plan to shift some health-care costs to employees. 
+
+
+ The <COREF ID="16" REF="X8">CWA</COREF> represents about 40,000 <COREF ID="17" REF="15">Nynex</COREF> employees while the <COREF ID="18" REF="X9">IBEW</COREF> represents 20,000. 
+
+
+ In California, meanwhile, <COREF ID="19" REF="16">CWA</COREF> members must vote by today on a tentative agreement between <COREF ID="20" REF="19">union</COREF> and <COREF ID="X6">Pacific Telesis</COREF> negotiators reached last month. 
+ Officials at some <COREF ID="21" REF="20">union</COREF> locals are recommending against <COREF ID="X7">the proposed contract</COREF>, raising the possibility that <COREF ID="22" REF="X6">Pac Tel</COREF> and the <COREF ID="23" REF="21">union</COREF> will have to renegotiate parts of <COREF ID="24" REF="X7">the agreement</COREF>. 
+
+
+</TXT>

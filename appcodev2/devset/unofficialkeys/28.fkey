@@ -1,0 +1,36 @@
+<TXT>
+  890914-0158. 
+ = 890914 
+ 890914-0158. 
+ <COREF ID="X1">Boeing Co.</COREF> to Pay
+@  <COREF ID="X2">Penalty of $200,000
+@  For Safety Violations</COREF> 
+ 09/14/89 
+ WALL STREET JOURNAL (J) 
+ BA 
+ AEROSPACE (ARO) 
+ TRANSPORTATION DEPARTMENT (TRN) 
+ SEATTLE  
+
+
+ <COREF ID="3" REF="X1">Boeing Co.</COREF> said <COREF ID="4" REF="3">it</COREF> agreed to pay <COREF ID="5" REF="X2">$200,000</COREF> to settle <COREF ID="X3">seven civil cases brought by the Federal Aviation Administration in connection with the miswiring of fire-protection systems on its jetliners</COREF>. 
+
+
+ <COREF ID="10" REF="5">The fine</COREF> is <COREF ID="11" REF="10">the biggest ever collected from Boeing and perhaps from any airplane maker</COREF>. 
+
+
+ In July, <COREF ID="X6">the FAA</COREF> proposed <COREF ID="14" REF="10">a $200,000 penalty in one of the cases in which Boeing allegedly notified the agency months after it uncovered wiring problems on two aircraft</COREF>. 
+ Federal regulations require that <COREF ID="X4">defects</COREF> be reported within 24 hours of <COREF ID="18" REF="X4">their</COREF> discovery. 
+
+
+ But <COREF ID="19" REF="X6">the FAA</COREF> and <COREF ID="20" REF="4">Boeing</COREF> worked out a deal in which six other cases related to <COREF ID="X7">miswiring</COREF> were included as part of <COREF ID="X5">a comprehensive settlement</COREF>. 
+
+
+ <COREF ID="22" REF="19">The FAA</COREF> said <COREF ID="23" REF="X5">the agreement</COREF> specifies a number of corrective actions and design changes to be made by <COREF ID="24" REF="20">Boeing</COREF> "to ensure <COREF ID="25" REF="X7">the miswiring conditions</COREF> that are the subject of these cases will not be repeated." 
+ The fire-extinguishing systems have never failed in service. 
+
+
+ In addition, <COREF ID="29" REF="22">the FAA</COREF> said, <COREF ID="30" REF="24">Boeing</COREF> has agreed to implement written procedures "to ensure appropriate and timely reporting of <COREF ID="31" REF="18">all defects" that could hurt safety</COREF>. 
+
+
+</TXT>
