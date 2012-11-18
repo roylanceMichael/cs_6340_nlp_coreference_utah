@@ -31,13 +31,25 @@ class Rules
 	  "their", "theirs", "themselves"]
 	
 	if (pronouns.include?(pronoun))
-	  sent = sentences[sentIdx]
-	  
-	  #we need the first NP that is before this one
-	  acceptableNps = sent.npModels.select{|t| t.endIdx < npModel.startIdx}
+		acceptableNps = []
+		
+		sentences[sentIdx-1].npModels.each do |model|
+			acceptableNps.push model
+		end
+
+		sentences[sentIdx].npModels.select{|t| t.endIdx < npModel.startIdx}.each do |model|
+			acceptableNps.push model
+		end
+
 	  if acceptableNps.length > 0
 		lastAcceptableNp = acceptableNps[acceptableNps.length - 1]
 		
+		acceptableNps.each do |nnp|
+			puts nnp
+		end
+
+		puts "found pronoun! #{npModel}"
+
 		lastAcceptableNp.included = true
 		npModel.ref = lastAcceptableNp
 		true
@@ -48,7 +60,6 @@ class Rules
 	  false
 	end
   end
-
 
   def self.findSimilarName(npModel, sentIdx, sentences)
 	prevSentences = []
