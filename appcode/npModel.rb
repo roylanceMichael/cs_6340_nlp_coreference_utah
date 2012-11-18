@@ -1,4 +1,6 @@
 require 'java'
+require 'rules.rb'
+
 include Java
 require '../stanford-ner-2012-07-09/stanford-ner.jar'
 java_import 'edu.stanford.nlp.ie.crf.CRFClassifier'
@@ -25,6 +27,7 @@ class NpModel
     @sent = sent #this is the sentence of the np right?
     identifyPlurality
     identifySemanticClass
+    identifyAppositive
   end
 
   def to_s 
@@ -68,48 +71,62 @@ class NpModel
 
   #using appositive definition from clustering algorithm 
   def identifyAppositive
-     tempStatus = false
-     
-      #if np is surrounded by commas
-      sentence = @sent 
-      phrase = @phrase
-      regex = /,[\s]#{phrase},/
+    #if np is surrounded by commas
+
+    if @startIdx > 0
+      if @sent.sent[@startIdx-1] == ","
+        @appositive = true
+      end
+    elsif phrase.chars.to_a[0] == ","
+      @appositive = true
+    else
+      @appositive = false
+    end
+    
+    return
+    
+    tempStatus = false
+    sentence = @sent 
+    phrase = @phrase
+
+    #hey man, I don't think we need to do all this
+    regex = /,[\s]#{phrase},/
       
-      if(regex.match(sentence) != nil)
+    if(regex.match(sentence) != nil)
       #contains an article
-        if(identifyArticle)
-	  #and is immediately preceded by another noun phrase
-	  #penn output has commas like (, ,) ie. (ADVP (RB Man)) (, ,) etc.
-	  treebank_arr = treebank_parse.split('(, ,)')
-	  regex_builder = ""
-	  phrase.split(' ').each do |word|
-	    if(regex_builder.length > 0)
-	       regex_builder << ".*"
-	    end
-	    regex_builder << word	    
-	  end
+      if(identifyArticle)
+        #and is immediately preceded by another noun phrase
+	      #penn output has commas like (, ,) ie. (ADVP (RB Man)) (, ,) etc.
+	      treebank_arr = treebank_parse.split('(, ,)')
+	      regex_builder = ""
+	      phrase.split(' ').each do |word|
 
-	  nRegex = /#{regex_builder}/
-	  treebank_arr.each do |parse|
-	    if(nRegex.match(parse) != nil)
-		idx = treebank_arr.index(parse) - 1
-		if(idx >= 0)
-		   npRegex = /\(NP/
-		   if(npRegex.match(treebank_arr[idx]))
-		      #then it is marked as an appositive
-			tempStatus = true
-		   end	      
-		end
-	    end
-	  end
-
-	end
+        if(regex_builder.length > 0)
+          regex_builder << ".*"
+        end
+        regex_builder << word	    
       end
 
-      @appositive = tempStatus
-
-      tempStatus
+	    nRegex = /#{regex_builder}/
+	    treebank_arr.each do |parse|
+	    if(nRegex.match(parse) != nil)
+		    idx = treebank_arr.index(parse) - 1
+		  
+        if(idx >= 0)
+          npRegex = /\(NP/
+		    
+          if(npRegex.match(treebank_arr[idx]))
+            #then it is marked as an appositive
+			     tempStatus = true
+		      end	      
+        end
+      end
+    end
   end
+end
+  @appositive = tempStatus
+  tempStatus
+end
 
   #checks if all words have capitol starting
   #and/or semantic class == 'PERSON'
@@ -180,6 +197,8 @@ class NpModel
   end
 
   def findBestMatch(allSentences)
+    #candidates are all the words that come before current 
+
 
   end
 end

@@ -36,7 +36,7 @@ describe NpModel do
 	end
 
 	describe "#comparing function" do
-		it "can add a word" do
+		it "apply cornell heuristics" do
 			s1 = Sentence.new
 			s2 = Sentence.new
 
@@ -63,7 +63,7 @@ describe NpModel do
 
 			allSentences = [s1, s2]
 
-			s2.npModel[0].findBestMatch allSentences
+			s2.npModels[0].findBestMatch allSentences
 		end
 	end
 end

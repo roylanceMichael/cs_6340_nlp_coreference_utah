@@ -1,4 +1,8 @@
 class Rules
+	
+
+
+	
 	#it usually belongs to the sentence right before it. 
   def self.findItAnt(npModel, sentIdx, sentences)
 	if(npModel.phrase.downcase.lstrip.rstrip == "it" && sentIdx > 0)
