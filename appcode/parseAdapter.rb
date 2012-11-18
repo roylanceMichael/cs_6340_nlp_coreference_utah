@@ -25,7 +25,22 @@ class ParseAdapter
       reader = StringReader.new(text)
       
       dp = DocumentPreprocessor.new(reader)
-      
+      i  = dp.iterator()
+      while(i.hasNext())
+	s = i.next()
+	sentenceBuild = ""	
+	s.each do |token|
+	    if(sentenceBuild.length > 1)
+		sentenceBuild << " "
+
+	    end
+	 sentenceBuild << token.toString()
+	end
+
+	returnSentences << sentenceBuild
+      end
+	puts returnSentences 
+=begin
       dp.each do |sentence|
         s = []
         
@@ -36,6 +51,8 @@ class ParseAdapter
         returnSentences.push s
       end
       puts "the length of returnSentences is #{returnSentences[1].length}"
-      returnSentences
+      puts "ret sent #{returnSentences}"
+=end
+      return returnSentences
     end
 end
