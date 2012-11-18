@@ -44,11 +44,11 @@ class Rules
 	  if acceptableNps.length > 0
 		lastAcceptableNp = acceptableNps[acceptableNps.length - 1]
 		
-		acceptableNps.each do |nnp|
-			puts nnp
-		end
+		#acceptableNps.each do |nnp|
+			#puts nnp
+		#end
 
-		puts "found pronoun! #{npModel}"
+		#puts "found pronoun! #{npModel}"
 
 		lastAcceptableNp.included = true
 		npModel.ref = lastAcceptableNp

@@ -33,6 +33,7 @@ class NpModel
  
   def identifyPlurality
     words = @phrase.split(/\s+/)
+
     idx = words.length
     wordLength = words[idx-1].length
     if words[idx-1][wordLength-1] == 's'
@@ -178,4 +179,7 @@ class NpModel
      true
   end
 
+  def findBestMatch(allSentences)
+
+  end
 end
