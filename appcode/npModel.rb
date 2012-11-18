@@ -6,18 +6,17 @@ java_import 'edu.stanford.nlp.ie.crf.CRFClassifier'
 # poro for handling info... i like strongly typed for this stuff
 class NpModel
   #ref is a reference to another NpModel...
-    #added grouping to be nicer looking in vi -ben
-  attr_accessor :id, :startIdx, :endIdx, :sentIdx, :phrase, :sent,
-		:ref, :included,
-                
-		:coref, :position, :pronounType, :article, :appositive, 
-	   	:plurality, :properName, :semanticClass, :gender,
-	    	:animacy, :headNoun
+  attr_accessor :id,:startIdx,:endIdx,:sentIdx,:phrase,:sent,
+		:ref,:included,:coref,:position,:pronounType,
+	       	:article,:appositive,:plurality,:properName,
+	       	:semanticClass,:gender,:animacy,:headNoun
   
   classifierRoute = "../stanford-ner-2012-07-09/classifiers/english.all.3class.distsim.crf.ser.gz"
   @@classifier = CRFClassifier.getClassifierNoExceptions(classifierRoute)
 
   #sent model, 
+  #probably should pass in the parse tree from the orig np sent parse
+  #to make certain identifications easier
   def initialize(id, startIdx, endIdx, phrase, sent)
     @id = id
     @startIdx = startIdx
@@ -32,7 +31,6 @@ class NpModel
     "#{phrase}"
   end
  
- #TODO change this to get the global head noun (since identifyHeadNoun should be called first) and identify if that is plural 
   def identifyPlurality
     words = @phrase.split(/\s+/)
     idx = words.length
@@ -44,7 +42,6 @@ class NpModel
     end
   end
 
-  #look at the article of the np and set the global var associated with it
   #prob will need to be refactored later
   #returns true if matched an article, false if no article
   def identifyArticle
@@ -67,11 +64,50 @@ class NpModel
 
     false
   end 
- 
- #TODO identify the appositive
+
+  #using appositive definition from clustering algorithm 
   def identifyAppositive
+     tempStatus = false
+     
+      #if np is surrounded by commas
+      sentence = @sent 
+      phrase = @phrase
+      regex = /,[\s]#{phrase},/
+      
+      if(regex.match(sentence) != nil)
+      #contains an article
+        if(identifyArticle)
+	  #and is immediately preceded by another noun phrase
+	  #penn output has commas like (, ,) ie. (ADVP (RB Man)) (, ,) etc.
+	  treebank_arr = treebank_parse.split('(, ,)')
+	  regex_builder = ""
+	  phrase.split(' ').each do |word|
+	    if(regex_builder.length > 0)
+	       regex_builder << ".*"
+	    end
+	    regex_builder << word	    
+	  end
 
+	  nRegex = /#{regex_builder}/
+	  treebank_arr.each do |parse|
+	    if(nRegex.match(parse) != nil)
+		idx = treebank_arr.index(parse) - 1
+		if(idx >= 0)
+		   npRegex = /\(NP/
+		   if(npRegex.match(treebank_arr[idx]))
+		      #then it is marked as an appositive
+			tempStatus = true
+		   end	      
+		end
+	    end
+	  end
 
+	end
+      end
+
+      @appositive = tempStatus
+
+      tempStatus
   end
 
   #checks if all words have capitol starting
@@ -79,7 +115,9 @@ class NpModel
   def identifyProperName
     words = @phrase.split(' ')
 
-    #this maybe should change to not check semanticClass, depends on how the NER system is going to be accurate or not..we'll see
+    #this maybe should change to not check semanticClass
+    #depends on how the NER system is going to be accurate or not
+    #...we'll see
     tempStatus = true unless(@semanticClass != "PERSON") 
     capRegex = /^[A-Z]/
     
@@ -132,8 +170,12 @@ class NpModel
 
   end
 
-  #TODO find the head noun
+  #for the purposes of the clustering algorithm, the last word in the np is considered the head noun
   def identifyHeadNoun
+     words = @phrase.split(' ')
+     @headNoun = words[words.length-1]
+
+     true
   end
 
 end
