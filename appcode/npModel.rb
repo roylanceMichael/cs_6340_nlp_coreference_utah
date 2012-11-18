@@ -44,15 +44,28 @@ class NpModel
     end
   end
 
-  #there are only 3 articles in english, 'a' 'an' and 'the'
-  #so just look for those and we're golden
+  #look at the article of the np and set the global var associated with it
+  #prob will need to be refactored later
+  #returns true if matched an article, false if no article
   def identifyArticle
-    a_regex = /'a'/
-    an_regex = /'an'/
-    the_regex = /'the'/
-
-    #i'm assuming the global phrase is the np as instantiated?
+    a_regex = /\s+a\s+/
+    an_regex = /\s+an\s+/
+    the_regex = /\s+the\s+/
     
+    if(a_regex.match(@phrase))
+	@article = "a" 
+	return true	
+    elsif(an_regex.match(@phrase))
+	@article = "an" 
+	return true	
+    elsif(the_regex.match(@phrase))
+	@article = "the" 
+	return true	
+    else
+	@article = "NONE"
+    end
+
+    false
   end 
  
  #TODO identify the appositive
@@ -61,11 +74,24 @@ class NpModel
 
   end
 
- #TODO identify if it is a proper name or not (doing this simply by checking if it is two words
-  #	and each start with a capitol letter at this point. can get more
-  #	sophisticated later
+  #checks if all words have capitol starting
+  #and/or semantic class == 'PERSON'
   def identifyProperName
+    words = @phrase.split(' ')
 
+    #this maybe should change to not check semanticClass, depends on how the NER system is going to be accurate or not..we'll see
+    tempStatus = true unless(@semanticClass != "PERSON") 
+    capRegex = /^[A-Z]/
+    
+    words.each do |word|
+	if(capRegex.match(word) != nil)
+	    tempStatus = true
+	end	    
+    end
+
+    @properName = tempStatus
+    
+    tempStatus
   end
 
   #going the stanford ner route as that seems simplest to import
