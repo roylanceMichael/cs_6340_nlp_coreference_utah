@@ -14,6 +14,9 @@ class NpModel
 	   	:plurality, :properName, :semanticClass, :gender,
 	    	:animacy, :headNoun
   
+  classifierRoute = "../stanford-ner-2012-07-09/classifiers/english.all.3class.distsim.crf.ser.gz"
+  @@classifier = CRFClassifier.getClassifierNoExceptions(classifierRoute)
+
   #sent model, 
   def initialize(id, startIdx, endIdx, phrase, sent)
     @id = id
@@ -68,10 +71,8 @@ class NpModel
   #going the stanford ner route as that seems simplest to import
   #returns true if identified, false if unknown
   def identifySemanticClass
-    classifierRoute = "../stanford-ner-2012-07-09/classifiers/english.all.3class.distsim.crf.ser.gz"
-    classifier = CRFClassifier.getClassifierNoExceptions(classifierRoute)
     #just going to do NER on the phrase for now, prob could change this to doing it on the whole sentence at some point and see if accuracy changes 
-     classifiedPhrase = classifier.classifyToString(@phrase) 
+     classifiedPhrase = @@classifier.classifyToString(@phrase) 
      classHash = {}
      #build the hash
      classifiedPhrase.split(' ').each do |word|
