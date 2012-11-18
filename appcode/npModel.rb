@@ -76,12 +76,16 @@ class NpModel
      #build the hash
      classifiedPhrase.split(' ').each do |word|
 	  k,v = word.split('/')
-	  classHash[v] += 1
+	  unless classHash[v] == nil
+	      classHash[v] += 1
+	  else
+	      classHash[v] = 1
+	  end
      end	 
 
      theoreticalNER = classHash.max_by { |k,v| v }
-     unless theoreticalNER == 'O'
-	 @semanticClass = theoreticalNER
+     unless theoreticalNER[0] == 'O'
+	 @semanticClass = theoreticalNER[0]
      else
 	 @semanticClass = 'UNKNOWN'
 	 return false
