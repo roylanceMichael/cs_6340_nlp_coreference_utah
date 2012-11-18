@@ -1,7 +1,7 @@
 require 'java'
 include Java
 require '../stanford-ner-2012-07-09/stanford-ner.jar'
-java_import 'edu.stanford.nlp.ie.crf'
+java_import 'edu.stanford.nlp.ie.crf.CRFClassifier'
 
 # poro for handling info... i like strongly typed for this stuff
 class NpModel
@@ -20,8 +20,9 @@ class NpModel
     @startIdx = startIdx
     @endIdx = endIdx
     @phrase = phrase
-    @sent = sent
+    @sent = sent #this is the sentence of the np right?
     identifyPlurality
+    identifySemanticClass
   end
 
   def to_s 
@@ -40,9 +41,15 @@ class NpModel
     end
   end
 
- #TODO identify the article in the noun phrase 
+  #there are only 3 articles in english, 'a' 'an' and 'the'
+  #so just look for those and we're golden
   def identifyArticle
+    a_regex = /'a'/
+    an_regex = /'an'/
+    the_regex = /'the'/
 
+    #i'm assuming the global phrase is the np as instantiated?
+    
   end 
  
  #TODO identify the appositive
@@ -59,8 +66,28 @@ class NpModel
   end
 
   #going the stanford ner route as that seems simplest to import
+  #returns true if identified, false if unknown
   def identifySemanticClass
+    classifierRoute = "../stanford-ner-2012-07-09/classifiers/english.all.3class.distsim.crf.ser.gz"
+    classifier = CRFClassifier.getClassifierNoExceptions(classifierRoute)
+    #just going to do NER on the phrase for now, prob could change this to doing it on the whole sentence at some point and see if accuracy changes 
+     classifiedPhrase = classifier.classifyToString(@phrase) 
+     classHash = {}
+     #build the hash
+     classifiedPhrase.split(' ').each do |word|
+	  k,v = word.split('/')
+	  classHash[v] += 1
+     end	 
 
+     theoreticalNER = classHash.max_by { |k,v| v }
+     unless theoreticalNER == 'O'
+	 @semanticClass = theoreticalNER
+     else
+	 @semanticClass = 'UNKNOWN'
+	 return false
+     end
+     
+     true
   end
 
   #TODO identify the gender of the phrase (or should it be the head noun? could
