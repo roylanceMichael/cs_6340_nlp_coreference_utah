@@ -1,9 +1,18 @@
+require 'java'
+include Java
+require '../stanford-ner-2012-07-09/stanford-ner.jar'
+java_import 'edu.stanford.nlp.ie.crf'
+
 # poro for handling info... i like strongly typed for this stuff
 class NpModel
   #ref is a reference to another NpModel...
-  attr_accessor :id, :startIdx, :endIdx, :sentIdx, :phrase, :sent, :ref, :included,
-                :coref, :position, :pronounType, :article, :appositive, 
-                :plurality, :properName, :semanticClass, :gender, :animacy, :headNoun
+    #added grouping to be nicer looking in vi -ben
+  attr_accessor :id, :startIdx, :endIdx, :sentIdx, :phrase, :sent,
+		:ref, :included,
+                
+		:coref, :position, :pronounType, :article, :appositive, 
+	   	:plurality, :properName, :semanticClass, :gender,
+	    	:animacy, :headNoun
   
   #sent model, 
   def initialize(id, startIdx, endIdx, phrase, sent)
@@ -45,11 +54,7 @@ class NpModel
 
   end
 
-  #TODO identify the semantic class associated with the head noun
-  #	this will be hard to do and will require some sort of NER
-  #	I may use the java classes from the stanford ner project
-  #	for this, or the gem for wordnet, or the apache nlp proj
-  #	or something else. still musing on this.
+  #going the stanford ner route as that seems simplest to import
   def identifySemanticClass
 
   end
