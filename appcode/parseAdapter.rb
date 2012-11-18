@@ -39,7 +39,6 @@ class ParseAdapter
 
 	returnSentences << sentenceBuild
       end
-	puts returnSentences 
 =begin
       dp.each do |sentence|
         s = []
