@@ -81,7 +81,10 @@ class Ncrf
   def constructSentencesFromXml
     @sentences = []
     @nps = []
+    sentIdx = 0
+
     currentSentence = Sentence.new
+    currentSentence.sentIdx = sentIdx
     if @xml != nil && @xml.length > 0
       #this is the TXT node...
       rootXml = @xml[0]
@@ -110,7 +113,11 @@ class Ncrf
               existingSentence = false
             elsif currentSentence.sent.length != 0
               @sentences.push currentSentence
+              
               currentSentence = Sentence.new
+              sentIdx = sentIdx + 1
+              currentSentence.sentIdx = sentIdx
+
             end
             
             currentSentence.textAdd sentence

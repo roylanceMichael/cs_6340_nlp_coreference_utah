@@ -3,7 +3,7 @@ require './utilities.rb'
 #this class houses a sentence, which is just an array of words
 #we're going to do cool stuff with it as well to allow us to add xml tags
 class Sentence
-  attr_accessor :sent, :npModels #, :acceptableNps
+  attr_accessor :sent, :npModels, :sentIdx
   
   def initialize
     @sent = []

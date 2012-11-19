@@ -1,8 +1,69 @@
 class Rules
-	
 
+	def self.appositiveRule(npModel, sentences)
+		#if this is true, then we want to set it to the previous npModel
+		if npModel.appositive == true && npModel.sent != nil
+			idx = 0
 
+			npModel.sent.npModels.each do |npm|
+				if npModel.id == npm.id
+					break
+				else
+					idx = idx + 1
+				end
+			end
+
+			if idx > 0
+				ref = npModel.sent.npModels[idx-1]
+				ref.included = true
+				npModel.ref = ref
+				true
+			end
+		end
+		false
+	end
+
+	def self.wordsSubstring(npModel, sentIdx, sentences)
+		prevSentences = []
 	
+		for i in 0..sentIdx
+		  prevSentences.push sentences[i]
+		end
+	
+		#starting at the beginning, find the first np with any sort of match to our current phrase
+		npPhrase = npModel.phrase.split(/\s+/)
+		regexs = []
+		npPhrase.each do |word|
+		  regexs.push word
+		end
+	
+		match = false
+	
+		prevSentences.each do |prevSent|
+	  
+		  prevSent.npModels.each do |acceptableNp|
+		
+			regexs.each do |regex|
+		  
+			  acceptableNp.phrase.split(/\s+/).each do |word|
+			
+				if Utilities.editDistance(regex, word) <= 2
+				  #this acceptableNp is a match
+				  acceptableNp.included = true
+				  npModel.ref = acceptableNp
+
+				  return true
+				end
+			  end
+			end
+	 	 end
+		end
+	
+		false
+	end
+
+	#end new rules
+
 	#it usually belongs to the sentence right before it. 
   def self.findItAnt(npModel, sentIdx, sentences)
 	if(npModel.phrase.downcase.lstrip.rstrip == "it" && sentIdx > 0)

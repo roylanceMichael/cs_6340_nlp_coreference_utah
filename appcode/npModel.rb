@@ -198,7 +198,9 @@ end
 
   def findBestMatch(allSentences)
     #candidates are all the words that come before current 
-
+    if !(Rules.appositiveRule(self, allSentences))
+    elsif !(Rules.wordSubstring(self, sent.sentIdx, allSentences))
+    end
 
   end
 end
