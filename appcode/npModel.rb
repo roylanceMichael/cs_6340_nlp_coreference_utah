@@ -2,7 +2,7 @@ require 'java'
 require 'rules.rb'
 
 include Java
-require '../stanford-ner-2012-07-09/stanford-ner.jar'
+require 'stanford-ner-2012-07-09/stanford-ner.jar'
 java_import 'edu.stanford.nlp.ie.crf.CRFClassifier'
 
 # poro for handling info... i like strongly typed for this stuff
@@ -13,7 +13,7 @@ class NpModel
 	       	:article,:appositive,:plurality,:properName,
 	       	:semanticClass,:gender,:animacy,:headNoun
   
-  classifierRoute = "../stanford-ner-2012-07-09/classifiers/english.all.3class.distsim.crf.ser.gz"
+  classifierRoute = "stanford-ner-2012-07-09/classifiers/english.all.3class.distsim.crf.ser.gz"
   @@classifier = CRFClassifier.getClassifierNoExceptions(classifierRoute)
 
   #sent model, 
