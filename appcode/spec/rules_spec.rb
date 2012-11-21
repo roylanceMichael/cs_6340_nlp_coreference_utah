@@ -31,4 +31,22 @@ describe Rules do
   			res.should eq(1)
 	  	end
   	end
+
+  	describe "#pronouns differ" do
+  		it "correct identify" do
+  			np1 = NpModel.new "1", 0, 2, "your", nil
+  			np2 = NpModel.new "1", 0, 2, "Roylance", nil
+
+  			res = Rules.pronounTypes(np1, np2)
+  			res.should eq(0)
+	  	end
+
+	  	it "correct identify" do
+  			np1 = NpModel.new "1", 0, 2, "Roylance", nil
+  			np2 = NpModel.new "1", 0, 2, "your", nil
+
+  			res = Rules.pronounTypes(np1, np2)
+  			res.should eq(1)
+	  	end
+  	end
 end
