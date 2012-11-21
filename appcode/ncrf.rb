@@ -162,8 +162,11 @@ class Ncrf
       sentence.npModels.each do |npModel|
         if npModel.coref
           #handle if we have a "they" in there
+	    #TODO: could probably try reordering these rules and see
+	    #if we can get greater accuracy
           if(Rules.findItAnt(npModel, currentIdx, @sentences))
           elsif(Rules.findTheyAnt(npModel, currentIdx, @sentences))
+          elsif(Rules.(npModel, currentIdx, @sentences))
           elsif(Rules.findSimilarName(npModel, currentIdx, @sentences))
           else
             Rules.findCorrectAnt(npModel, currentIdx, @sentences)

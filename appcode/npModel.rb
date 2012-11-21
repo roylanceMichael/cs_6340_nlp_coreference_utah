@@ -1,5 +1,6 @@
 require 'java'
 require 'rules.rb'
+require 'utilities.rb'
 
 include Java
 require 'stanford-ner-2012-07-09/stanford-ner.jar'
@@ -23,11 +24,13 @@ class NpModel
     @id = id
     @startIdx = startIdx
     @endIdx = endIdx
+    #TODO: maybe strip phrase of illegal characters here?
     @phrase = phrase
     @sent = sent #this is the sentence of the np right?
     identifyPlurality
     identifySemanticClass
     identifyAppositive
+    identifyGender
   end
 
   def to_s 
@@ -72,7 +75,9 @@ class NpModel
   #using appositive definition from clustering algorithm 
   def identifyAppositive
     #if np is surrounded by commas
-
+    
+    #not sure if this will get appositives as defined by the paper,
+      #but we can try it out
     if @startIdx > 0
       if @sent.sent[@startIdx-1] == ","
         @appositive = true
@@ -90,11 +95,15 @@ class NpModel
     phrase = @phrase
 
     #hey man, I don't think we need to do all this
+    #re:your regex concern, we can test this out on some data and see
+    #if the regex crashes. if so we can use a specialized version of the
+    #edit distance or the alg you defined above
     regex = /,[\s]#{phrase},/
       
     if(regex.match(sentence) != nil)
       #contains an article
       if(identifyArticle)
+	  #TODO fix this to pass in the parse tree, if this is needed
         #and is immediately preceded by another noun phrase
 	      #penn output has commas like (, ,) ie. (ADVP (RB Man)) (, ,) etc.
 	      treebank_arr = treebank_parse.split('(, ,)')
@@ -136,16 +145,23 @@ end
     #this maybe should change to not check semanticClass
     #depends on how the NER system is going to be accurate or not
     #...we'll see
-    tempStatus = true unless(@semanticClass != "PERSON") 
+    unless @semanticClass != "PERSON"
+	tempStatus = true 
+    else
+	tempStatus = false
+    end
+
     capRegex = /^[A-Z]/
     
     words.each do |word|
 	if(capRegex.match(word) != nil)
 	    tempStatus = true
+	else
+	    @properName = false
 	end	    
     end
 
-    @properName = tempStatus
+    @properName = tempStatus unless @properName == false
     
     tempStatus
   end
@@ -177,10 +193,33 @@ end
      true
   end
 
-  #TODO identify the gender of the phrase (or should it be the head noun? could
-  #	prob try both).
+  #if it contains 'he', 'his' => male
+  #if it contains 'she', 'her' => female
+  #if it contains 'it' => unknown
+  #TODO: add in 50 common male/female names
+  #TODO: test
   def identifyGender
+   male = [/\b[Hh]e\b/, /\b[Hh]is\b/, /\b[Hh]imself\b/, 
+	   /\b[Hh]im\b/]
+   female = [/\b[Ss]he\b/,/\b[Hh]er\b/, /\b[Hh]erself\b/,
+	     /\b[Hh]ers\b/]
+   it = /\b[Ii]t\b/
+    
+    male.each do |regex|
+       if(regex.match(@phrase) != nil)
+	   gender = "MALE" 
+       end
+    end
 
+    female.each do |regex|
+       if(regex.match(@phrase) != nil) 
+	   gender = "FEMALE" 
+       end
+    end
+
+     if(it.match(@phrase) != nil)
+	 gender = "UNKNOWN"
+     end
   end
 
   #TODO identify if the noun phrase is animate or not
@@ -188,7 +227,8 @@ end
 
   end
 
-  #for the purposes of the clustering algorithm, the last word in the np is considered the head noun
+  #for the purposes of the clustering algorithm,
+  #the last word in the np is considered the head noun
   def identifyHeadNoun
      words = @phrase.split(' ')
      @headNoun = words[words.length-1]
