@@ -41,7 +41,7 @@ class NpModel
 
   def headNoun
     words = @phrase.split(/\s+/)
-    words[word.length-1]
+    words[words.length-1]
   end
 
   def identifyPronounType

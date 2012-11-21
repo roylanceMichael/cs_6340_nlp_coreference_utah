@@ -138,6 +138,14 @@ class Rules
 		mismatchCount.to_f / largerSize.to_f
 	end
 
+	def self.headnounsDiffer(npModel1, npModel2)
+		if npModel1.headNoun != npModel2.headNoun
+			1
+		else
+			0
+		end
+	end
+
  def self.findCorrectAnt(npModel, sentIdx, sentences)
 	#right now, just going to find the first np in the preceding sentence
 	if sentIdx > 0
