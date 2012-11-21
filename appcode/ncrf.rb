@@ -166,7 +166,7 @@ class Ncrf
 	    #if we can get greater accuracy
           if(Rules.findItAnt(npModel, currentIdx, @sentences))
           elsif(Rules.findTheyAnt(npModel, currentIdx, @sentences))
-          elsif(Rules.(npModel, currentIdx, @sentences))
+          elsif(Rules.matchPlurality(npModel, currentIdx, @sentences))
           elsif(Rules.findSimilarName(npModel, currentIdx, @sentences))
           else
             Rules.findCorrectAnt(npModel, currentIdx, @sentences)

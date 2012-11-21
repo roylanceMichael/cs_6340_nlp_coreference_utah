@@ -1,5 +1,11 @@
 class Rules
 
+	#this will determine if the np's match in number
+	def self.matchPlurality(npModel, idx, sentences)
+
+
+	end
+
 	def self.appositiveRule(npModel, sentences)
 		#if this is true, then we want to set it to the previous npModel
 		if npModel.appositive == true && npModel.sent != nil
@@ -126,6 +132,7 @@ class Rules
 	end
   end
 
+  #aren't this and the words substring the same?
   def self.findSimilarName(npModel, sentIdx, sentences)
 	prevSentences = []
 	
