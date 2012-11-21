@@ -110,115 +110,33 @@ class Rules
 		end
 	end
 
-	#end new rules
+	def self.mismatchWords(npModel1, npModel2)
+		firstWords = npModel1.phrase.split(/\s+/)
+		secondWords = npModel2.phrase.split(/\s+/)
 
-	#it usually belongs to the sentence right before it. 
-  def self.findItAnt(npModel, sentIdx, sentences)
-	if(npModel.phrase.downcase.lstrip.rstrip == "it" && sentIdx > 0)
-	  prevSent = sentences[sentIdx]
-	  
-	  #get the first np
-	  firstNp = prevSent.npModels.sort{|a, b| a.startIdx <=> b.startIdx}
+		#going to go with the larger one, cycle through it
+		largerCollection = firstWords.length < secondWords.length ? secondWords : firstWords
+		smallerCollection = firstWords.length < secondWords.length ? firstWords : secondWords
 
-	  #prevSent.npModels.each do |model|
-	  	#puts model
-	  #end
-	  
-	  if firstNp.length > 0
-		firstNp[0].included = true
-		npModel.ref = firstNp[0]
+		largerSize = largerCollection.length
+		smallerSize = smallerCollection.length
+
+		mismatchCount = 0
 		
-		#puts "findItAnt - #{npModel} - #{firstNp[0]}"
-
-		return true
-	  end
-	end
-	false
-  end
-
-  def self.findTheyAnt(npModel, sentIdx, sentences)
-	pronoun = npModel.phrase.downcase.lstrip.rstrip
-	pronouns = ["i", "me", "my", "mine", "myself", "you", "your", "yours", 
-	  "yourself", "we", "us", "our", "ours", "ourselves", "yourselves", "she",
-	  "he", "him", "his", "himself", "hers", "her", "herself", "they", "them",
-	  "their", "theirs", "themselves"]
-	
-	if (pronouns.include?(pronoun))
-		acceptableNps = []
-		
-		sentences[sentIdx-1].npModels.each do |model|
-			acceptableNps.push model
-		end
-
-		sentences[sentIdx].npModels.select{|t| t.endIdx < npModel.startIdx}.each do |model|
-			acceptableNps.push model
-		end
-
-	  if acceptableNps.length > 0
-		lastAcceptableNp = acceptableNps[acceptableNps.length - 1]
-		
-		#acceptableNps.each do |nnp|
-			#puts nnp
-		#end
-
-		#puts "found pronoun! #{npModel}"
-
-		lastAcceptableNp.included = true
-		npModel.ref = lastAcceptableNp
-		true
-	  else
-		false
-	  end
-	else
-	  false
-	end
-  end
-
-  #aren't this and the words substring the same?
-  def self.findSimilarName(npModel, sentIdx, sentences)
-	prevSentences = []
-	
-	for i in 0..sentIdx
-	  prevSentences.push sentences[i]
-	end
-	
-	#starting at the beginning, find the first np with any sort of match to our current phrase
-	npPhrase = npModel.phrase.split(/\s+/)
-	regexs = []
-
-	npPhrase.each do |word|
-	  regexs.push word
-	end
-	
-	match = false
-	
-	prevSentences.each do |prevSent|
-	  
-	  prevSent.npModels.each do |acceptableNp|
-		
-		subsumeCount = 0
-
-		regexs.each do |regex|
-		  
-		  acceptableNp.phrase.split(/\s+/).each do |word|
-
-			if Utilities.editDistance(regex, word) <= 2
-				subsumeCount = subsumeCount + 1
+		for i in 0...largerSize
+			if i < smallerSize
+				
+				if largerCollection[i] != smallerCollection[i] && 
+					npModel1.pronounType == "none" && 
+					npModel2.pronounType == "none"
+					mismatchCount = mismatchCount + 1
+				end
+			else
+				mismatchCount = mismatchCount + 1
 			end
-		  end
 		end
-
-		if subsumeCount == regexs.length
-			#this acceptableNp is a match
-			acceptableNp.included = true
-			npModel.ref = acceptableNp
-        	return true
-    	end
-	  end
+		mismatchCount.to_f / largerSize.to_f
 	end
-	
-	false
-  end
 
  def self.findCorrectAnt(npModel, sentIdx, sentences)
 	#right now, just going to find the first np in the preceding sentence
