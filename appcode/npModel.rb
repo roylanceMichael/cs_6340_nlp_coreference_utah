@@ -31,6 +31,7 @@ class NpModel
     identifySemanticClass
     identifyAppositive
     identifyGender
+    identifyProperName
   end
 
   def to_s 
