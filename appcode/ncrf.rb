@@ -148,7 +148,15 @@ class Ncrf
 
         sentence.npAdd foundNp, newId
       end
-      
+    end
+
+    #add the position on here...
+    pos = 1
+    @sentences.each do |sentence|
+      sentence.npModels.each do |npModel|
+        npModel.position = pos
+        pos = pos + 1
+      end
     end
   end
   
