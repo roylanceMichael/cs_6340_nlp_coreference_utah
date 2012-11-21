@@ -32,10 +32,34 @@ class NpModel
     identifyAppositive
     identifyGender
     identifyProperName
+    identifyPronounType
   end
 
   def to_s 
     "#{phrase}"
+  end
+
+  def headNoun
+    words = @phrase.split(/\s+/)
+    words[word.length-1]
+  end
+
+  def identifyPronounType
+    nominative = ["i", "he", "she", "we", "they"]
+    accusative = ["me", "him", "her", "us", "them", "whom"]
+    possessive = ["my", "your", "his", "our", "your", "their", "mine", "yours", "his", "hers", "ours", "yours", "theirs"]
+    ambiguous = ["you", "it"]
+    if nominative.include? @phrase.downcase
+      @pronounType = "nomi"
+    elsif accusative.include? @phrase.downcase
+      @pronounType = "accu"
+    elsif possessive.include? @phrase.downcase
+      @pronounType = "poss"
+    elsif ambiguous.include? @phrase.downcase
+      @pronounType = "ambig"
+    else
+      @pronounType = "none"
+    end
   end
  
   def identifyPlurality

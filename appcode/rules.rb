@@ -102,6 +102,14 @@ class Rules
 		return false
 	end
 
+	def self.pronounTypes(npModel1, npModel2)
+		if npModel1.pronounType != "none" && npModel2.pronounType == "none"
+			0
+		else
+			1
+		end
+	end
+
 	#end new rules
 
 	#it usually belongs to the sentence right before it. 
