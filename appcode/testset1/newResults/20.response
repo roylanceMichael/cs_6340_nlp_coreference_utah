@@ -3,13 +3,13 @@ nyt960508.1643
 A0781
 BC-HELICOPTER-CRASH-NYT
 @amp;LR;
-05-09
-BC- <COREF ID='1' REF='1'>HELICOPTER</COREF> - <COREF ID='2' REF='2'>CRASH</COREF> -NYT
+<COREF ID='X7'>05-09</COREF>
+BC- <COREF ID='1' REF='X7'>HELICOPTER</COREF> - <COREF ID='2' REF='X7'>CRASH</COREF> -NYT
 4 DIE IN <COREF ID='3' REF='2'>CRASH</COREF> OF <COREF ID='4' REF='1'>MILITARY HELICOPTER</COREF>
 (sw)
 By GEORGE JUDSON
-c.1996 N.Y. Times News Service
-STRATFORD, Conn. @amp;MD; <COREF ID='5' REF='1'>A helicopter</COREF> making <COREF ID='X25'>a test flight</COREF> before <COREF ID='6' REF='6'>it</COREF>
+c.1996 <COREF ID='X19'>N.Y. Times News Service</COREF>
+STRATFORD, Conn. @amp;MD; <COREF ID='5' REF='1'>A helicopter</COREF> making <COREF ID='X25'>a test flight</COREF> before <COREF ID='6' REF='X19'>it</COREF>
 was to be delivered to <COREF ID='X31'>the Marine Corps</COREF> to provide cargo service
 for <COREF ID='X34'>the White House</COREF> appeared to lose <COREF ID='X32'>its rotors</COREF> on Thursday and
 crashed onto the flight field of the Sikorsky Aircraft Corp.,
@@ -23,9 +23,9 @@ from <COREF ID='19' REF='X32'>his</COREF> restaurant above <COREF ID='20' REF='X
 a sudden <COREF ID='24' REF='6'>it</COREF> lost <COREF ID='25' REF='6'>its blades</COREF> , and that was it. <COREF ID='27' REF='6'>It</COREF> came straight
 down.''
 The explosion shook nearby buildings and stopped traffic on the <COREF ID='28' REF='X43'>bridge</COREF> , from which the crushed fuselage could be seen burning on <COREF ID='29' REF='X31'>the tarmac</COREF> less than half a mile away, about 50 feet from the <COREF ID='30' REF='20'>river</COREF> . <COREF ID='31' REF='X31'>The craft's distress</COREF> had lasted long enough for one driver
-to call a Bridgeport radio station to report that <COREF ID='33' REF='1'>a helicopter</COREF> was
-in <COREF ID='34' REF='34'>trouble</COREF> . <COREF ID='35' REF='X43'>Sikorsky</COREF> officials said <COREF ID='36' REF='5'>all four peole on board</COREF> were <COREF ID='37' REF='37'>employees</COREF> . <COREF ID='38' REF='X31'>Their</COREF> names were withheld until relatives could be notified.
-A spokeswoman for Sikorsky, <COREF ID='40' REF='40'>Gina McAllister</COREF> , said <COREF ID='41' REF='1'>the heavy-lift helicopter</COREF> , which can carry a payload of 31 tons, was to be
+to call <COREF ID='X106'>a Bridgeport radio station</COREF> to report that <COREF ID='33' REF='1'>a helicopter</COREF> was
+in <COREF ID='34' REF='X106'>trouble</COREF> . <COREF ID='35' REF='X43'>Sikorsky</COREF> officials said <COREF ID='36' REF='5'>all four peole on board</COREF> were <COREF ID='37' REF='X106'>employees</COREF> . <COREF ID='38' REF='X31'>Their</COREF> names were withheld until <COREF ID='X110'>relatives</COREF> could be notified.
+A spokeswoman for Sikorsky, <COREF ID='40' REF='X110'>Gina McAllister</COREF> , said <COREF ID='41' REF='1'>the heavy-lift helicopter</COREF> , which can carry a payload of 31 tons, was to be
 assigned to the <COREF ID='42' REF='X31'>Marine</COREF> base at Quantico, Va. <COREF ID='43' REF='1'>The helicopter</COREF> would
 have been used to ferry limousines and other advance equipment for
 the <COREF ID='44' REF='X34'>White House</COREF> . <COREF ID='45' REF='X31'>She</COREF> said <COREF ID='46' REF='6'>it</COREF> would not have carried the president. <COREF ID='47' REF='2'>The crash</COREF> occurred at 11:08 a.m. <COREF ID='48' REF='X60'>Witnesses</COREF> differed as to
@@ -44,5 +44,5 @@ World's Aircraft. <COREF ID='62' REF='9'>CH53E's</COREF> were used to rescue Air
 O'Grady when <COREF ID='63' REF='X31'>he</COREF> was shot down over Bosnia, and to evacuate the U.S.
 embassy in Somalia, <COREF ID='64' REF='40'>Ms. McAllister</COREF> said.
 `` <COREF ID='65' REF='1'>This helicopter</COREF> has a very proud tradition, and the <COREF ID='66' REF='X43'>Sikorsky</COREF>
-family is devastated by <COREF ID='67' REF='19'>this mishap</COREF> ,'' <COREF ID='68' REF='X31'>she</COREF> said.
-NYT- <COREF ID='69' REF='69'>05-09-96</COREF> 2114EDT</TXT>
+<COREF ID='X215'>family</COREF> is devastated by <COREF ID='67' REF='19'>this mishap</COREF> ,'' <COREF ID='68' REF='X31'>she</COREF> said.
+NYT- <COREF ID='69' REF='X215'>05-09-96</COREF> 2114EDT</TXT>

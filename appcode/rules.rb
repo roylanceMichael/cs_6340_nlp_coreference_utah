@@ -32,7 +32,7 @@ class Rules
 	def self.wordsSubstring(npModel, sentIdx, sentences)
 		prevSentences = []
 	
-		for i in 0..sentIdx
+		for i in 0...sentIdx
 		  prevSentences.push sentences[i]
 		end
 	
@@ -217,9 +217,11 @@ class Rules
 	  otherNps = preSent.npModels.select{|t| t.coref == true}
 	  if stanfordNps.length > 0
 		foundNp = stanfordNps[0]
+		foundNp.included = true
 		npModel.ref = foundNp
 	  elsif otherNps.length > 0
 		foundNp = otherNps[0]
+		foundNp.included = true
 		npModel.ref = foundNp
 	  end
 	end

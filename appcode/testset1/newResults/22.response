@@ -3,12 +3,12 @@ nyt960511.0138
 A2461
 BC-VALUJET-CRASH-2NDTAKE
 05-11
-0586
-BC- <COREF ID='2' REF='2'>VALUJET-CRASH</COREF> -2NDTAKE-NYT
+<COREF ID='X5'>0586</COREF>
+BC- <COREF ID='2' REF='X5'>VALUJET-CRASH</COREF> -2NDTAKE-NYT
 UNDATED: flight attendants.
-Valujet, which had proclaimed <COREF ID='5' REF='5'>itself</COREF> <COREF ID='6' REF='6'>the fastest-growing airline in history</COREF> , said last month that <COREF ID='7' REF='6'>it</COREF> would buy fewer airplanes than <COREF ID='8' REF='6'>it</COREF> planned this year and would ``concentrate on <COREF ID='9' REF='7'>its</COREF> product
-integrity'' in anticipation of the summer Olympic Games in Atlanta.
-Last Jan. 12, <COREF ID='X29'>a</COREF> <COREF ID='10' REF='10'>Valujet</COREF> DC-9 with <COREF ID='X32'>30 people</COREF> aboard slid into a
+Valujet, which had proclaimed <COREF ID='5'>itself</COREF> <COREF ID='6'>the fastest-growing airline in history</COREF> , said last month that <COREF ID='7'>it</COREF> would buy fewer airplanes than <COREF ID='8'>it</COREF> planned this year and would ``concentrate on <COREF ID='9'>its</COREF> product
+integrity'' in <COREF ID='X26'>anticipation</COREF> of the summer Olympic Games in Atlanta.
+Last Jan. 12, <COREF ID='X29'>a</COREF> <COREF ID='10' REF='X26'>Valujet</COREF> DC-9 with <COREF ID='X32'>30 people</COREF> aboard slid into a
 snowbank after landing at Dulles International Airport outside
 Washington, closing <COREF ID='11' REF='6'>the airport</COREF> for three hours.
 On Jan. 26, another a <COREF ID='12' REF='10'>Valujet</COREF> DC-9 got stuck in the mud at
@@ -17,8 +17,8 @@ be bused back to <COREF ID='13' REF='6'>the terminal</COREF> .
 On Feb. 28, <COREF ID='X59'>another <COREF ID='14' REF='10'>Valujet</COREF> plane</COREF> ran off a runway in Savannah,
 Ga. And on Mar. 19, an emergency chute inflated inside the cabin of
 a Valujet plane in Tampa, Fla., slightly injuring <COREF ID='X67'>a flight</COREF>
-attendant; the pilot had to crawl out a window, climb into the <COREF ID='16' REF='X59'>plane</COREF> through the tailcone and cut <COREF ID='17' REF='6'>the chute</COREF> with a knife to free <COREF ID='18' REF='6'>the attendant</COREF> .
-Because of the inaccessibility of Saturday's <COREF ID='19' REF='19'>crash</COREF> site, few
+attendant; the pilot had to crawl out a window, climb into the <COREF ID='16' REF='X59'>plane</COREF> through the tailcone and cut <COREF ID='17' REF='6'>the chute</COREF> with <COREF ID='X71'>a knife</COREF> to free <COREF ID='18' REF='6'>the attendant</COREF> .
+Because of the inaccessibility of Saturday's <COREF ID='19' REF='X71'>crash</COREF> site, few
 details were available in the hours immediately after <COREF ID='90' REF='6'>the plane</COREF>
 went down. In its statement, <COREF ID='21' REF='10'>Valujet</COREF> said that <COREF ID='22' REF='X67'>Flight 592</COREF> had left
 <COREF ID='X92'>Miami</COREF> at about 2:15 p.m., <COREF ID='23' REF='X32'>more than 70 minutes</COREF> after its regularly
@@ -32,8 +32,8 @@ Three hours after <COREF ID='37' REF='6'>the crash</COREF> , the FAA reported th
 been about 100 miles northwest of <COREF ID='39' REF='X92'>Miami</COREF> when <COREF ID='40' REF='6'>the pilot</COREF> reported <COREF ID='41' REF='X104'>smoke</COREF> in the cockpit, and that after turning around had gone about
 80 miles before crashing.
 The <COREF ID='42' REF='X29'>FAA</COREF> report said <COREF ID='43' REF='6'>the plane</COREF> had apparently gone into a steep
-dive and exploded on impact.
-A student pilot, <COREF ID='44' REF='44'>Rick DeLisle</COREF> , who was flying a small plane in
+<COREF ID='X144'>dive and exploded</COREF> on impact.
+A student pilot, <COREF ID='44' REF='X144'>Rick DeLisle</COREF> , who was flying a small plane in
 the area with an instructor, bound for Naples, Fla, told CNN of
 witnessing <COREF ID='45' REF='6'>the crash</COREF> . After hearing <COREF ID='46' REF='9'>his instructor</COREF> yelling, <COREF ID='48' REF='44'>DeLisle</COREF>
 said, `` <COREF ID='49' REF='6'>I</COREF> turned and saw an explosion.''
@@ -45,12 +45,12 @@ with <COREF ID='60' REF='6'>the binocs</COREF> it looked like <COREF ID='61' REF
 As word of <COREF ID='62' REF='6'>the crash</COREF> was flashed over news reports, relatives of
 people who had been on board went to Miami International Airport,
 seeking information on what had happened.
-Hernando Vergera, <COREF ID='63' REF='6'>an airport spokesman</COREF> , said the Office of Dade
-County Aviation was bringing counselors to meet with <COREF ID='65' REF='65'>family members</COREF> , about 50 of whom were at the airport. <COREF ID='66' REF='6'>They</COREF> were being
-taken to an undisclosed location for privacy, <COREF ID='67' REF='67'>Vergera</COREF> said. <COREF ID='68' REF='10'>Valujet</COREF> personnel at <COREF ID='69' REF='6'>the airport</COREF> declined to comment, and had
+Hernando Vergera, <COREF ID='63' REF='6'>an airport spokesman</COREF> , said the Office of <COREF ID='X205'>Dade</COREF>
+County Aviation was bringing counselors to meet with <COREF ID='65' REF='X205'>family members</COREF> , <COREF ID='X212'>about 50</COREF> of whom were at the airport. <COREF ID='66' REF='6'>They</COREF> were being
+taken to an undisclosed location for privacy, <COREF ID='67' REF='X212'>Vergera</COREF> said. <COREF ID='68' REF='10'>Valujet</COREF> personnel at <COREF ID='69' REF='6'>the airport</COREF> declined to comment, and had
 minimal contact with <COREF ID='70' REF='6'>the families of the victims</COREF> , <COREF ID='71' REF='67'>Vergera</COREF> said. <COREF ID='72' REF='10'>Valujet</COREF> did not immediately return telephone messages.
 The Coast Guard told The Associated Press that rescue aircraft
 were helping to look for wreckage and survivors. But all that
 rescue pilots could detect was scorched earth, Petty Officer Angela
-Weeks said.
-NYT- <COREF ID='73' REF='73'>05-11-96</COREF> 1818EDT</TXT>
+<COREF ID='X245'>Weeks</COREF> said.
+NYT- <COREF ID='73' REF='X245'>05-11-96</COREF> 1818EDT</TXT>

@@ -247,7 +247,8 @@ end
     elsif (Rules.wordsSubstring(self, currentIdx, allSentences))
       puts "wordssubstring rule applied"
     else
-      Rules.findCorrectAnt(self, currentIdx, @sentences)
+      puts "random fun... will be using better heuristics for this..."
+      Rules.findCorrectAnt(self, currentIdx, allSentences)
     end
 
   end

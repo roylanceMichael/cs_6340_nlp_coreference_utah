@@ -3,8 +3,8 @@ nyt960511.0137
 A2460
 BC-VALUJET-CRASH-545(2TA
 05-11
-0548
-BC- <COREF ID='2' REF='2'>VALUJET-CRASH</COREF> -545(2TAKES)-NYT
+<COREF ID='X5'>0548</COREF>
+BC- <COREF ID='2' REF='X5'>VALUJET-CRASH</COREF> -545(2TAKES)-NYT
 (ATTN: Fla., Ga.)
 <COREF ID='X13'>109</COREF> <COREF ID='X15'>FEARED DEAD AS JETLINER CRASHES</COREF> IN <COREF ID='X14'>EVERGLADES</COREF>
 (Eds: This is <COREF ID='4' REF='X15'>a late addition</COREF> to The New York Times front page.)
@@ -18,13 +18,13 @@ Bound for Atlanta, <COREF ID='9' REF='X39'>the twin-engine aircraft</COREF> was 
 northwest of <COREF ID='70' REF='X28'>Miami airport</COREF> when the pilot reported smoke in the
 cockpit, a spokesman for the Federal Aviation Administration said. <COREF ID='12' REF='X39'>The plane</COREF> was believed to be turning back to <COREF ID='13' REF='X34'>the airport</COREF> when radar
 contact was lost shortly after 2 p.m.
-``We believe that <COREF ID='15' REF='X39'>the aircraft</COREF> is down somewhere in the vicinity
-of the <COREF ID='16' REF='X14'>Florida Everglades</COREF> ,'' the <COREF ID='17' REF='4'>FAA spokesman</COREF> , <COREF ID='19' REF='19'>Anthony Willett</COREF> ,
+``We believe that <COREF ID='15' REF='X39'>the aircraft</COREF> is down somewhere in <COREF ID='X61'>the vicinity</COREF>
+of the <COREF ID='16' REF='X14'>Florida Everglades</COREF> ,'' the <COREF ID='17' REF='4'>FAA spokesman</COREF> , <COREF ID='19' REF='X61'>Anthony Willett</COREF> ,
 said.
-The cause of <COREF ID='20' REF='X15'>the crash</COREF> was unclear. Valujet Airlines Inc., which
-is based in <COREF ID='22' REF='22'>Atlanta</COREF> and serves 26 cities in 17 states, began
-operations in 1993 with an old fleet that has grown to about 50
-planes. <COREF ID='23' REF='23'>It</COREF> has experienced a number of problems, including several
+<COREF ID='X68'>The cause</COREF> of <COREF ID='20' REF='X15'>the crash</COREF> was unclear. Valujet Airlines Inc., which
+is based in <COREF ID='22' REF='X68'>Atlanta</COREF> and serves 26 cities in 17 states, began
+operations in <COREF ID='X78'>1993</COREF> with an old fleet that has grown to about 50
+planes. <COREF ID='23' REF='X78'>It</COREF> has experienced a number of problems, including several
 aircraft that have run off runways and one that caught fire, but
 never a crash.
 Television pictures from helicopters flying over the <COREF ID='24' REF='X14'>Everglades</COREF>
@@ -52,5 +52,5 @@ hired by <COREF ID='50' REF='5'>Valujet</COREF> as well as other positions, such
 dispatchers.'' <COREF ID='51' REF='X39'>The inquiry</COREF> said <COREF ID='52' REF='5'>Valujet</COREF> 's rapid expansion from two to 48 planes
 had been accompanied by accidents and incidents involving
 inexperienced pilots, inadequate maintenance and insufficiently
-trained flight attendants.
-NYT- <COREF ID='53' REF='53'>05-11-96</COREF> 1817EDT</TXT>
+<COREF ID='X223'>trained flight</COREF> attendants.
+NYT- <COREF ID='53' REF='X223'>05-11-96</COREF> 1817EDT</TXT>

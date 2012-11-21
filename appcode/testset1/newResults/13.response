@@ -3,8 +3,8 @@ nyt960327.0549
 A0338
 BC-AEROFLOT-FAMILIES-SUE
 03-27
-0292
-BC- <COREF ID='1' REF='1'>AEROFLOT</COREF> - <COREF ID='2' REF='2'>FAMILIES</COREF> -SUE-SCMP <COREF ID='3' REF='2'>FAMILIES</COREF> SUE OVER AREOFLOT CRASH DEATHS
+<COREF ID='X5'>0292</COREF>
+BC- <COREF ID='1' REF='X5'>AEROFLOT</COREF> - <COREF ID='2' REF='X5'>FAMILIES</COREF> -SUE-SCMP <COREF ID='3' REF='X5'>FAMILIES</COREF> SUE OVER AREOFLOT CRASH DEATHS
 By PATRICIA YOUNG
 c.1996 South China Morning Post <COREF ID='6' REF='1'>The Russian airline Aeroflot</COREF> has been hit with <COREF ID='X13'>a writ</COREF> for loss
 and damages, filed in <COREF ID='X20'>Hong Kong</COREF> by <COREF ID='7' REF='2'>the families</COREF> of <COREF ID='X22'>seven passengers</COREF>
@@ -17,8 +17,8 @@ passengers who died when <COREF ID='19' REF='6'>the Moscow Airbus A310 flight</C
 statutory duty and breach of contract on the part of <COREF ID='25' REF='6'>the defendant</COREF>
 [ <COREF ID='26' REF='1'>Aeroflot</COREF> ].''
 Air industry investigators say <COREF ID='X66'>the 15-year-old son</COREF> of Captain
-Yaroslav Kudrinsky was flying <COREF ID='27' REF='6'>the Hong Kong-bound aircraft</COREF> after <COREF ID='29' REF='X13'>it</COREF>
-left Moscow. Black box transcripts show <COREF ID='31' REF='31'>Eldar</COREF> and Yana, <COREF ID='32' REF='X66'>his 13-year-old sister</COREF> , were in the cockpit prior to the crash.
+<COREF ID='X70'>Yaroslav Kudrinsky</COREF> was flying <COREF ID='27' REF='6'>the Hong Kong-bound aircraft</COREF> after <COREF ID='29' REF='X13'>it</COREF>
+left Moscow. Black box transcripts show <COREF ID='31' REF='X70'>Eldar</COREF> and Yana, <COREF ID='32' REF='X66'>his 13-year-old sister</COREF> , were in the cockpit prior to the crash.
 Airline passengers are protected under a section of the Warsaw
 Convention relating to air travel which was signed on October 12,
 1929.
@@ -29,5 +29,5 @@ Aviation consultant Steve Miller, <COREF ID='37' REF='6'>the managing director</
 Trinity Aviation, said <COREF ID='38' REF='6'>he</COREF> was unaware of any aviation court
 settlements in <COREF ID='39' REF='X20'>Hong Kong</COREF> .
 ``Taking <COREF ID='40' REF='X13'>it</COREF> to the courts is very unusual for <COREF ID='41' REF='X20'>Hong Kong</COREF> ,'' <COREF ID='42' REF='X94'>Mr Miller</COREF> said.
-Six of the claims in <COREF ID='43' REF='6'>the writs</COREF> were filed by <COREF ID='44' REF='X20'>family members who live outside Hong Kong</COREF> .
-NYT- <COREF ID='46' REF='46'>03-27-96</COREF> 1647EST</TXT>
+<COREF ID='X117'>Six</COREF> of the claims in <COREF ID='43' REF='6'>the writs</COREF> were filed by <COREF ID='44' REF='X20'>family members who live outside Hong Kong</COREF> .
+NYT- <COREF ID='46' REF='X117'>03-27-96</COREF> 1647EST</TXT>
