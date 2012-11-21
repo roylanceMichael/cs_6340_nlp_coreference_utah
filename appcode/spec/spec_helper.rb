@@ -9,6 +9,6 @@ require '../parseData.rb'
 require '../parseAdapter.rb'
 require '../sentence.rb'
 require '../ncrf.rb'
-require '../incompatFun.rb'
+require '../rules.rb'
 
 require 'yaml'
