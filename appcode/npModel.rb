@@ -78,17 +78,18 @@ class NpModel
     #if np is surrounded by commas
     
     #not sure if this will get appositives as defined by the paper,
-      #but we can try it out
-    if @startIdx > 0
-      if @sent.sent[@startIdx-1] == ","
-        @appositive = true
-      end
+    #but we can try it out
+    if @startIdx > 0 && @sent.sent[@startIdx-1] == "," #&& @endIdx < @sent.sent.length-1
+      #&& @sent.sent[@endIdx+1] == ","
+      @appositive = true
+    #let's just try this for now, will test later
     elsif phrase.chars.to_a[0] == ","
       @appositive = true
     else
       @appositive = false
     end
     
+    #just returning for now, will test later
     return
     
     tempStatus = false
@@ -237,10 +238,16 @@ end
      true
   end
 
-  def findBestMatch(allSentences)
+  def findBestMatch(currentIdx, allSentences)
     #candidates are all the words that come before current 
-    if !(Rules.appositiveRule(self, allSentences))
-    elsif !(Rules.wordSubstring(self, sent.sentIdx, allSentences))
+
+    #let's get -infinity rules first
+    if (Rules.appositiveRule(self, allSentences))
+       puts "appositive rules applied"
+    elsif (Rules.wordsSubstring(self, currentIdx, allSentences))
+      puts "wordssubstring rule applied"
+    else
+      Rules.findCorrectAnt(self, currentIdx, @sentences)
     end
 
   end

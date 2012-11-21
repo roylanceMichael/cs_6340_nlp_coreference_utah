@@ -3,7 +3,7 @@ It is now broadly accepted that <COREF ID='X2'>virulent APMV-1 viruses</COREF> g
 <COREF ID='X3'>poultry</COREF> by <COREF ID='X5'>mutation</COREF> of viruses of <COREF ID='X6'>low virulence</COREF> after these <COREF ID='1' REF='X2'>viruses</COREF> have
 been introduced into <COREF ID='2' REF='X3'>poultry</COREF> flocks (Alexander DJ, British Poultry Science
 42, 5-22, 2001). Since <COREF ID='X18'>this ND virus</COREF> reported from <COREF ID='X17'>Victoria</COREF> is almost
-identical to the 1999 Mangrove Mountain isolate, then it appears more than
+identical to <COREF ID='X21'>the 1999</COREF> Mangrove Mountain isolate, then it appears more than
 a remote probability that <COREF ID='X30'>the same precursor virus</COREF> (so-called Peat's Ridge
 <COREF ID='3' REF='3'>strain</COREF> ) may have been present in these Victorian <COREF ID='4' REF='4'>flocks</COREF> for some time and a
 very similar <COREF ID='5' REF='X5'>mutation</COREF> event has resulted in this virulent <COREF ID='6' REF='X2'>virus</COREF> . This
@@ -16,14 +16,14 @@ classify any <COREF ID='10' REF='X2'>APMV-1</COREF> viruses circulating) at the 
 seroconversion in <COREF ID='11' REF='4'>flocks</COREF> .
 [ <COREF ID='12' REF='12'>Newcastle disease</COREF> virus is a notoriously variable <COREF ID='13' REF='X2'>virus</COREF> . Strains of
 <COREF ID='14' REF='12'>Newcastle disease</COREF> <COREF ID='15' REF='X2'>virus</COREF> differ widely in <COREF ID='50' REF='X6'>virulence</COREF> , depending on the
-<COREF ID='X76'>cleavability and activation</COREF> of <COREF ID='16' REF='X76'>their</COREF> hemagglutinin-neuraminidase and fusion
+<COREF ID='X76'>cleavability and activation</COREF> of <COREF ID='16' REF='X21'>their</COREF> hemagglutinin-neuraminidase and fusion
 membrane proteins. Avirulent strains produce inactive precursor <COREF ID='17' REF='17'>proteins</COREF> ,
 whereas in virulent strains the precursor <COREF ID='18' REF='17'>proteins</COREF> are cleaved and
 activated readily. Since the spread of infection is dependent on cleavage
 occurring in <COREF ID='X89'>the same tissue</COREF> in which replication occurs, the presence of
 specific cellular proteases as well as the inherent <COREF ID='19' REF='X76'>cleavability</COREF> of the
 surface glycoprotein <COREF ID='20' REF='X30'>precursors</COREF> determines the <COREF ID='21' REF='X89'>tissue</COREF> tropism of virus
-<COREF ID='22' REF='3'>strains</COREF> and <COREF ID='23' REF='22'>their</COREF> ability to spread rapidly. This is the <COREF ID='24' REF='24'>basis</COREF> for the
+<COREF ID='22' REF='3'>strains</COREF> and <COREF ID='23' REF='X21'>their</COREF> ability to spread rapidly. This is the <COREF ID='24' REF='24'>basis</COREF> for the
 definition of <COREF ID='25' REF='3'>strains</COREF> of <COREF ID='26' REF='12'>Newcastle disease</COREF> <COREF ID='27' REF='X2'>virus</COREF> as velogenic (or
 viscerotropic), mesogenic, or lentogenic for <COREF ID='28' REF='3'>strains</COREF> of high, intermediate,
 or low <COREF ID='29' REF='X6'>virulence</COREF> , respectively. A consequence of <COREF ID='30' REF='X18'>this</COREF> is that the number of

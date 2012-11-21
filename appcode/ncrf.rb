@@ -161,16 +161,20 @@ class Ncrf
       #right now we're just going to select the first NP per sentence... this will need to be fixed later
       sentence.npModels.each do |npModel|
         if npModel.coref
+          
+          #just moving on for right now...
+          npModel.findBestMatch(currentIdx, @sentences)
+
           #handle if we have a "they" in there
-	    #TODO: could probably try reordering these rules and see
-	    #if we can get greater accuracy
-          if(Rules.findItAnt(npModel, currentIdx, @sentences))
-          elsif(Rules.findTheyAnt(npModel, currentIdx, @sentences))
-          elsif(Rules.matchPlurality(npModel, currentIdx, @sentences))
-          elsif(Rules.findSimilarName(npModel, currentIdx, @sentences))
-          else
-            Rules.findCorrectAnt(npModel, currentIdx, @sentences)
-          end
+	        #TODO: could probably try reordering these rules and see
+	        #if we can get greater accuracy
+          #if(Rules.findItAnt(npModel, currentIdx, @sentences))
+          #elsif(Rules.findTheyAnt(npModel, currentIdx, @sentences))
+          #elsif(Rules.matchPlurality(npModel, currentIdx, @sentences))
+          #elsif(Rules.findSimilarName(npModel, currentIdx, @sentences))
+          #else
+            #Rules.findCorrectAnt(npModel, currentIdx, @sentences)
+          #end
         end
       end
       currentIdx = currentIdx + 1
