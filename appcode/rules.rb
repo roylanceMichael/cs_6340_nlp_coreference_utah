@@ -177,6 +177,7 @@ class Rules
 	#starting at the beginning, find the first np with any sort of match to our current phrase
 	npPhrase = npModel.phrase.split(/\s+/)
 	regexs = []
+
 	npPhrase.each do |word|
 	  regexs.push word
 	end
@@ -187,19 +188,24 @@ class Rules
 	  
 	  prevSent.npModels.each do |acceptableNp|
 		
+		subsumeCount = 0
+
 		regexs.each do |regex|
 		  
 		  acceptableNp.phrase.split(/\s+/).each do |word|
-			
-			if Utilities.editDistance(regex, word) <= 2
-			  #this acceptableNp is a match
-			  acceptableNp.included = true
-			  npModel.ref = acceptableNp
 
-			  return true
+			if Utilities.editDistance(regex, word) <= 2
+				subsumeCount = subsumeCount + 1
 			end
 		  end
 		end
+
+		if subsumeCount == regexs.length
+			#this acceptableNp is a match
+			acceptableNp.included = true
+			npModel.ref = acceptableNp
+        	return true
+    	end
 	  end
 	end
 	
