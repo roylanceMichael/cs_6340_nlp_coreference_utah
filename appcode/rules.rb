@@ -33,6 +33,10 @@ class Rules
 	end
 
 	def self.wordsSubstring(npModel, sentIdx, sentences)
+		if npModel.pronounType != "none"
+			return
+		end
+
 		prevSentences = []
 	
 		for i in 0...sentIdx
@@ -40,9 +44,10 @@ class Rules
 		end
 	
 		#starting at the beginning, find the first np with any sort of match to our current phrase
+		badWords = ["a", "an", "the"]
 		npPhrase = npModel.phrase.split(/\s+/)
 		regexs = []
-		npPhrase.each do |word|
+		npPhrase.select{|t| !badWords.include?(t)}.each do |word|
 		  regexs.push word
 		end
 	
@@ -50,11 +55,11 @@ class Rules
 	
 		prevSentences.each do |prevSent|
 	  
-		  prevSent.npModels.each do |acceptableNp|
+		  prevSent.npModels.select{|t| t.pronounType == 'none'}.each do |acceptableNp|
 		
 			regexs.each do |regex|
 		  
-			  acceptableNp.phrase.split(/\s+/).each do |word|
+			  acceptableNp.phrase.split(/\s+/).select{|t| !badWords.include?(t)}.each do |word|
 			
 				if Utilities.editDistance(regex, word) <= 1
 					puts "matching #{acceptableNp.phrase} <- #{npModel.phrase}"
