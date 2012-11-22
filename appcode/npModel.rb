@@ -33,12 +33,16 @@ class NpModel
     identifyGender
     identifyProperName
     identifyPronounType
+    identifyAnimacy
+    identifyArticle
   end
 
   def to_s 
     "#{phrase}"
   end
 
+  #you do realize i did this in the identifyHeadNoun function
+  #right?
   def headNoun
     words = @phrase.split(/\s+/)
     words[words.length-1]
@@ -63,8 +67,15 @@ class NpModel
   end
  
   def identifyPlurality
-    words = @phrase.split(/\s+/)
+    #if the phrase includes a plural pronoun, it's plural 
+    pluralPronoun = ["we","they","us","them","our","ours"]
+    if pluralPronoun.include? @phrase
+	@plurality = true
+	return
+    end
 
+    #if the phrases head noun ends in an 's', it's plural 
+    words = @phrase.split(/\s+/)
     idx = words.length
     wordLength = words[idx-1].length
     if words[idx-1][wordLength-1] == 's'
@@ -249,8 +260,18 @@ end
   end
 
   #TODO identify if the noun phrase is animate or not
+  #	right now doing a simple semantic class check, its the
+  #	only thing i can think of to do an animacy check atm. we
+  #	can change it later if it doesnt work out. this might
+  #	require some machine learning to get to work with any
+  #	sort of real accuracy...unless i can find a tool today
+  #	to do it for us (here's hoping..)
   def identifyAnimacy
-
+	if(@semanticClass != "PERSON")
+	    @animacy = 'inanimate'
+	else
+	    @animacy = 'animate' 
+	end   
   end
 
   #for the purposes of the clustering algorithm,

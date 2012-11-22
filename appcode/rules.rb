@@ -1,9 +1,12 @@
 class Rules
 
 	#this will determine if the np's match in number
-	def self.matchPlurality(npModel, idx, sentences)
-
-
+	def matchPlurality(npModel1, npModel2)
+	    if(npModel1.plurality == npModel2.plurality)
+		return true
+	    else
+		return false
+	    end
 	end
 
 	def self.appositiveRule(npModel, sentences)
@@ -149,18 +152,26 @@ class Rules
 
  def self.findCorrectAnt(npModel, sentIdx, sentences)
 	#right now, just going to find the first np in the preceding sentence
+	
+	#adding in a check for plurality here, hopefully this
+	#gives us some improvement
 	if sentIdx > 0
 	  preSentIdx = sentIdx - 1
 	  preSent = sentences[preSentIdx]
 	  
 	  #do I exist in my npModels right now?
-	  stanfordNps = preSent.npModels.select{|t| t.coref == false }
-	  otherNps = preSent.npModels.select{|t| t.coref == true}
-	  if stanfordNps.length > 0
+	  
+	  stanfordNps = preSent.npModels.select{ |t|
+	     t.coref == false
+	  }
+	  otherNps = preSent.npModels.select{ |t|
+	      t.coref == true
+	  }
+	  if stanfordNps.length > 0 and matchPlurality(npModel, stnafordNps[0])
 		foundNp = stanfordNps[0]
 		foundNp.included = true
 		npModel.ref = foundNp
-	  elsif otherNps.length > 0
+	  elsif otherNps.length > 0 and matchPlurality(npModel, otherNps[0])
 		foundNp = otherNps[0]
 		foundNp.included = true
 		npModel.ref = foundNp
