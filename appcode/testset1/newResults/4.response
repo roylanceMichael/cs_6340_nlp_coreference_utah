@@ -14,7 +14,7 @@ Chagas <COREF ID='1' REF='X2'>disease</COREF> is caused by the protozoan parasit
 Chagas <COREF ID='2' REF='X2'>disease</COREF> following organ <COREF ID='3' REF='1'>transplantation</COREF> has occurred in <COREF ID='X34'>Latin</COREF>
 America, where Chagas <COREF ID='4' REF='X2'>disease</COREF> is endemic, but <COREF ID='5' REF='X34'>it</COREF> has not yet been reported
 in the United States.
-<COREF ID='X43'>A report</COREF> in <COREF ID='X44'>the latest Morbidity</COREF> and Mortality Weekly Report
+<COREF ID='X43'>A report</COREF> in the latest Morbidity and Mortality Weekly Report
 &lt; <COREF ID='6' REF='X43'>http://www.cdc.gov/mmwr/preview/mmwrhtml/mm5110a3.htm</COREF> &gt; describes <COREF ID='X48'>three</COREF>
 <COREF ID='X50'>cases</COREF> in the <COREF ID='7' REF='X48'>United States</COREF> of <COREF ID='X52'>_ <COREF ID='8' REF='X48'>T. cruzi</COREF> _ infection</COREF> associated with
 <COREF ID='9' REF='3'>transplantation</COREF> of <COREF ID='X55'>solid</COREF> organs from the same donor. The Centers for
@@ -22,12 +22,12 @@ Disease Control and Prevention will collaborate with <COREF ID='10' REF='X55'>US
 organizations to discuss whether to screen <COREF ID='X66'>potential donors</COREF> for _ <COREF ID='11' REF='8'>T. cruzi</COREF> _
 <COREF ID='12' REF='X52'>infection</COREF> and, if so, which donors to screen, how to screen, and what to do
 if the screening tests are positive.
-[ <COREF ID='13' REF='X52'>Infection</COREF> with _ <COREF ID='14' REF='8'>T. cruzi</COREF> _ can be activated during immunosuppression in
-organ recipients and can be transferred with the organ to <COREF ID='15' REF='X44'>the recipient</COREF> .
+[ <COREF ID='13' REF='X52'>Infection</COREF> with _ <COREF ID='14' REF='8'>T. cruzi</COREF> _ can be activated during <COREF ID='X70'>immunosuppression</COREF> in
+organ recipients and can be transferred with the organ to <COREF ID='15' REF='X70'>the recipient</COREF> .
 The first situation is well known in countries where _ <COREF ID='16' REF='8'>T. cruzi</COREF> _ is common,
 especially after bone marrow transplantation. The second situation has been
-described several times after renal transplants where the kidney came from
-a _ <COREF ID='17' REF='8'>T. cruzi</COREF> _ infected donor. The three <COREF ID='18' REF='X50'>cases</COREF> in the <COREF ID='19' REF='10'>US</COREF> <COREF ID='X87'>all</COREF> refer to <COREF ID='20' REF='X3'>organs</COREF>
+described several times after renal transplants where <COREF ID='X84'>the kidney</COREF> came from
+a _ <COREF ID='17' REF='8'>T. cruzi</COREF> _ infected donor. The three <COREF ID='18' REF='X50'>cases</COREF> in the <COREF ID='19' REF='X84'>US</COREF> <COREF ID='X87'>all</COREF> refer to <COREF ID='20' REF='X3'>organs</COREF>
 from the same <COREF ID='21' REF='X66'>donor</COREF> , and the <COREF ID='22' REF='X87'>comment</COREF> on the <COREF ID='23' REF='X87'>CDC</COREF> website emphasises that
 organ <COREF ID='24' REF='X3'>transplants</COREF> save life and that medical personnel should be aware that
 Chagas <COREF ID='25' REF='X2'>disease</COREF> is one of the possible risks associated with organ
