@@ -1,7 +1,7 @@
 class Rules
 
 	#this will determine if the np's match in number
-	def matchPlurality(npModel1, npModel2)
+	def self.matchPlurality(npModel1, npModel2)
 	    if(npModel1.plurality == npModel2.plurality)
 		return true
 	    else
@@ -172,7 +172,7 @@ class Rules
 	  otherNps = preSent.npModels.select{ |t|
 	      t.coref == true
 	  }
-	  if stanfordNps.length > 0 and matchPlurality(npModel, stnafordNps[0])
+	  if stanfordNps.length > 0 and matchPlurality(npModel, stanfordNps[0])
 		foundNp = stanfordNps[0]
 		foundNp.included = true
 		npModel.ref = foundNp
