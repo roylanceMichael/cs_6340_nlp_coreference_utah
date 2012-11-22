@@ -53,7 +53,8 @@ class Rules
 		  
 			  acceptableNp.phrase.split(/\s+/).each do |word|
 			
-				if Utilities.editDistance(regex, word) <= 2
+				if Utilities.editDistance(regex, word) <= 1
+					puts "matching #{acceptableNp.phrase} <- #{npModel.phrase}"
 				  #this acceptableNp is a match
 				  acceptableNp.included = true
 				  npModel.ref = acceptableNp

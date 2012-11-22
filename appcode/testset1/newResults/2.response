@@ -12,8 +12,8 @@ In total 498 <COREF ID='9' REF='1'>cases</COREF> were reported up to 1993, and a
 - 29 <COREF ID='10' REF='1'>cases</COREF> were reported in <COREF ID='11' REF='3'>1983</COREF> ;
 - 37 in 1985;
 - <COREF ID='X57'>85</COREF> in 1990;
-- 56 in <COREF ID='12' REF='X57'>1991</COREF> ;
-- 188 in <COREF ID='13' REF='3'>1993</COREF> .
-Over <COREF ID='X64'>200</COREF> <COREF ID='14' REF='1'>cases</COREF> were reported in <COREF ID='15' REF='12'>1996</COREF> .
+- <COREF ID='X59'>56</COREF> in <COREF ID='12' REF='X57'>1991</COREF> ;
+- <COREF ID='X61'>188</COREF> in <COREF ID='13' REF='X59'>1993</COREF> .
+Over <COREF ID='X64'>200</COREF> <COREF ID='14' REF='1'>cases</COREF> were reported in <COREF ID='15' REF='X61'>1996</COREF> .
 The local strain [virus species] is Puumala <COREF ID='16' REF='X64'>virus</COREF> . Dobrava/Belgrade virus
 also appears to be active. The local rodent reservoirs are <COREF ID='17' REF='X15'>_Clethrionomys glariolus_ [the bank vole] and _Apodemus sylvaticus_ [a species of field mouse]</COREF> .</TXT>
