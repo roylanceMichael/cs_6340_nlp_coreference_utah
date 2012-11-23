@@ -238,10 +238,25 @@ end
   def identifyGender
    male = [/\b[Hh]e\b/, /\b[Hh]is\b/, /\b[Hh]imself\b/, 
 	   /\b[Hh]im\b/]
+
+   #get male names from file 
+   male_names = []
+   File.readlines("male_names.txt").each do |line|
+	male_names << line	
+
    female = [/\b[Ss]he\b/,/\b[Hh]er\b/, /\b[Hh]erself\b/,
 	     /\b[Hh]ers\b/]
    it = /\b[Ii]t\b/
     
+    #if it's a male name, consider the gender to be
+    #male no matter what 
+    @phrase.split(' ').each do |word|
+	if(male_names.include?(word.upcase))
+	    gender = "MALE"
+	    return	    
+	end
+    end
+	
     male.each do |regex|
        if(regex.match(@phrase) != nil)
 	   gender = "MALE" 
