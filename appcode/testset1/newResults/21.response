@@ -2,29 +2,29 @@
 nyt960511.0137
 A2460
 BC-VALUJET-CRASH-545(2TA
-05-11
+<COREF ID='X4'>05-11</COREF>
 <COREF ID='X5'>0548</COREF>
 BC- <COREF ID='2' REF='X5'>VALUJET-CRASH</COREF> -545(2TAKES)-NYT
 (ATTN: Fla., Ga.)
 <COREF ID='X13'>109</COREF> <COREF ID='X15'>FEARED DEAD AS JETLINER CRASHES</COREF> IN <COREF ID='X14'>EVERGLADES</COREF>
-(Eds: This is <COREF ID='4' REF='X13'>a late addition</COREF> to The New York Times front page.)
+(Eds: <COREF ID='X19'>This</COREF> is <COREF ID='4' REF='X19'>a late addition</COREF> to The New York Times front page.)
 (ll)
 By ROBERT D. McFADDEN
 c.1996 N.Y. Times News Service <COREF ID='5' REF='X15'>A Valujet DC-9 jetliner</COREF> with <COREF ID='7' REF='X13'>109 people</COREF> aboard crashed in the <COREF ID='8' REF='X14'>Florida Everglades</COREF> shortly after takeoff from <COREF ID='X28'>Miami International</COREF>
 <COREF ID='X34'>Airport</COREF> on Saturday afternoon. Aviation and rescue officials found
 widely scattered <COREF ID='X40'>debris</COREF> and said there were apparently no
 survivors.
-Bound for Atlanta, <COREF ID='9'>the twin-engine aircraft</COREF> was <COREF ID='X43'>about 30 miles</COREF>
+Bound for Atlanta, <COREF ID='9' REF='X40'>the twin-engine aircraft</COREF> was <COREF ID='X43'>about 30 miles</COREF>
 northwest of <COREF ID='70' REF='X28'>Miami airport</COREF> when <COREF ID='X45'>the</COREF> pilot reported smoke in the
-cockpit, <COREF ID='X51'>a spokesman</COREF> for the Federal Aviation Administration said. <COREF ID='12' REF='X45'>The plane</COREF> was believed to be turning back to <COREF ID='13' REF='X34'>the airport</COREF> when radar
+cockpit, <COREF ID='X51'>a spokesman</COREF> for the Federal Aviation Administration said. <COREF ID='12' REF='X43'>The plane</COREF> was believed to be turning back to <COREF ID='13' REF='X34'>the airport</COREF> when radar
 contact was lost shortly after 2 p.m.
-``We believe that <COREF ID='15' REF='9'>the aircraft</COREF> is down somewhere in <COREF ID='X61'>the vicinity</COREF>
-of the <COREF ID='16' REF='X14'>Florida Everglades</COREF> ,'' the <COREF ID='17' REF='X51'>FAA spokesman</COREF> , <COREF ID='19' REF='X61'>Anthony Willett</COREF> ,
+``We believe that <COREF ID='15' REF='9'>the aircraft</COREF> is down somewhere in the vicinity
+of the <COREF ID='16' REF='X14'>Florida Everglades</COREF> ,'' the <COREF ID='17' REF='X51'>FAA spokesman</COREF> , <COREF ID='19' REF='X43'>Anthony Willett</COREF> ,
 said.
-<COREF ID='X68'>The cause</COREF> of <COREF ID='20'>the crash</COREF> was unclear. Valujet Airlines Inc., which
-is based in <COREF ID='22' REF='X68'>Atlanta</COREF> and serves 26 cities in 17 states, began
-operations in <COREF ID='X78'>1993</COREF> with an old fleet that has grown to about 50
-planes. <COREF ID='23' REF='X78'>It</COREF> has experienced a number of problems, including several
+The cause of <COREF ID='20' REF='X45'>the crash</COREF> was unclear. Valujet Airlines Inc., which
+is based in <COREF ID='22' REF='X43'>Atlanta</COREF> and serves 26 cities in 17 states, began
+<COREF ID='X80'>operations</COREF> in 1993 with an old fleet that has grown to about 50
+planes. <COREF ID='23' REF='X80'>It</COREF> has experienced a number of problems, including several
 aircraft that have run off runways and one that caught fire, but
 never a crash.
 Television pictures from helicopters flying over the <COREF ID='24' REF='X14'>Everglades</COREF>
@@ -33,14 +33,14 @@ other large sections of <COREF ID='25' REF='12'>the plane</COREF> , only what ap
 The <COREF ID='27' REF='17'>FAA</COREF> said <COREF ID='X121'>the crash site</COREF> was <COREF ID='29' REF='X43'>15 miles west of Opa Locka</COREF> , or <COREF ID='30' REF='X28'>about 20 miles northwest of Miami</COREF> . But it was unclear by late
 Saturday afternoon whether the precise <COREF ID='32' REF='20'>crash</COREF> site had been located.
 One aerial picture showed a depression and what appeared to be
-scorched earth, but rescue pilots found no clear signs of <COREF ID='X128'>wreckage</COREF>
-or survivors from Valujet's Flight 592, <COREF ID='35' REF='X128'>a daily two-hour flight</COREF>
+scorched earth, but rescue pilots found <COREF ID='X131'>no clear signs</COREF> of wreckage
+or survivors from Valujet's Flight 592, <COREF ID='35' REF='X131'>a daily two-hour flight</COREF>
 from Miami to <COREF ID='71' REF='22'>Atlanta</COREF> . <COREF ID='38' REF='12'>The crash site</COREF> appeared to be inaccessible by road. The Coast
 Guard dispatched rescue helicopters and aircraft to <COREF ID='40' REF='X121'>the site</COREF> , and
 airboats were being mustered to carry rescue and other emergency
-personnel to <COREF ID='41'>the area</COREF> . <COREF ID='42' REF='5'>Valujet</COREF> said in a statement that <COREF ID='43' REF='12'>the plane</COREF> was carrying <COREF ID='44' REF='26'>104 passengers and a crew of five</COREF> . Earlier reports had said that as
-<COREF ID='X166'>many as 112</COREF> and as few as 90 were on board.
-Valujet's fleet, said to be <COREF ID='46' REF='X166'>the oldest in the industry</COREF> , has run
+personnel to <COREF ID='41' REF='X45'>the area</COREF> . <COREF ID='42' REF='5'>Valujet</COREF> said in a statement that <COREF ID='43' REF='12'>the plane</COREF> was carrying <COREF ID='44' REF='26'>104 passengers and a crew of five</COREF> . Earlier reports had said that as
+many as 112 and as few as 90 were on board.
+Valujet's fleet, said to be <COREF ID='46' REF='X45'>the oldest in the industry</COREF> , has run
 into a series of problems in the last two and a half years, the
 most serious being <COREF ID='X181'>a fire</COREF> on June 8 last year that destroyed a DC-9
 on a runway in <COREF ID='47' REF='22'>Atlanta</COREF> .
@@ -52,5 +52,5 @@ hired by <COREF ID='50' REF='5'>Valujet</COREF> as well as other positions, such
 dispatchers.'' <COREF ID='51' REF='12'>The inquiry</COREF> said <COREF ID='52' REF='5'>Valujet</COREF> 's rapid expansion from two to 48 planes
 had been accompanied by accidents and incidents involving
 inexperienced pilots, inadequate maintenance and insufficiently
-<COREF ID='X223'>trained flight</COREF> attendants.
-NYT- <COREF ID='53' REF='X223'>05-11-96</COREF> 1817EDT</TXT>
+trained flight attendants.
+NYT- <COREF ID='53' REF='X4'>05-11-96</COREF> 1817EDT</TXT>

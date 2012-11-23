@@ -44,7 +44,7 @@ class Rules
 		end
 	
 		#starting at the beginning, find the first np with any sort of match to our current phrase
-		badWords = ["a", "an", "the"]
+		badWords = ["a", "an", "the", "of"]
 		npPhrase = npModel.phrase.split(/\s+/)
 		regexs = []
 		npPhrase.select{|t| !badWords.include?(t)}.each do |word|
@@ -155,32 +155,86 @@ class Rules
 		end
 	end
 
+	def self.subsume(npModel1, npModel2)
+		res = npModel1.phrase.index npModel2.phrase
+		res != nil
+	end
+
  def self.findCorrectAnt(npModel, sentIdx, sentences)
 	#right now, just going to find the first np in the preceding sentence
+
+	#ya, there's probably a more efficient way to get this. later...
+	allNps = []
+	sentences.each do |sent|
+		sent.npModels.each do |np|
+			allNps.push np
+		end
+	end
+
+	lastNp = allNps.sort{|a, b| b.position <=> a.position}.first
+	maxDistance = lastNp.position
+
+	prevNps = []
+	#puts "getting prev nps for sendIdx #{sentIdx} - #{npModel.phrase}"
 	
-	#adding in a check for plurality here, hopefully this
-	#gives us some improvement
-	if sentIdx > 0
-	  preSentIdx = sentIdx - 1
-	  preSent = sentences[preSentIdx]
-	  
-	  #do I exist in my npModels right now?
-	  
-	  stanfordNps = preSent.npModels.select{ |t|
-	     t.coref == false
-	  }
-	  otherNps = preSent.npModels.select{ |t|
-	      t.coref == true
-	  }
-	  if stanfordNps.length > 0 and matchPlurality(npModel, stanfordNps[0])
-		foundNp = stanfordNps[0]
-		foundNp.included = true
-		npModel.ref = foundNp
-	  elsif otherNps.length > 0 and matchPlurality(npModel, otherNps[0])
-		foundNp = otherNps[0]
-		foundNp.included = true
-		npModel.ref = foundNp
-	  end
+	#get the preceding ones
+	sentences.select{|t| t.sentIdx < sentIdx}.each do |sentence|
+		sentence.npModels.each do |np|
+			prevNps.push np
+		end
+	end
+
+	#get the preceding ones from the current sentence
+	npModel.sent.npModels.select{|t| t.startIdx < npModel.startIdx }.each do |prevNp|
+		prevNps.push prevNp
+	end
+
+	prevNps.sort!{|a,b| a.position <=> b.position }
+
+	#going to use a has to represent the result... { npModel, value }
+
+	results = []
+
+	puts "prevNps length: #{prevNps.length} comparing with #{npModel.phrase}"
+
+	prevNps.each do |prevNp|
+		score = 0
+		subsumeScore = subsume(npModel, prevNp)
+		#we don't need to compare anymore if this is true
+		if subsumeScore == true
+			results = []
+			kvp = { :np => prevNp, :score => 0}
+			results.push kvp
+			puts "totalScore 0 #{prevNp.phrase} apparently subsumes #{npModel.phrase}"
+			break
+		end
+		#mismatch words score
+		score1 = mismatchWords(npModel, prevNp) * 10
+		#head noun differ score
+		score2 = headnounsDiffer(npModel, prevNp)
+		#difference in position score
+		score3 = (npModel.position - prevNp.position).abs.to_f / maxDistance.to_f * 5
+		#pronoun score
+		score4 = pronounTypes(npModel, prevNp)
+		#plurality score
+		score5 = matchPlurality(npModel, prevNp) == true ? 999 : 0
+		#proper names score
+		score6 = properNames(npModel, prevNp) == true ? 999 : 0
+
+		totalScore = score1 + score2 + score3 + score4 + score5 + score6
+		tmpKvp = {:np => prevNp, :score => totalScore }
+		results.push tmpKvp
+		puts "totalScore: #{totalScore} #{prevNp.phrase}"
+	end
+
+	foundNp = results.sort{|a, b| a[:score] <=> b[:score] }.first
+
+	if foundNp != nil
+		
+		puts "assigning #{foundNp[:np].phrase} with score of #{foundNp[:score]}"
+
+		foundNp[:np].included = true
+		npModel.ref = foundNp[:np]
 	end
   end
 end

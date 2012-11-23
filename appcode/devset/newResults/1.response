@@ -4,15 +4,15 @@
 For Talks on Pay-Cut Plan
 01/23/87
 WALL STREET JOURNAL (J)
-<COREF ID='X10'>LABOR TEX</COREF>
-AIRLINES (AIR)
-MIAMI
-<COREF ID='3' REF='X2'>Eastern Airlines</COREF> executives notified <COREF ID='X17'>union leaders</COREF> that the carrier wishes to discuss selective wage reductions on <COREF ID='6' REF='6'>Feb. 3</COREF> .
-<COREF ID='X22'>Union representatives</COREF> who could be reached said <COREF ID='8' REF='X22'>they</COREF> hadn't decided whether <COREF ID='9' REF='X22'>they</COREF> would respond.
+LABOR TEX
+<COREF ID='X12'>AIRLINES</COREF> (AIR)
+<COREF ID='X14'>MIAMI</COREF>
+<COREF ID='3' REF='X2'>Eastern Airlines</COREF> executives notified <COREF ID='X17'>union leaders</COREF> that <COREF ID='X16'>the carrier</COREF> wishes to discuss selective wage reductions on <COREF ID='6' REF='3'>Feb. 3</COREF> .
+Union representatives who could be reached said <COREF ID='8' REF='X14'>they</COREF> hadn't decided whether <COREF ID='9' REF='8'>they</COREF> would respond.
 By proposing <COREF ID='10' REF='X2'>a meeting date</COREF> , <COREF ID='11' REF='X2'>Eastern</COREF> moved one step closer toward reopening current high-cost contract agreements with <COREF ID='12' REF='X17'>its unions</COREF> .
-The proposal to meet followed an announcement Wednesday in which Philip Bakes, <COREF ID='14' REF='X2'>Eastern's president</COREF> , laid out proposals to cut wages selectively an average of 29%.
-<COREF ID='18' REF='X10'>The airline</COREF> 's three major labor unions, whose contracts don't expire until year's end at the earliest, have vowed to resist the <COREF ID='19' REF='19'>cuts</COREF> .
-Nevertheless, <COREF ID='X52'>one union official</COREF> said <COREF ID='20' REF='X52'>he</COREF> was intrigued by the brief and polite letter, which was hand-delivered by corporate security officers to <COREF ID='21' REF='X10'>the unions</COREF> .
-According to Robert Callahan, <COREF ID='22' REF='X2'>president of Eastern's flight attendants union</COREF> , the past practice of Eastern's parent, Houston-based <COREF ID='25' REF='X2'>Texas Air Corp.</COREF> , has involved confrontation and ultimatums to <COREF ID='26' REF='X17'>unions</COREF> either to accept <COREF ID='27' REF='X10'>the carrier</COREF> 's terms or to suffer the consequences -- in this case, perhaps, layoffs.
-"Yesterday's performance was a departure," <COREF ID='28' REF='28'>Mr. Callahan</COREF> said, citing the invitation to conduct broad negotiations -- and the lack of a deadline imposed by management.
-"Frankly, <COREF ID='29' REF='29'>it</COREF> 's a little mystifying."</TXT>
+The proposal to meet followed an announcement Wednesday in which Philip Bakes, <COREF ID='14' REF='11'>Eastern's president</COREF> , laid out proposals to cut wages selectively an average of 29%.
+<COREF ID='18' REF='X12'>The airline</COREF> 's three major labor unions, whose <COREF ID='X44'>contracts</COREF> don't expire until year's end at the earliest, have vowed to resist the <COREF ID='19' REF='18'>cuts</COREF> .
+Nevertheless, one union official said <COREF ID='20' REF='X44'>he</COREF> was intrigued by the brief and polite letter, which was hand-delivered by corporate security officers to <COREF ID='21' REF='X17'>the unions</COREF> .
+According to Robert Callahan, <COREF ID='22' REF='X17'>president of Eastern's flight attendants union</COREF> , the past practice of Eastern's parent, Houston-based <COREF ID='25' REF='X2'>Texas Air Corp.</COREF> , has involved confrontation and ultimatums to <COREF ID='26' REF='X17'>unions</COREF> either to accept <COREF ID='27' REF='X16'>the carrier</COREF> 's terms or to suffer the consequences -- in this case, perhaps, layoffs.
+"Yesterday's performance was a departure," <COREF ID='28' REF='9'>Mr. Callahan</COREF> said, citing the invitation to conduct broad negotiations -- and the lack of a deadline imposed by management.
+"Frankly, <COREF ID='29' REF='26'>it</COREF> 's a little mystifying."</TXT>
