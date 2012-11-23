@@ -233,16 +233,19 @@ end
   #if it contains 'he', 'his' => male
   #if it contains 'she', 'her' => female
   #if it contains 'it' => unknown
-  #TODO: add in 50 common male/female names
   #TODO: test
+  #TODO: add in common female names
   def identifyGender
    male = [/\b[Hh]e\b/, /\b[Hh]is\b/, /\b[Hh]imself\b/, 
 	   /\b[Hh]im\b/]
 
    #get male names from file 
+   #this'll probably result in a slowdown...probably should
+   #make this static accross all classes
    male_names = []
    File.readlines("male_names.txt").each do |line|
 	male_names << line	
+   end
 
    female = [/\b[Ss]he\b/,/\b[Hh]er\b/, /\b[Hh]erself\b/,
 	     /\b[Hh]ers\b/]

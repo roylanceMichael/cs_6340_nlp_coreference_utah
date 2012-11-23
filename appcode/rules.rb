@@ -9,6 +9,17 @@ class Rules
 	    end
 	end
 
+	def self.matchGender(npModel1, npModel2)
+	    if(npModel1.gender != "UNKNOWN" &&
+	       npModel2.gender != "UNKNOWN")
+		if(npModel1.gender != npModel2.gender)
+		    return false
+		else
+		    return true
+		end
+	    end
+	end
+
 	def self.appositiveRule(npModel, sentences)
 		#if this is true, then we want to set it to the previous npModel
 		if npModel.appositive == true && npModel.sent != nil
@@ -217,11 +228,14 @@ class Rules
 		#pronoun score
 		score4 = pronounTypes(npModel, prevNp)
 		#plurality score
+		#shouldn't this be ? 0 : 999? or maybe i don't understand ruby's ternary op's-ben
 		score5 = matchPlurality(npModel, prevNp) == true ? 999 : 0
 		#proper names score
 		score6 = properNames(npModel, prevNp) == true ? 999 : 0
+		#gender score
+		score7 = matchGender(npModel, prevNp) == true ? 999 : 0
 
-		totalScore = score1 + score2 + score3 + score4 + score5 + score6
+		totalScore = score1 + score2 + score3 + score4 + score5 + score6 + score7
 		tmpKvp = {:np => prevNp, :score => totalScore }
 		results.push tmpKvp
 		puts "totalScore: #{totalScore} #{prevNp.phrase}"
