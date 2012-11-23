@@ -1,6 +1,6 @@
 <TXT>
-Autochthonous hantavirus infection was first confirmed in <COREF ID='X2'>France</COREF> in 1982 (1
-case) and 1983 (one <COREF ID='1' REF='X2'>case</COREF> ). 11 additional <COREF ID='2'>cases</COREF> were confirmed during <COREF ID='3' REF='X2'>1983</COREF> to
+<COREF ID='X4'>Autochthonous</COREF> hantavirus infection was first confirmed in <COREF ID='X2'>France</COREF> in 1982 (1
+case) and <COREF ID='X6'>1983</COREF> (one <COREF ID='1' REF='X4'>case</COREF> ). 11 additional <COREF ID='2' REF='1'>cases</COREF> were confirmed during <COREF ID='3' REF='X6'>1983</COREF> to
 1984.
 Virtually all cases are reported from <COREF ID='X15'>northeastern <COREF ID='4' REF='X2'>France</COREF> . The Ardennes</COREF>
 accounts for 39 percent of <COREF ID='5' REF='1'>cases</COREF> , Picardie 25 percent, Cote-d'Or - Haute
@@ -11,9 +11,9 @@ de France during 1999 to 2000.
 In total 498 <COREF ID='9' REF='1'>cases</COREF> were reported up to 1993, and approximately 800 to 1998:
 - 29 <COREF ID='10' REF='1'>cases</COREF> were reported in <COREF ID='11' REF='3'>1983</COREF> ;
 - 37 in 1985;
-- <COREF ID='X57'>85</COREF> in 1990;
-- <COREF ID='X59'>56</COREF> in <COREF ID='12' REF='X57'>1991</COREF> ;
-- <COREF ID='X61'>188</COREF> in <COREF ID='13' REF='X59'>1993</COREF> .
-Over 200 <COREF ID='14' REF='1'>cases</COREF> were reported in <COREF ID='15' REF='X61'>1996</COREF> .
-The local strain [virus species] is Puumala <COREF ID='16' REF='14'>virus</COREF> . Dobrava/Belgrade virus
+- 85 in 1990;
+- 56 in <COREF ID='12' REF='10'>1991</COREF> ;
+- 188 in <COREF ID='13' REF='10'>1993</COREF> .
+Over <COREF ID='X64'>200</COREF> <COREF ID='14' REF='1'>cases</COREF> were reported in <COREF ID='15' REF='14'>1996</COREF> .
+The local strain [virus species] is Puumala <COREF ID='16' REF='X64'>virus</COREF> . Dobrava/Belgrade virus
 also appears to be active. The local rodent reservoirs are <COREF ID='17' REF='X15'>_Clethrionomys glariolus_ [the bank vole] and _Apodemus sylvaticus_ [a species of field mouse]</COREF> .</TXT>

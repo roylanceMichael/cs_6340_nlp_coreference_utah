@@ -1,6 +1,6 @@
 <TXT>
 890922-0189.
-<COREF ID='X2'>= 890922</COREF>
+= 890922
 890922-0189.
 Nynex, <COREF ID='X4'>Unions</COREF> Fail to Hold
 @ <COREF ID='X5'>Talks</COREF> <COREF ID='X7'>This Week</COREF> on Accord
@@ -10,10 +10,10 @@ Nynex, <COREF ID='X4'>Unions</COREF> Fail to Hold
 WALL STREET JOURNAL (J)
 <COREF ID='X16'>NYN PAC LABOR</COREF>
 TELEPHONE SYSTEMS (TLS)
-<COREF ID='1' REF='X16'>Nynex Corp.</COREF> and <COREF ID='2' REF='X4'>its unions</COREF> haven't held <COREF ID='4' REF='4'>negotiations</COREF> <COREF ID='5' REF='X7'>this week</COREF> and haven't scheduled <COREF ID='6' REF='X5'>any further talks</COREF> on <COREF ID='7' REF='X2'>a new contract to end a seven-week strike</COREF> .
-A <COREF ID='8' REF='8'>company</COREF> spokesman said that <COREF ID='9' REF='X5'>talks</COREF> with <COREF ID='X33'>the Communications Workers</COREF> of America and the International Brotherhood of Electrical Workers broke down last weekend.
-Since then, neither side has taken steps to resume <COREF ID='12' REF='12'>discussions</COREF> .
-<COREF ID='13' REF='X4'>Union</COREF> spokesmen have said that <COREF ID='14' REF='X5'>talks</COREF> are stalled over a <COREF ID='15' REF='8'>company</COREF> plan to shift some health-care costs to employees.
-The <COREF ID='16' REF='X11'>CWA</COREF> represents about 40,000 <COREF ID='17' REF='X16'>Nynex</COREF> employees while the <COREF ID='18' REF='18'>IBEW</COREF> represents 20,000.
-In California, meanwhile, <COREF ID='19' REF='X11'>CWA</COREF> members must vote by today on a tentative agreement between <COREF ID='20' REF='X4'>union</COREF> and Pacific Telesis negotiators reached last month.
-Officials at some <COREF ID='21' REF='X4'>union</COREF> locals are recommending against the proposed contract, raising the possibility that <COREF ID='22' REF='X11'>Pac Tel</COREF> and the <COREF ID='23' REF='X4'>union</COREF> will have to renegotiate parts of <COREF ID='24' REF='X33'>the agreement</COREF> .</TXT>
+<COREF ID='1' REF='X5'>Nynex Corp.</COREF> and <COREF ID='2' REF='X4'>its unions</COREF> haven't held <COREF ID='4' REF='1'>negotiations</COREF> <COREF ID='5' REF='X7'>this week</COREF> and haven't scheduled <COREF ID='6' REF='X5'>any further talks</COREF> on <COREF ID='7' REF='X11'>a new contract to end a seven-week strike</COREF> .
+A <COREF ID='8' REF='6'>company</COREF> spokesman said that <COREF ID='9' REF='X5'>talks</COREF> with the Communications Workers of America and <COREF ID='X34'>the International Brotherhood</COREF> of Electrical Workers broke down last weekend.
+Since then, neither side has taken steps to resume <COREF ID='12' REF='X34'>discussions</COREF> .
+<COREF ID='13' REF='X4'>Union</COREF> spokesmen have said that <COREF ID='14' REF='X5'>talks</COREF> are stalled over a <COREF ID='15' REF='8'>company</COREF> plan to shift <COREF ID='X47'>some health-care costs</COREF> to employees.
+The <COREF ID='16' REF='X47'>CWA</COREF> represents <COREF ID='X51'>about 40,000 <COREF ID='17' REF='1'>Nynex</COREF> employees</COREF> while the <COREF ID='18' REF='X51'>IBEW</COREF> represents 20,000.
+In California, meanwhile, <COREF ID='19' REF='16'>CWA</COREF> members must vote by today on <COREF ID='X56'>a tentative agreement</COREF> between <COREF ID='20' REF='X4'>union</COREF> and Pacific Telesis negotiators reached last month.
+Officials at some <COREF ID='21' REF='X4'>union</COREF> locals are recommending against the proposed contract, raising the possibility that <COREF ID='22' REF='X16'>Pac Tel</COREF> and the <COREF ID='23' REF='X4'>union</COREF> will have to renegotiate parts of <COREF ID='24' REF='X56'>the agreement</COREF> .</TXT>

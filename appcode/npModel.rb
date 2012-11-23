@@ -288,11 +288,11 @@ end
 
     #let's get -infinity rules first
     if (Rules.appositiveRule(self, allSentences))
-       puts "appositive rules applied"
+      #puts "appositive rules applied"
     elsif (Rules.wordsSubstring(self, currentIdx, allSentences))
-      puts "wordssubstring rule applied"
+      #puts "wordssubstring rule applied"
     else
-      puts "random fun... will be using better heuristics for this..."
+      #puts "random fun... will be using better heuristics for this..."
       Rules.findCorrectAnt(self, currentIdx, allSentences)
     end
 

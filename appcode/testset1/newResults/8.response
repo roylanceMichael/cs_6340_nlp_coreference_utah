@@ -2,55 +2,55 @@
 nyt960214.0765
 A4505
 BC-PANTEX-FLIGHTS-TEX
-02-14
+<COREF ID='X4'>02-14</COREF>
 <COREF ID='X5'>0535</COREF>
 BC- <COREF ID='1' REF='X5'>PANTEX</COREF> - <COREF ID='2' REF='X5'>FLIGHTS</COREF> -TEX
 <COREF ID='X10'>FAA UNDERESTIMATED NUMBER</COREF> OF <COREF ID='X11'>FLIGHTS OVER PLUTONIUM STORAGE AREA</COREF> IN
 PANHANDLE
-(For use by NYTimes News Service clients)
+(For <COREF ID='X13'>use</COREF> by NYTimes News Service clients)
 By HOLLACE WEINER
-c.1996 <COREF ID='X18'>Fort Worth Star-Telegram</COREF>
-The <COREF ID='4' REF='X18'>Federal Aviation Administration</COREF> underestimated <COREF ID='5' REF='X10'>the number</COREF> of
+c.1996 Fort Worth Star-Telegram
+The <COREF ID='4' REF='X13'>Federal Aviation Administration</COREF> underestimated <COREF ID='5' REF='X10'>the number</COREF> of
 aircraft flying over the <COREF ID='7' REF='1'>Pantex Weapons Plant</COREF> outside Amarillo,
 Texas, where much of the nation's surplus <COREF ID='8' REF='X11'>plutonium</COREF> is stored,
 according to computerized studies under way by <COREF ID='X31'>the Energy</COREF>
 Department.
 The <COREF ID='9' REF='X10'>FAA</COREF> counted each flight at <COREF ID='X38'>Amarillo International Airport</COREF>
-once. But <COREF ID='X41'>military training planes make</COREF> up to 30 <COREF ID='10'>passes</COREF> per <COREF ID='11' REF='2'>flight</COREF>
+once. But <COREF ID='X41'>military training planes make</COREF> up to 30 <COREF ID='10' REF='X38'>passes</COREF> per <COREF ID='11' REF='2'>flight</COREF>
 over <COREF ID='12' REF='7'>the plant</COREF> , according to <COREF ID='X44'>the Defense Nuclear Facilities Safety</COREF>
 Board.
-The secretary of <COREF ID='13' REF='X31'>Energy</COREF> and local farmers have expressed concern
-that a plane crash into <COREF ID='X55'>a plutonium storage bunker</COREF> at <COREF ID='X53'>Pantex</COREF> could
-spread radioactive smoke for miles. <COREF ID='17' REF='X11'>Plutonium</COREF> , <COREF ID='18' REF='X53'>a highly radioactive element</COREF> , causes <COREF ID='X58'>cancer</COREF> if inhaled.
-<COREF ID='X64'>The risk</COREF> of that scenario, previously estimated at <COREF ID='20' REF='X58'>one chance in 10 million</COREF> , is expected to increase when current <COREF ID='21' REF='2'>flight</COREF> data are
-analyzed later <COREF ID='22' REF='X64'>this year</COREF> , according to <COREF ID='23' REF='X44'>a safety board</COREF> memo dated
-<COREF ID='X75'>May</COREF> 2.
-``This doesn't surprise me at all,'' said <COREF ID='24' REF='X75'>Trish Neusch</COREF> , who
-farms <COREF ID='X82'>land</COREF> near the plant 17 miles northeast of <COREF ID='26' REF='X38'>Amarillo</COREF> and 7
-miles from <COREF ID='27' REF='X38'>the airport</COREF> . ``We are out <COREF ID='28' REF='X82'>there</COREF> and see <COREF ID='29' REF='X41'>these planes</COREF> all
+The secretary of <COREF ID='13' REF='X31'>Energy</COREF> and <COREF ID='X50'>local farmers</COREF> have expressed concern
+that a plane crash into <COREF ID='X55'>a plutonium storage bunker</COREF> at Pantex could
+spread radioactive smoke for miles. <COREF ID='17' REF='X11'>Plutonium</COREF> , <COREF ID='18' REF='X50'>a highly radioactive element</COREF> , causes cancer if inhaled.
+The risk of that scenario, previously estimated at <COREF ID='20' REF='X50'>one chance in 10 million</COREF> , is expected to increase when current <COREF ID='21' REF='2'>flight</COREF> data are
+analyzed later <COREF ID='22' REF='X50'>this year</COREF> , according to <COREF ID='23' REF='X44'>a safety board</COREF> memo dated
+May 2.
+``This doesn't surprise <COREF ID='X77'>me</COREF> at all,'' said <COREF ID='24' REF='X50'>Trish Neusch</COREF> , who
+farms land near the plant <COREF ID='X84'>17 miles</COREF> northeast of <COREF ID='26' REF='X38'>Amarillo</COREF> and 7
+miles from <COREF ID='27' REF='X38'>the airport</COREF> . ``We are out <COREF ID='28' REF='X84'>there</COREF> and see <COREF ID='29' REF='X41'>these planes</COREF> all
 the time.''
 Mike McNulty, <COREF ID='30' REF='X10'>the FAA air traffic manager</COREF> at Amarillo
 International, said the previous aircraft count, conducted in late
-1994, was <COREF ID='34' REF='20'>a ``manual count on a pad,''</COREF> done informally by <COREF ID='X104'>air</COREF>
-traffic controllers. <COREF ID='35' REF='X104'>That 60-day accounting</COREF> estimated that <COREF ID='36' REF='X41'>25 planes a day</COREF> entered
+1994, was <COREF ID='34' REF='20'>a ``manual count on a pad,''</COREF> done informally by air
+traffic controllers. <COREF ID='35' REF='29'>That 60-day accounting</COREF> estimated that <COREF ID='36' REF='X41'>25 planes a day</COREF> entered
 flight patterns over the zone where plutonium is stored in concrete bunkers covered with earth and grass. <COREF ID='39' REF='1'>Pantex</COREF> is operated by <COREF ID='40' REF='X31'>the Energy Department</COREF> through a private
 contractor and employs 3,600 workers, whose main mission is to
-dismantle nuclear warheads. The hollow <COREF ID='41' REF='X11'>plutonium</COREF> ball at <COREF ID='X128'>the core</COREF>
-of each weapon is stored at <COREF ID='42' REF='7'>the former weapons assembly plant</COREF> . <COREF ID='43' REF='X38'>The Amarillo airport</COREF> averages 250 takeoffs and landings per day, <COREF ID='45' REF='X128'>McNulty</COREF> said. <COREF ID='X134'>About half</COREF> the aircraft are <COREF ID='47' REF='X41'>military planes</COREF> assigned
-to Air Force bases in <COREF ID='48'>Texas</COREF> , Oklahoma, Kansas and New Mexico, <COREF ID='49' REF='X134'>he</COREF>
+dismantle nuclear warheads. The hollow <COREF ID='41' REF='X11'>plutonium</COREF> ball at the core
+of each weapon is stored at <COREF ID='42' REF='7'>the former weapons assembly plant</COREF> . <COREF ID='43' REF='X38'>The Amarillo airport</COREF> averages <COREF ID='X141'>250 takeoffs and landings</COREF> per day, <COREF ID='45' REF='X141'>McNulty</COREF> said. About half the aircraft are <COREF ID='47' REF='X41'>military planes</COREF> assigned
+to Air Force bases in <COREF ID='48' REF='X77'>Texas</COREF> , Oklahoma, Kansas and New Mexico, <COREF ID='49' REF='48'>he</COREF>
 said. <COREF ID='50' REF='X38'>About 25 percent of the airport traffic</COREF> enters <COREF ID='53' REF='2'>a flight pattern over the plutonium storage bunkers</COREF> , <COREF ID='56' REF='45'>McNulty</COREF> said. For the past 14
 months, <COREF ID='57' REF='30'>air traffic controllers</COREF> have tried to steer planes away
-from <COREF ID='79' REF='X55'>the bunkers</COREF> , <COREF ID='59' REF='79'>he</COREF> said.
-<COREF ID='X167'>Two</COREF> of the <COREF ID='60' REF='X38'>airport</COREF> 's dozen flight paths are directly above <COREF ID='61' REF='X11'>the nuclear storage area</COREF> , <COREF ID='62' REF='45'>McNulty</COREF> said. One approach will be eliminated
-by late summer or early fall when a new instrument landing system is installed, <COREF ID='63' REF='X167'>he</COREF> said.
-<COREF ID='X187'>The second flight path</COREF> cannot be altered until sophisticated
-equipment, called <COREF ID='64' REF='X187'>VORTAC</COREF> , is phased out at Dallas/Fort Worth
-Airport and installed in <COREF ID='65' REF='X38'>Amarillo</COREF> , <COREF ID='66' REF='64'>he</COREF> said. There is no target date
+from <COREF ID='79' REF='X55'>the bunkers</COREF> , <COREF ID='59' REF='49'>he</COREF> said.
+Two of <COREF ID='X174'>the <COREF ID='60' REF='X38'>airport</COREF> 's</COREF> dozen flight paths are directly above <COREF ID='61' REF='X11'>the nuclear storage area</COREF> , <COREF ID='62' REF='45'>McNulty</COREF> said. One approach will be eliminated
+by late summer or early fall when a new instrument landing system is installed, <COREF ID='63' REF='49'>he</COREF> said.
+The second flight path cannot be altered until sophisticated
+equipment, called <COREF ID='64' REF='X174'>VORTAC</COREF> , is phased out at Dallas/Fort Worth
+Airport and installed in <COREF ID='65' REF='X38'>Amarillo</COREF> , <COREF ID='66' REF='49'>he</COREF> said. There is no target date
 for the transition. <COREF ID='67' REF='45'>McNulty</COREF> downplayed the dangers posed by some military traffic by
 noting that <COREF ID='68' REF='X41'>these planes</COREF> often fly at high altitudes and stay 2 to
-8 miles from <COREF ID='69' REF='X11'>the plutonium area</COREF> .
-``They are counting something at <COREF ID='X205'>35,000</COREF> as well as 500 feet,
-when in actuality <COREF ID='X211'>a plane</COREF> would have to start falling in <COREF ID='73' REF='X205'>Oklahoma</COREF>
-to hit <COREF ID='74' REF='7'>the plant</COREF> ,'' <COREF ID='75' REF='45'>McNulty</COREF> said. `` <COREF ID='76' REF='X211'>They</COREF> are just collecting a lot
+<COREF ID='X202'>8 miles</COREF> from <COREF ID='69' REF='X11'>the plutonium area</COREF> .
+``They are counting something at 35,000 as well as 500 feet,
+when in actuality a plane would have to start falling in <COREF ID='73' REF='X202'>Oklahoma</COREF>
+to hit <COREF ID='74' REF='7'>the plant</COREF> ,'' <COREF ID='75' REF='45'>McNulty</COREF> said. `` <COREF ID='76' REF='49'>They</COREF> are just collecting a lot
 of raw data.''
-NYT- <COREF ID='77'>02-14-96</COREF> 2111EST</TXT>
+NYT- <COREF ID='77' REF='X4'>02-14-96</COREF> 2111EST</TXT>
