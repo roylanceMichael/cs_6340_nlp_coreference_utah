@@ -1,6 +1,6 @@
 <TXT>
 Autochthonous hantavirus infection was first confirmed in <COREF ID='X2'>France</COREF> in 1982 (1
-case) and 1983 (one <COREF ID='1' REF='X2'>case</COREF> ). 11 additional <COREF ID='2' REF='X2'>cases</COREF> were confirmed during <COREF ID='3' REF='X2'>1983</COREF> to
+case) and 1983 (one <COREF ID='1' REF='X2'>case</COREF> ). 11 additional <COREF ID='2'>cases</COREF> were confirmed during <COREF ID='3' REF='X2'>1983</COREF> to
 1984.
 Virtually all cases are reported from <COREF ID='X15'>northeastern <COREF ID='4' REF='X2'>France</COREF> . The Ardennes</COREF>
 accounts for 39 percent of <COREF ID='5' REF='1'>cases</COREF> , Picardie 25 percent, Cote-d'Or - Haute
@@ -14,6 +14,6 @@ In total 498 <COREF ID='9' REF='1'>cases</COREF> were reported up to 1993, and a
 - <COREF ID='X57'>85</COREF> in 1990;
 - <COREF ID='X59'>56</COREF> in <COREF ID='12' REF='X57'>1991</COREF> ;
 - <COREF ID='X61'>188</COREF> in <COREF ID='13' REF='X59'>1993</COREF> .
-Over <COREF ID='X64'>200</COREF> <COREF ID='14' REF='1'>cases</COREF> were reported in <COREF ID='15' REF='X61'>1996</COREF> .
-The local strain [virus species] is Puumala <COREF ID='16' REF='X64'>virus</COREF> . Dobrava/Belgrade virus
+Over 200 <COREF ID='14' REF='1'>cases</COREF> were reported in <COREF ID='15' REF='X61'>1996</COREF> .
+The local strain [virus species] is Puumala <COREF ID='16' REF='14'>virus</COREF> . Dobrava/Belgrade virus
 also appears to be active. The local rodent reservoirs are <COREF ID='17' REF='X15'>_Clethrionomys glariolus_ [the bank vole] and _Apodemus sylvaticus_ [a species of field mouse]</COREF> .</TXT>
