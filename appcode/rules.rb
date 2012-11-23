@@ -20,6 +20,15 @@ class Rules
 	    end
 	end
 
+	def self.articleRule(npModel)
+	   if(!(npModel.appositive))
+	     if(npModel.article == "a" || npModel.article == "an" || npModel.article == "some")
+		return 0	
+	     end
+	   end 
+		return 1	
+	end
+
 	def self.appositiveRule(npModel, sentences)
 		#if this is true, then we want to set it to the previous npModel
 		if npModel.appositive == true && npModel.sent != nil
@@ -229,13 +238,16 @@ class Rules
 		score4 = pronounTypes(npModel, prevNp)
 		#plurality score
 		#shouldn't this be ? 0 : 999? or maybe i don't understand ruby's ternary op's-ben
+		#oh i see, your doing a change from greatest to least weighted np matching
 		score5 = matchPlurality(npModel, prevNp) == true ? 999 : 0
 		#proper names score
 		score6 = properNames(npModel, prevNp) == true ? 999 : 0
 		#gender score
 		score7 = matchGender(npModel, prevNp) == true ? 999 : 0
+		#article score	
+		score8 = articleRule(prevNp)
 
-		totalScore = score1 + score2 + score3 + score4 + score5 + score6 + score7
+		totalScore = score1 + score2 + score3 + score4 + score5 + score6 + score7 + score8
 		tmpKvp = {:np => prevNp, :score => totalScore }
 		results.push tmpKvp
 		puts "totalScore: #{totalScore} #{prevNp.phrase}"

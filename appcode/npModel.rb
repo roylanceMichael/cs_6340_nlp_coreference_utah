@@ -91,7 +91,8 @@ class NpModel
     a_regex = /\s+a\s+/
     an_regex = /\s+an\s+/
     the_regex = /\s+the\s+/
-    
+    some_regex = /\s+some\s+/
+
     if(a_regex.match(@phrase))
 	@article = "a" 
 	return true	
@@ -101,6 +102,9 @@ class NpModel
     elsif(the_regex.match(@phrase))
 	@article = "the" 
 	return true	
+    elsif(some_regex.match(@phrase))
+	@article = "some"
+	return true
     else
 	@article = "NONE"
     end
