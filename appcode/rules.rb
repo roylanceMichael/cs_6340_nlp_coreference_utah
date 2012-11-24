@@ -74,30 +74,47 @@ class Rules
 		match = false
 
 		prevSentences.reverse!
+
+		foundMatches = []
 	
 		prevSentences.each do |prevSent|
 	  
 		  prevSent.npModels.select{|t| t.pronounType == 'none'}.each do |acceptableNp|
-		
-			regexs.each do |regex|
-		  
-			  acceptableNp.phrase.split(/\s+/).select{|t| !badWords.include?(t)}.each do |word|
-			
-				if Utilities.editDistance(regex, word) <= 1
-				  puts "matching <#{acceptableNp.phrase}> <- <#{npModel.phrase}>"
+
+		  	#first, headnouns same? success!
+		  	if Utilities.editDistance(npModel.headNoun, acceptableNp.headNoun) <= 1
+		  		  puts "matching <#{acceptableNp.phrase}> <- <#{npModel.phrase}>"
 				  puts ""
 				  #this acceptableNp is a match
 				  acceptableNp.included = true
 				  npModel.ref = acceptableNp
 
 				  return true
+		  	end
+		
+			regexs.each do |regex|
+		  
+			  acceptableNp.phrase.split(/\s+/).select{|t| !badWords.include?(t)}.each do |word|
+			
+				if Utilities.editDistance(regex, word) <= 1
+					foundMatches.push acceptableNp
 				end
 			  end
 			end
 	 	 end
 		end
-	
-		false
+
+		if foundMatches.length > 0
+			puts "matching <#{foundMatches[0].phrase}> <- <#{npModel.phrase}>"
+			puts ""
+			#this acceptableNp is a match
+			foundMatches[0].included = true
+			npModel.ref = foundMatches[0]
+
+			true
+		else
+			false
+		end
 	end
 
 	#1 Incompatibility function: 1 if both are proper names, but mismatch on every word; else 0

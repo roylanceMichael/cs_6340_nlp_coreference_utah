@@ -9,7 +9,7 @@ Over the weekend, a number of <COREF ID='X20'>patients and staff</COREF> were st
 13 <COREF ID='7' REF='X20'>patients</COREF> showed <COREF ID='X32'>symptoms</COREF> of the virus infection, which is highly
 contagious and spread through person-to-person contact.
 "We haven't determined what <COREF ID='8' REF='X32'>the infection</COREF> is yet. <COREF ID='9' REF='X32'>We</COREF> suspect <COREF ID='10' REF='X24'>it</COREF> to be a case
-of something called <COREF ID='11' REF='X24'>winter vomiting disease</COREF> ," <COREF ID='12' REF='10'>hospital</COREF> <COREF ID='X46'>spokesman</COREF> Craig
+of something called <COREF ID='11' REF='2'>winter vomiting disease</COREF> ," <COREF ID='12' REF='10'>hospital</COREF> <COREF ID='X46'>spokesman</COREF> Craig
 DuHamel said. "Obviously <COREF ID='13' REF='X46'>we</COREF> have to be very vigilant to ensure <COREF ID='14' REF='X46'>this</COREF> is
 contained in <COREF ID='15' REF='X46'>our</COREF> emergency <COREF ID='16' REF='3'>department</COREF> ." <COREF ID='X53'>The emergency <COREF ID='17' REF='3'>department</COREF> was</COREF>
 expected to be closed until the afternoon of Wed <COREF ID='18' REF='5'>27 Nov 2002</COREF> at least,
@@ -21,11 +21,11 @@ who were unable to go to another <COREF ID='24' REF='10'>facility</COREF> would 
 said in a news release. <COREF ID='26' REF='11'>Winter vomiting disease</COREF> is <COREF ID='27' REF='8'>an infection</COREF> caused by a
 <COREF ID='X88'>virus commonly</COREF> transmitted from person to person in cold weather, when
 people are indoors more often and in closer contact. <COREF ID='28' REF='X32'>Symptoms</COREF> include severe
-nausea and <COREF ID='29' REF='26'>vomiting</COREF> that can last between 24 and 48 hours. <COREF ID='30' REF='19'>DuHamel</COREF> said <COREF ID='31' REF='X88'>the virus</COREF> is not life-threatening and is similar to the Norwalk virus, which has
+nausea and <COREF ID='29' REF='X24'>vomiting</COREF> that can last between 24 and 48 hours. <COREF ID='30' REF='19'>DuHamel</COREF> said <COREF ID='31' REF='X88'>the virus</COREF> is not life-threatening and is similar to the Norwalk virus, which has
 made headlines recently for sickening hundreds of passengers on the
 Florida-based cruise ship
 Amsterdam.
-[As has been repeatedly stated in ProMED-mail, " <COREF ID='32' REF='29'>winter vomiting disease</COREF> " is
+[As has been repeatedly stated in ProMED-mail, " <COREF ID='32' REF='26'>winter vomiting disease</COREF> " is
 a misnomer. Outbreaks in the UK and Ireland have occurred throughout the
 year in hospitals, health care facilities, and schools. In North America
 outbreaks on cruise ships have occurred during voyages to Alaska in the
