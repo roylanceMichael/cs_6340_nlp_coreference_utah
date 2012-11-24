@@ -6,13 +6,13 @@ For Talks on Pay-Cut Plan
 WALL STREET JOURNAL (J)
 LABOR TEX
 <COREF ID='X12'>AIRLINES</COREF> (AIR)
-<COREF ID='X14'>MIAMI</COREF>
+MIAMI
 <COREF ID='3' REF='X12'>Eastern Airlines</COREF> executives notified union leaders that <COREF ID='X16'>the carrier</COREF> wishes to discuss selective wage reductions on <COREF ID='6' REF='3'>Feb. 3</COREF> .
-<COREF ID='X22'>Union representatives</COREF> who could be reached said <COREF ID='8' REF='X14'>they</COREF> hadn't decided whether <COREF ID='9' REF='X14'>they</COREF> would respond.
+<COREF ID='X22'>Union representatives</COREF> who could be reached said <COREF ID='8' REF='X16'>they</COREF> hadn't decided whether <COREF ID='9' REF='X16'>they</COREF> would respond.
 By proposing <COREF ID='10' REF='X2'>a meeting date</COREF> , <COREF ID='11' REF='3'>Eastern</COREF> moved one step closer toward reopening current high-cost contract agreements with <COREF ID='12' REF='X22'>its unions</COREF> .
-<COREF ID='X39'>The proposal to meet</COREF> followed an announcement Wednesday in which Philip Bakes, <COREF ID='14' REF='9'>Eastern's president</COREF> , laid out proposals to cut wages selectively an average of 29%.
-<COREF ID='18' REF='X39'>The airline</COREF> 's three major labor unions, whose <COREF ID='X44'>contracts</COREF> don't expire until year's end at the earliest, have vowed to resist the <COREF ID='19' REF='18'>cuts</COREF> .
-Nevertheless, one union official said <COREF ID='20' REF='X44'>he</COREF> was intrigued by the brief and polite letter, which was hand-delivered by corporate security officers to <COREF ID='21' REF='12'>the unions</COREF> .
-According to Robert Callahan, <COREF ID='22' REF='21'>president of Eastern's flight attendants union</COREF> , the past practice of Eastern's parent, Houston-based <COREF ID='25' REF='X2'>Texas Air Corp.</COREF> , has involved confrontation and ultimatums to <COREF ID='26' REF='21'>unions</COREF> either to accept <COREF ID='27' REF='X16'>the carrier</COREF> 's terms or to suffer the consequences -- in this case, perhaps, layoffs.
-"Yesterday's performance was a departure," <COREF ID='28' REF='9'>Mr. Callahan</COREF> said, citing the invitation to conduct broad negotiations -- and the lack of a deadline imposed by management.
-"Frankly, <COREF ID='29' REF='26'>it</COREF> 's a little mystifying."</TXT>
+<COREF ID='X39'>The proposal to meet</COREF> followed an announcement Wednesday in which Philip Bakes, <COREF ID='14' REF='11'>Eastern's president</COREF> , laid out proposals to cut wages selectively an average of 29%.
+<COREF ID='18' REF='X39'>The airline</COREF> 's three major labor unions, whose contracts don't expire until year's end at the earliest, have vowed to resist the <COREF ID='19' REF='18'>cuts</COREF> .
+Nevertheless, one union official said <COREF ID='20' REF='18'>he</COREF> was intrigued by the brief and polite letter, which was hand-delivered by <COREF ID='X54'>corporate security officers</COREF> to <COREF ID='21' REF='12'>the unions</COREF> .
+According to Robert Callahan, <COREF ID='22' REF='21'>president of Eastern's flight attendants union</COREF> , the past practice of Eastern's parent, Houston-based <COREF ID='25' REF='X2'>Texas Air Corp.</COREF> , has involved <COREF ID='X69'>confrontation and ultimatums</COREF> to <COREF ID='26' REF='21'>unions</COREF> either to accept <COREF ID='27' REF='X16'>the carrier</COREF> 's terms or to suffer the consequences -- in this case, perhaps, layoffs.
+"Yesterday's performance was a departure," <COREF ID='28' REF='X69'>Mr. Callahan</COREF> said, citing the invitation to conduct broad negotiations -- and the lack of a deadline imposed by management.
+"Frankly, <COREF ID='29' REF='X54'>it</COREF> 's a little mystifying."</TXT>
