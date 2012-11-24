@@ -29,7 +29,8 @@ class NpModel
     @sent = sent #this is the sentence of the np right?
     identifyPlurality
     identifySemanticClass
-    identifyAppositive
+    #can't identify it without the rest of the sentences...
+    #identifyAppositive
     identifyGender
     identifyProperName
     identifyPronounType
@@ -120,68 +121,31 @@ class NpModel
   #using appositive definition from clustering algorithm 
   def identifyAppositive
     #if np is surrounded by commas
-    
     #not sure if this will get appositives as defined by the paper,
     #but we can try it out
-    if @startIdx > 0 && @sent.sent[@startIdx-1] == "," #&& @endIdx < @sent.sent.length-1
-      #&& @sent.sent[@endIdx+1] == ","
-      @appositive = true
+    if @startIdx > 0
+      prevWord = @sent.sent[@startIdx-1]
+      
+      #only going to get the ones with a single comma...
+      if prevWord == ","
+        #is the prev word part of an NP?
+        nextNp = @sent.npModels.select{|t| t.endIdx == @startIdx - 2}
+
+        if nextNp.length == 1 && false
+          #puts "<#{prevWord}> <#{sent.strRep}> <#{nextNp[0].phrase} #{nextNp[0].id}> <- <#{self.phrase} #{self.id}>"
+          self.ref = nextNp[0]
+          nextNp[0].included = true
+          @appositive = true
+        end
+      end
+      @appositive = false
     #let's just try this for now, will test later
     elsif phrase.chars.to_a[0] == ","
       @appositive = true
     else
       @appositive = false
     end
-    
-    #just returning for now, will test later
-    return
-    
-    tempStatus = false
-    sentence = @sent 
-    phrase = @phrase
-
-    #hey man, I don't think we need to do all this
-    #re:your regex concern, we can test this out on some data and see
-    #if the regex crashes. if so we can use a specialized version of the
-    #edit distance or the alg you defined above
-    regex = /,[\s]#{phrase},/
-      
-    if(regex.match(sentence) != nil)
-      #contains an article
-      if(identifyArticle)
-	  #TODO fix this to pass in the parse tree, if this is needed
-        #and is immediately preceded by another noun phrase
-	      #penn output has commas like (, ,) ie. (ADVP (RB Man)) (, ,) etc.
-	      treebank_arr = treebank_parse.split('(, ,)')
-	      regex_builder = ""
-	      phrase.split(' ').each do |word|
-
-        if(regex_builder.length > 0)
-          regex_builder << ".*"
-        end
-        regex_builder << word	    
-      end
-
-	    nRegex = /#{regex_builder}/
-	    treebank_arr.each do |parse|
-	    if(nRegex.match(parse) != nil)
-		    idx = treebank_arr.index(parse) - 1
-		  
-        if(idx >= 0)
-          npRegex = /\(NP/
-		    
-          if(npRegex.match(treebank_arr[idx]))
-            #then it is marked as an appositive
-			     tempStatus = true
-		      end	      
-        end
-      end
-    end
   end
-end
-  @appositive = tempStatus
-  tempStatus
-end
 
   #checks if all words have capitol starting
   #and/or semantic class == 'PERSON'
@@ -312,9 +276,12 @@ end
 
   def findBestMatch(currentIdx, allSentences)
     #candidates are all the words that come before current 
+    if @ref != nil
+      return
+    end
 
-    #let's get -infinity rules first
-    if (Rules.appositiveRule(self, allSentences))
+    #let's get -infinity rules first - can't get appositive to work right now, will tweak later...
+    if (Rules.appositiveRule(self, currentIdx, allSentences)) && false
       #puts "appositive rules applied"
     elsif (Rules.wordsSubstring(self, currentIdx, allSentences))
       #puts "wordssubstring rule applied"

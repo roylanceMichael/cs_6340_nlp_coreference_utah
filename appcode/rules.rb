@@ -33,27 +33,78 @@ class Rules
 		return 1	
 	end
 
-	def self.appositiveRule(npModel, sentences)
-		#if this is true, then we want to set it to the previous npModel
-		if npModel.appositive == true && npModel.sent != nil
-			idx = 0
+	def self.searchForComma(endIdx, sentence)
+    	#check to see if any of the existing words have a comma or a period
+    	return
+   		endCharFound = false
+    	commaFound = false
+    	endChars = [".", "!", "?"]
 
-			npModel.sent.npModels.each do |npm|
-				if npModel.id == npm.id
-					break
-				else
-					idx = idx + 1
-				end
-			end
+    	for i in (endIdx+1)...(sentence.length)
+    		word = sentence.sent[i]
+    		word.chars.to_a.each do |c|
+    			if endChars.include? c
+    				endCharFound = true
+    				break
+    			elsif c == ","
+    				commaFound = true
+    				break
+    			end
+    		end
 
-			if idx > 0
-				ref = npModel.sent.npModels[idx-1]
-				ref.included = true
-				npModel.ref = ref
-				true
-			end
+    		if endCharFound || commaFound
+    			break
+    		end
+    	end
+
+    	if endCharFound
+    		"."
+    	elsif commaFound
+    		","
+    	else
+    		""
+    	end
+	end
+
+	def self.appositiveRule(npModel, sentIdx, sentences)
+		if npModel.startIdx > 0
+			prevWord = npModel.sent.sent[npModel.startIdx-1]
+			#only going to get the ones with a single comma...
+    		if prevWord == ","
+    			#let's check if the next word after is a comma too...
+
+    			#check to see if any of the existing words have a comma or a period
+    			res = searchForComma(npModel.endIdx, npModel.sent)
+
+    			if res == "." || sentIdx+1 >= sentences.length
+    				return false	
+    			end
+
+    			#get the next sentence, do the same thing
+    			if res == ""
+    				nextSentence = sentences[sentIdx+1]
+    				#looking for a comma, if it exists we're good
+    				res = searchForComma(-1, nextSentence)
+    				if res != ","
+    					return false
+    				end
+    			end
+
+    			#if we get this far, we know it's an appositive
+    			#is the prev word part of an NP?
+       			nextNp = npModel.sent.npModels.select{|t| t.endIdx == npModel.startIdx - 2}
+
+        		if nextNp.length == 1
+         			
+         			puts "appositiveSuccess #{nextNp[0].phrase} <- #{npModel.phrase}"
+          			npModel.ref = nextNp[0]
+          			nextNp[0].included = true
+          			return true
+        		end
+      		end
 		end
-		false
+
+		return false
 	end
 
 	def self.wordsSubstring(npModel, sentIdx, sentences)
