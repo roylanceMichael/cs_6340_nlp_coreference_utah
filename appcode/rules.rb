@@ -64,7 +64,7 @@ class Rules
 		end
 	
 		#starting at the beginning, find the first np with any sort of match to our current phrase
-		badWords = ["a", "an", "the", "of"]
+		badWords = ["a", "an", "the", "of", "these"]
 		npPhrase = npModel.phrase.split(/\s+/)
 		regexs = []
 		npPhrase.select{|t| !badWords.include?(t)}.each do |word|
@@ -72,6 +72,8 @@ class Rules
 		end
 	
 		match = false
+
+		prevSentences.reverse!
 	
 		prevSentences.each do |prevSent|
 	  
@@ -82,7 +84,7 @@ class Rules
 			  acceptableNp.phrase.split(/\s+/).select{|t| !badWords.include?(t)}.each do |word|
 			
 				if Utilities.editDistance(regex, word) <= 1
-					puts "matching #{acceptableNp.phrase} <- #{npModel.phrase}"
+				  puts "matching <#{acceptableNp.phrase}> <- <#{npModel.phrase}>"
 				  #this acceptableNp is a match
 				  acceptableNp.included = true
 				  npModel.ref = acceptableNp
@@ -176,8 +178,38 @@ class Rules
 	end
 
 	def self.subsume(npModel1, npModel2)
+		if npModel1.phrase.length <= 1 || npModel2.phrase.length <= 1
+			return 0
+		end
+
+		if npModel1.pronounType != "none"
+			return 0
+		end
+
+		badWords = ["a", "an", "the", "of"]
+		if badWords.include?(npModel2.phrase.downcase) || badWords.include?(npModel1.phrase.downcase)
+			return 0
+		end
+
 		res = npModel1.phrase.index npModel2.phrase
-		res != nil
+		res != nil ? -999 : 0
+	end
+
+	def self.imerule(npModel1, npModel2)
+		norm1 = npModel1.phrase.downcase.lstrip.rstrip
+		norm2 = npModel2.phrase.downcase.lstrip.rstrip
+
+		if norm1 == "me" && norm2 == "i"
+			#puts "IMERULE -> <#{norm1}> <#{norm2}>"
+			return -9999
+		end
+
+		if norm1 == "i" && norm2 == "me"
+			#puts "IMERULE -> <#{norm1}> <#{norm2}>"
+			return -9999
+		end
+
+		return 0
 	end
 
  def self.findCorrectAnt(npModel, sentIdx, sentences)
@@ -209,25 +241,18 @@ class Rules
 		prevNps.push prevNp
 	end
 
-	prevNps.sort!{|a,b| a.position <=> b.position }
+	prevNps.sort!{|a,b| b.position <=> a.position }
 
 	#going to use a has to represent the result... { npModel, value }
 
 	results = []
 
-	puts "prevNps length: #{prevNps.length} comparing with #{npModel.phrase}"
+	puts "comparing <#{npModel.phrase} #{npModel.id}> with:"
 
 	prevNps.each do |prevNp|
 		score = 0
 		subsumeScore = subsume(npModel, prevNp)
 		#we don't need to compare anymore if this is true
-		if subsumeScore == true
-			results = []
-			kvp = { :np => prevNp, :score => 0}
-			results.push kvp
-			puts "totalScore 0 #{prevNp.phrase} apparently subsumes #{npModel.phrase}"
-			break
-		end
 		#mismatch words score
 		score1 = mismatchWords(npModel, prevNp) * 10
 		#head noun differ score
@@ -248,6 +273,11 @@ class Rules
 		score8 = articleRule(prevNp)
 
 		totalScore = score1 + score2 + score3 + score4 + score5 + score6 + score7 + score8
+
+		totalScore = score1 + score2 + score3 + score4 + score5 + score6
+		totalScore = totalScore + subsumeScore
+		totalScore = totalScore + imerule(npModel, prevNp)
+
 		tmpKvp = {:np => prevNp, :score => totalScore }
 		results.push tmpKvp
 		puts "totalScore: #{totalScore} #{prevNp.phrase}"
@@ -257,7 +287,7 @@ class Rules
 
 	if foundNp != nil
 		
-		puts "assigning #{foundNp[:np].phrase} with score of #{foundNp[:score]}"
+		puts "assigning <#{foundNp[:np].phrase} #{foundNp[:np].id}> to <#{npModel.phrase} #{npModel.id}> with score of #{foundNp[:score]}"
 
 		foundNp[:np].included = true
 		npModel.ref = foundNp[:np]
