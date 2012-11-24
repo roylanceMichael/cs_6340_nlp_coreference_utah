@@ -85,6 +85,7 @@ class Rules
 			
 				if Utilities.editDistance(regex, word) <= 1
 				  puts "matching <#{acceptableNp.phrase}> <- <#{npModel.phrase}>"
+				  puts ""
 				  #this acceptableNp is a match
 				  acceptableNp.included = true
 				  npModel.ref = acceptableNp
@@ -184,7 +185,10 @@ class Rules
 
 		#special case for "it"
 
-		if npModel1.phrase.downcase == "it" && npModel2.phrase.downcase == "it"
+		firstPhrase = npModel1.phrase.downcase
+		secondPhrase = npModel2.phrase.downcase
+
+		if firstPhrase == "it" && secondPhrase == "it"
 			return -9999
 		end
 
@@ -193,11 +197,11 @@ class Rules
 		end
 
 		badWords = ["a", "an", "the", "of"]
-		if badWords.include?(npModel2.phrase.downcase) || badWords.include?(npModel1.phrase.downcase)
+		if badWords.include?(secondPhrase) || badWords.include?(firstPhrase)
 			return 0
 		end
 
-		res = npModel1.phrase.index npModel2.phrase
+		res = firstPhrase.index secondPhrase
 		res != nil ? -9999 : 0
 	end
 
