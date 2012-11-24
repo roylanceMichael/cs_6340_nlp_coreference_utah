@@ -1,10 +1,10 @@
 <TXT>
 nyt960406.0216
 A0580
-BC-CRASH-BROWN-NYT
+<COREF ID='X3'>BC-CRASH-BROWN-NYT</COREF>
 @amp;LR;
 <COREF ID='X7'>04-06</COREF>
-BC- <COREF ID='1' REF='X7'>CRASH</COREF> - <COREF ID='2' REF='X7'>BROWN</COREF> -NYT
+BC- <COREF ID='1' REF='X3'>CRASH</COREF> - <COREF ID='2' REF='X3'>BROWN</COREF> -NYT
 <COREF ID='X14'>SOMBER FAREWELL</COREF> IN <COREF ID='X12'>CROATIA</COREF> FOR <COREF ID='X13'>U.S. VICTIMS</COREF>
 (th)
 By CHRIS HEDGES
@@ -18,8 +18,8 @@ with the American flag and two with the Croatian flag, were laid on
 the tarmac. Two of those who died in <COREF ID='X60'>the crash</COREF> were <COREF ID='13' REF='X51'>Croatian citizens</COREF> .
 <COREF ID='X67'>President Franjo Tudjman</COREF> of Croatia, who spoke at <COREF ID='15' REF='10'>the ceremony</COREF> ,
 said <COREF ID='16' REF='13'>his nation</COREF> was ``shaken by pain and sorrow.''
-`` <COREF ID='18' REF='13'>Today</COREF> when <COREF ID='19' REF='18'>we</COREF> take <COREF ID='20' REF='18'>our</COREF> leave from <COREF ID='21' REF='5'>Ron Brown</COREF> and all other
-senior U.S. officials, on behalf of the whole of <COREF ID='23' REF='13'>Croatia</COREF> and <COREF ID='24' REF='20'>myself</COREF> , <COREF ID='25' REF='20'>I</COREF> express <COREF ID='26' REF='20'>my</COREF> deepest sympathy to the families of those who
+`` <COREF ID='18' REF='13'>Today</COREF> when <COREF ID='19' REF='10'>we</COREF> take <COREF ID='20' REF='18'>our</COREF> leave from <COREF ID='21' REF='5'>Ron Brown</COREF> and all other
+senior U.S. officials, on behalf of the whole of <COREF ID='23' REF='13'>Croatia</COREF> and <COREF ID='24' REF='20'>myself</COREF> , <COREF ID='25' REF='20'>I</COREF> express <COREF ID='26' REF='24'>my</COREF> deepest sympathy to the families of those who
 have perished,'' <COREF ID='28' REF='X67'>Tudjman</COREF> said. `` <COREF ID='29' REF='20'>You</COREF> will remain forever in <COREF ID='30' REF='28'>our</COREF>
 memory.'' <COREF ID='31' REF='30'>He</COREF> posthumously awarded <COREF ID='32' REF='21'>Brown</COREF> a high Croatian decoration.
 In a brief euology, <COREF ID='X104'>the American ambassador</COREF> to Croatia, <COREF ID='34' REF='30'>Peter W. Galbraith</COREF> ,
@@ -44,4 +44,4 @@ visible, and a few rows of attached passenger seats are the only
 large pieces left. A long black burn mark outlined where the body
 of <COREF ID='64' REF='X196'>the aircraft</COREF> probably had been. Down <COREF ID='65' REF='X130'>the steep, rocky hillside</COREF>
 lay part of the engine and a chunk of the fuselage.
-NYT- <COREF ID='66' REF='38'>04-06-96</COREF> 1541EST</TXT>
+NYT- <COREF ID='66' REF='X7'>04-06-96</COREF> 1541EST</TXT>

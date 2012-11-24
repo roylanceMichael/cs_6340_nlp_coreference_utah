@@ -1,10 +1,10 @@
 <TXT>
 nyt960409.0732
 A3781
-BC-HK-AIRCRASH-CHINA-SCM
-04-09
+<COREF ID='X3'>BC-HK-AIRCRASH-CHINA-SCM</COREF>
+<COREF ID='X4'>04-09</COREF>
 <COREF ID='X5'>0270</COREF>
-BC-HK- <COREF ID='1' REF='X5'>AIRCRASH</COREF> - <COREF ID='2' REF='X5'>CHINA</COREF> -SCMP
+BC-HK- <COREF ID='1' REF='X3'>AIRCRASH</COREF> - <COREF ID='2' REF='X3'>CHINA</COREF> -SCMP
 <COREF ID='X10'>TWO</COREF> DIE IN <COREF ID='40' REF='X5'>HELO CRASH</COREF> OFF <COREF ID='4' REF='2'>CHINA</COREF>
 c.1996 <COREF ID='X16'>South China Morning Post</COREF>
 By JONATHAN HILL and ADAM LEE in Macau <COREF ID='5' REF='X10'>Two Chinese crew members</COREF>
@@ -24,5 +24,5 @@ Rescue Co-ordination Centre the wreckage had been recovered from
 authorities,'' said a <COREF ID='24' REF='16'>Macau</COREF> aviation source. `` <COREF ID='25' REF='X16'>China</COREF> sent a
 helicopter and confirmed <COREF ID='26' REF='40'>the crash</COREF> on <COREF ID='27' REF='22'>the island</COREF> .'' <COREF ID='28' REF='24'>Macau</COREF> authorities, who lost radar contact at 10 am, said <COREF ID='29' REF='27'>the pilots</COREF> had been found at the site ``and appeared dead''. <COREF ID='30' REF='23'>Zhuhai</COREF> officials confirmed <COREF ID='31' REF='5'>the crew</COREF> had been killed.
 Sources suggested that poor weather was <COREF ID='32' REF='26'>the likely cause of the crash</COREF> .
-The Royal Observatory reported <COREF ID='X99'>strong winds</COREF> in the area at <COREF ID='34' REF='29'>the time</COREF> . Rescuers also reported poor visibility. <COREF ID='35' REF='25'>China</COREF> , as <COREF ID='36' REF='29'>the country of registration</COREF> , would investigate <COREF ID='37' REF='14'>the incident</COREF> , the <COREF ID='38' REF='20'>Civil Aviation Department</COREF> said.
-NYT- <COREF ID='39' REF='X99'>04-09-96</COREF> 2213EDT</TXT>
+The Royal Observatory reported strong winds in the area at <COREF ID='34' REF='29'>the time</COREF> . Rescuers also reported poor visibility. <COREF ID='35' REF='25'>China</COREF> , as <COREF ID='36' REF='29'>the country of registration</COREF> , would investigate <COREF ID='37' REF='14'>the incident</COREF> , the <COREF ID='38' REF='20'>Civil Aviation Department</COREF> said.
+NYT- <COREF ID='39' REF='X4'>04-09-96</COREF> 2213EDT</TXT>

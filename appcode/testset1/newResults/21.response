@@ -2,7 +2,7 @@
 nyt960511.0137
 A2460
 BC-VALUJET-CRASH-545(2TA
-05-11
+<COREF ID='X4'>05-11</COREF>
 <COREF ID='X5'>0548</COREF>
 BC- <COREF ID='2' REF='X5'>VALUJET-CRASH</COREF> -545(2TAKES)-NYT
 (ATTN: Fla., Ga.)
@@ -19,7 +19,7 @@ northwest of <COREF ID='70' REF='X34'>Miami airport</COREF> when the pilot repor
 cockpit, <COREF ID='X51'>a spokesman</COREF> for the Federal Aviation Administration said. <COREF ID='12' REF='X43'>The plane</COREF> was believed to be turning back to <COREF ID='13' REF='70'>the airport</COREF> when radar
 contact was lost shortly after 2 p.m.
 ``We believe that <COREF ID='15' REF='9'>the aircraft</COREF> is down somewhere in the vicinity
-of the <COREF ID='16' REF='8'>Florida Everglades</COREF> ,'' the <COREF ID='17' REF='X51'>FAA spokesman</COREF> , <COREF ID='19' REF='X43'>Anthony Willett</COREF> ,
+of the <COREF ID='16' REF='8'>Florida Everglades</COREF> ,'' <COREF ID='X66'>the <COREF ID='17' REF='X51'>FAA spokesman</COREF> , <COREF ID='19' REF='X66'>Anthony Willett</COREF> ,</COREF>
 said.
 The cause of <COREF ID='20' REF='16'>the crash</COREF> was unclear. Valujet Airlines Inc., which
 is based in <COREF ID='22' REF='X43'>Atlanta</COREF> and serves 26 cities in 17 states, began
@@ -50,7 +50,7 @@ An FAA investigation in the wake of <COREF ID='49' REF='X181'>the fire</COREF> f
 significant decrease in the experience level of new pilots being
 hired by <COREF ID='50' REF='42'>Valujet</COREF> as well as other positions, such as mechanics and
 dispatchers.'' <COREF ID='51' REF='38'>The inquiry</COREF> said <COREF ID='52' REF='50'>Valujet</COREF> 's rapid expansion from two to 48 planes
-had been accompanied by <COREF ID='X218'>accidents and incidents</COREF> involving
+had been accompanied by accidents and incidents involving
 inexperienced pilots, inadequate maintenance and insufficiently
 trained flight attendants.
-NYT- <COREF ID='53' REF='X218'>05-11-96</COREF> 1817EDT</TXT>
+NYT- <COREF ID='53' REF='X4'>05-11-96</COREF> 1817EDT</TXT>

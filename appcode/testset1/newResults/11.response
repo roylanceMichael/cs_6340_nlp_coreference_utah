@@ -1,10 +1,10 @@
 <TXT>
 nyt960222.0660
 A3300
-BC-F14-CRASH-ART-NYT
+<COREF ID='X3'>BC-F14-CRASH-ART-NYT</COREF>
 @amp;LR;
 <COREF ID='X7'>02-22</COREF>
-BC- <COREF ID='2' REF='X7'>F14-CRASH</COREF> -ART-NYT
+BC- <COREF ID='2' REF='X3'>F14-CRASH</COREF> -ART-NYT
 AFTER SERIES OF CRASHES, <COREF ID='X13'>NAVY GROUNDS ITS F-14S</COREF>
 (ART ADV.: Graphic for use with this story is being sent to NYT
 graphics clients. Non-subscribers may make individual purchase by
@@ -22,15 +22,15 @@ suffered minor injuries.
 <COREF ID='X70'>The three-day shutdown</COREF> of <COREF ID='15' REF='X46'>the Navy's fleet of more than 330 F-14s</COREF> was ordered by the chief of naval operations, <COREF ID='18' REF='15'>Adm. Jeremy M. Boorda</COREF> , who said in an interview at the Pentagon that while there
 was no immediate evidence of a connection among <COREF ID='19' REF='X44'>the three crashes</COREF> ,
 ``This is <COREF ID='20' REF='19'>an airplane</COREF> that <COREF ID='21' REF='X42'>we</COREF> worry about.''
-`` <COREF ID='22' REF='20'>A jinxed airplane</COREF> ?'' <COREF ID='23' REF='X41'>he</COREF> said. ``No. But known deficiencies in
+`` <COREF ID='22' REF='20'>A jinxed airplane</COREF> ?'' <COREF ID='23' REF='19'>he</COREF> said. ``No. But known deficiencies in
 the earlier models? Yes, and <COREF ID='24' REF='X42'>we</COREF> 're working on that, including some
-<COREF ID='X100'>changes</COREF> to <COREF ID='25' REF='24'>the aircraft</COREF> .'' <COREF ID='26' REF='X100'>He</COREF> said <COREF ID='27' REF='X70'>the three-day review</COREF> might result in new restrictions on
-use of <COREF ID='29' REF='24'>the plane</COREF> , nicknamed the Tomcat, which has the highest
+<COREF ID='X100'>changes</COREF> to <COREF ID='25' REF='23'>the aircraft</COREF> .'' <COREF ID='26' REF='X100'>He</COREF> said <COREF ID='27' REF='X70'>the three-day review</COREF> might result in new restrictions on
+use of <COREF ID='29' REF='23'>the plane</COREF> , nicknamed the Tomcat, which has the highest
 accident rate for jet <COREF ID='X112'>fighters</COREF> in the <COREF ID='31' REF='5'>Navy</COREF> fleet. <COREF ID='X113'>Ten F-14s</COREF> have
 gone down in the past two years, <COREF ID='X120'>and 32</COREF> since 1991. <COREF ID='X121'>Each plane</COREF>
 costs more than $30 million.
 `` <COREF ID='32' REF='X112'>We</COREF> may come out with some more operational restrictions, but
-it's way too early to say that,'' <COREF ID='33' REF='24'>the admiral</COREF> said. ``This is too
+it's way too early to say that,'' <COREF ID='33' REF='23'>the admiral</COREF> said. ``This is too
 serious a business to be guessing about.''
 <COREF ID='X135'>Navy officials</COREF> said <COREF ID='X133'>that</COREF> during <COREF ID='35' REF='X70'>the shutdown</COREF> , special engineers
 and other safety experts would review the evidence available from <COREF ID='36' REF='19'>the three recent crashes</COREF> and inspect the rest of <COREF ID='37' REF='15'>the fleet</COREF> for
@@ -54,11 +54,11 @@ on the ground. The pilot was involved in <COREF ID='X227'>another <COREF ID='58'
 1995.
 Last Sunday, the crew of <COREF ID='X231'>an F-14D</COREF> was killed when <COREF ID='59' REF='X202'>the fighter</COREF>
 plunged into the Pacific off the coast of Southern California
-during exercises. <COREF ID='60' REF='X231'>The F-14</COREF> that crashed on <COREF ID='90' REF='X42'>Thursday</COREF> had flown from <COREF ID='62' REF='50'>the Nimitz</COREF> ,
+during exercises. <COREF ID='60' REF='X231'>The F-14</COREF> that crashed on <COREF ID='90' REF='X42'>Thursday</COREF> had flown from <COREF ID='62' REF='23'>the Nimitz</COREF> ,
 which is sailing in <COREF ID='63' REF='12'>the Persian Gulf</COREF> to enforce a no-fly zone over
 southern Iraq, an operation that dates from the end of the 1991 war
 in <COREF ID='64' REF='63'>the gulf</COREF> . <COREF ID='65' REF='55'>Navy officials</COREF> said that <COREF ID='67' REF='X202'>the plane</COREF> was on a routine
 training mission. <COREF ID='68' REF='X216'>They</COREF> would not speculate on the cause of <COREF ID='69' REF='X227'>the crash</COREF> . <COREF ID='70' REF='67'>The plane</COREF> , which was manufacutred by the Grumman Corp. of Long
 Island, has gone out of production, and the <COREF ID='71' REF='65'>Navy</COREF> has begun to phase
-out <COREF ID='72' REF='70'>the plane</COREF> entirely, replacing <COREF ID='73' REF='X216'>it</COREF> with the F-18.
-NYT- <COREF ID='74' REF='43'>02-22-96</COREF> 2131EST</TXT>
+out <COREF ID='72' REF='70'>the plane</COREF> entirely, replacing <COREF ID='73' REF='47'>it</COREF> with the F-18.
+NYT- <COREF ID='74' REF='X7'>02-22-96</COREF> 2131EST</TXT>

@@ -1,15 +1,15 @@
 <TXT>
 nyt960222.0269
 A2555
-BC-F14-CRASHES-BLOOM
+<COREF ID='X3'>BC-F14-CRASHES-BLOOM</COREF>
 @amp;LR;
 <COREF ID='X7'>02-22</COREF>
-BC- <COREF ID='2' REF='X7'>F14-CRASHES</COREF> -BLOOM
+BC- <COREF ID='2' REF='X3'>F14-CRASHES</COREF> -BLOOM
 <COREF ID='X15'>NORTHROP GRUMMAN F-14S</COREF> TO STAND DOWN FOR REVIEW OF <COREF ID='5' REF='X7'>ACCIDENTS</COREF>
 (For use by New York Times News Service clients)
 By Bill Arthur
 c.1996 <COREF ID='X23'>Bloomberg Business News</COREF>
-Washington, <COREF ID='6' REF='X23'>Feb. 22</COREF> ( <COREF ID='7' REF='X23'>Bloomberg</COREF> ) -- <COREF ID='X25'>The Navy</COREF> ordered <COREF ID='8' REF='X15'>its Northrop Grumman Corp. F-14s</COREF> out of <COREF ID='X27'>the skies</COREF> for three days while <COREF ID='11' REF='X27'>it</COREF>
+Washington, <COREF ID='6' REF='X23'>Feb. 22</COREF> ( <COREF ID='7' REF='X23'>Bloomberg</COREF> ) -- <COREF ID='X25'>The Navy</COREF> ordered <COREF ID='8' REF='X15'>its Northrop Grumman Corp. F-14s</COREF> out of the skies for three days while <COREF ID='11' REF='8'>it</COREF>
 investigates <COREF ID='12' REF='8'>three recent F-14 crashes</COREF> .
 The action came after an F-14A fighter crashed <COREF ID='14' REF='12'>today</COREF> in the
 Persian Gulf. The two crew members ejected and were rescued and
@@ -42,4 +42,4 @@ Aviation safety and engineering experts will review the data
 from <COREF ID='61' REF='X163'>the three recent crashes</COREF> and are to present <COREF ID='62' REF='X145'>their</COREF> findings to
 the Chief of Naval Operations Mike Boorda in <COREF ID='63' REF='61'>three days</COREF> , <COREF ID='64' REF='51'>Geisen</COREF>
 said. <COREF ID='65' REF='X187'>Northrop Grumman</COREF> shares were up 3/8 to 66 1/4 at midday.
-NYT- <COREF ID='66' REF='63'>02-22-96</COREF> 1221EST</TXT>
+NYT- <COREF ID='66' REF='X7'>02-22-96</COREF> 1221EST</TXT>

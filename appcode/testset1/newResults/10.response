@@ -1,10 +1,10 @@
 <TXT>
 nyt960222.0558
 A3160
-BC-GROUNDED-JETS-BOS
+<COREF ID='X3'>BC-GROUNDED-JETS-BOS</COREF>
 @amp;LR;
 <COREF ID='X7'>02-22</COREF>
-BC- <COREF ID='1' REF='X7'>GROUNDED-JETS</COREF> -BOS
+BC- <COREF ID='1' REF='X3'>GROUNDED-JETS</COREF> -BOS
 NAVY GROUNDS <COREF ID='2' REF='X7'>F-14'S</COREF> AFTER THIRD <COREF ID='X11'>RECENT CRASH</COREF>
 (For use by New York Times News Service clients)
 By CHRIS BLACK
@@ -20,7 +20,7 @@ The <COREF ID='13' REF='10'>Navy</COREF> said that <COREF ID='14' REF='11'>both 
 suffered minor abrasions. The <COREF ID='15' REF='13'>Navy</COREF> is investigating the cause.
 <COREF ID='X66'>Another Tomcat</COREF> crashed off the coast of California during
 exercises on <COREF ID='X72'>the aircraft carrier</COREF> Carl Vinson on Sunday. Both crew
-members were killed. Late last month, <COREF ID='X76'>an F-14</COREF> crashed near
+<COREF ID='X75'>members</COREF> were killed. Late last month, <COREF ID='X76'>an F-14</COREF> crashed near
 Nashville, killing both crew members and three civilians on the
 ground.
 Although <COREF ID='16' REF='6'>the crash</COREF> <COREF ID='17' REF='X29'>Thursday</COREF> was <COREF ID='18' REF='X66'>the third Tomcat crash</COREF> <COREF ID='X87'>this</COREF>
@@ -38,7 +38,7 @@ year,'' <COREF ID='33' REF='X94'>Bacon</COREF> said. ``The goal of <COREF ID='34
 out to look at everything involved with <COREF ID='35' REF='X125'>the F-14s</COREF> .
 Adm. Jeremy Boorda, <COREF ID='36' REF='X52'>the chief of Naval Operations</COREF> , informed
 Deputy Defense Secretary John White of <COREF ID='38' REF='16'>the latest crash</COREF> <COREF ID='39' REF='17'>Thursday</COREF>
-morning and told <COREF ID='40' REF='X137'>him</COREF> <COREF ID='41' REF='X137'>he</COREF> was ordering <COREF ID='42' REF='34'>the standdown</COREF> for <COREF ID='43' REF='X132'>the entire fleet of more than 300 aircraft</COREF> , <COREF ID='45' REF='33'>Bacon</COREF> said.
+morning and told <COREF ID='40' REF='X137'>him</COREF> <COREF ID='41' REF='35'>he</COREF> was ordering <COREF ID='42' REF='34'>the standdown</COREF> for <COREF ID='43' REF='X132'>the entire fleet of more than 300 aircraft</COREF> , <COREF ID='45' REF='33'>Bacon</COREF> said.
 ``What the <COREF ID='46' REF='28'>Navy</COREF> is trying to do is find out what caused <COREF ID='47' REF='41'>these accidents</COREF> ,'' <COREF ID='48' REF='45'>Bacon</COREF> said.
 In the past five years, 32 F-14s have crashed. One of the
 Navy's first female pilots, <COREF ID='50' REF='11'>Lt. Kara Hultgren</COREF> , died while trying to
@@ -53,6 +53,6 @@ initial years of deployment and has generally gone down since <COREF ID='60' REF
 except for occasional spurts of accidents, according to Naval
 records. <COREF ID='61' REF='48'>Bacon</COREF> said the <COREF ID='62' REF='X208'>Navy</COREF> had no single explanation for the increases
 in <COREF ID='63' REF='59'>F-14</COREF> accidents.
-``The <COREF ID='64' REF='62'>Navy</COREF> informs <COREF ID='65' REF='X137'>me</COREF> that <COREF ID='66' REF='64'>they</COREF> have been unable to find a
+``The <COREF ID='64' REF='62'>Navy</COREF> informs <COREF ID='65' REF='X75'>me</COREF> that <COREF ID='66' REF='64'>they</COREF> have been unable to find a
 common thread to <COREF ID='67' REF='47'>these accidents</COREF> ,'' <COREF ID='68' REF='61'>Bacon</COREF> said. ``This is <COREF ID='69' REF='66'>a mystery</COREF> .''
-NYT- <COREF ID='70' REF='66'>02-22-96</COREF> 1924EST</TXT>
+NYT- <COREF ID='70' REF='X7'>02-22-96</COREF> 1924EST</TXT>

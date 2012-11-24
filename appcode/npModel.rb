@@ -38,7 +38,7 @@ class NpModel
   end
 
   def to_s 
-    "#{phrase}"
+    "#{@phrase} - id <#{@id}> pos <#{@position}> pron <#{@pronounType}> art <#{@article}> appos <#{@appositive}> plur <#{@plurality}> prop <#{@properName}> gend <#{@gender}> anim <#{@animacy}> head <#{@headNoun}>"
   end
 
   #you do realize i did this in the identifyHeadNoun function

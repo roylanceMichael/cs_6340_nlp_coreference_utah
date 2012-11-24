@@ -166,7 +166,7 @@ class Rules
 				mismatchCount = mismatchCount + 1
 			end
 		end
-		mismatchCount.to_f / largerSize.to_f
+		(mismatchCount.to_f) / (largerSize.to_f)
 	end
 
 	def self.headnounsDiffer(npModel1, npModel2)
@@ -192,7 +192,7 @@ class Rules
 		end
 
 		res = npModel1.phrase.index npModel2.phrase
-		res != nil ? -999 : 0
+		res != nil ? -9999 : 0
 	end
 
 	def self.imerule(npModel1, npModel2)
@@ -247,11 +247,13 @@ class Rules
 
 	results = []
 
-	puts "comparing <#{npModel.phrase} #{npModel.id}> with:"
+	puts "comparing #{npModel} with:"
 
 	prevNps.each do |prevNp|
 		score = 0
 		subsumeScore = subsume(npModel, prevNp)
+		reverseSubsumeScore = subsume(prevNp, npModel)
+
 		#we don't need to compare anymore if this is true
 		#mismatch words score
 		score1 = mismatchWords(npModel, prevNp) * 10
@@ -276,11 +278,12 @@ class Rules
 
 		totalScore = score1 + score2 + score3 + score4 + score5 + score6
 		totalScore = totalScore + subsumeScore
+		totalScore = totalScore + reverseSubsumeScore
 		totalScore = totalScore + imerule(npModel, prevNp)
 
 		tmpKvp = {:np => prevNp, :score => totalScore }
 		results.push tmpKvp
-		puts "totalScore: #{totalScore} #{prevNp.phrase}"
+		puts "totalScore: #{totalScore} #{prevNp}"
 	end
 
 	foundNp = results.sort{|a, b| a[:score] <=> b[:score] }.first
@@ -288,6 +291,7 @@ class Rules
 	if foundNp != nil
 		
 		puts "assigning <#{foundNp[:np].phrase} #{foundNp[:np].id}> to <#{npModel.phrase} #{npModel.id}> with score of #{foundNp[:score]}"
+		puts ""
 
 		foundNp[:np].included = true
 		npModel.ref = foundNp[:np]

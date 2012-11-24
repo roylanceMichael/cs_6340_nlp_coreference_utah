@@ -14,9 +14,9 @@ Chagas <COREF ID='1' REF='X24'>disease</COREF> is caused by the protozoan parasi
 Chagas <COREF ID='2' REF='1'>disease</COREF> following organ <COREF ID='3' REF='X23'>transplantation</COREF> has occurred in Latin
 America, where Chagas <COREF ID='4' REF='2'>disease</COREF> is endemic, but <COREF ID='5' REF='X23'>it</COREF> has not yet been reported
 in the United States.
-A report in the latest Morbidity and Mortality Weekly Report
+A report in the latest Morbidity and <COREF ID='X45'>Mortality Weekly Report</COREF>
 &lt; <COREF ID='6' REF='X23'>http://www.cdc.gov/mmwr/preview/mmwrhtml/mm5110a3.htm</COREF> &gt; describes three
-<COREF ID='X50'>cases</COREF> in the <COREF ID='7' REF='5'>United States</COREF> of <COREF ID='X52'>_ <COREF ID='8' REF='X50'>T. cruzi</COREF> _ infection</COREF> associated with
+<COREF ID='X50'>cases</COREF> in the <COREF ID='7' REF='5'>United States</COREF> of <COREF ID='X52'>_ <COREF ID='8' REF='X52'>T. cruzi</COREF> _ infection</COREF> associated with
 <COREF ID='9' REF='3'>transplantation</COREF> of solid <COREF ID='X56'>organs</COREF> from the same donor. The Centers for
 <COREF ID='X63'>Disease Control and Prevention</COREF> will collaborate with <COREF ID='10' REF='X56'>US</COREF> transplant
 organizations to discuss whether to screen potential donors for _ <COREF ID='11' REF='8'>T. cruzi</COREF> _
@@ -28,8 +28,8 @@ The first situation is well known in countries where _ <COREF ID='16' REF='14'>T
 especially after bone marrow transplantation. The second situation has been
 described several times after <COREF ID='X86'>renal transplants</COREF> where the kidney came from
 a _ <COREF ID='17' REF='16'>T. cruzi</COREF> _ infected donor. The three <COREF ID='18' REF='X50'>cases</COREF> in the <COREF ID='19' REF='18'>US</COREF> all refer to <COREF ID='20' REF='X73'>organs</COREF>
-from the same <COREF ID='21' REF='X67'>donor</COREF> , and the <COREF ID='22' REF='20'>comment</COREF> on the <COREF ID='23' REF='20'>CDC</COREF> website emphasises that
+from the same <COREF ID='21' REF='X67'>donor</COREF> , and the <COREF ID='22' REF='20'>comment</COREF> on <COREF ID='X97'>the <COREF ID='23' REF='X97'>CDC</COREF> website</COREF> emphasises that
 organ <COREF ID='24' REF='X86'>transplants</COREF> save life and that medical personnel should be aware that
-Chagas <COREF ID='25' REF='X63'>disease</COREF> is one of <COREF ID='X107'>the possible risks</COREF> associated with organ
+Chagas <COREF ID='25' REF='X63'>disease</COREF> is one of the possible risks associated with organ
 <COREF ID='26' REF='9'>transplantation</COREF> . Mod.EP]
-<COREF ID='27' REF='X107'>ep</COREF> /sh</TXT>
+<COREF ID='27' REF='X45'>ep</COREF> /sh</TXT>

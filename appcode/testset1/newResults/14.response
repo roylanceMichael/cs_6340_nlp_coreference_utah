@@ -1,10 +1,10 @@
 <TXT>
 nyt960405.0560
 A0222
-BC-AIRLINE-LIABILITY-575
-04-05
+<COREF ID='X3'>BC-AIRLINE-LIABILITY-575</COREF>
+<COREF ID='X4'>04-05</COREF>
 <COREF ID='X5'>1094</COREF>
-BC- <COREF ID='2' REF='X5'>AIRLINE-LIABILITY</COREF> -575@amp;AMP;ADD-NYT
+BC- <COREF ID='2' REF='X3'>AIRLINE-LIABILITY</COREF> -575@amp;AMP;ADD-NYT
 NEW PRESSURES ON <COREF ID='X11'>AIRLINE CRASH-LIABILITY ACCORD</COREF>
 (lh)
 By MATTHEW L. WALD
@@ -35,8 +35,8 @@ voluntarily paying more, either to spare <COREF ID='27' REF='19'>themselves</COR
 at which families will try to show negligence @amp;MD; which allows higher
 damages @amp;MD; or for general good will, or because <COREF ID='28' REF='X97'>they</COREF> do not think
 <COREF ID='X117'>the limits</COREF> will hold up in court.
-American Airlines, for example, has told <COREF ID='X119'>families</COREF> of <COREF ID='X120'>the people</COREF>
-who died when one of <COREF ID='29' REF='X120'>its</COREF> planes crashed in Colombia in December
+American Airlines, for example, has told <COREF ID='X119'>families</COREF> of the people
+who died when one of <COREF ID='29' REF='X117'>its</COREF> planes crashed in Colombia in December
 that <COREF ID='30' REF='29'>it</COREF> would negotiate as if <COREF ID='31' REF='X117'>the limit</COREF> did not exist; <COREF ID='32' REF='29'>it</COREF> is doing
 the same for the 16 passengers on international trips who were on
 <COREF ID='X138'>the American Eagle commuter flight</COREF> that crashed in Roselawn, Ind.,
@@ -61,4 +61,4 @@ The <COREF ID='53' REF='23'>United States</COREF> wants a ``fifth jurisdiction''
 the <COREF ID='55' REF='53'>United States</COREF> . Since <COREF ID='56' REF='32'>domestic carriers</COREF> are based <COREF ID='57' REF='X145'>here</COREF> , <COREF ID='58' REF='57'>they</COREF> can
 already be sued <COREF ID='59' REF='57'>here</COREF> ; adding <COREF ID='60' REF='58'>the ``fifth jurisdiction''</COREF> would
 generally affect overseas carriers.
-NYT- <COREF ID='61' REF='58'>04-05-96</COREF> 2244EST</TXT>
+NYT- <COREF ID='61' REF='X4'>04-05-96</COREF> 2244EST</TXT>
