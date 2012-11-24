@@ -3,9 +3,9 @@ It is now broadly accepted that <COREF ID='X2'>virulent APMV-1 viruses</COREF> g
 <COREF ID='X3'>poultry</COREF> by <COREF ID='X5'>mutation</COREF> of viruses of <COREF ID='X6'>low virulence</COREF> after these <COREF ID='1' REF='X2'>viruses</COREF> have
 been introduced into <COREF ID='2' REF='X3'>poultry</COREF> flocks (Alexander DJ, British Poultry Science
 42, 5-22, 2001). Since <COREF ID='X18'>this ND virus</COREF> reported from Victoria is almost
-identical to the 1999 Mangrove Mountain isolate, then <COREF ID='X20'>it</COREF> appears more than
+identical to the 1999 Mangrove Mountain isolate, then it appears more than
 a remote probability that <COREF ID='X30'>the same precursor virus</COREF> (so-called Peat's Ridge
-<COREF ID='3' REF='X30'>strain</COREF> ) may have been present in <COREF ID='X36'>these Victorian</COREF> <COREF ID='4' REF='X20'>flocks</COREF> for some time and a
+<COREF ID='3' REF='X30'>strain</COREF> ) may have been present in <COREF ID='X36'>these Victorian</COREF> <COREF ID='4' REF='3'>flocks</COREF> for some time and a
 very similar <COREF ID='5' REF='X5'>mutation</COREF> event has resulted in this virulent <COREF ID='6' REF='X30'>virus</COREF> . This
 raises further questions regarding the distribution of <COREF ID='X41'>such precursor</COREF>
 <COREF ID='X46'>viruses</COREF> in Australia.
@@ -17,7 +17,7 @@ seroconversion in <COREF ID='11' REF='9'>flocks</COREF> .
 [ <COREF ID='12' REF='11'>Newcastle disease</COREF> virus is a notoriously variable <COREF ID='13' REF='6'>virus</COREF> . Strains of
 <COREF ID='14' REF='12'>Newcastle disease</COREF> <COREF ID='15' REF='13'>virus</COREF> differ widely in <COREF ID='50' REF='X6'>virulence</COREF> , depending on the
 <COREF ID='X76'>cleavability and activation</COREF> of <COREF ID='16' REF='15'>their</COREF> hemagglutinin-neuraminidase and fusion
-membrane proteins. Avirulent strains produce inactive precursor <COREF ID='17' REF='16'>proteins</COREF> ,
+membrane proteins. Avirulent strains produce inactive precursor <COREF ID='17' REF='X76'>proteins</COREF> ,
 whereas in <COREF ID='X81'>virulent strains</COREF> the precursor <COREF ID='18' REF='17'>proteins</COREF> are cleaved and
 activated readily. Since the spread of infection is dependent on cleavage
 occurring in <COREF ID='X89'>the same tissue</COREF> in which replication occurs, the presence of

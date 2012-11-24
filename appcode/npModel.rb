@@ -12,7 +12,7 @@ class NpModel
   attr_accessor :id,:startIdx,:endIdx,:sentIdx,:phrase,:sent,
 		:ref,:included,:coref,:position,:pronounType,
 	       	:article,:appositive,:plurality,:properName,
-	       	:semanticClass,:gender,:animacy,:headNoun
+	       	:semanticClass,:gender,:animacy
   
   classifierRoute = "stanford-ner-2012-07-09/classifiers/english.all.3class.distsim.crf.ser.gz"
   @@classifier = CRFClassifier.getClassifierNoExceptions(classifierRoute)
@@ -38,29 +38,33 @@ class NpModel
   end
 
   def to_s 
-    "#{@phrase} - id <#{@id}> pos <#{@position}> pron <#{@pronounType}> art <#{@article}> appos <#{@appositive}> plur <#{@plurality}> prop <#{@properName}> gend <#{@gender}> anim <#{@animacy}> head <#{@headNoun}>"
+    "#{@phrase} - id<#{@id}>pos<#{@position}>pron<#{@pronounType}>art<#{@article}>appos<#{@appositive}>plur<#{@plurality}>prop<#{@properName}>gend<#{@gender}>anim<#{@animacy}>"
   end
 
   #you do realize i did this in the identifyHeadNoun function
   #right?
   def headNoun
     words = @phrase.split(/\s+/)
-    words[words.length-1]
+    return words[words.length-1]
   end
 
   def identifyPronounType
     nominative = ["i", "he", "she", "we", "they"]
     accusative = ["me", "him", "her", "us", "them", "whom"]
     possessive = ["my", "your", "his", "our", "your", "their", "mine", "yours", "his", "hers", "ours", "yours", "theirs"]
+    reflexive = ["myself", "yourself", "himself", "herself", "itself", "ourselves", "themselves"]
     ambiguous = ["you", "it"]
-    if nominative.include? @phrase.downcase
+
+    normalizedPhrase = @phrase.downcase
+    if nominative.include? normalizedPhrase
       @pronounType = "nomi"
-    elsif accusative.include? @phrase.downcase
+    elsif accusative.include? normalizedPhrase
       @pronounType = "accu"
-    elsif possessive.include? @phrase.downcase
+    elsif possessive.include? normalizedPhrase
       @pronounType = "poss"
-    elsif ambiguous.include? @phrase.downcase
+    elsif ambiguous.include? normalizedPhrase
       @pronounType = "ambig"
+    elsif reflexive.include? normalizedPhrase
     else
       @pronounType = "none"
     end

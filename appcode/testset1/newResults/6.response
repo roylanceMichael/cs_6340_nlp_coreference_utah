@@ -14,7 +14,7 @@ There have also been <COREF ID='X68'>2 deaths</COREF> in individuals identified 
 cases. <COREF ID='X74'>The cause</COREF> of <COREF ID='7' REF='X68'>death</COREF> in these <COREF ID='8' REF='7'>persons</COREF> is under investigation.
 The one confirmed <COREF ID='9' REF='X74'>case</COREF> in <COREF ID='10' REF='6'>Alberta</COREF> and one confirmed case in <COREF ID='11' REF='8'>Ontario</COREF>
 likely acquired <COREF ID='12' REF='2'>infection</COREF> while travelling in the United States,
-whereas <COREF ID='X89'>all other cases</COREF> acquired <COREF ID='13' REF='8'>their</COREF> <COREF ID='14' REF='12'>infection</COREF> within <COREF ID='15' REF='8'>their</COREF> home
+whereas <COREF ID='X89'>all other cases</COREF> acquired <COREF ID='13' REF='X89'>their</COREF> <COREF ID='14' REF='12'>infection</COREF> within <COREF ID='15' REF='X89'>their</COREF> home
 province.
 For more information about this <COREF ID='16' REF='X89'>outbreak</COREF> see the <COREF ID='17' REF='5'>Health Canada</COREF> web site:
 <COREF ID='18' REF='4'>West Nile virus</COREF> surveillance information

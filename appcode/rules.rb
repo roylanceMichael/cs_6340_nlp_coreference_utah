@@ -182,6 +182,12 @@ class Rules
 			return 0
 		end
 
+		#special case for "it"
+
+		if npModel1.phrase.downcase == "it" && npModel2.phrase.downcase == "it"
+			return -9999
+		end
+
 		if npModel1.pronounType != "none"
 			return 0
 		end
@@ -259,8 +265,8 @@ class Rules
 		score1 = mismatchWords(npModel, prevNp) * 10
 		#head noun differ score
 		score2 = headnounsDiffer(npModel, prevNp)
-		#difference in position score
-		score3 = (npModel.position - prevNp.position).abs.to_f / maxDistance.to_f * 5
+		#difference in position score, testing out heavy emphasis on it...
+		score3 = (npModel.position - prevNp.position).abs.to_f / maxDistance.to_f * 5000
 		#pronoun score
 		score4 = pronounTypes(npModel, prevNp)
 		#plurality score
