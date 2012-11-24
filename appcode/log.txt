@@ -1,0 +1,2299 @@
+processing ./testset1/input/22.crf...
+comparing <VALUJET-CRASH 2> with:
+totalScore: 1011.0335570469799 0586
+totalScore: 1011.0671140939597 05-11
+totalScore: 2010.1006711409395 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 2010.1342281879195 A2461
+assigning <0586 X5> to <VALUJET-CRASH 2> with score of 1011.0335570469799
+comparing <itself 5> with:
+totalScore: 1011.0335570469799 VALUJET-CRASH
+totalScore: 1011.0671140939597 0586
+totalScore: 1011.1006711409397 05-11
+totalScore: 1011.1342281879195 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 1011.1677852348994 A2461
+assigning <VALUJET-CRASH 2> to <itself 5> with score of 1011.0335570469799
+comparing <the fastest-growing airline in history 6> with:
+totalScore: 1011.0335570469799 itself
+totalScore: 1011.0671140939597 VALUJET-CRASH
+totalScore: 1011.1006711409397 0586
+totalScore: 1011.1342281879195 05-11
+totalScore: 1011.1677852348994 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 1011.2013422818792 A2461
+assigning <itself 5> to <the fastest-growing airline in history 6> with score of 1011.0335570469799
+comparing <it 7> with:
+totalScore: 1005.1342281879195 last month
+totalScore: 1008.0335570469799 the fastest-growing airline in history
+totalScore: 1000.0671140939597 itself
+totalScore: 1000.1006711409397 VALUJET-CRASH
+totalScore: 1000.1342281879195 0586
+totalScore: 1000.1677852348994 05-11
+totalScore: 1000.2013422818792 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 1000.2348993288591 A2461
+assigning <itself 5> to <it 7> with score of 1000.0671140939597
+comparing <it 8> with:
+totalScore: 6.134228187919463 fewer airplanes
+totalScore: 1005.1006711409397 last month
+totalScore: 1000.0335570469799 it
+totalScore: 1008.0671140939597 the fastest-growing airline in history
+totalScore: 1000.1006711409397 itself
+totalScore: 1000.1342281879195 VALUJET-CRASH
+totalScore: 1000.1677852348994 0586
+totalScore: 1000.2013422818792 05-11
+totalScore: 1000.2348993288591 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 1000.2684563758389 A2461
+assigning <fewer airplanes X20> to <it 8> with score of 6.134228187919463
+comparing <its 9> with:
+totalScore: 1011.1006711409397 fewer airplanes
+totalScore: 12.06711409395973 last month
+totalScore: 12.033557046979865 this year
+totalScore: -996.9664429530201 it
+totalScore: -996.9328859060403 it
+totalScore: 12.100671140939598 the fastest-growing airline in history
+totalScore: 12.134228187919463 itself
+totalScore: 12.167785234899329 VALUJET-CRASH
+totalScore: 12.201342281879194 0586
+totalScore: 12.234899328859061 05-11
+totalScore: 12.268456375838927 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 12.302013422818792 A2461
+assigning <it 8> to <its 9> with score of -996.9664429530201
+comparing <Valujet 10> with:
+totalScore: 2010.0671140939598 Last Jan.
+totalScore: 1011.0335570469799 a
+totalScore: 12.033557046979865 the summer Olympic Games
+totalScore: 1011.0671140939597 anticipation
+totalScore: 12.100671140939598 fewer airplanes
+totalScore: 1011.1342281879195 last month
+totalScore: 1011.1677852348994 this year
+totalScore: 12.201342281879194 its
+totalScore: 1001.2348993288591 it
+totalScore: 1001.2684563758389 it
+totalScore: 1011.3020134228188 the fastest-growing airline in history
+totalScore: 1011.3355704697987 itself
+totalScore: 2010.3691275167785 VALUJET-CRASH
+totalScore: 1011.4026845637584 0586
+totalScore: 1011.4362416107383 05-11
+totalScore: 2010.469798657718 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 2010.5033557046982 A2461
+assigning <the summer Olympic Games X27> to <Valujet 10> with score of 12.033557046979865
+matching <Dulles International Airport> <- <the airport>
+matching <Valujet> <- <Valujet>
+comparing <the terminal 13> with:
+totalScore: 1011.0335570469799 Hartsfield Atlanta International Airport
+totalScore: 12.06711409395973 101 passengers
+totalScore: 1011.1006711409397 a Valujet DC-9
+totalScore: 1006.1342281879195 the mud
+totalScore: 1011.1677852348994 another
+totalScore: 1011.2013422818792 Valujet
+totalScore: 1011.2348993288591 closing
+totalScore: 1006.2684563758389 the airport
+totalScore: 1011.3020134228188 Dulles International Airport
+totalScore: 1011.3355704697987 outside
+totalScore: 1011.3691275167786 landing
+totalScore: 1011.4026845637584 30 people
+totalScore: 1011.4362416107383 Last Jan.
+totalScore: 1011.4697986577181 a
+totalScore: 1011.503355704698 Valujet
+totalScore: 10.036912751677852 the summer Olympic Games
+totalScore: 1011.5704697986578 anticipation
+totalScore: 12.604026845637584 fewer airplanes
+totalScore: 1011.6375838926175 last month
+totalScore: 1011.6711409395973 this year
+totalScore: 12.70469798657718 its
+totalScore: 1006.738255033557 it
+totalScore: 1006.771812080537 it
+totalScore: 1009.8053691275168 the fastest-growing airline in history
+totalScore: 1011.8389261744967 itself
+totalScore: 1011.8724832214765 VALUJET-CRASH
+totalScore: 1011.9060402684564 0586
+totalScore: 1011.9395973154362 05-11
+totalScore: 1011.9731543624162 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 1012.006711409396 A2461
+assigning <the summer Olympic Games X27> to <the terminal 13> with score of 10.036912751677852
+matching <Valujet> <- <Valujet>
+matching <a Valujet plane> <- <plane>
+matching <an emergency chute> <- <the chute>
+comparing <the attendant 18> with:
+totalScore: 1006.1006711409397 the tailcone
+totalScore: 1006.0671140939597 the pilot
+totalScore: 1011.0335570469799 a knife
+totalScore: 1006.0335570469799 the chute
+totalScore: 1011.0671140939597 plane
+totalScore: 1011.1006711409397 a Valujet plane
+totalScore: 1011.1342281879195 a flight
+totalScore: 1011.1677852348994 an emergency chute
+totalScore: 1006.2013422818792 the cabin
+totalScore: 1011.2348993288591 another Valujet plane
+totalScore: 1011.2684563758389 a runway
+totalScore: 1011.3020134228188 Valujet
+totalScore: 1006.3355704697987 the terminal
+totalScore: 1011.3691275167786 Hartsfield Atlanta International Airport
+totalScore: 12.40268456375839 101 passengers
+totalScore: 1011.4362416107383 a Valujet DC-9
+totalScore: 1006.4697986577181 the mud
+totalScore: 1011.503355704698 another
+totalScore: 1011.5369127516778 Valujet
+totalScore: 1011.5704697986578 closing
+totalScore: 1006.6040268456376 the airport
+totalScore: 1011.6375838926175 Dulles International Airport
+totalScore: 1011.6711409395973 outside
+totalScore: 1011.7046979865772 landing
+totalScore: 1011.738255033557 30 people
+totalScore: 1011.771812080537 Last Jan.
+totalScore: 1011.8053691275168 a
+totalScore: 1011.8389261744967 Valujet
+totalScore: 10.37248322147651 the summer Olympic Games
+totalScore: 1011.9060402684564 anticipation
+totalScore: 12.939597315436242 fewer airplanes
+totalScore: 1011.9731543624162 last month
+totalScore: 1012.006711409396 this year
+totalScore: 13.04026845637584 its
+totalScore: 1007.0738255033557 it
+totalScore: 1007.1073825503356 it
+totalScore: 1010.1409395973154 the fastest-growing airline in history
+totalScore: 1012.1744966442953 itself
+totalScore: 1012.2080536912752 VALUJET-CRASH
+totalScore: 1012.2416107382551 0586
+totalScore: 1012.2751677852349 05-11
+totalScore: 1012.3087248322148 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 1012.3422818791946 A2461
+assigning <the summer Olympic Games X27> to <the attendant 18> with score of 10.37248322147651
+comparing <crash 19> with:
+totalScore: 1011.0671140939597 the inaccessibility
+totalScore: 1011.0335570469799 the tailcone
+totalScore: 1011.0671140939597 the pilot
+totalScore: 1011.1006711409397 a knife
+totalScore: 1011.1342281879195 the attendant
+totalScore: 1011.1677852348994 the chute
+totalScore: 1011.2013422818792 plane
+totalScore: 1011.2348993288591 a Valujet plane
+totalScore: 1011.2684563758389 a flight
+totalScore: 1011.3020134228188 an emergency chute
+totalScore: 1011.3355704697987 the cabin
+totalScore: 1011.3691275167786 another Valujet plane
+totalScore: 1011.4026845637584 a runway
+totalScore: 1011.4362416107383 Valujet
+totalScore: 1011.4697986577181 the terminal
+totalScore: 1011.503355704698 Hartsfield Atlanta International Airport
+totalScore: 12.536912751677852 101 passengers
+totalScore: 1011.5704697986578 a Valujet DC-9
+totalScore: 1011.6040268456376 the mud
+totalScore: 1011.6375838926175 another
+totalScore: 1011.6711409395973 Valujet
+totalScore: 1011.7046979865772 closing
+totalScore: 1011.738255033557 the airport
+totalScore: 1011.771812080537 Dulles International Airport
+totalScore: 1011.8053691275168 outside
+totalScore: 1011.8389261744967 landing
+totalScore: 1011.8724832214765 30 people
+totalScore: 1011.9060402684564 Last Jan.
+totalScore: 1011.9395973154362 a
+totalScore: 1011.9731543624162 Valujet
+totalScore: 13.006711409395972 the summer Olympic Games
+totalScore: 1012.0402684563759 anticipation
+totalScore: 13.073825503355705 fewer airplanes
+totalScore: 1012.1073825503356 last month
+totalScore: 1012.1409395973154 this year
+totalScore: 13.174496644295303 its
+totalScore: 1002.2080536912752 it
+totalScore: 1002.2416107382551 it
+totalScore: 1012.2751677852349 the fastest-growing airline in history
+totalScore: 1012.3087248322148 itself
+totalScore: 1012.3422818791946 VALUJET-CRASH
+totalScore: 1012.3758389261745 0586
+totalScore: 1012.4093959731543 05-11
+totalScore: 1012.4429530201343 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 1012.4765100671141 A2461
+assigning <101 passengers X51> to <crash 19> with score of 12.536912751677852
+matching <plane> <- <the plane>
+matching <a Valujet plane> <- <Valujet>
+matching <a flight> <- <Flight 592>
+comparing <more than 70 minutes 23> with:
+totalScore: 12.033557046979865 Miami
+totalScore: 12.033557046979865 Flight 592
+totalScore: 12.06711409395973 Valujet
+totalScore: 1011.1006711409397 the hours
+totalScore: 1011.1342281879195 details
+totalScore: 12.167785234899329 the plane
+totalScore: 12.201342281879194 the inaccessibility
+totalScore: 12.234899328859061 few
+totalScore: 12.268456375838927 crash
+totalScore: 12.302013422818792 the tailcone
+totalScore: 12.335570469798657 the pilot
+totalScore: 12.369127516778523 a knife
+totalScore: 12.40268456375839 the attendant
+totalScore: 12.436241610738255 the chute
+totalScore: 12.46979865771812 plane
+totalScore: 12.503355704697986 a Valujet plane
+totalScore: 12.536912751677852 a flight
+totalScore: 12.570469798657719 an emergency chute
+totalScore: 12.604026845637584 the cabin
+totalScore: 12.63758389261745 another Valujet plane
+totalScore: 12.671140939597315 a runway
+totalScore: 12.70469798657718 Valujet
+totalScore: 12.738255033557047 the terminal
+totalScore: 12.771812080536913 Hartsfield Atlanta International Airport
+totalScore: 1011.8053691275168 101 passengers
+totalScore: 12.838926174496644 a Valujet DC-9
+totalScore: 12.87248322147651 the mud
+totalScore: 12.906040268456376 another
+totalScore: 12.939597315436242 Valujet
+totalScore: 12.973154362416107 closing
+totalScore: 13.006711409395972 the airport
+totalScore: 13.04026845637584 Dulles International Airport
+totalScore: 13.073825503355705 outside
+totalScore: 13.10738255033557 landing
+totalScore: 13.140939597315436 30 people
+totalScore: 13.174496644295303 Last Jan.
+totalScore: 13.208053691275168 a
+totalScore: 13.241610738255034 Valujet
+totalScore: 1012.2751677852349 the summer Olympic Games
+totalScore: 13.308724832214764 anticipation
+totalScore: 1012.3422818791946 fewer airplanes
+totalScore: 13.375838926174497 last month
+totalScore: 13.409395973154362 this year
+totalScore: 1012.4429530201343 its
+totalScore: 10.976510067114095 it
+totalScore: 11.01006711409396 it
+totalScore: 13.543624161073826 the fastest-growing airline in history
+totalScore: 13.577181208053691 itself
+totalScore: 13.610738255033556 VALUJET-CRASH
+totalScore: 13.644295302013424 0586
+totalScore: 13.677852348993289 05-11
+totalScore: 13.711409395973154 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 13.74496644295302 A2461
+assigning <it 8> to <more than 70 minutes 23> with score of 10.976510067114095
+comparing <It 25> with:
+totalScore: 1005.0335570469799 its regularly
+totalScore: 1999.0671140939598 Miami
+totalScore: 8.600671140939598 more than 70 minutes
+totalScore: 1005.1342281879195 Flight 592
+totalScore: 1999.1677852348994 Valujet
+totalScore: 6.201342281879195 the hours
+totalScore: 1.2348993288590604 details
+totalScore: 1005.2684563758389 the plane
+totalScore: 1005.3020134228188 the inaccessibility
+totalScore: 1000.3355704697987 few
+totalScore: 1000.3691275167786 crash
+totalScore: 1005.4026845637584 the tailcone
+totalScore: 1005.4362416107383 the pilot
+totalScore: 1005.4697986577181 a knife
+totalScore: 1005.503355704698 the attendant
+totalScore: 1005.5369127516778 the chute
+totalScore: 1000.5704697986578 plane
+totalScore: 1007.2706935123042 a Valujet plane
+totalScore: 1005.6375838926175 a flight
+totalScore: 1007.3378076062639 an emergency chute
+totalScore: 1005.7046979865772 the cabin
+totalScore: 1007.4049217002237 another Valujet plane
+totalScore: 1005.771812080537 a runway
+totalScore: 1999.8053691275168 Valujet
+totalScore: 1005.8389261744967 the terminal
+totalScore: 2007.3724832214766 Hartsfield Atlanta International Airport
+totalScore: 6.906040268456376 101 passengers
+totalScore: 1007.6062639821029 a Valujet DC-9
+totalScore: 1005.9731543624162 the mud
+totalScore: 1001.006711409396 another
+totalScore: 2000.040268456376 Valujet
+totalScore: 1001.0738255033557 closing
+totalScore: 1006.1073825503356 the airport
+totalScore: 2006.807606263982 Dulles International Airport
+totalScore: 1001.1744966442953 outside
+totalScore: 1001.2080536912752 landing
+totalScore: 1006.2416107382551 30 people
+totalScore: 2005.2751677852348 Last Jan.
+totalScore: 1001.3087248322148 a
+totalScore: 2000.3422818791946 Valujet
+totalScore: 9.875838926174497 the summer Olympic Games
+totalScore: 1001.4093959731543 anticipation
+totalScore: 7.442953020134228 fewer airplanes
+totalScore: 1006.4765100671141 last month
+totalScore: 1006.510067114094 this year
+totalScore: 2.5436241610738257 its
+totalScore: 1002.5771812080537 it
+totalScore: 1002.6107382550335 it
+totalScore: 1009.6442953020135 the fastest-growing airline in history
+totalScore: 1001.6778523489933 itself
+totalScore: 2000.711409395973 VALUJET-CRASH
+totalScore: 1001.744966442953 0586
+totalScore: 1001.7785234899329 05-11
+totalScore: 2000.8120805369126 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 2000.8456375838928 A2461
+assigning <details X86> to <It 25> with score of 1.2348993288590604
+comparing <the DC-9-32 26> with:
+totalScore: 1006.0335570469799 It
+totalScore: 1011.0671140939597 its regularly
+totalScore: 1011.1006711409397 Miami
+totalScore: 12.134228187919463 more than 70 minutes
+totalScore: 1011.1677852348994 Flight 592
+totalScore: 1011.2013422818792 Valujet
+totalScore: 7.23489932885906 the hours
+totalScore: 12.268456375838927 details
+totalScore: 1006.3020134228188 the plane
+totalScore: 1006.3355704697987 the inaccessibility
+totalScore: 1011.3691275167786 few
+totalScore: 1011.4026845637584 crash
+totalScore: 1006.4362416107383 the tailcone
+totalScore: 1006.4697986577181 the pilot
+totalScore: 1011.503355704698 a knife
+totalScore: 1006.5369127516778 the attendant
+totalScore: 1006.5704697986578 the chute
+totalScore: 1011.6040268456376 plane
+totalScore: 1011.6375838926175 a Valujet plane
+totalScore: 1011.6711409395973 a flight
+totalScore: 1011.7046979865772 an emergency chute
+totalScore: 1006.738255033557 the cabin
+totalScore: 1011.771812080537 another Valujet plane
+totalScore: 1011.8053691275168 a runway
+totalScore: 1011.8389261744967 Valujet
+totalScore: 1006.8724832214765 the terminal
+totalScore: 1011.9060402684564 Hartsfield Atlanta International Airport
+totalScore: 12.939597315436242 101 passengers
+totalScore: 1011.9731543624162 a Valujet DC-9
+totalScore: 1007.006711409396 the mud
+totalScore: 1012.0402684563759 another
+totalScore: 1012.0738255033557 Valujet
+totalScore: 1012.1073825503356 closing
+totalScore: 1007.1409395973154 the airport
+totalScore: 1012.1744966442953 Dulles International Airport
+totalScore: 1012.2080536912752 outside
+totalScore: 1012.2416107382551 landing
+totalScore: 1012.2751677852349 30 people
+totalScore: 1012.3087248322148 Last Jan.
+totalScore: 1012.3422818791946 a
+totalScore: 1012.3758389261745 Valujet
+totalScore: 10.909395973154362 the summer Olympic Games
+totalScore: 1012.4429530201343 anticipation
+totalScore: 13.476510067114095 fewer airplanes
+totalScore: 1012.510067114094 last month
+totalScore: 1012.5436241610738 this year
+totalScore: 13.577181208053691 its
+totalScore: 1007.6107382550335 it
+totalScore: 1007.6442953020135 it
+totalScore: 1010.6778523489933 the fastest-growing airline in history
+totalScore: 1012.7114093959732 itself
+totalScore: 1012.744966442953 VALUJET-CRASH
+totalScore: 1012.7785234899329 0586
+totalScore: 1012.8120805369127 05-11
+totalScore: 1012.8456375838927 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 1012.8791946308725 A2461
+assigning <the hours X87> to <the DC-9-32 26> with score of 7.23489932885906
+matching <the plane> <- <a McDonnell-Douglas plane>
+comparing <it 28> with:
+totalScore: 1005.1677852348994 2:25 p.m.
+totalScore: 1.1006711409395973 seats
+totalScore: 1006.7002237136466 a McDonnell-Douglas plane
+totalScore: 1005.0671140939597 the DC-9-32
+totalScore: 1001.1006711409397 It
+totalScore: 1005.1342281879195 its regularly
+totalScore: 1000.1677852348994 Miami
+totalScore: 8.701342281879194 more than 70 minutes
+totalScore: 1005.2348993288591 Flight 592
+totalScore: 1000.2684563758389 Valujet
+totalScore: 6.302013422818792 the hours
+totalScore: 1.3355704697986577 details
+totalScore: 1005.3691275167786 the plane
+totalScore: 1005.4026845637584 the inaccessibility
+totalScore: 1000.4362416107383 few
+totalScore: 1000.4697986577181 crash
+totalScore: 1005.503355704698 the tailcone
+totalScore: 1005.5369127516778 the pilot
+totalScore: 1005.5704697986578 a knife
+totalScore: 1005.6040268456376 the attendant
+totalScore: 1005.6375838926175 the chute
+totalScore: 1000.6711409395973 plane
+totalScore: 1007.3713646532439 a Valujet plane
+totalScore: 1005.738255033557 a flight
+totalScore: 1007.4384787472036 an emergency chute
+totalScore: 1005.8053691275168 the cabin
+totalScore: 1007.5055928411633 another Valujet plane
+totalScore: 1005.8724832214765 a runway
+totalScore: 1000.9060402684564 Valujet
+totalScore: 1005.9395973154362 the terminal
+totalScore: 1008.4731543624162 Hartsfield Atlanta International Airport
+totalScore: 7.006711409395973 101 passengers
+totalScore: 1007.7069351230425 a Valujet DC-9
+totalScore: 1006.0738255033557 the mud
+totalScore: 1001.1073825503356 another
+totalScore: 1001.1409395973154 Valujet
+totalScore: 1001.1744966442953 closing
+totalScore: 1006.2080536912752 the airport
+totalScore: 1007.9082774049217 Dulles International Airport
+totalScore: 1001.2751677852349 outside
+totalScore: 1001.3087248322148 landing
+totalScore: 1006.3422818791946 30 people
+totalScore: 1006.3758389261745 Last Jan.
+totalScore: 1001.4093959731543 a
+totalScore: 1001.4429530201343 Valujet
+totalScore: 9.976510067114095 the summer Olympic Games
+totalScore: 1001.510067114094 anticipation
+totalScore: 7.543624161073826 fewer airplanes
+totalScore: 1006.5771812080537 last month
+totalScore: 1006.6107382550335 this year
+totalScore: 2.6442953020134228 its
+totalScore: 1001.6778523489933 it
+totalScore: 1001.7114093959732 it
+totalScore: 1009.744966442953 the fastest-growing airline in history
+totalScore: 1001.7785234899329 itself
+totalScore: 1001.8120805369127 VALUJET-CRASH
+totalScore: 1001.8456375838927 0586
+totalScore: 1001.8791946308725 05-11
+totalScore: 1001.9127516778524 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 1001.9463087248322 A2461
+assigning <seats X103> to <it 28> with score of 1.1006711409395973
+matching <Miami> <- <Miami>
+matching <Valujet> <- <The Valujet statement>
+matching <smoke> <- <smoke>
+matching <the cabin> <- <the cabin>
+matching <The Valujet statement> <- <The airline>
+matching <a McDonnell-Douglas plane> <- <the plane>
+matching <Miami> <- <Miami>
+matching <crash> <- <the crash>
+comparing <the jet 38> with:
+totalScore: 12.06711409395973 Three hours
+totalScore: 1006.0335570469799 the FAA
+totalScore: 1006.0335570469799 the crash
+totalScore: 1011.0671140939597 Florida
+totalScore: 12.100671140939598 about 20 miles
+totalScore: 1011.1342281879195 a dense area
+totalScore: 1006.1677852348994 the
+totalScore: 1011.2013422818792 Miami
+totalScore: 12.234899328859061 preliminary reports
+totalScore: 1006.2684563758389 the plane
+totalScore: 1011.3020134228188 The airline
+totalScore: 1006.3355704697987 the cabin
+totalScore: 1011.3691275167786 smoke
+totalScore: 12.40268456375839 air-traffic controllers
+totalScore: 12.436241610738255 other reports
+totalScore: 1006.4697986577181 the pilot
+totalScore: 1011.503355704698 2:25 p.m.
+totalScore: 1011.5369127516778 smoke
+totalScore: 12.570469798657719 seats
+totalScore: 1011.6040268456376 The Valujet statement
+totalScore: 1011.6375838926175 Miami
+totalScore: 1006.6711409395973 it
+totalScore: 1011.7046979865772 a McDonnell-Douglas plane
+totalScore: 1006.738255033557 the DC-9-32
+totalScore: 1006.771812080537 It
+totalScore: 1011.8053691275168 its regularly
+totalScore: 1011.8389261744967 Miami
+totalScore: 12.87248322147651 more than 70 minutes
+totalScore: 1011.9060402684564 Flight 592
+totalScore: 1011.9395973154362 Valujet
+totalScore: 7.973154362416107 the hours
+totalScore: 13.006711409395972 details
+totalScore: 1007.0402684563759 the plane
+totalScore: 1007.0738255033557 the inaccessibility
+totalScore: 1012.1073825503356 few
+totalScore: 1012.1409395973154 crash
+totalScore: 1007.1744966442953 the tailcone
+totalScore: 1007.2080536912752 the pilot
+totalScore: 1012.2416107382551 a knife
+totalScore: 1007.2751677852349 the attendant
+totalScore: 1007.3087248322148 the chute
+totalScore: 1012.3422818791946 plane
+totalScore: 1012.3758389261745 a Valujet plane
+totalScore: 1012.4093959731543 a flight
+totalScore: 1012.4429530201343 an emergency chute
+totalScore: 1007.4765100671141 the cabin
+totalScore: 1012.510067114094 another Valujet plane
+totalScore: 1012.5436241610738 a runway
+totalScore: 1012.5771812080537 Valujet
+totalScore: 1007.6107382550335 the terminal
+totalScore: 1012.6442953020135 Hartsfield Atlanta International Airport
+totalScore: 13.677852348993289 101 passengers
+totalScore: 1012.7114093959732 a Valujet DC-9
+totalScore: 1007.744966442953 the mud
+totalScore: 1012.7785234899329 another
+totalScore: 1012.8120805369127 Valujet
+totalScore: 1012.8456375838927 closing
+totalScore: 1007.8791946308725 the airport
+totalScore: 1012.9127516778524 Dulles International Airport
+totalScore: 1012.9463087248322 outside
+totalScore: 1012.9798657718121 landing
+totalScore: 1013.0134228187919 30 people
+totalScore: 1013.0469798657718 Last Jan.
+totalScore: 1013.0805369127517 a
+totalScore: 1013.1140939597316 Valujet
+totalScore: 11.64765100671141 the summer Olympic Games
+totalScore: 1013.1812080536913 anticipation
+totalScore: 14.21476510067114 fewer airplanes
+totalScore: 1013.248322147651 last month
+totalScore: 1013.2818791946308 this year
+totalScore: 14.315436241610739 its
+totalScore: 1008.3489932885906 it
+totalScore: 1008.3825503355705 it
+totalScore: 1011.4161073825503 the fastest-growing airline in history
+totalScore: 1013.4496644295302 itself
+totalScore: 1013.48322147651 VALUJET-CRASH
+totalScore: 1013.51677852349 0586
+totalScore: 1013.5503355704698 05-11
+totalScore: 1013.5838926174497 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 1013.6174496644295 A2461
+assigning <the hours X87> to <the jet 38> with score of 7.973154362416107
+matching <Miami> <- <Miami>
+matching <the pilot> <- <the pilot>
+matching <smoke> <- <smoke>
+matching <the FAA> <- <FAA>
+matching <the plane> <- <the plane>
+comparing <Rick DeLisle 44> with:
+totalScore: 1011.0335570469799 dive and exploded
+totalScore: 1011.0671140939597 The FAA report
+totalScore: 1011.1006711409397 a steep
+totalScore: 1011.1342281879195 the plane
+totalScore: 2010.1677852348994 FAA
+totalScore: 12.201342281879194 80 miles
+totalScore: 12.234899328859061 about 100 miles
+totalScore: 1011.2684563758389 smoke
+totalScore: 1011.3020134228188 the pilot
+totalScore: 2010.3355704697988 Miami
+totalScore: 12.369127516778523 Three hours
+totalScore: 1011.4026845637584 the FAA
+totalScore: 1011.4362416107383 the jet
+totalScore: 1011.4697986577181 the crash
+totalScore: 2010.5033557046982 Florida
+totalScore: 12.536912751677852 about 20 miles
+totalScore: 1011.5704697986578 a dense area
+totalScore: 1011.6040268456376 the
+totalScore: 2010.6375838926174 Miami
+totalScore: 12.671140939597315 preliminary reports
+totalScore: 1011.7046979865772 the plane
+totalScore: 1011.738255033557 The airline
+totalScore: 1011.771812080537 the cabin
+totalScore: 1011.8053691275168 smoke
+totalScore: 12.838926174496644 air-traffic controllers
+totalScore: 12.87248322147651 other reports
+totalScore: 1011.9060402684564 the pilot
+totalScore: 1011.9395973154362 2:25 p.m.
+totalScore: 1011.9731543624162 smoke
+totalScore: 13.006711409395972 seats
+totalScore: 1012.0402684563759 The Valujet statement
+totalScore: 2011.0738255033557 Miami
+totalScore: 1007.1073825503356 it
+totalScore: 1012.1409395973154 a McDonnell-Douglas plane
+totalScore: 1012.1744966442953 the DC-9-32
+totalScore: 2006.2080536912752 It
+totalScore: 1012.2416107382551 its regularly
+totalScore: 2011.2751677852348 Miami
+totalScore: 13.308724832214764 more than 70 minutes
+totalScore: 1012.3422818791946 Flight 592
+totalScore: 2011.3758389261745 Valujet
+totalScore: 13.409395973154362 the hours
+totalScore: 13.442953020134228 details
+totalScore: 1012.4765100671141 the plane
+totalScore: 1012.510067114094 the inaccessibility
+totalScore: 1012.5436241610738 few
+totalScore: 1012.5771812080537 crash
+totalScore: 1012.6107382550335 the tailcone
+totalScore: 1012.6442953020135 the pilot
+totalScore: 1012.6778523489933 a knife
+totalScore: 1012.7114093959732 the attendant
+totalScore: 1012.744966442953 the chute
+totalScore: 1012.7785234899329 plane
+totalScore: 1012.8120805369127 a Valujet plane
+totalScore: 1012.8456375838927 a flight
+totalScore: 1012.8791946308725 an emergency chute
+totalScore: 1012.9127516778524 the cabin
+totalScore: 1012.9463087248322 another Valujet plane
+totalScore: 1012.9798657718121 a runway
+totalScore: 2012.013422818792 Valujet
+totalScore: 1013.0469798657718 the terminal
+totalScore: 2012.0805369127515 Hartsfield Atlanta International Airport
+totalScore: 14.114093959731544 101 passengers
+totalScore: 1013.1476510067114 a Valujet DC-9
+totalScore: 1013.1812080536913 the mud
+totalScore: 1013.2147651006711 another
+totalScore: 2012.248322147651 Valujet
+totalScore: 1013.2818791946308 closing
+totalScore: 1013.3154362416108 the airport
+totalScore: 2012.3489932885905 Dulles International Airport
+totalScore: 1013.3825503355705 outside
+totalScore: 1013.4161073825503 landing
+totalScore: 1013.4496644295302 30 people
+totalScore: 2012.4832214765102 Last Jan.
+totalScore: 1013.51677852349 a
+totalScore: 2012.5503355704698 Valujet
+totalScore: 14.583892617449663 the summer Olympic Games
+totalScore: 1013.6174496644295 anticipation
+totalScore: 14.651006711409396 fewer airplanes
+totalScore: 1013.6845637583892 last month
+totalScore: 1013.7181208053692 this year
+totalScore: 14.751677852348994 its
+totalScore: 1008.7852348993289 it
+totalScore: 1008.8187919463087 it
+totalScore: 1013.8523489932886 the fastest-growing airline in history
+totalScore: 1013.8859060402684 itself
+totalScore: 2012.9194630872485 VALUJET-CRASH
+totalScore: 1013.9530201342282 0586
+totalScore: 1013.9865771812081 05-11
+totalScore: 2013.020134228188 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 2013.0536912751677 A2461
+assigning <80 miles X138> to <Rick DeLisle 44> with score of 12.201342281879194
+matching <the crash> <- <the crash>
+matching <this year> <- <his instructor>
+matching <Rick DeLisle> <- <DeLisle>
+comparing <I 49> with:
+totalScore: 1999.03355704698 DeLisle
+totalScore: 1005.0671140939597 his instructor
+totalScore: 1005.1006711409397 the crash
+totalScore: 1005.1342281879195 the area
+totalScore: 1999.1677852348994 CNN
+totalScore: 1006.8680089485458 a small plane
+totalScore: 2004.2348993288592 Rick DeLisle
+totalScore: 1006.9351230425056 dive and exploded
+totalScore: 1006.9686800894855 The FAA report
+totalScore: 1005.3355704697987 a steep
+totalScore: 1005.3691275167786 the plane
+totalScore: 1999.4026845637584 FAA
+totalScore: 6.436241610738255 80 miles
+totalScore: 8.136465324384787 about 100 miles
+totalScore: 1000.503355704698 smoke
+totalScore: 1005.5369127516778 the pilot
+totalScore: 1999.5704697986578 Miami
+totalScore: 6.604026845637584 Three hours
+totalScore: 1005.6375838926175 the FAA
+totalScore: 1005.6711409395973 the jet
+totalScore: 1005.7046979865772 the crash
+totalScore: 1999.738255033557 Florida
+totalScore: 8.438478747203579 about 20 miles
+totalScore: 1007.4720357941834 a dense area
+totalScore: 1000.8389261744967 the
+totalScore: 1999.8724832214766 Miami
+totalScore: 6.906040268456376 preliminary reports
+totalScore: 1005.9395973154362 the plane
+totalScore: 1005.9731543624162 The airline
+totalScore: 1006.006711409396 the cabin
+totalScore: 1001.0402684563759 smoke
+totalScore: 7.073825503355705 air-traffic controllers
+totalScore: 7.10738255033557 other reports
+totalScore: 1006.1409395973154 the pilot
+totalScore: 1006.1744966442953 2:25 p.m.
+totalScore: 1001.2080536912752 smoke
+totalScore: 2.2416107382550337 seats
+totalScore: 1007.9418344519015 The Valujet statement
+totalScore: 2000.308724832215 Miami
+totalScore: 1002.3422818791946 it
+totalScore: 1008.0425055928412 a McDonnell-Douglas plane
+totalScore: 1006.4093959731543 the DC-9-32
+totalScore: 2001.4429530201342 It
+totalScore: 1006.4765100671141 its regularly
+totalScore: 2000.510067114094 Miami
+totalScore: 10.043624161073826 more than 70 minutes
+totalScore: 1006.5771812080537 Flight 592
+totalScore: 2000.6107382550335 Valujet
+totalScore: 7.644295302013423 the hours
+totalScore: 2.6778523489932886 details
+totalScore: 1006.7114093959732 the plane
+totalScore: 1006.744966442953 the inaccessibility
+totalScore: 1001.7785234899329 few
+totalScore: 1001.8120805369127 crash
+totalScore: 1006.8456375838927 the tailcone
+totalScore: 1006.8791946308725 the pilot
+totalScore: 1006.9127516778524 a knife
+totalScore: 1006.9463087248322 the attendant
+totalScore: 1006.9798657718121 the chute
+totalScore: 1002.0134228187919 plane
+totalScore: 1008.7136465324385 a Valujet plane
+totalScore: 1007.0805369127517 a flight
+totalScore: 1008.7807606263982 an emergency chute
+totalScore: 1007.1476510067114 the cabin
+totalScore: 1008.8478747203579 another Valujet plane
+totalScore: 1007.2147651006711 a runway
+totalScore: 2001.248322147651 Valujet
+totalScore: 1007.2818791946308 the terminal
+totalScore: 2008.8154362416108 Hartsfield Atlanta International Airport
+totalScore: 8.348993288590604 101 passengers
+totalScore: 1009.0492170022371 a Valujet DC-9
+totalScore: 1007.4161073825503 the mud
+totalScore: 1002.4496644295302 another
+totalScore: 2001.4832214765102 Valujet
+totalScore: 1002.51677852349 closing
+totalScore: 1007.5503355704698 the airport
+totalScore: 2008.2505592841162 Dulles International Airport
+totalScore: 1002.6174496644295 outside
+totalScore: 1002.6510067114094 landing
+totalScore: 1007.6845637583892 30 people
+totalScore: 2006.7181208053692 Last Jan.
+totalScore: 1002.751677852349 a
+totalScore: 2001.7852348993288 Valujet
+totalScore: 11.318791946308725 the summer Olympic Games
+totalScore: 1002.8523489932886 anticipation
+totalScore: 8.885906040268456 fewer airplanes
+totalScore: 1007.9194630872483 last month
+totalScore: 1007.9530201342282 this year
+totalScore: 3.986577181208054 its
+totalScore: 1004.0201342281879 it
+totalScore: 1004.0536912751678 it
+totalScore: 1011.0872483221476 the fastest-growing airline in history
+totalScore: 1003.1208053691275 itself
+totalScore: 2002.1543624161072 VALUJET-CRASH
+totalScore: 1003.1879194630873 0586
+totalScore: 1003.2214765100671 05-11
+totalScore: 2002.255033557047 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 2002.288590604027 A2461
+assigning <seats X103> to <I 49> with score of 2.2416107382550337
+comparing <he 50> with:
+totalScore: 1005.1006711409397 the sense
+totalScore: 1000.0671140939597 nothing
+totalScore: 1001.0335570469799 I
+totalScore: 1000.0671140939597 DeLisle
+totalScore: 1005.1006711409397 his instructor
+totalScore: 1005.1342281879195 the crash
+totalScore: 1005.1677852348994 the area
+totalScore: 1000.2013422818792 CNN
+totalScore: 1006.9015659955257 a small plane
+totalScore: 1005.2684563758389 Rick DeLisle
+totalScore: 1006.9686800894855 dive and exploded
+totalScore: 1007.0022371364653 The FAA report
+totalScore: 1005.3691275167786 a steep
+totalScore: 1005.4026845637584 the plane
+totalScore: 1000.4362416107383 FAA
+totalScore: 6.469798657718121 80 miles
+totalScore: 8.170022371364652 about 100 miles
+totalScore: 1000.5369127516778 smoke
+totalScore: 1005.5704697986578 the pilot
+totalScore: 1000.6040268456376 Miami
+totalScore: 6.6375838926174495 Three hours
+totalScore: 1005.6711409395973 the FAA
+totalScore: 1005.7046979865772 the jet
+totalScore: 1005.738255033557 the crash
+totalScore: 1000.771812080537 Florida
+totalScore: 8.472035794183444 about 20 miles
+totalScore: 1007.5055928411633 a dense area
+totalScore: 1000.8724832214765 the
+totalScore: 1000.9060402684564 Miami
+totalScore: 6.939597315436242 preliminary reports
+totalScore: 1005.9731543624162 the plane
+totalScore: 1006.006711409396 The airline
+totalScore: 1006.0402684563759 the cabin
+totalScore: 1001.0738255033557 smoke
+totalScore: 7.10738255033557 air-traffic controllers
+totalScore: 7.140939597315436 other reports
+totalScore: 1006.1744966442953 the pilot
+totalScore: 1006.2080536912752 2:25 p.m.
+totalScore: 1001.2416107382551 smoke
+totalScore: 2.2751677852348995 seats
+totalScore: 1007.9753914988814 The Valujet statement
+totalScore: 1001.3422818791946 Miami
+totalScore: 1002.3758389261745 it
+totalScore: 1008.076062639821 a McDonnell-Douglas plane
+totalScore: 1006.4429530201343 the DC-9-32
+totalScore: 1002.4765100671141 It
+totalScore: 1006.510067114094 its regularly
+totalScore: 1001.5436241610738 Miami
+totalScore: 10.077181208053691 more than 70 minutes
+totalScore: 1006.6107382550335 Flight 592
+totalScore: 1001.6442953020135 Valujet
+totalScore: 7.677852348993289 the hours
+totalScore: 2.7114093959731544 details
+totalScore: 1006.744966442953 the plane
+totalScore: 1006.7785234899329 the inaccessibility
+totalScore: 1001.8120805369127 few
+totalScore: 1001.8456375838927 crash
+totalScore: 1006.8791946308725 the tailcone
+totalScore: 1006.9127516778524 the pilot
+totalScore: 1006.9463087248322 a knife
+totalScore: 1006.9798657718121 the attendant
+totalScore: 1007.0134228187919 the chute
+totalScore: 1002.0469798657718 plane
+totalScore: 1008.7472035794184 a Valujet plane
+totalScore: 1007.1140939597316 a flight
+totalScore: 1008.8143176733781 an emergency chute
+totalScore: 1007.1812080536913 the cabin
+totalScore: 1008.8814317673379 another Valujet plane
+totalScore: 1007.248322147651 a runway
+totalScore: 1002.2818791946308 Valujet
+totalScore: 1007.3154362416108 the terminal
+totalScore: 1009.8489932885906 Hartsfield Atlanta International Airport
+totalScore: 8.38255033557047 101 passengers
+totalScore: 1009.082774049217 a Valujet DC-9
+totalScore: 1007.4496644295302 the mud
+totalScore: 1002.48322147651 another
+totalScore: 1002.51677852349 Valujet
+totalScore: 1002.5503355704698 closing
+totalScore: 1007.5838926174497 the airport
+totalScore: 1009.2841163310962 Dulles International Airport
+totalScore: 1002.6510067114094 outside
+totalScore: 1002.6845637583892 landing
+totalScore: 1007.7181208053692 30 people
+totalScore: 1007.751677852349 Last Jan.
+totalScore: 1002.7852348993289 a
+totalScore: 1002.8187919463087 Valujet
+totalScore: 11.35234899328859 the summer Olympic Games
+totalScore: 1002.8859060402684 anticipation
+totalScore: 8.919463087248323 fewer airplanes
+totalScore: 1007.9530201342282 last month
+totalScore: 1007.9865771812081 this year
+totalScore: 4.02013422818792 its
+totalScore: 1004.0536912751678 it
+totalScore: 1004.0872483221476 it
+totalScore: 1011.1208053691275 the fastest-growing airline in history
+totalScore: 1003.1543624161073 itself
+totalScore: 1003.1879194630873 VALUJET-CRASH
+totalScore: 1003.2214765100671 0586
+totalScore: 1003.255033557047 05-11
+totalScore: 1003.2885906040268 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 1003.3221476510067 A2461
+assigning <seats X103> to <he 50> with score of 2.2751677852348995
+comparing <It 51> with:
+totalScore: 1005.0671140939597 the sense
+totalScore: 1000.0335570469799 nothing
+totalScore: 1001.0335570469799 he
+totalScore: 2000.0671140939598 I
+totalScore: 1999.1006711409395 DeLisle
+totalScore: 1005.1342281879195 his instructor
+totalScore: 1005.1677852348994 the crash
+totalScore: 1005.2013422818792 the area
+totalScore: 1999.2348993288592 CNN
+totalScore: 1006.9351230425056 a small plane
+totalScore: 2004.3020134228188 Rick DeLisle
+totalScore: 1007.0022371364653 dive and exploded
+totalScore: 1007.0357941834452 The FAA report
+totalScore: 1005.4026845637584 a steep
+totalScore: 1005.4362416107383 the plane
+totalScore: 1999.469798657718 FAA
+totalScore: 6.503355704697986 80 miles
+totalScore: 8.203579418344518 about 100 miles
+totalScore: 1000.5704697986578 smoke
+totalScore: 1005.6040268456376 the pilot
+totalScore: 1999.6375838926174 Miami
+totalScore: 6.671140939597316 Three hours
+totalScore: 1005.7046979865772 the FAA
+totalScore: 1005.738255033557 the jet
+totalScore: 1005.771812080537 the crash
+totalScore: 1999.8053691275168 Florida
+totalScore: 8.50559284116331 about 20 miles
+totalScore: 1007.5391498881431 a dense area
+totalScore: 1000.9060402684564 the
+totalScore: 1999.9395973154362 Miami
+totalScore: 6.973154362416107 preliminary reports
+totalScore: 1006.006711409396 the plane
+totalScore: 1006.0402684563759 The airline
+totalScore: 1006.0738255033557 the cabin
+totalScore: 1001.1073825503356 smoke
+totalScore: 7.140939597315436 air-traffic controllers
+totalScore: 7.174496644295302 other reports
+totalScore: 1006.2080536912752 the pilot
+totalScore: 1006.2416107382551 2:25 p.m.
+totalScore: 1001.2751677852349 smoke
+totalScore: 2.3087248322147653 seats
+totalScore: 1008.0089485458612 The Valujet statement
+totalScore: 2000.3758389261745 Miami
+totalScore: 1002.4093959731543 it
+totalScore: 1008.1096196868009 a McDonnell-Douglas plane
+totalScore: 1006.4765100671141 the DC-9-32
+totalScore: 1001.510067114094 It
+totalScore: 1006.5436241610738 its regularly
+totalScore: 2000.5771812080538 Miami
+totalScore: 10.110738255033556 more than 70 minutes
+totalScore: 1006.6442953020135 Flight 592
+totalScore: 2000.6778523489934 Valujet
+totalScore: 7.7114093959731544 the hours
+totalScore: 2.74496644295302 details
+totalScore: 1006.7785234899329 the plane
+totalScore: 1006.8120805369127 the inaccessibility
+totalScore: 1001.8456375838927 few
+totalScore: 1001.8791946308725 crash
+totalScore: 1006.9127516778524 the tailcone
+totalScore: 1006.9463087248322 the pilot
+totalScore: 1006.9798657718121 a knife
+totalScore: 1007.0134228187919 the attendant
+totalScore: 1007.0469798657718 the chute
+totalScore: 1002.0805369127517 plane
+totalScore: 1008.7807606263982 a Valujet plane
+totalScore: 1007.1476510067114 a flight
+totalScore: 1008.8478747203579 an emergency chute
+totalScore: 1007.2147651006711 the cabin
+totalScore: 1008.9149888143177 another Valujet plane
+totalScore: 1007.2818791946308 a runway
+totalScore: 2001.3154362416108 Valujet
+totalScore: 1007.3489932885906 the terminal
+totalScore: 2008.8825503355706 Hartsfield Atlanta International Airport
+totalScore: 8.416107382550337 101 passengers
+totalScore: 1009.1163310961969 a Valujet DC-9
+totalScore: 1007.48322147651 the mud
+totalScore: 1002.51677852349 another
+totalScore: 2001.5503355704698 Valujet
+totalScore: 1002.5838926174497 closing
+totalScore: 1007.6174496644295 the airport
+totalScore: 2008.317673378076 Dulles International Airport
+totalScore: 1002.6845637583892 outside
+totalScore: 1002.7181208053692 landing
+totalScore: 1007.751677852349 30 people
+totalScore: 2006.7852348993288 Last Jan.
+totalScore: 1002.8187919463087 a
+totalScore: 2001.8523489932886 Valujet
+totalScore: 11.385906040268456 the summer Olympic Games
+totalScore: 1002.9194630872483 anticipation
+totalScore: 8.953020134228188 fewer airplanes
+totalScore: 1007.9865771812081 last month
+totalScore: 1008.0201342281879 this year
+totalScore: 4.053691275167785 its
+totalScore: 1004.0872483221476 it
+totalScore: 1004.1208053691275 it
+totalScore: 1011.1543624161073 the fastest-growing airline in history
+totalScore: 1003.1879194630873 itself
+totalScore: 2002.221476510067 VALUJET-CRASH
+totalScore: 1003.255033557047 0586
+totalScore: 1003.2885906040268 05-11
+totalScore: 2002.3221476510066 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 2002.3557046979865 A2461
+assigning <seats X103> to <It 51> with score of 2.3087248322147653
+comparing <I 52> with:
+totalScore: 1005.0335570469799 the sense
+totalScore: 1000.0671140939597 nothing
+totalScore: 2000.1006711409395 It
+totalScore: 1001.1342281879195 he
+totalScore: 1000.1677852348994 I
+totalScore: 1999.201342281879 DeLisle
+totalScore: 1005.2348993288591 his instructor
+totalScore: 1005.2684563758389 the crash
+totalScore: 1005.3020134228188 the area
+totalScore: 1999.3355704697988 CNN
+totalScore: 1007.0357941834452 a small plane
+totalScore: 2004.4026845637584 Rick DeLisle
+totalScore: 1007.1029082774049 dive and exploded
+totalScore: 1007.1364653243847 The FAA report
+totalScore: 1005.503355704698 a steep
+totalScore: 1005.5369127516778 the plane
+totalScore: 1999.5704697986578 FAA
+totalScore: 6.604026845637584 80 miles
+totalScore: 8.304250559284116 about 100 miles
+totalScore: 1000.6711409395973 smoke
+totalScore: 1005.7046979865772 the pilot
+totalScore: 1999.738255033557 Miami
+totalScore: 6.771812080536913 Three hours
+totalScore: 1005.8053691275168 the FAA
+totalScore: 1005.8389261744967 the jet
+totalScore: 1005.8724832214765 the crash
+totalScore: 1999.9060402684563 Florida
+totalScore: 8.606263982102908 about 20 miles
+totalScore: 1007.6398210290828 a dense area
+totalScore: 1001.006711409396 the
+totalScore: 2000.040268456376 Miami
+totalScore: 7.073825503355705 preliminary reports
+totalScore: 1006.1073825503356 the plane
+totalScore: 1006.1409395973154 The airline
+totalScore: 1006.1744966442953 the cabin
+totalScore: 1001.2080536912752 smoke
+totalScore: 7.241610738255034 air-traffic controllers
+totalScore: 7.275167785234899 other reports
+totalScore: 1006.3087248322148 the pilot
+totalScore: 1006.3422818791946 2:25 p.m.
+totalScore: 1001.3758389261745 smoke
+totalScore: 2.4093959731543624 seats
+totalScore: 1008.1096196868009 The Valujet statement
+totalScore: 2000.476510067114 Miami
+totalScore: 1002.510067114094 it
+totalScore: 1008.2102908277404 a McDonnell-Douglas plane
+totalScore: 1006.5771812080537 the DC-9-32
+totalScore: 2001.6107382550335 It
+totalScore: 1006.6442953020135 its regularly
+totalScore: 2000.6778523489934 Miami
+totalScore: 10.211409395973154 more than 70 minutes
+totalScore: 1006.744966442953 Flight 592
+totalScore: 2000.778523489933 Valujet
+totalScore: 7.8120805369127515 the hours
+totalScore: 2.845637583892618 details
+totalScore: 1006.8791946308725 the plane
+totalScore: 1006.9127516778524 the inaccessibility
+totalScore: 1001.9463087248322 few
+totalScore: 1001.9798657718121 crash
+totalScore: 1007.0134228187919 the tailcone
+totalScore: 1007.0469798657718 the pilot
+totalScore: 1007.0805369127517 a knife
+totalScore: 1007.1140939597316 the attendant
+totalScore: 1007.1476510067114 the chute
+totalScore: 1002.1812080536913 plane
+totalScore: 1008.8814317673379 a Valujet plane
+totalScore: 1007.248322147651 a flight
+totalScore: 1008.9485458612976 an emergency chute
+totalScore: 1007.3154362416108 the cabin
+totalScore: 1009.0156599552573 another Valujet plane
+totalScore: 1007.3825503355705 a runway
+totalScore: 2001.4161073825503 Valujet
+totalScore: 1007.4496644295302 the terminal
+totalScore: 2008.9832214765102 Hartsfield Atlanta International Airport
+totalScore: 8.516778523489933 101 passengers
+totalScore: 1009.2170022371365 a Valujet DC-9
+totalScore: 1007.5838926174497 the mud
+totalScore: 1002.6174496644295 another
+totalScore: 2001.6510067114095 Valujet
+totalScore: 1002.6845637583892 closing
+totalScore: 1007.7181208053692 the airport
+totalScore: 2008.4183445190156 Dulles International Airport
+totalScore: 1002.7852348993289 outside
+totalScore: 1002.8187919463087 landing
+totalScore: 1007.8523489932886 30 people
+totalScore: 2006.8859060402683 Last Jan.
+totalScore: 1002.9194630872483 a
+totalScore: 2001.9530201342282 Valujet
+totalScore: 11.486577181208053 the summer Olympic Games
+totalScore: 1003.0201342281879 anticipation
+totalScore: 9.053691275167786 fewer airplanes
+totalScore: 1008.0872483221476 last month
+totalScore: 1008.1208053691275 this year
+totalScore: 4.154362416107382 its
+totalScore: 1004.1879194630873 it
+totalScore: 1004.2214765100671 it
+totalScore: 1011.255033557047 the fastest-growing airline in history
+totalScore: 1003.2885906040268 itself
+totalScore: 2002.3221476510066 VALUJET-CRASH
+totalScore: 1003.3557046979865 0586
+totalScore: 1003.3892617449665 05-11
+totalScore: 2002.4228187919462 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 2002.4563758389263 A2461
+assigning <seats X103> to <I 52> with score of 2.4093959731543624
+comparing <a mushroom cloud 53> with:
+totalScore: 1007.7002237136466 I
+totalScore: 1011.0671140939597 the sense
+totalScore: 1011.1006711409397 nothing
+totalScore: 1007.8008948545861 It
+totalScore: 1007.834451901566 he
+totalScore: 1007.8680089485458 I
+totalScore: 1011.2348993288591 DeLisle
+totalScore: 1011.2684563758389 his instructor
+totalScore: 1011.3020134228188 the crash
+totalScore: 1011.3355704697987 the area
+totalScore: 1011.3691275167786 CNN
+totalScore: 1008.069351230425 a small plane
+totalScore: 1011.4362416107383 Rick DeLisle
+totalScore: 1011.4697986577181 dive and exploded
+totalScore: 1011.503355704698 The FAA report
+totalScore: 1008.2035794183445 a steep
+totalScore: 1011.5704697986578 the plane
+totalScore: 1011.6040268456376 FAA
+totalScore: 12.63758389261745 80 miles
+totalScore: 12.671140939597315 about 100 miles
+totalScore: 1011.7046979865772 smoke
+totalScore: 1011.738255033557 the pilot
+totalScore: 1011.771812080537 Miami
+totalScore: 12.805369127516778 Three hours
+totalScore: 1011.8389261744967 the FAA
+totalScore: 1011.8724832214765 the jet
+totalScore: 1011.9060402684564 the crash
+totalScore: 1011.9395973154362 Florida
+totalScore: 12.973154362416107 about 20 miles
+totalScore: 1008.6733780760626 a dense area
+totalScore: 1012.0402684563759 the
+totalScore: 1012.0738255033557 Miami
+totalScore: 13.10738255033557 preliminary reports
+totalScore: 1012.1409395973154 the plane
+totalScore: 1012.1744966442953 The airline
+totalScore: 1012.2080536912752 the cabin
+totalScore: 1012.2416107382551 smoke
+totalScore: 13.275167785234899 air-traffic controllers
+totalScore: 13.308724832214764 other reports
+totalScore: 1012.3422818791946 the pilot
+totalScore: 1012.3758389261745 2:25 p.m.
+totalScore: 1012.4093959731543 smoke
+totalScore: 13.442953020134228 seats
+totalScore: 1012.4765100671141 The Valujet statement
+totalScore: 1012.510067114094 Miami
+totalScore: 1009.2102908277404 it
+totalScore: 1009.2438478747204 a McDonnell-Douglas plane
+totalScore: 1012.6107382550335 the DC-9-32
+totalScore: 1009.3109619686801 It
+totalScore: 1012.6778523489933 its regularly
+totalScore: 1012.7114093959732 Miami
+totalScore: 13.74496644295302 more than 70 minutes
+totalScore: 1012.7785234899329 Flight 592
+totalScore: 1012.8120805369127 Valujet
+totalScore: 13.845637583892618 the hours
+totalScore: 13.879194630872483 details
+totalScore: 1012.9127516778524 the plane
+totalScore: 1012.9463087248322 the inaccessibility
+totalScore: 1012.9798657718121 few
+totalScore: 1013.0134228187919 crash
+totalScore: 1013.0469798657718 the tailcone
+totalScore: 1013.0805369127517 the pilot
+totalScore: 1009.7807606263982 a knife
+totalScore: 1013.1476510067114 the attendant
+totalScore: 1013.1812080536913 the chute
+totalScore: 1013.2147651006711 plane
+totalScore: 1009.9149888143177 a Valujet plane
+totalScore: 1009.9485458612976 a flight
+totalScore: 1013.3154362416108 an emergency chute
+totalScore: 1013.3489932885906 the cabin
+totalScore: 1013.3825503355705 another Valujet plane
+totalScore: 1010.082774049217 a runway
+totalScore: 1013.4496644295302 Valujet
+totalScore: 1013.48322147651 the terminal
+totalScore: 1013.51677852349 Hartsfield Atlanta International Airport
+totalScore: 14.550335570469798 101 passengers
+totalScore: 1010.2505592841163 a Valujet DC-9
+totalScore: 1013.6174496644295 the mud
+totalScore: 1013.6510067114094 another
+totalScore: 1013.6845637583892 Valujet
+totalScore: 1013.7181208053692 closing
+totalScore: 1013.751677852349 the airport
+totalScore: 1013.7852348993289 Dulles International Airport
+totalScore: 1013.8187919463087 outside
+totalScore: 1013.8523489932886 landing
+totalScore: 1013.8859060402684 30 people
+totalScore: 1013.9194630872483 Last Jan.
+totalScore: 1010.6196868008949 a
+totalScore: 1013.9865771812081 Valujet
+totalScore: 15.02013422818792 the summer Olympic Games
+totalScore: 1014.0536912751678 anticipation
+totalScore: 15.087248322147651 fewer airplanes
+totalScore: 1014.1208053691275 last month
+totalScore: 1014.1543624161073 this year
+totalScore: 15.187919463087248 its
+totalScore: 1010.8881431767338 it
+totalScore: 1010.9217002237136 it
+totalScore: 1014.2885906040268 the fastest-growing airline in history
+totalScore: 1014.3221476510067 itself
+totalScore: 1014.3557046979865 VALUJET-CRASH
+totalScore: 1014.3892617449665 0586
+totalScore: 1014.4228187919463 05-11
+totalScore: 1014.4563758389262 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 1014.489932885906 A2461
+assigning <80 miles X138> to <a mushroom cloud 53> with score of 12.63758389261745
+comparing <It 54> with:
+totalScore: 1006.7002237136466 a mushroom cloud
+totalScore: 2000.0671140939598 I
+totalScore: 1005.1006711409397 the sense
+totalScore: 1000.1342281879195 nothing
+totalScore: 1000.1677852348994 It
+totalScore: 1001.2013422818792 he
+totalScore: 2000.2348993288592 I
+totalScore: 1999.268456375839 DeLisle
+totalScore: 1005.3020134228188 his instructor
+totalScore: 1005.3355704697987 the crash
+totalScore: 1005.3691275167786 the area
+totalScore: 1999.4026845637584 CNN
+totalScore: 1007.1029082774049 a small plane
+totalScore: 2004.469798657718 Rick DeLisle
+totalScore: 1007.1700223713647 dive and exploded
+totalScore: 1007.2035794183445 The FAA report
+totalScore: 1005.5704697986578 a steep
+totalScore: 1005.6040268456376 the plane
+totalScore: 1999.6375838926174 FAA
+totalScore: 6.671140939597316 80 miles
+totalScore: 8.371364653243848 about 100 miles
+totalScore: 1000.738255033557 smoke
+totalScore: 1005.771812080537 the pilot
+totalScore: 1999.8053691275168 Miami
+totalScore: 6.8389261744966445 Three hours
+totalScore: 1005.8724832214765 the FAA
+totalScore: 1005.9060402684564 the jet
+totalScore: 1005.9395973154362 the crash
+totalScore: 1999.9731543624162 Florida
+totalScore: 8.673378076062638 about 20 miles
+totalScore: 1007.7069351230425 a dense area
+totalScore: 1001.0738255033557 the
+totalScore: 2000.1073825503356 Miami
+totalScore: 7.140939597315436 preliminary reports
+totalScore: 1006.1744966442953 the plane
+totalScore: 1006.2080536912752 The airline
+totalScore: 1006.2416107382551 the cabin
+totalScore: 1001.2751677852349 smoke
+totalScore: 7.308724832214765 air-traffic controllers
+totalScore: 7.342281879194631 other reports
+totalScore: 1006.3758389261745 the pilot
+totalScore: 1006.4093959731543 2:25 p.m.
+totalScore: 1001.4429530201343 smoke
+totalScore: 2.476510067114094 seats
+totalScore: 1008.1767337807606 The Valujet statement
+totalScore: 2000.5436241610737 Miami
+totalScore: 1002.5771812080537 it
+totalScore: 1008.2774049217002 a McDonnell-Douglas plane
+totalScore: 1006.6442953020135 the DC-9-32
+totalScore: 1001.6778523489933 It
+totalScore: 1006.7114093959732 its regularly
+totalScore: 2000.744966442953 Miami
+totalScore: 10.278523489932885 more than 70 minutes
+totalScore: 1006.8120805369127 Flight 592
+totalScore: 2000.8456375838928 Valujet
+totalScore: 7.879194630872483 the hours
+totalScore: 2.912751677852349 details
+totalScore: 1006.9463087248322 the plane
+totalScore: 1006.9798657718121 the inaccessibility
+totalScore: 1002.0134228187919 few
+totalScore: 1002.0469798657718 crash
+totalScore: 1007.0805369127517 the tailcone
+totalScore: 1007.1140939597316 the pilot
+totalScore: 1007.1476510067114 a knife
+totalScore: 1007.1812080536913 the attendant
+totalScore: 1007.2147651006711 the chute
+totalScore: 1002.248322147651 plane
+totalScore: 1008.9485458612976 a Valujet plane
+totalScore: 1007.3154362416108 a flight
+totalScore: 1009.0156599552573 an emergency chute
+totalScore: 1007.3825503355705 the cabin
+totalScore: 1009.082774049217 another Valujet plane
+totalScore: 1007.4496644295302 a runway
+totalScore: 2001.4832214765102 Valujet
+totalScore: 1007.51677852349 the terminal
+totalScore: 2009.0503355704698 Hartsfield Atlanta International Airport
+totalScore: 8.583892617449663 101 passengers
+totalScore: 1009.2841163310962 a Valujet DC-9
+totalScore: 1007.6510067114094 the mud
+totalScore: 1002.6845637583892 another
+totalScore: 2001.7181208053692 Valujet
+totalScore: 1002.751677852349 closing
+totalScore: 1007.7852348993289 the airport
+totalScore: 2008.4854586129754 Dulles International Airport
+totalScore: 1002.8523489932886 outside
+totalScore: 1002.8859060402684 landing
+totalScore: 1007.9194630872483 30 people
+totalScore: 2006.9530201342282 Last Jan.
+totalScore: 1002.9865771812081 a
+totalScore: 2002.020134228188 Valujet
+totalScore: 11.553691275167786 the summer Olympic Games
+totalScore: 1003.0872483221476 anticipation
+totalScore: 9.120805369127517 fewer airplanes
+totalScore: 1008.1543624161073 last month
+totalScore: 1008.1879194630873 this year
+totalScore: 4.221476510067114 its
+totalScore: 1004.255033557047 it
+totalScore: 1004.2885906040268 it
+totalScore: 1011.3221476510067 the fastest-growing airline in history
+totalScore: 1003.3557046979865 itself
+totalScore: 2002.3892617449665 VALUJET-CRASH
+totalScore: 1003.4228187919463 0586
+totalScore: 1003.4563758389262 05-11
+totalScore: 2002.489932885906 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 2002.523489932886 A2461
+assigning <seats X103> to <It 54> with score of 2.476510067114094
+matching <DeLisle> <- <DeLisle>
+comparing <We 59> with:
+totalScore: 1000.0335570469799 ground
+totalScore: 1005.0335570469799 his instructor
+totalScore: 1000.0671140939597 the
+totalScore: 1001.1006711409397 he
+totalScore: 1999.1342281879195 DeLisle
+totalScore: 1000.1677852348994 100
+totalScore: 2000.201342281879 It
+totalScore: 1006.9015659955257 a mushroom cloud
+totalScore: 2000.268456375839 I
+totalScore: 1005.3020134228188 the sense
+totalScore: 1000.3355704697987 nothing
+totalScore: 2000.3691275167785 It
+totalScore: 1001.4026845637584 he
+totalScore: 2000.4362416107383 I
+totalScore: 1999.469798657718 DeLisle
+totalScore: 1005.503355704698 his instructor
+totalScore: 1005.5369127516778 the crash
+totalScore: 1005.5704697986578 the area
+totalScore: 1999.6040268456377 CNN
+totalScore: 1007.3042505592841 a small plane
+totalScore: 2004.6711409395973 Rick DeLisle
+totalScore: 1007.3713646532439 dive and exploded
+totalScore: 1007.4049217002237 The FAA report
+totalScore: 1005.771812080537 a steep
+totalScore: 1005.8053691275168 the plane
+totalScore: 1999.8389261744967 FAA
+totalScore: 6.87248322147651 80 miles
+totalScore: 8.572706935123042 about 100 miles
+totalScore: 1000.9395973154362 smoke
+totalScore: 1005.9731543624162 the pilot
+totalScore: 2000.0067114093958 Miami
+totalScore: 7.040268456375839 Three hours
+totalScore: 1006.0738255033557 the FAA
+totalScore: 1006.1073825503356 the jet
+totalScore: 1006.1409395973154 the crash
+totalScore: 2000.1744966442952 Florida
+totalScore: 8.874720357941834 about 20 miles
+totalScore: 1007.9082774049217 a dense area
+totalScore: 1001.2751677852349 the
+totalScore: 2000.308724832215 Miami
+totalScore: 7.342281879194631 preliminary reports
+totalScore: 1006.3758389261745 the plane
+totalScore: 1006.4093959731543 The airline
+totalScore: 1006.4429530201343 the cabin
+totalScore: 1001.4765100671141 smoke
+totalScore: 7.51006711409396 air-traffic controllers
+totalScore: 7.543624161073826 other reports
+totalScore: 1006.5771812080537 the pilot
+totalScore: 1006.6107382550335 2:25 p.m.
+totalScore: 1001.6442953020135 smoke
+totalScore: 2.6778523489932886 seats
+totalScore: 1008.3780760626398 The Valujet statement
+totalScore: 2000.744966442953 Miami
+totalScore: 1002.7785234899329 it
+totalScore: 1008.4787472035794 a McDonnell-Douglas plane
+totalScore: 1006.8456375838927 the DC-9-32
+totalScore: 2001.8791946308725 It
+totalScore: 1006.9127516778524 its regularly
+totalScore: 2000.9463087248323 Miami
+totalScore: 10.479865771812081 more than 70 minutes
+totalScore: 1007.0134228187919 Flight 592
+totalScore: 2001.0469798657718 Valujet
+totalScore: 8.080536912751677 the hours
+totalScore: 3.1140939597315436 details
+totalScore: 1007.1476510067114 the plane
+totalScore: 1007.1812080536913 the inaccessibility
+totalScore: 1002.2147651006711 few
+totalScore: 1002.248322147651 crash
+totalScore: 1007.2818791946308 the tailcone
+totalScore: 1007.3154362416108 the pilot
+totalScore: 1007.3489932885906 a knife
+totalScore: 1007.3825503355705 the attendant
+totalScore: 1007.4161073825503 the chute
+totalScore: 1002.4496644295302 plane
+totalScore: 1009.1498881431768 a Valujet plane
+totalScore: 1007.51677852349 a flight
+totalScore: 1009.2170022371365 an emergency chute
+totalScore: 1007.5838926174497 the cabin
+totalScore: 1009.2841163310962 another Valujet plane
+totalScore: 1007.6510067114094 a runway
+totalScore: 2001.6845637583892 Valujet
+totalScore: 1007.7181208053692 the terminal
+totalScore: 2009.251677852349 Hartsfield Atlanta International Airport
+totalScore: 8.78523489932886 101 passengers
+totalScore: 1009.4854586129754 a Valujet DC-9
+totalScore: 1007.8523489932886 the mud
+totalScore: 1002.8859060402684 another
+totalScore: 2001.9194630872485 Valujet
+totalScore: 1002.9530201342282 closing
+totalScore: 1007.9865771812081 the airport
+totalScore: 2008.6868008948545 Dulles International Airport
+totalScore: 1003.0536912751678 outside
+totalScore: 1003.0872483221476 landing
+totalScore: 1008.1208053691275 30 people
+totalScore: 2007.1543624161072 Last Jan.
+totalScore: 1003.1879194630873 a
+totalScore: 2002.221476510067 Valujet
+totalScore: 11.75503355704698 the summer Olympic Games
+totalScore: 1003.2885906040268 anticipation
+totalScore: 9.322147651006713 fewer airplanes
+totalScore: 1008.3557046979865 last month
+totalScore: 1008.3892617449665 this year
+totalScore: 4.422818791946309 its
+totalScore: 1004.4563758389262 it
+totalScore: 1004.489932885906 it
+totalScore: 1011.5234899328859 the fastest-growing airline in history
+totalScore: 1003.5570469798657 itself
+totalScore: 2002.5906040268455 VALUJET-CRASH
+totalScore: 1003.6241610738255 0586
+totalScore: 1003.6577181208054 05-11
+totalScore: 2002.691275167785 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 2002.7248322147652 A2461
+assigning <seats X103> to <We 59> with score of 2.6778523489932886
+comparing <the binocs 60> with:
+totalScore: 12.033557046979865 ground
+totalScore: 7.067114093959732 We
+totalScore: 12.100671140939598 his instructor
+totalScore: 7.134228187919463 the
+totalScore: -991.8322147651006 he
+totalScore: 12.201342281879194 DeLisle
+totalScore: 12.234899328859061 100
+totalScore: 7.268456375838926 It
+totalScore: 12.302013422818792 a mushroom cloud
+totalScore: 7.3355704697986575 I
+totalScore: 7.369127516778524 the sense
+totalScore: 12.40268456375839 nothing
+totalScore: 7.436241610738255 It
+totalScore: -991.5302013422819 he
+totalScore: 7.503355704697986 I
+totalScore: 12.536912751677852 DeLisle
+totalScore: 12.570469798657719 his instructor
+totalScore: 7.604026845637584 the crash
+totalScore: 7.6375838926174495 the area
+totalScore: 12.671140939597315 CNN
+totalScore: 12.70469798657718 a small plane
+totalScore: 12.738255033557047 Rick DeLisle
+totalScore: 12.771812080536913 dive and exploded
+totalScore: 12.805369127516778 The FAA report
+totalScore: 12.838926174496644 a steep
+totalScore: 7.87248322147651 the plane
+totalScore: 12.906040268456376 FAA
+totalScore: 1011.9395973154362 80 miles
+totalScore: 1011.9731543624162 about 100 miles
+totalScore: 13.006711409395972 smoke
+totalScore: 8.040268456375838 the pilot
+totalScore: 13.073825503355705 Miami
+totalScore: 1012.1073825503356 Three hours
+totalScore: 8.140939597315436 the FAA
+totalScore: 8.174496644295303 the jet
+totalScore: 8.208053691275168 the crash
+totalScore: 13.241610738255034 Florida
+totalScore: 1012.2751677852349 about 20 miles
+totalScore: 13.308724832214764 a dense area
+totalScore: 8.34228187919463 the
+totalScore: 13.375838926174497 Miami
+totalScore: 1012.4093959731543 preliminary reports
+totalScore: 8.442953020134228 the plane
+totalScore: 13.476510067114095 The airline
+totalScore: 8.51006711409396 the cabin
+totalScore: 13.543624161073826 smoke
+totalScore: 1012.5771812080537 air-traffic controllers
+totalScore: 1012.6107382550335 other reports
+totalScore: 8.644295302013422 the pilot
+totalScore: 13.677852348993289 2:25 p.m.
+totalScore: 13.711409395973154 smoke
+totalScore: 1012.744966442953 seats
+totalScore: 13.778523489932885 The Valujet statement
+totalScore: 13.812080536912752 Miami
+totalScore: 8.845637583892618 it
+totalScore: 13.879194630872483 a McDonnell-Douglas plane
+totalScore: 8.912751677852349 the DC-9-32
+totalScore: 8.946308724832214 It
+totalScore: 13.979865771812081 its regularly
+totalScore: 14.013422818791947 Miami
+totalScore: 1013.0469798657718 more than 70 minutes
+totalScore: 14.080536912751677 Flight 592
+totalScore: 14.114093959731544 Valujet
+totalScore: 1008.1476510067114 the hours
+totalScore: 1013.1812080536913 details
+totalScore: 9.21476510067114 the plane
+totalScore: 9.248322147651006 the inaccessibility
+totalScore: 14.281879194630871 few
+totalScore: 14.315436241610739 crash
+totalScore: 9.348993288590604 the tailcone
+totalScore: 9.38255033557047 the pilot
+totalScore: 14.416107382550337 a knife
+totalScore: 9.449664429530202 the attendant
+totalScore: 9.483221476510067 the chute
+totalScore: 14.516778523489933 plane
+totalScore: 14.550335570469798 a Valujet plane
+totalScore: 14.583892617449663 a flight
+totalScore: 14.61744966442953 an emergency chute
+totalScore: 9.651006711409396 the cabin
+totalScore: 14.684563758389261 another Valujet plane
+totalScore: 14.718120805369129 a runway
+totalScore: 14.751677852348994 Valujet
+totalScore: 9.78523489932886 the terminal
+totalScore: 14.818791946308725 Hartsfield Atlanta International Airport
+totalScore: 1013.8523489932886 101 passengers
+totalScore: 14.885906040268456 a Valujet DC-9
+totalScore: 9.919463087248323 the mud
+totalScore: 14.953020134228188 another
+totalScore: 14.986577181208053 Valujet
+totalScore: 15.02013422818792 closing
+totalScore: 10.053691275167786 the airport
+totalScore: 15.087248322147651 Dulles International Airport
+totalScore: 15.120805369127517 outside
+totalScore: 15.154362416107382 landing
+totalScore: 15.187919463087248 30 people
+totalScore: 15.221476510067113 Last Jan.
+totalScore: 15.25503355704698 a
+totalScore: 15.288590604026846 Valujet
+totalScore: 1011.8221476510067 the summer Olympic Games
+totalScore: 15.355704697986578 anticipation
+totalScore: 1014.3892617449665 fewer airplanes
+totalScore: 15.422818791946309 last month
+totalScore: 15.456375838926174 this year
+totalScore: 1014.489932885906 its
+totalScore: 10.523489932885905 it
+totalScore: 10.557046979865772 it
+totalScore: 13.590604026845638 the fastest-growing airline in history
+totalScore: 15.624161073825503 itself
+totalScore: 15.65771812080537 VALUJET-CRASH
+totalScore: 15.691275167785236 0586
+totalScore: 15.724832214765101 05-11
+totalScore: 15.758389261744966 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 15.791946308724832 A2461
+assigning <he X175> to <the binocs 60> with score of -991.8322147651006
+comparing <a large trash bag worth of debris 61> with:
+totalScore: 10.604985618408437 it
+totalScore: 1011.0335570469799 the binocs
+totalScore: 12.06711409395973 ground
+totalScore: 10.67209971236817 We
+totalScore: 12.134228187919463 his instructor
+totalScore: 12.167785234899329 the
+totalScore: 10.772770853307765 he
+totalScore: 12.234899328859061 DeLisle
+totalScore: 12.268456375838927 100
+totalScore: 10.873441994247363 It
+totalScore: 10.906999041227229 a mushroom cloud
+totalScore: 10.940556088207094 I
+totalScore: 12.40268456375839 the sense
+totalScore: 12.436241610738255 nothing
+totalScore: 11.041227229146692 It
+totalScore: 11.074784276126557 he
+totalScore: 11.108341323106423 I
+totalScore: 12.570469798657719 DeLisle
+totalScore: 12.604026845637584 his instructor
+totalScore: 12.63758389261745 the crash
+totalScore: 12.671140939597315 the area
+totalScore: 12.70469798657718 CNN
+totalScore: 11.309683604985619 a small plane
+totalScore: 12.771812080536913 Rick DeLisle
+totalScore: 12.805369127516778 dive and exploded
+totalScore: 12.838926174496644 The FAA report
+totalScore: 11.443911792905082 a steep
+totalScore: 12.906040268456376 the plane
+totalScore: 12.939597315436242 FAA
+totalScore: 1011.9731543624162 80 miles
+totalScore: 1012.006711409396 about 100 miles
+totalScore: 13.04026845637584 smoke
+totalScore: 13.073825503355705 the pilot
+totalScore: 13.10738255033557 Miami
+totalScore: 1012.1409395973154 Three hours
+totalScore: 13.174496644295303 the FAA
+totalScore: 13.208053691275168 the jet
+totalScore: 13.241610738255034 the crash
+totalScore: 13.275167785234899 Florida
+totalScore: 1012.3087248322148 about 20 miles
+totalScore: 11.913710450623203 a dense area
+totalScore: 13.375838926174497 the
+totalScore: 13.409395973154362 Miami
+totalScore: 1012.4429530201343 preliminary reports
+totalScore: 13.476510067114095 the plane
+totalScore: 13.51006711409396 The airline
+totalScore: 13.543624161073826 the cabin
+totalScore: 13.577181208053691 smoke
+totalScore: 1012.6107382550335 air-traffic controllers
+totalScore: 1012.6442953020135 other reports
+totalScore: 13.677852348993289 the pilot
+totalScore: 13.711409395973154 2:25 p.m.
+totalScore: 13.74496644295302 smoke
+totalScore: 1012.7785234899329 seats
+totalScore: 13.812080536912752 The Valujet statement
+totalScore: 13.845637583892618 Miami
+totalScore: 12.450623202301054 it
+totalScore: 12.48418024928092 a McDonnell-Douglas plane
+totalScore: 13.946308724832214 the DC-9-32
+totalScore: 12.551294343240652 It
+totalScore: 14.013422818791947 its regularly
+totalScore: 14.046979865771812 Miami
+totalScore: 1013.0805369127517 more than 70 minutes
+totalScore: 14.114093959731544 Flight 592
+totalScore: 14.14765100671141 Valujet
+totalScore: 1013.1812080536913 the hours
+totalScore: 1013.2147651006711 details
+totalScore: 14.248322147651006 the plane
+totalScore: 14.281879194630871 the inaccessibility
+totalScore: 14.315436241610739 few
+totalScore: 14.348993288590604 crash
+totalScore: 14.38255033557047 the tailcone
+totalScore: 14.416107382550337 the pilot
+totalScore: 13.021093000958773 a knife
+totalScore: 14.483221476510067 the attendant
+totalScore: 14.516778523489933 the chute
+totalScore: 14.550335570469798 plane
+totalScore: 13.155321188878236 a Valujet plane
+totalScore: 13.188878235858102 a flight
+totalScore: 14.651006711409396 an emergency chute
+totalScore: 14.684563758389261 the cabin
+totalScore: 14.718120805369129 another Valujet plane
+totalScore: 13.323106423777563 a runway
+totalScore: 14.78523489932886 Valujet
+totalScore: 14.818791946308725 the terminal
+totalScore: 14.85234899328859 Hartsfield Atlanta International Airport
+totalScore: 1013.8859060402684 101 passengers
+totalScore: 13.490891658676894 a Valujet DC-9
+totalScore: 14.953020134228188 the mud
+totalScore: 14.986577181208053 another
+totalScore: 15.02013422818792 Valujet
+totalScore: 15.053691275167786 closing
+totalScore: 15.087248322147651 the airport
+totalScore: 15.120805369127517 Dulles International Airport
+totalScore: 15.154362416107382 outside
+totalScore: 15.187919463087248 landing
+totalScore: 15.221476510067113 30 people
+totalScore: 15.25503355704698 Last Jan.
+totalScore: 13.860019175455417 a
+totalScore: 15.322147651006713 Valujet
+totalScore: 1014.3557046979865 the summer Olympic Games
+totalScore: 15.389261744966444 anticipation
+totalScore: 1014.4228187919463 fewer airplanes
+totalScore: 15.456375838926174 last month
+totalScore: 15.48993288590604 this year
+totalScore: 1014.5234899328859 its
+totalScore: 14.128475551294343 it
+totalScore: 14.162032598274209 it
+totalScore: 15.624161073825503 the fastest-growing airline in history
+totalScore: 15.65771812080537 itself
+totalScore: 15.691275167785236 VALUJET-CRASH
+totalScore: 15.724832214765101 0586
+totalScore: 15.758389261744966 05-11
+totalScore: 15.791946308724832 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 15.825503355704697 A2461
+assigning <it X186> to <a large trash bag worth of debris 61> with score of 10.604985618408437
+matching <the crash> <- <the crash>
+matching <Hartsfield Atlanta International Airport> <- <an airport spokesman>
+comparing <family members 65> with:
+totalScore: 12.134228187919463 County Aviation
+totalScore: 1011.1006711409397 counselors
+totalScore: 12.033557046979865 the Office
+totalScore: 12.06711409395973 Dade
+totalScore: 12.100671140939598 an airport spokesman
+totalScore: 12.134228187919463 information
+totalScore: 12.167785234899329 what
+totalScore: 12.201342281879194 people
+totalScore: 12.234899328859061 board
+totalScore: 1011.2684563758389 relatives
+totalScore: 1011.3020134228188 news
+totalScore: 12.335570469798657 word
+totalScore: 12.369127516778523 the crash
+totalScore: 7.402684563758389 it
+totalScore: 1011.4362416107383 a large trash bag worth of debris
+totalScore: 1011.4697986577181 the binocs
+totalScore: 12.503355704697986 ground
+totalScore: 7.5369127516778525 We
+totalScore: 12.570469798657719 his instructor
+totalScore: 12.604026845637584 the
+totalScore: 7.6375838926174495 he
+totalScore: 12.671140939597315 DeLisle
+totalScore: 12.70469798657718 100
+totalScore: 7.7382550335570475 It
+totalScore: 12.771812080536913 a mushroom cloud
+totalScore: 7.805369127516778 I
+totalScore: 12.838926174496644 the sense
+totalScore: 12.87248322147651 nothing
+totalScore: 7.906040268456376 It
+totalScore: 7.939597315436242 he
+totalScore: 7.973154362416107 I
+totalScore: 13.006711409395972 DeLisle
+totalScore: 13.04026845637584 his instructor
+totalScore: 13.073825503355705 the crash
+totalScore: 13.10738255033557 the area
+totalScore: 13.140939597315436 CNN
+totalScore: 13.174496644295303 a small plane
+totalScore: 13.208053691275168 Rick DeLisle
+totalScore: 13.241610738255034 dive and exploded
+totalScore: 13.275167785234899 The FAA report
+totalScore: 13.308724832214764 a steep
+totalScore: 13.342281879194632 the plane
+totalScore: 13.375838926174497 FAA
+totalScore: 1012.4093959731543 80 miles
+totalScore: 1012.4429530201343 about 100 miles
+totalScore: 13.476510067114095 smoke
+totalScore: 13.51006711409396 the pilot
+totalScore: 13.543624161073826 Miami
+totalScore: 1012.5771812080537 Three hours
+totalScore: 13.610738255033556 the FAA
+totalScore: 13.644295302013424 the jet
+totalScore: 13.677852348993289 the crash
+totalScore: 13.711409395973154 Florida
+totalScore: 1012.744966442953 about 20 miles
+totalScore: 13.778523489932885 a dense area
+totalScore: 13.812080536912752 the
+totalScore: 13.845637583892618 Miami
+totalScore: 1012.8791946308725 preliminary reports
+totalScore: 13.912751677852349 the plane
+totalScore: 13.946308724832214 The airline
+totalScore: 13.979865771812081 the cabin
+totalScore: 14.013422818791947 smoke
+totalScore: 1013.0469798657718 air-traffic controllers
+totalScore: 1013.0805369127517 other reports
+totalScore: 14.114093959731544 the pilot
+totalScore: 14.14765100671141 2:25 p.m.
+totalScore: 14.181208053691275 smoke
+totalScore: 1013.2147651006711 seats
+totalScore: 14.248322147651006 The Valujet statement
+totalScore: 14.281879194630871 Miami
+totalScore: 9.315436241610739 it
+totalScore: 14.348993288590604 a McDonnell-Douglas plane
+totalScore: 14.38255033557047 the DC-9-32
+totalScore: 9.416107382550337 It
+totalScore: 14.449664429530202 its regularly
+totalScore: 14.483221476510067 Miami
+totalScore: 1013.51677852349 more than 70 minutes
+totalScore: 14.550335570469798 Flight 592
+totalScore: 14.583892617449663 Valujet
+totalScore: 1013.6174496644295 the hours
+totalScore: 1013.6510067114094 details
+totalScore: 14.684563758389261 the plane
+totalScore: 14.718120805369129 the inaccessibility
+totalScore: 14.751677852348994 few
+totalScore: 14.78523489932886 crash
+totalScore: 14.818791946308725 the tailcone
+totalScore: 14.85234899328859 the pilot
+totalScore: 14.885906040268456 a knife
+totalScore: 14.919463087248323 the attendant
+totalScore: 14.953020134228188 the chute
+totalScore: 14.986577181208053 plane
+totalScore: 15.02013422818792 a Valujet plane
+totalScore: 15.053691275167786 a flight
+totalScore: 15.087248322147651 an emergency chute
+totalScore: 15.120805369127517 the cabin
+totalScore: 15.154362416107382 another Valujet plane
+totalScore: 15.187919463087248 a runway
+totalScore: 15.221476510067113 Valujet
+totalScore: 15.25503355704698 the terminal
+totalScore: 15.288590604026846 Hartsfield Atlanta International Airport
+totalScore: 1014.3221476510067 101 passengers
+totalScore: 15.355704697986578 a Valujet DC-9
+totalScore: 15.389261744966444 the mud
+totalScore: 15.422818791946309 another
+totalScore: 15.456375838926174 Valujet
+totalScore: 15.48993288590604 closing
+totalScore: 15.523489932885905 the airport
+totalScore: 15.557046979865772 Dulles International Airport
+totalScore: 15.590604026845638 outside
+totalScore: 15.624161073825503 landing
+totalScore: 15.65771812080537 30 people
+totalScore: 15.691275167785236 Last Jan.
+totalScore: 15.724832214765101 a
+totalScore: 15.758389261744966 Valujet
+totalScore: 1014.7919463087248 the summer Olympic Games
+totalScore: 15.825503355704697 anticipation
+totalScore: 1014.8590604026846 fewer airplanes
+totalScore: 15.89261744966443 last month
+totalScore: 15.926174496644295 this year
+totalScore: 1014.9597315436241 its
+totalScore: 10.993288590604028 it
+totalScore: 11.026845637583893 it
+totalScore: 16.06040268456376 the fastest-growing airline in history
+totalScore: 16.093959731543624 itself
+totalScore: 16.12751677852349 VALUJET-CRASH
+totalScore: 16.161073825503355 0586
+totalScore: 16.194630872483224 05-11
+totalScore: 16.22818791946309 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 16.261744966442954 A2461
+assigning <it X186> to <family members 65> with score of 7.402684563758389
+comparing <They 66> with:
+totalScore: 2004.1006711409395 County Aviation
+totalScore: 1.0671140939597314 counselors
+totalScore: 1005.0335570469799 about 50
+totalScore: 6.033557046979865 family members
+totalScore: 1005.0671140939597 the Office
+totalScore: 1999.1006711409395 Dade
+totalScore: 1006.8008948545861 an airport spokesman
+totalScore: 1000.1677852348994 information
+totalScore: 1000.2013422818792 what
+totalScore: 1000.2348993288591 people
+totalScore: 1000.2684563758389 board
+totalScore: 1.302013422818792 relatives
+totalScore: 1.3355704697986577 news
+totalScore: 1000.3691275167786 word
+totalScore: 1005.4026845637584 the crash
+totalScore: 1001.4362416107383 it
+totalScore: 10.041227229146692 a large trash bag worth of debris
+totalScore: 6.503355704697986 the binocs
+totalScore: 1000.5369127516778 ground
+totalScore: 2000.5704697986578 We
+totalScore: 1005.6040268456376 his instructor
+totalScore: 1000.6375838926175 the
+totalScore: 1001.6711409395973 he
+totalScore: 1999.7046979865772 DeLisle
+totalScore: 1000.738255033557 100
+totalScore: 2000.771812080537 It
+totalScore: 1007.4720357941834 a mushroom cloud
+totalScore: 2000.8389261744967 I
+totalScore: 1005.8724832214765 the sense
+totalScore: 1000.9060402684564 nothing
+totalScore: 2000.9395973154362 It
+totalScore: 1001.9731543624162 he
+totalScore: 2001.0067114093958 I
+totalScore: 2000.040268456376 DeLisle
+totalScore: 1006.0738255033557 his instructor
+totalScore: 1006.1073825503356 the crash
+totalScore: 1006.1409395973154 the area
+totalScore: 2000.1744966442952 CNN
+totalScore: 1007.8747203579418 a small plane
+totalScore: 2005.241610738255 Rick DeLisle
+totalScore: 1007.9418344519015 dive and exploded
+totalScore: 1007.9753914988814 The FAA report
+totalScore: 1006.3422818791946 a steep
+totalScore: 1006.3758389261745 the plane
+totalScore: 2000.4093959731545 FAA
+totalScore: 7.442953020134228 80 miles
+totalScore: 9.14317673378076 about 100 miles
+totalScore: 1001.510067114094 smoke
+totalScore: 1006.5436241610738 the pilot
+totalScore: 2000.5771812080538 Miami
+totalScore: 7.6107382550335565 Three hours
+totalScore: 1006.6442953020135 the FAA
+totalScore: 1006.6778523489933 the jet
+totalScore: 1006.7114093959732 the crash
+totalScore: 2000.744966442953 Florida
+totalScore: 9.445190156599551 about 20 miles
+totalScore: 1008.4787472035794 a dense area
+totalScore: 1001.8456375838927 the
+totalScore: 2000.8791946308725 Miami
+totalScore: 7.912751677852349 preliminary reports
+totalScore: 1006.9463087248322 the plane
+totalScore: 1006.9798657718121 The airline
+totalScore: 1007.0134228187919 the cabin
+totalScore: 1002.0469798657718 smoke
+totalScore: 8.080536912751677 air-traffic controllers
+totalScore: 8.114093959731544 other reports
+totalScore: 1007.1476510067114 the pilot
+totalScore: 1007.1812080536913 2:25 p.m.
+totalScore: 1002.2147651006711 smoke
+totalScore: 3.248322147651007 seats
+totalScore: 1008.9485458612976 The Valujet statement
+totalScore: 2001.3154362416108 Miami
+totalScore: 1003.3489932885906 it
+totalScore: 1009.0492170022371 a McDonnell-Douglas plane
+totalScore: 1007.4161073825503 the DC-9-32
+totalScore: 2002.4496644295302 It
+totalScore: 1007.48322147651 its regularly
+totalScore: 2001.5167785234898 Miami
+totalScore: 11.050335570469798 more than 70 minutes
+totalScore: 1007.5838926174497 Flight 592
+totalScore: 2001.6174496644294 Valujet
+totalScore: 8.651006711409396 the hours
+totalScore: 3.684563758389262 details
+totalScore: 1007.7181208053692 the plane
+totalScore: 1007.751677852349 the inaccessibility
+totalScore: 1002.7852348993289 few
+totalScore: 1002.8187919463087 crash
+totalScore: 1007.8523489932886 the tailcone
+totalScore: 1007.8859060402684 the pilot
+totalScore: 1007.9194630872483 a knife
+totalScore: 1007.9530201342282 the attendant
+totalScore: 1007.9865771812081 the chute
+totalScore: 1003.0201342281879 plane
+totalScore: 1009.7203579418344 a Valujet plane
+totalScore: 1008.0872483221476 a flight
+totalScore: 1009.7874720357942 an emergency chute
+totalScore: 1008.1543624161073 the cabin
+totalScore: 1009.8545861297539 another Valujet plane
+totalScore: 1008.2214765100671 a runway
+totalScore: 2002.255033557047 Valujet
+totalScore: 1008.2885906040268 the terminal
+totalScore: 2009.8221476510066 Hartsfield Atlanta International Airport
+totalScore: 9.355704697986578 101 passengers
+totalScore: 1010.0559284116331 a Valujet DC-9
+totalScore: 1008.4228187919463 the mud
+totalScore: 1003.4563758389262 another
+totalScore: 2002.489932885906 Valujet
+totalScore: 1003.5234899328859 closing
+totalScore: 1008.5570469798657 the airport
+totalScore: 2009.2572706935123 Dulles International Airport
+totalScore: 1003.6241610738255 outside
+totalScore: 1003.6577181208054 landing
+totalScore: 1008.6912751677852 30 people
+totalScore: 2007.7248322147652 Last Jan.
+totalScore: 1003.7583892617449 a
+totalScore: 2002.7919463087248 Valujet
+totalScore: 12.325503355704697 the summer Olympic Games
+totalScore: 1003.8590604026846 anticipation
+totalScore: 9.89261744966443 fewer airplanes
+totalScore: 1008.9261744966443 last month
+totalScore: 1008.9597315436241 this year
+totalScore: 4.993288590604027 its
+totalScore: 1005.0268456375838 it
+totalScore: 1005.0604026845638 it
+totalScore: 1012.0939597315436 the fastest-growing airline in history
+totalScore: 1004.1275167785235 itself
+totalScore: 2003.1610738255033 VALUJET-CRASH
+totalScore: 1004.1946308724832 0586
+totalScore: 1004.228187919463 05-11
+totalScore: 2003.261744966443 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 2003.2953020134228 A2461
+assigning <counselors X213> to <They 66> with score of 1.0671140939597314
+comparing <Vergera 67> with:
+totalScore: 1011.1006711409397 an undisclosed location
+totalScore: 2010.03355704698 County Aviation
+totalScore: 12.06711409395973 counselors
+totalScore: 1011.1006711409397 about 50
+totalScore: 2000.1342281879195 They
+totalScore: 12.167785234899329 family members
+totalScore: 1011.2013422818792 the Office
+totalScore: 2010.2348993288592 Dade
+totalScore: 1011.2684563758389 an airport spokesman
+totalScore: 1011.3020134228188 information
+totalScore: 1011.3355704697987 what
+totalScore: 1011.3691275167786 people
+totalScore: 1011.4026845637584 board
+totalScore: 12.436241610738255 relatives
+totalScore: 12.46979865771812 news
+totalScore: 1011.503355704698 word
+totalScore: 1011.5369127516778 the crash
+totalScore: 1001.5704697986578 it
+totalScore: 12.604026845637584 a large trash bag worth of debris
+totalScore: 12.63758389261745 the binocs
+totalScore: 1011.6711409395973 ground
+totalScore: 2000.7046979865772 We
+totalScore: 1011.738255033557 his instructor
+totalScore: 1011.771812080537 the
+totalScore: 1001.8053691275168 he
+totalScore: 2010.8389261744967 DeLisle
+totalScore: 1011.8724832214765 100
+totalScore: 2000.9060402684563 It
+totalScore: 1011.9395973154362 a mushroom cloud
+totalScore: 2000.9731543624162 I
+totalScore: 1012.006711409396 the sense
+totalScore: 1012.0402684563759 nothing
+totalScore: 2001.0738255033557 It
+totalScore: 1002.1073825503356 he
+totalScore: 2001.1409395973155 I
+totalScore: 2011.1744966442952 DeLisle
+totalScore: 1012.2080536912752 his instructor
+totalScore: 1012.2416107382551 the crash
+totalScore: 1012.2751677852349 the area
+totalScore: 2011.308724832215 CNN
+totalScore: 1012.3422818791946 a small plane
+totalScore: 2011.3758389261745 Rick DeLisle
+totalScore: 1012.4093959731543 dive and exploded
+totalScore: 1012.4429530201343 The FAA report
+totalScore: 1012.4765100671141 a steep
+totalScore: 1012.510067114094 the plane
+totalScore: 2011.5436241610737 FAA
+totalScore: 13.577181208053691 80 miles
+totalScore: 13.610738255033556 about 100 miles
+totalScore: 1012.6442953020135 smoke
+totalScore: 1012.6778523489933 the pilot
+totalScore: 2011.711409395973 Miami
+totalScore: 13.74496644295302 Three hours
+totalScore: 1012.7785234899329 the FAA
+totalScore: 1012.8120805369127 the jet
+totalScore: 1012.8456375838927 the crash
+totalScore: 2011.8791946308725 Florida
+totalScore: 13.912751677852349 about 20 miles
+totalScore: 1012.9463087248322 a dense area
+totalScore: 1012.9798657718121 the
+totalScore: 2012.013422818792 Miami
+totalScore: 14.046979865771812 preliminary reports
+totalScore: 1013.0805369127517 the plane
+totalScore: 1013.1140939597316 The airline
+totalScore: 1013.1476510067114 the cabin
+totalScore: 1013.1812080536913 smoke
+totalScore: 14.21476510067114 air-traffic controllers
+totalScore: 14.248322147651006 other reports
+totalScore: 1013.2818791946308 the pilot
+totalScore: 1013.3154362416108 2:25 p.m.
+totalScore: 1013.3489932885906 smoke
+totalScore: 14.38255033557047 seats
+totalScore: 1013.4161073825503 The Valujet statement
+totalScore: 2012.4496644295302 Miami
+totalScore: 1003.48322147651 it
+totalScore: 1013.51677852349 a McDonnell-Douglas plane
+totalScore: 1013.5503355704698 the DC-9-32
+totalScore: 2002.5838926174497 It
+totalScore: 1013.6174496644295 its regularly
+totalScore: 2012.6510067114095 Miami
+totalScore: 14.684563758389261 more than 70 minutes
+totalScore: 1013.7181208053692 Flight 592
+totalScore: 2012.751677852349 Valujet
+totalScore: 14.78523489932886 the hours
+totalScore: 14.818791946308725 details
+totalScore: 1013.8523489932886 the plane
+totalScore: 1013.8859060402684 the inaccessibility
+totalScore: 1013.9194630872483 few
+totalScore: 1013.9530201342282 crash
+totalScore: 1013.9865771812081 the tailcone
+totalScore: 1014.0201342281879 the pilot
+totalScore: 1014.0536912751678 a knife
+totalScore: 1014.0872483221476 the attendant
+totalScore: 1014.1208053691275 the chute
+totalScore: 1014.1543624161073 plane
+totalScore: 1014.1879194630873 a Valujet plane
+totalScore: 1014.2214765100671 a flight
+totalScore: 1014.255033557047 an emergency chute
+totalScore: 1014.2885906040268 the cabin
+totalScore: 1014.3221476510067 another Valujet plane
+totalScore: 1014.3557046979865 a runway
+totalScore: 2013.3892617449665 Valujet
+totalScore: 1014.4228187919463 the terminal
+totalScore: 2013.4563758389263 Hartsfield Atlanta International Airport
+totalScore: 15.48993288590604 101 passengers
+totalScore: 1014.5234899328859 a Valujet DC-9
+totalScore: 1014.5570469798657 the mud
+totalScore: 1014.5906040268457 another
+totalScore: 2013.6241610738255 Valujet
+totalScore: 1014.6577181208054 closing
+totalScore: 1014.6912751677852 the airport
+totalScore: 2013.7248322147652 Dulles International Airport
+totalScore: 1014.7583892617449 outside
+totalScore: 1014.7919463087248 landing
+totalScore: 1014.8255033557047 30 people
+totalScore: 2013.8590604026845 Last Jan.
+totalScore: 1014.8926174496644 a
+totalScore: 2013.9261744966443 Valujet
+totalScore: 15.95973154362416 the summer Olympic Games
+totalScore: 1014.993288590604 anticipation
+totalScore: 16.026845637583893 fewer airplanes
+totalScore: 1015.0604026845638 last month
+totalScore: 1015.0939597315436 this year
+totalScore: 16.12751677852349 its
+totalScore: 1005.1610738255033 it
+totalScore: 1005.1946308724832 it
+totalScore: 1015.228187919463 the fastest-growing airline in history
+totalScore: 1015.261744966443 itself
+totalScore: 2014.2953020134228 VALUJET-CRASH
+totalScore: 1015.3288590604027 0586
+totalScore: 1015.3624161073825 05-11
+totalScore: 2014.3959731543623 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 2014.4295302013422 A2461
+assigning <counselors X213> to <Vergera 67> with score of 12.06711409395973
+matching <The Valujet statement> <- <Valujet>
+matching <an airport spokesman> <- <the airport>
+comparing <the families of the victims 70> with:
+totalScore: 12.100671140939598 minimal contact
+totalScore: 12.033557046979865 an undisclosed location
+totalScore: 10.06711409395973 the airport
+totalScore: 12.100671140939598 Valujet
+totalScore: 12.134228187919463 Vergera
+totalScore: 12.167785234899329 County Aviation
+totalScore: 1011.2013422818792 counselors
+totalScore: 12.234899328859061 about 50
+totalScore: 10.268456375838927 They
+totalScore: 1011.3020134228188 family members
+totalScore: 10.335570469798657 the Office
+totalScore: 12.369127516778523 Dade
+totalScore: 12.40268456375839 an airport spokesman
+totalScore: 12.436241610738255 information
+totalScore: 12.46979865771812 what
+totalScore: 12.503355704697986 people
+totalScore: 12.536912751677852 board
+totalScore: 1011.5704697986578 relatives
+totalScore: 1011.6040268456376 news
+totalScore: 12.63758389261745 word
+totalScore: 10.671140939597315 the crash
+totalScore: 10.70469798657718 it
+totalScore: 1011.738255033557 a large trash bag worth of debris
+totalScore: 1009.771812080537 the binocs
+totalScore: 12.805369127516778 ground
+totalScore: 10.838926174496644 We
+totalScore: 12.87248322147651 his instructor
+totalScore: 10.906040268456376 the
+totalScore: -988.0604026845638 he
+totalScore: 12.973154362416107 DeLisle
+totalScore: 13.006711409395972 100
+totalScore: 11.04026845637584 It
+totalScore: 13.073825503355705 a mushroom cloud
+totalScore: 11.10738255033557 I
+totalScore: 11.140939597315436 the sense
+totalScore: 13.174496644295303 nothing
+totalScore: 11.208053691275168 It
+totalScore: -987.7583892617449 he
+totalScore: 11.275167785234899 I
+totalScore: 13.308724832214764 DeLisle
+totalScore: 13.342281879194632 his instructor
+totalScore: 11.375838926174497 the crash
+totalScore: 11.409395973154362 the area
+totalScore: 13.442953020134228 CNN
+totalScore: 13.476510067114095 a small plane
+totalScore: 13.51006711409396 Rick DeLisle
+totalScore: 13.543624161073826 dive and exploded
+totalScore: 13.577181208053691 The FAA report
+totalScore: 13.610738255033556 a steep
+totalScore: 11.644295302013424 the plane
+totalScore: 13.677852348993289 FAA
+totalScore: 1012.7114093959732 80 miles
+totalScore: 1012.744966442953 about 100 miles
+totalScore: 13.778523489932885 smoke
+totalScore: 11.812080536912752 the pilot
+totalScore: 13.845637583892618 Miami
+totalScore: 1012.8791946308725 Three hours
+totalScore: 11.912751677852349 the FAA
+totalScore: 11.946308724832214 the jet
+totalScore: 11.979865771812081 the crash
+totalScore: 14.013422818791947 Florida
+totalScore: 1013.0469798657718 about 20 miles
+totalScore: 14.080536912751677 a dense area
+totalScore: 12.114093959731544 the
+totalScore: 14.14765100671141 Miami
+totalScore: 1013.1812080536913 preliminary reports
+totalScore: 12.21476510067114 the plane
+totalScore: 14.248322147651006 The airline
+totalScore: 12.281879194630871 the cabin
+totalScore: 14.315436241610739 smoke
+totalScore: 1013.3489932885906 air-traffic controllers
+totalScore: 1013.3825503355705 other reports
+totalScore: 12.416107382550337 the pilot
+totalScore: 14.449664429530202 2:25 p.m.
+totalScore: 14.483221476510067 smoke
+totalScore: 1013.51677852349 seats
+totalScore: 14.550335570469798 The Valujet statement
+totalScore: 14.583892617449663 Miami
+totalScore: 12.61744966442953 it
+totalScore: 14.651006711409396 a McDonnell-Douglas plane
+totalScore: 12.684563758389261 the DC-9-32
+totalScore: 12.718120805369129 It
+totalScore: 14.751677852348994 its regularly
+totalScore: 14.78523489932886 Miami
+totalScore: 1013.8187919463087 more than 70 minutes
+totalScore: 14.85234899328859 Flight 592
+totalScore: 14.885906040268456 Valujet
+totalScore: 1011.9194630872483 the hours
+totalScore: 1013.9530201342282 details
+totalScore: 12.986577181208053 the plane
+totalScore: 13.02013422818792 the inaccessibility
+totalScore: 15.053691275167786 few
+totalScore: 15.087248322147651 crash
+totalScore: 13.120805369127517 the tailcone
+totalScore: 13.154362416107382 the pilot
+totalScore: 15.187919463087248 a knife
+totalScore: 13.221476510067113 the attendant
+totalScore: 13.25503355704698 the chute
+totalScore: 15.288590604026846 plane
+totalScore: 15.322147651006713 a Valujet plane
+totalScore: 15.355704697986578 a flight
+totalScore: 15.389261744966444 an emergency chute
+totalScore: 13.422818791946309 the cabin
+totalScore: 15.456375838926174 another Valujet plane
+totalScore: 15.48993288590604 a runway
+totalScore: 15.523489932885905 Valujet
+totalScore: 13.557046979865772 the terminal
+totalScore: 15.590604026845638 Hartsfield Atlanta International Airport
+totalScore: 1014.6241610738255 101 passengers
+totalScore: 15.65771812080537 a Valujet DC-9
+totalScore: 13.691275167785236 the mud
+totalScore: 15.724832214765101 another
+totalScore: 15.758389261744966 Valujet
+totalScore: 15.791946308724832 closing
+totalScore: 13.825503355704697 the airport
+totalScore: 15.859060402684564 Dulles International Airport
+totalScore: 15.89261744966443 outside
+totalScore: 15.926174496644295 landing
+totalScore: 15.95973154362416 30 people
+totalScore: 15.993288590604028 Last Jan.
+totalScore: 16.026845637583893 a
+totalScore: 16.06040268456376 Valujet
+totalScore: 1013.0939597315436 the summer Olympic Games
+totalScore: 16.12751677852349 anticipation
+totalScore: 1015.1610738255033 fewer airplanes
+totalScore: 16.194630872483224 last month
+totalScore: 16.22818791946309 this year
+totalScore: 1015.261744966443 its
+totalScore: 14.29530201342282 it
+totalScore: 14.328859060402685 it
+totalScore: 14.36241610738255 the fastest-growing airline in history
+totalScore: 16.395973154362416 itself
+totalScore: 16.42953020134228 VALUJET-CRASH
+totalScore: 16.463087248322147 0586
+totalScore: 16.496644295302012 05-11
+totalScore: 16.530201342281877 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 16.563758389261743 A2461
+assigning <he X175> to <the families of the victims 70> with score of -988.0604026845638
+matching <Vergera> <- <Vergera>
+matching <Valujet> <- <Valujet>
+comparing <05-11-96 73> with:
+totalScore: 12.033557046979865 Weeks
+totalScore: 1011.0671140939597 Petty Officer Angela
+totalScore: 12.100671140939598 rescue pilots
+totalScore: 1011.1342281879195 wreckage
+totalScore: 1011.1677852348994 that
+totalScore: 12.201342281879194 The Associated Press
+totalScore: 1011.2348993288591 The Coast Guard
+totalScore: 1011.2684563758389 aircraft
+totalScore: 1011.3020134228188 minimal contact
+totalScore: 1011.3355704697987 Valujet
+totalScore: 1011.3691275167786 Vergera
+totalScore: 12.40268456375839 the families of the victims
+totalScore: 1011.4362416107383 an undisclosed location
+totalScore: 1011.4697986577181 the airport
+totalScore: 1011.503355704698 Valujet
+totalScore: 1011.5369127516778 Vergera
+totalScore: 1011.5704697986578 County Aviation
+totalScore: 12.604026845637584 counselors
+totalScore: 1011.6375838926175 about 50
+totalScore: 1001.6711409395973 They
+totalScore: 12.70469798657718 family members
+totalScore: 1011.738255033557 the Office
+totalScore: 1011.771812080537 Dade
+totalScore: 1011.8053691275168 an airport spokesman
+totalScore: 1011.8389261744967 information
+totalScore: 1011.8724832214765 what
+totalScore: 1011.9060402684564 people
+totalScore: 1011.9395973154362 board
+totalScore: 12.973154362416107 relatives
+totalScore: 13.006711409395972 news
+totalScore: 1012.0402684563759 word
+totalScore: 1012.0738255033557 the crash
+totalScore: 1002.1073825503356 it
+totalScore: 13.140939597315436 a large trash bag worth of debris
+totalScore: 13.174496644295303 the binocs
+totalScore: 1012.2080536912752 ground
+totalScore: 1002.2416107382551 We
+totalScore: 1012.2751677852349 his instructor
+totalScore: 1012.3087248322148 the
+totalScore: 1002.3422818791946 he
+totalScore: 1012.3758389261745 DeLisle
+totalScore: 1012.4093959731543 100
+totalScore: 1002.4429530201343 It
+totalScore: 1012.4765100671141 a mushroom cloud
+totalScore: 1002.510067114094 I
+totalScore: 1012.5436241610738 the sense
+totalScore: 1012.5771812080537 nothing
+totalScore: 1002.6107382550335 It
+totalScore: 1002.6442953020135 he
+totalScore: 1002.6778523489933 I
+totalScore: 1012.7114093959732 DeLisle
+totalScore: 1012.744966442953 his instructor
+totalScore: 1012.7785234899329 the crash
+totalScore: 1012.8120805369127 the area
+totalScore: 1012.8456375838927 CNN
+totalScore: 1012.8791946308725 a small plane
+totalScore: 1012.9127516778524 Rick DeLisle
+totalScore: 1012.9463087248322 dive and exploded
+totalScore: 1012.9798657718121 The FAA report
+totalScore: 1013.0134228187919 a steep
+totalScore: 1013.0469798657718 the plane
+totalScore: 1013.0805369127517 FAA
+totalScore: 14.114093959731544 80 miles
+totalScore: 14.14765100671141 about 100 miles
+totalScore: 1013.1812080536913 smoke
+totalScore: 1013.2147651006711 the pilot
+totalScore: 1013.248322147651 Miami
+totalScore: 14.281879194630871 Three hours
+totalScore: 1013.3154362416108 the FAA
+totalScore: 1013.3489932885906 the jet
+totalScore: 1013.3825503355705 the crash
+totalScore: 1013.4161073825503 Florida
+totalScore: 14.449664429530202 about 20 miles
+totalScore: 1013.48322147651 a dense area
+totalScore: 1013.51677852349 the
+totalScore: 1013.5503355704698 Miami
+totalScore: 14.583892617449663 preliminary reports
+totalScore: 1013.6174496644295 the plane
+totalScore: 1013.6510067114094 The airline
+totalScore: 1013.6845637583892 the cabin
+totalScore: 1013.7181208053692 smoke
+totalScore: 14.751677852348994 air-traffic controllers
+totalScore: 14.78523489932886 other reports
+totalScore: 1013.8187919463087 the pilot
+totalScore: 1013.8523489932886 2:25 p.m.
+totalScore: 1013.8859060402684 smoke
+totalScore: 14.919463087248323 seats
+totalScore: 1013.9530201342282 The Valujet statement
+totalScore: 1013.9865771812081 Miami
+totalScore: 1004.0201342281879 it
+totalScore: 1014.0536912751678 a McDonnell-Douglas plane
+totalScore: 1014.0872483221476 the DC-9-32
+totalScore: 1004.1208053691275 It
+totalScore: 1014.1543624161073 its regularly
+totalScore: 1014.1879194630873 Miami
+totalScore: 15.221476510067113 more than 70 minutes
+totalScore: 1014.255033557047 Flight 592
+totalScore: 1014.2885906040268 Valujet
+totalScore: 15.322147651006713 the hours
+totalScore: 15.355704697986578 details
+totalScore: 1014.3892617449665 the plane
+totalScore: 1014.4228187919463 the inaccessibility
+totalScore: 1014.4563758389262 few
+totalScore: 1014.489932885906 crash
+totalScore: 1014.5234899328859 the tailcone
+totalScore: 1014.5570469798657 the pilot
+totalScore: 1014.5906040268457 a knife
+totalScore: 1014.6241610738255 the attendant
+totalScore: 1014.6577181208054 the chute
+totalScore: 1014.6912751677852 plane
+totalScore: 1014.7248322147651 a Valujet plane
+totalScore: 1014.7583892617449 a flight
+totalScore: 1014.7919463087248 an emergency chute
+totalScore: 1014.8255033557047 the cabin
+totalScore: 1014.8590604026846 another Valujet plane
+totalScore: 1014.8926174496644 a runway
+totalScore: 1014.9261744966443 Valujet
+totalScore: 1014.9597315436241 the terminal
+totalScore: 1014.993288590604 Hartsfield Atlanta International Airport
+totalScore: 16.026845637583893 101 passengers
+totalScore: 1015.0604026845638 a Valujet DC-9
+totalScore: 1015.0939597315436 the mud
+totalScore: 1015.1275167785235 another
+totalScore: 1015.1610738255033 Valujet
+totalScore: 1015.1946308724832 closing
+totalScore: 1015.228187919463 the airport
+totalScore: 1015.261744966443 Dulles International Airport
+totalScore: 1015.2953020134228 outside
+totalScore: 1015.3288590604027 landing
+totalScore: 1015.3624161073825 30 people
+totalScore: 1015.3959731543624 Last Jan.
+totalScore: 1015.4295302013422 a
+totalScore: 1015.4630872483222 Valujet
+totalScore: 16.496644295302012 the summer Olympic Games
+totalScore: 1015.5302013422819 anticipation
+totalScore: 16.563758389261743 fewer airplanes
+totalScore: 1015.5973154362416 last month
+totalScore: 1015.6308724832214 this year
+totalScore: 16.664429530201343 its
+totalScore: 1005.6979865771812 it
+totalScore: 1005.7315436241611 it
+totalScore: 1015.7651006711409 the fastest-growing airline in history
+totalScore: 1015.7986577181208 itself
+totalScore: 1015.8322147651006 VALUJET-CRASH
+totalScore: 1015.8657718120805 0586
+totalScore: 16.89932885906046 05-11
+totalScore: 1015.9328859060403 BC-VALUJET-CRASH-2NDTAKE
+totalScore: 1015.9664429530201 A2461
+assigning <Weeks X245> to <05-11-96 73> with score of 12.033557046979865
