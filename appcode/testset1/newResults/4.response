@@ -9,13 +9,13 @@ Chagas disease, transmission interrupted - Chile19990120.00901998
 ---
 Chagas disease: transmission interrupted - Uruguay19980111.00831997
 ---
-<COREF ID='X23'>Chagas</COREF> <COREF ID='X24'>disease</COREF> - Latin America (02)19970114.0070Chagas disease - Latin America19970114.0066]
+Chagas <COREF ID='X24'>disease</COREF> - Latin America (02)19970114.0070Chagas disease - Latin America19970114.0066]
 Chagas <COREF ID='1' REF='X24'>disease</COREF> is caused by the protozoan parasite _Trypanosoma cruzi_.
-Chagas <COREF ID='2' REF='1'>disease</COREF> following organ <COREF ID='3' REF='X23'>transplantation</COREF> has occurred in Latin
-America, where Chagas <COREF ID='4' REF='2'>disease</COREF> is endemic, but <COREF ID='5' REF='X23'>it</COREF> has not yet been reported
+Chagas <COREF ID='2' REF='1'>disease</COREF> following organ <COREF ID='3' REF='2'>transplantation</COREF> has occurred in Latin
+America, where Chagas <COREF ID='4' REF='2'>disease</COREF> is endemic, but <COREF ID='5' REF='4'>it</COREF> has not yet been reported
 in the United States.
 A report in the latest Morbidity and <COREF ID='X45'>Mortality Weekly Report</COREF>
-&lt; <COREF ID='6' REF='X23'>http://www.cdc.gov/mmwr/preview/mmwrhtml/mm5110a3.htm</COREF> &gt; describes three
+&lt; <COREF ID='6' REF='X45'>http://www.cdc.gov/mmwr/preview/mmwrhtml/mm5110a3.htm</COREF> &gt; describes three
 <COREF ID='X50'>cases</COREF> in <COREF ID='X53'>the <COREF ID='7' REF='X53'>United States</COREF> of <COREF ID='X52'>_ <COREF ID='8' REF='X52'>T. cruzi</COREF> _ infection</COREF> associated with</COREF>
 <COREF ID='9' REF='3'>transplantation</COREF> of solid <COREF ID='X56'>organs</COREF> from the same donor. The Centers for
 Disease Control and Prevention will collaborate with <COREF ID='10' REF='X56'>US</COREF> transplant
@@ -23,12 +23,12 @@ organizations to discuss whether to screen potential donors for _ <COREF ID='11'
 <COREF ID='12' REF='X52'>infection</COREF> and, if so, which <COREF ID='X67'>donors</COREF> to screen, how to screen, and what to do
 if the screening tests are positive.
 [ <COREF ID='13' REF='12'>Infection</COREF> with _ <COREF ID='14' REF='11'>T. cruzi</COREF> _ can be activated during immunosuppression in
-<COREF ID='X73'>organ</COREF> recipients and can be transferred with the organ to <COREF ID='15' REF='X67'>the recipient</COREF> .
+<COREF ID='X73'>organ</COREF> recipients and can be transferred with the organ to <COREF ID='15' REF='X73'>the recipient</COREF> .
 The first situation is well known in countries where _ <COREF ID='16' REF='14'>T. cruzi</COREF> _ is common,
 especially after bone marrow transplantation. The second situation has been
 described several times after <COREF ID='X86'>renal transplants</COREF> where the kidney came from
-a _ <COREF ID='17' REF='16'>T. cruzi</COREF> _ infected donor. The three <COREF ID='18' REF='X50'>cases</COREF> in the <COREF ID='19' REF='18'>US</COREF> all refer to <COREF ID='20' REF='X73'>organs</COREF>
-from the same <COREF ID='21' REF='X67'>donor</COREF> , and the <COREF ID='22' REF='20'>comment</COREF> on <COREF ID='X97'>the <COREF ID='23' REF='X97'>CDC</COREF> website</COREF> emphasises that
+a _ <COREF ID='17' REF='16'>T. cruzi</COREF> _ infected donor. The three <COREF ID='18' REF='X50'>cases</COREF> in the <COREF ID='19' REF='10'>US</COREF> all refer to <COREF ID='20' REF='X73'>organs</COREF>
+from the same <COREF ID='21' REF='X67'>donor</COREF> , and the <COREF ID='22' REF='21'>comment</COREF> on <COREF ID='X97'>the <COREF ID='23' REF='X97'>CDC</COREF> website</COREF> emphasises that
 organ <COREF ID='24' REF='X86'>transplants</COREF> save life and that medical personnel should be aware that
 Chagas <COREF ID='25' REF='4'>disease</COREF> is one of the possible risks associated with organ
 <COREF ID='26' REF='9'>transplantation</COREF> . Mod.EP]

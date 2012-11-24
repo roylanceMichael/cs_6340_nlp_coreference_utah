@@ -1,11 +1,15 @@
 class Rules
 
 	#this will determine if the np's match in number
+	#give higher weight to npModel2 being a pronoun
 	def self.matchPlurality(npModel1, npModel2)
+		if npModel1.plurality == true && npModel2.plurality == true && npModel2.pronounType != "none"
+			return -9999
+		end
 	    if(npModel1.plurality == npModel2.plurality)
-		return true
+			return -999
 	    else
-		return false
+			return 0
 	    end
 	end
 
@@ -64,7 +68,7 @@ class Rules
 		end
 	
 		#starting at the beginning, find the first np with any sort of match to our current phrase
-		badWords = ["a", "an", "the", "of", "these"]
+		badWords = ["a", "an", "the", "of", "these", "mr", "mr.", "mrs", "mrs."]
 		npPhrase = npModel.phrase.split(/\s+/)
 		regexs = []
 		npPhrase.select{|t| !badWords.include?(t)}.each do |word|
@@ -209,7 +213,7 @@ class Rules
 			return -9999
 		end
 
-		if npModel1.pronounType != "none"
+		if npModel1.pronounType != "none" || npModel2.pronounType != "none"
 			return 0
 		end
 
@@ -293,7 +297,7 @@ class Rules
 		#plurality score
 		#shouldn't this be ? 0 : 999? or maybe i don't understand ruby's ternary op's-ben
 		#oh i see, your doing a change from greatest to least weighted np matching
-		score5 = matchPlurality(npModel, prevNp) == true ? 999 : 0
+		score5 = matchPlurality(npModel, prevNp)
 		#proper names score
 		score6 = properNames(npModel, prevNp) == true ? 999 : 0
 		#gender score

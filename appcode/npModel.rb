@@ -73,9 +73,10 @@ class NpModel
   def identifyPlurality
     #if the phrase includes a plural pronoun, it's plural 
     pluralPronoun = ["we","they","us","them","our","ours"]
-    if pluralPronoun.include? @phrase
-	@plurality = true
-	return
+    normalizedPhrase = @phrase.downcase
+    if pluralPronoun.include? normalizedPhrase
+	   @plurality = true
+	   return
     end
 
     #if the phrases head noun ends in an 's', it's plural 
