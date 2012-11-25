@@ -172,7 +172,7 @@ class Rules
 		  		score = (foundCount.to_f / acceptableWords.length.to_f)
 
 		  		kvp = { :np => acceptableNp, :acc =>  score }
-		  		puts "pushing #{acceptableNp.phrase} with #{kvp[:acc]}"
+		  		puts "\tpushing #{acceptableNp.phrase} with #{kvp[:acc]}"
 		  		foundMatches.push kvp
 		  	end
 
@@ -318,6 +318,17 @@ class Rules
 		return 0
 	end
 
+	def self.specialThisRule(npModel1, npModel2)
+		if npModel2.phrase.downcase == "this" && npModel1.pronounType == "none"
+			dist = npModel1.position - npModel2.position
+			#giving 2 a shot
+			if dist <= 2
+				return -999
+			end
+		end
+		return 0
+	end
+
  def self.findCorrectAnt(npModel, sentIdx, sentences)
 	#right now, just going to find the first np in the preceding sentence
 
@@ -379,6 +390,8 @@ class Rules
 		score7 = matchGender(npModel, prevNp) == true ? 999 : 0
 		#article score	
 		score8 = articleRule(prevNp)
+		#special this rule
+		specialThisScore = specialThisRule(npModel, prevNp)
 
 		totalScore = score1 + score2 + score3 + score4 + score5 + score6 + score7 + score8
 
@@ -386,6 +399,7 @@ class Rules
 		totalScore = totalScore + subsumeScore
 		totalScore = totalScore + reverseSubsumeScore
 		totalScore = totalScore + imerule(npModel, prevNp)
+		totalScore = totalScore + specialThisScore
 
 		tmpKvp = {:np => prevNp, :score => totalScore }
 		results.push tmpKvp

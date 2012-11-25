@@ -96,8 +96,13 @@ class Sentence
     @npModels.push npModel
     npModel
   end
-  
+
   def npAdd(np, id)
+    dumbNps = ["the"]
+    if dumbNps.include? np.downcase
+      return
+    end
+
     util = Utilities.new
     
     result = util.sentIdxInfo(@sent, np.split(/\s+/))
