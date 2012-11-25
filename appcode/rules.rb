@@ -131,11 +131,14 @@ class Rules
 		prevSentences.reverse!
 
 		foundMatches = []
-	
+
+		dist = 0
+		
+		puts "substring #{npModel.phrase}:"
 		prevSentences.each do |prevSent|
 	  
 		  prevSent.npModels.select{|t| t.pronounType == 'none'}.each do |acceptableNp|
-
+		  	puts "substring comparing #{acceptableNp.phrase}"
 		  	#first, headnouns same? success!
 		  	if Utilities.editDistance(npModel.headNoun, acceptableNp.headNoun) <= 1
 		  		  puts "matching <#{acceptableNp.phrase}> <- <#{npModel.phrase}>"
@@ -146,28 +149,49 @@ class Rules
 
 				  return true
 		  	end
-		
-			regexs.each do |regex|
-		  
-			  acceptableNp.phrase.split(/\s+/).select{|t| !badWords.include?(t)}.each do |word|
 			
-				if Utilities.editDistance(regex, word) <= 1
-					foundMatches.push acceptableNp
-				end
-			  end
+			foundCount = 0
+
+			#getting rid of chars that aren't A-Z0-9
+			acceptableWords = acceptableNp.phrase
+								.gsub(/[^0-9A-Za-z]/, " ")
+								.split(/\s+/)
+								.select{|t| !badWords.include?(t)}
+
+			regexs.each do |regex|
+
+			 	acceptableWords.each do |word|
+			
+					if Utilities.editDistance(regex, word) <= 1
+						foundCount = foundCount + 1
+					end
+			  	end
 			end
+
+			if foundCount > 0
+		  		score = (foundCount.to_f / acceptableWords.length.to_f)
+
+		  		kvp = { :np => acceptableNp, :acc =>  score }
+		  		puts "pushing #{acceptableNp.phrase} with #{kvp[:acc]}"
+		  		foundMatches.push kvp
+		  	end
+
+			dist = dist + 1
 	 	 end
 		end
 
 		if foundMatches.length > 0
-			puts "matching <#{foundMatches[0].phrase}> <- <#{npModel.phrase}>"
+			bestMatch = foundMatches.sort{|a,b| b[:acc] <=> a[:acc] }
+
+			puts "matching <#{bestMatch[0][:np].phrase}> <- <#{npModel.phrase}>"
 			puts ""
 			#this acceptableNp is a match
-			foundMatches[0].included = true
-			npModel.ref = foundMatches[0]
+			bestMatch[0][:np].included = true
+			npModel.ref = bestMatch[0][:np]
 
 			true
 		else
+			puts ""
 			false
 		end
 	end

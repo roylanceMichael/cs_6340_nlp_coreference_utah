@@ -6,7 +6,7 @@ A3160
 <COREF ID='X7'>02-22</COREF>
 BC- <COREF ID='1' REF='X3'>GROUNDED-JETS</COREF> -BOS
 NAVY GROUNDS <COREF ID='2' REF='X7'>F-14'S</COREF> AFTER THIRD <COREF ID='X11'>RECENT CRASH</COREF>
-(For use by New York Times News Service clients)
+(For <COREF ID='X14'>use</COREF> by New York Times News Service clients)
 By CHRIS BLACK
 c.1996 The Boston Globe
 WASHINGTON @amp;MD; <COREF ID='X23'>The <COREF ID='3' REF='X23'>Navy</COREF> suspended operations</COREF> for <COREF ID='4' REF='X23'>its</COREF> entire fleet
@@ -26,7 +26,7 @@ ground.
 Although <COREF ID='16' REF='X11'>the crash</COREF> <COREF ID='17' REF='X29'>Thursday</COREF> was <COREF ID='18' REF='X11'>the third Tomcat crash</COREF> <COREF ID='X87'>this</COREF>
 year, <COREF ID='X94'>Defense Department spokesman Kenneth Bacon</COREF> said the <COREF ID='22' REF='15'>Navy</COREF> had
 uncovered no evidence of a flaw in <COREF ID='23' REF='12'>the aircraft</COREF> .
-<COREF ID='X104'>A safety stand-down</COREF> is <COREF ID='24' REF='X52'>a procedure the military uses to conduct an intensive review</COREF> . During <COREF ID='25' REF='X87'>this three-day period</COREF> , the three
+<COREF ID='X104'>A safety stand-down</COREF> is <COREF ID='24' REF='X14'>a procedure the military uses to conduct an intensive review</COREF> . During <COREF ID='25' REF='X87'>this three-day period</COREF> , the three
 classes of <COREF ID='27' REF='X76'>F-14s</COREF> will stay out of the air so <COREF ID='28' REF='22'>Navy</COREF> personnel can
 review maintenance procedures and equipment, plus check each
 aircraft for weaknesses or deficiencies.

@@ -4,11 +4,11 @@ A1480
 <COREF ID='X3'>BC-TEXTRON-PROVIDENT-TAL</COREF>
 <COREF ID='X4'>04-24</COREF>
 0419
-BC- <COREF ID='1' REF='X3'>TEXTRON</COREF> - <COREF ID='2' REF='X3'>PROVIDENT</COREF> -TALKS-BLOOM <COREF ID='3' REF='1'>TEXTRON</COREF> DISCUSSING SALE OF PAUL REVERE UNIT TO PROVIDENT COS.
+BC- <COREF ID='1' REF='X3'>TEXTRON</COREF> - <COREF ID='2' REF='X3'>PROVIDENT</COREF> -TALKS-BLOOM <COREF ID='3' REF='X3'>TEXTRON</COREF> DISCUSSING SALE OF PAUL REVERE UNIT TO PROVIDENT COS.
 (For use by New York Times News Service clients)
-By <COREF ID='X16'>Stephen Walsh</COREF>
+By Stephen Walsh
 c.1996 <COREF ID='X18'>Bloomberg Business News</COREF>
-Providence, Rhode Island, <COREF ID='9' REF='X16'>April 24</COREF> ( <COREF ID='10' REF='X18'>Bloomberg</COREF> ) -- <COREF ID='11' REF='1'>Textron Inc.</COREF>
+Providence, Rhode Island, <COREF ID='9' REF='X4'>April 24</COREF> ( <COREF ID='10' REF='X18'>Bloomberg</COREF> ) -- <COREF ID='11' REF='1'>Textron Inc.</COREF>
 is discussing <COREF ID='12' REF='11'>the sale</COREF> of <COREF ID='X29'>its Paul Revere Corp. disability</COREF>
 insurance unit to Provident Cos. Inc. for about $1 billion, a
 person familiar with <COREF ID='17' REF='X18'>the talks</COREF> said. <COREF ID='18' REF='17'>The talks</COREF> are part of <COREF ID='19' REF='1'>Providence, Rhode Island-based Textron</COREF> 's
@@ -19,9 +19,9 @@ For <COREF ID='22' REF='2'>Chattanooga, Tennessee-based Provident</COREF> , an a
 be <COREF ID='23' REF='X44'>the latest step in the company's effort to reorganize and expand</COREF>
 through insuring policyholders against <COREF ID='X60'>loss</COREF> of income if <COREF ID='24' REF='X60'>they</COREF>
 suffer a debilitating accident or illness.
-<COREF ID='X66'>Textron Chief Financial Officer Stephen Key</COREF> declined to comment
-on <COREF ID='X69'>the likelihood</COREF> of selling Paul Revere. <COREF ID='27' REF='X66'>His company</COREF> ``has been
-saying all along'' that <COREF ID='29' REF='X69'>it</COREF> plans to reduce <COREF ID='30' REF='X29'>its</COREF> presence in <COREF ID='31' REF='X66'>financial services</COREF> , <COREF ID='32' REF='29'>he</COREF> said, declining to elaborate. <COREF ID='33' REF='22'>Provident</COREF> wouldn't comment on any potential acquisitions. <COREF ID='34' REF='22'>Provident</COREF> Vice President Thomas White said, `` <COREF ID='35' REF='24'>We</COREF> have said it is <COREF ID='36' REF='35'>our</COREF> strategy to grow <COREF ID='37' REF='22'>Provident</COREF> .''
+Textron Chief Financial Officer Stephen Key declined to comment
+on <COREF ID='X69'>the likelihood</COREF> of selling Paul Revere. <COREF ID='27' REF='23'>His company</COREF> ``has been
+saying all along'' that <COREF ID='29' REF='X69'>it</COREF> plans to reduce <COREF ID='30' REF='X29'>its</COREF> presence in <COREF ID='31' REF='X45'>financial services</COREF> , <COREF ID='32' REF='29'>he</COREF> said, declining to elaborate. <COREF ID='33' REF='22'>Provident</COREF> wouldn't comment on any potential acquisitions. <COREF ID='34' REF='22'>Provident</COREF> Vice President Thomas White said, `` <COREF ID='35' REF='24'>We</COREF> have said it is <COREF ID='36' REF='35'>our</COREF> strategy to grow <COREF ID='37' REF='22'>Provident</COREF> .''
 News of <COREF ID='38' REF='17'>the talks</COREF> was reported in <COREF ID='39' REF='37'>today</COREF> 's Wall Street Journal. <COREF ID='40' REF='33'>Provident</COREF> stock fell 1/8 to 30 7/8 in early trading. <COREF ID='41' REF='19'>Textron</COREF> shares
 rose 3/4 to 88 7/8.
 Officials at <COREF ID='42' REF='X29'>Paul Revere</COREF> weren't available for comment. <COREF ID='43' REF='30'>Its</COREF>

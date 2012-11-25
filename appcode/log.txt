@@ -1,10 +1,27 @@
 processing ./testset1/input/14.crf...
+substring AIRLINE-LIABILITY:
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
+
 comparing AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate> with:
 totalScore: -948.5384615384615 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
 totalScore: -910.0769230769231 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
 totalScore: -9871.615384615385 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 totalScore: 165.8461538461538 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <BC-AIRLINE-LIABILITY-575 X3> to <AIRLINE-LIABILITY 2> with score of -9871.615384615385
+
+substring The Warsaw Convention:
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
 
 comparing The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate> with:
 totalScore: 50.46153846153845 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
@@ -18,11 +35,60 @@ totalScore: 319.69230769230774 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>
 totalScore: 358.1538461538462 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <1094 X5> to <The Warsaw Convention 7> with score of -756.2307692307693
 
-matching <AIRLINE CRASH-LIABILITY ACCORD> <- <the liability of an airline when passengers die in a plane crash>
+substring the liability of an airline when passengers die in a plane crash:
+substring comparing N.Y. Times News Service
+pushing N.Y. Times News Service with 0.2
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+pushing AIRLINE CRASH-LIABILITY ACCORD with 0.75
+substring comparing AIRLINE-LIABILITY
+pushing AIRLINE-LIABILITY with 1.0
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+pushing BC-AIRLINE-LIABILITY-575 with 0.5
+substring comparing A0222
+matching <AIRLINE-LIABILITY> <- <the liability of an airline when passengers die in a plane crash>
 
+substring the accord:
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
 matching <AIRLINE CRASH-LIABILITY ACCORD> <- <the accord>
 
+substring the accord:
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
 matching <the accord> <- <the accord>
+
+substring the third effort:
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
 
 comparing the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
 totalScore: 88.92307692307693 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
@@ -49,6 +115,30 @@ totalScore: -217.76923076923072 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>pl
 totalScore: -179.30769230769226 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 totalScore: -140.8461538461538 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <the X38> to <the third effort 13> with score of -836.4871794871794
+
+substring the $75,000 limit:
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
 
 comparing the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
 totalScore: 50.46153846153847 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
@@ -77,7 +167,43 @@ totalScore: -140.8461538461538 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>
 totalScore: -102.38461538461536 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <the third effort 13> to <the $75,000 limit 14> with score of -951.8717948717949
 
+substring the limit:
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
 matching <the $75,000 limit> <- <the limit>
+
+substring United States:
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
 
 comparing United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate> with:
 totalScore: 50.46153846153847 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
@@ -183,13 +309,155 @@ totalScore: 1308.6923076923078 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>
 totalScore: 1347.1538461538462 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <them 18> to <them 19> with score of -9805.692307692309
 
+substring an aviation lawyer:
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
 matching <Trial lawyers> <- <an aviation lawyer>
 
+substring The Warsaw Convention:
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
 matching <The Warsaw Convention> <- <The Warsaw Convention>
 
+substring United States:
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
 matching <United States> <- <United States>
 
+substring the airlines:
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
 matching <Some foreign airlines> <- <the airlines>
+
+substring the document:
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
 
 comparing the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
 totalScore: 50.46153846153847 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
@@ -249,6 +517,28 @@ totalScore: 1051.461538461538 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>a
 totalScore: 1089.9230769230771 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <commercial X97> to <the document 25> with score of -871.6153846153846
 
+substring the low liability limit:
+substring comparing the airlines
+substring comparing the document
+substring comparing airlines
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
 matching <high limits> <- <the low liability limit>
 
 comparing themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate> with:
@@ -376,6 +666,70 @@ totalScore: 2270.230769230769 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur
 totalScore: 2308.6923076923076 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 totalScore: 2347.153846153846 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <themselves 27> to <they 28> with score of -9881.615384615385
+
+substring its:
+substring comparing families
+substring comparing the people
+substring comparing the limits
+substring comparing general good
+substring comparing families
+substring comparing a lengthy trial
+substring comparing the low liability limit
+substring comparing many airlines
+substring comparing the airlines
+substring comparing the document
+substring comparing airlines
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
 
 comparing its - id<29>pos<67>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate> with:
 totalScore: 50.46153846153847 one - id<X124>pos<68>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
@@ -520,6 +874,14 @@ totalScore: 1655.8461538461538 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>
 totalScore: 1694.3076923076924 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <December X126> to <it 30> with score of -959.5384615384615
 
+substring the limit:
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
+substring comparing the people
+substring comparing the limits
 matching <the limits> <- <the limit>
 
 comparing it - id<32>pos<73>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
@@ -597,19 +959,487 @@ totalScore: 1732.7692307692305 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>
 totalScore: 1771.2307692307695 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <it 30> to <it 32> with score of -20919.076923076922
 
+substring American:
+substring comparing the American Eagle commuter flight
+pushing the American Eagle commuter flight with 0.25
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
+substring comparing the people
+substring comparing the limits
+substring comparing general good
+substring comparing families
+substring comparing a lengthy trial
+substring comparing the low liability limit
+substring comparing many airlines
+substring comparing the airlines
+substring comparing the document
+substring comparing airlines
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
 matching <Americans> <- <American>
 
+substring an acting administrator of the Federal Aviation Administration in the Bush administration:
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
+substring comparing the American Eagle commuter flight
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
+substring comparing the people
+substring comparing the limits
+substring comparing general good
+substring comparing families
+substring comparing a lengthy trial
+substring comparing the low liability limit
+substring comparing many airlines
+substring comparing the airlines
+substring comparing the document
+substring comparing airlines
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+pushing an aviation lawyer with 0.5
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+pushing the liability of an airline when passengers die in a plane crash with 0.125
+substring comparing N.Y. Times News Service
+pushing N.Y. Times News Service with 0.2
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
 matching <an aviation lawyer> <- <an acting administrator of the Federal Aviation Administration in the Bush administration>
 
+substring the airlines:
+substring comparing an acting administrator of the Federal Aviation Administration in the Bush administration
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
+substring comparing the American Eagle commuter flight
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
+substring comparing the people
+substring comparing the limits
+substring comparing general good
+substring comparing families
+substring comparing a lengthy trial
+substring comparing the low liability limit
+substring comparing many airlines
 matching <many airlines> <- <the airlines>
 
+substring airlines:
+substring comparing the airlines
 matching <the airlines> <- <airlines>
 
+substring The airlines:
+substring comparing government
+substring comparing U.S. airlines
 matching <U.S. airlines> <- <The airlines>
 
-matching <U.S. airlines> <- <U.S. officials>
+substring U.S. officials:
+substring comparing government
+substring comparing U.S. airlines
+substring comparing an antitrust exemption
+substring comparing no
+substring comparing week
+substring comparing Montreal
+substring comparing a system
+substring comparing the details
+substring comparing airlines
+substring comparing this
+substring comparing the world
+substring comparing the airlines
+substring comparing a realistic limit and uniform
+substring comparing an acting administrator of the Federal Aviation Administration in the Bush administration
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
+substring comparing the American Eagle commuter flight
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
+substring comparing the people
+substring comparing the limits
+substring comparing general good
+substring comparing families
+substring comparing a lengthy trial
+substring comparing the low liability limit
+substring comparing many airlines
+substring comparing the airlines
+substring comparing the document
+substring comparing airlines
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
 
+comparing U.S. officials - id<39>pos<97>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate> with:
+totalScore: -948.5384615384615 The airlines - id<38>pos<96>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 88.92307692307693 government - id<X169>pos<95>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 127.38461538461539 an antitrust exemption - id<X168>pos<94>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -838.1538461538462 U.S. airlines - id<X167>pos<93>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -794.6923076923076 the details - id<X163>pos<92>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 242.76923076923077 a system - id<X162>pos<91>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 281.2307692307692 Montreal - id<X161>pos<90>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 319.69230769230774 week - id<X160>pos<89>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 358.1538461538462 no - id<X159>pos<88>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 396.61538461538464 the world - id<X157>pos<87>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -563.9230769230769 this - id<X155>pos<86>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -525.4615384615385 airlines - id<36>pos<85>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 512.0 a realistic limit and uniform - id<X154>pos<84>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -448.53846153846155 the airlines - id<35>pos<83>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 588.9230769230769 an acting administrator of the Federal Aviation Administration in the Bush administration - id<34>pos<82>pron<none>art<the>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 627.3846153846155 Barry Lambert - id<X147>pos<81>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 665.8461538461539 a jury - id<X146>pos<80>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -9299.692307692309 we - id<X145>pos<79>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 742.7692307692308 American - id<33>pos<78>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 781.2307692307693 the American Eagle commuter flight - id<X138>pos<77>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -179.30769230769226 international trips - id<X134>pos<76>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -140.8461538461538 the 16 passengers - id<X133>pos<75>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 896.6153846153846 the same - id<X132>pos<74>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 930.0769230769231 it - id<32>pos<73>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 973.5384615384615 the limit - id<31>pos<72>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1007.0 it - id<30>pos<71>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1050.4615384615386 December - id<X126>pos<70>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1088.923076923077 Colombia - id<X125>pos<69>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1127.3846153846155 one - id<X124>pos<68>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 166.8461538461538 its - id<29>pos<67>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1204.3076923076924 the people - id<X120>pos<66>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 243.76923076923094 families - id<X119>pos<65>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 282.23076923076906 the limits - id<X117>pos<64>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1319.6923076923078 general good - id<X114>pos<63>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -8645.846153846154 they - id<28>pos<62>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 397.61538461538476 families - id<X108>pos<61>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1435.076923076923 a lengthy trial - id<X106>pos<60>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -8530.461538461539 themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 513.0 many airlines - id<X103>pos<58>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1550.4615384615386 the low liability limit - id<26>pos<57>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 589.9230769230769 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1627.3846153846155 the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 666.8461538461538 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 705.3076923076924 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1742.7692307692307 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1781.2307692307693 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1819.6923076923076 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 859.1538461538462 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 897.6153846153845 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 936.0769230769231 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1973.5384615384614 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2012.0 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2050.461538461538 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2088.923076923077 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2127.3846153846152 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2165.846153846154 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2204.3076923076924 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2242.769230769231 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2281.230769230769 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1320.6923076923076 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -7645.846153846154 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1397.6153846153848 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1436.0769230769229 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1474.538461538462 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1513.0 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -7453.538461538462 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1589.9230769230767 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 2627.3846153846157 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2665.846153846154 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1705.3076923076924 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2742.7692307692305 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1782.2307692307695 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 2819.6923076923076 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2858.153846153846 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1897.6153846153843 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1936.0769230769233 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1974.5384615384614 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3012.0 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3045.461538461538 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3088.923076923077 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3127.3846153846152 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3165.846153846154 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3204.307692307692 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2243.769230769231 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3281.230769230769 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3319.6923076923076 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3358.1538461538457 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3396.6153846153848 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3435.0769230769233 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 3473.5384615384614 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3512.0 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3550.4615384615386 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3588.923076923077 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3627.3846153846152 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3665.846153846154 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3704.3076923076924 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <we X145> to <U.S. officials 39> with score of -9299.692307692309
+
+substring families:
+substring comparing The airlines
+substring comparing U.S. officials
+substring comparing government
+substring comparing U.S. airlines
+substring comparing an antitrust exemption
+substring comparing no
+substring comparing week
+substring comparing Montreal
+substring comparing a system
+substring comparing the details
+substring comparing airlines
+substring comparing this
+substring comparing the world
+substring comparing the airlines
+substring comparing a realistic limit and uniform
+substring comparing an acting administrator of the Federal Aviation Administration in the Bush administration
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
+substring comparing the American Eagle commuter flight
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
 matching <families> <- <families>
+
+substring the amount:
+substring comparing The airlines
+substring comparing U.S. officials
+substring comparing government
+substring comparing U.S. airlines
+substring comparing an antitrust exemption
+substring comparing no
+substring comparing week
+substring comparing Montreal
+substring comparing a system
+substring comparing the details
+substring comparing airlines
+substring comparing this
+substring comparing the world
+substring comparing the airlines
+substring comparing a realistic limit and uniform
+substring comparing an acting administrator of the Federal Aviation Administration in the Bush administration
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
+substring comparing the American Eagle commuter flight
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
+substring comparing the people
+substring comparing the limits
+substring comparing general good
+substring comparing families
+substring comparing a lengthy trial
+substring comparing the low liability limit
+substring comparing many airlines
+substring comparing the airlines
+substring comparing the document
+substring comparing airlines
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
 
 comparing the amount - id<42>pos<99>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
 totalScore: 50.46153846153847 negotiations - id<X177>pos<100>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
@@ -713,11 +1543,211 @@ totalScore: 2743.769230769231 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>a
 totalScore: 2782.230769230769 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <government X169> to <the amount 42> with score of -833.1538461538462
 
+substring negotiations:
+substring comparing the victim
+substring comparing normal life
+substring comparing The sticking
+substring comparing the remaining years
+substring comparing families
+substring comparing the amount
+substring comparing negotiations
 matching <negotiations> <- <negotiations>
 
+substring the current agreement:
+substring comparing negotiations
+substring comparing point
+substring comparing court
+substring comparing disputes
+substring comparing the victim
+substring comparing normal life
+substring comparing The sticking
+substring comparing the remaining years
+substring comparing families
+substring comparing the amount
+substring comparing negotiations
+substring comparing The airlines
+substring comparing U.S. officials
+substring comparing government
+substring comparing U.S. airlines
+substring comparing an antitrust exemption
+substring comparing no
+substring comparing week
+substring comparing Montreal
+substring comparing a system
+substring comparing the details
+substring comparing airlines
+substring comparing this
+substring comparing the world
+substring comparing the airlines
+substring comparing a realistic limit and uniform
+substring comparing an acting administrator of the Federal Aviation Administration in the Bush administration
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
+substring comparing the American Eagle commuter flight
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
+substring comparing the people
+substring comparing the limits
+substring comparing general good
+substring comparing families
+substring comparing a lengthy trial
+substring comparing the low liability limit
+substring comparing many airlines
+substring comparing the airlines
+substring comparing the document
+substring comparing airlines
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
 matching <a new agreement> <- <the current agreement>
 
 appositiveSuccess the current agreement <- survivors
+substring survivors:
+substring comparing negotiations
+substring comparing point
+substring comparing court
+substring comparing disputes
+substring comparing the victim
+substring comparing normal life
+substring comparing The sticking
+substring comparing the remaining years
+substring comparing families
+substring comparing the amount
+substring comparing negotiations
+substring comparing The airlines
+substring comparing U.S. officials
+substring comparing government
+substring comparing U.S. airlines
+substring comparing an antitrust exemption
+substring comparing no
+substring comparing week
+substring comparing Montreal
+substring comparing a system
+substring comparing the details
+substring comparing airlines
+substring comparing this
+substring comparing the world
+substring comparing the airlines
+substring comparing a realistic limit and uniform
+substring comparing an acting administrator of the Federal Aviation Administration in the Bush administration
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
+substring comparing the American Eagle commuter flight
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
+substring comparing the people
+substring comparing the limits
+substring comparing general good
+substring comparing families
+substring comparing a lengthy trial
+substring comparing the low liability limit
+substring comparing many airlines
+substring comparing the airlines
+substring comparing the document
+substring comparing airlines
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
+
 comparing survivors - id<49>pos<110>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate> with:
 totalScore: 50.46153846153847 the current agreement - id<48>pos<109>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
 totalScore: -910.0769230769231 disputes - id<X191>pos<108>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
@@ -830,15 +1860,311 @@ totalScore: 4165.846153846154 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>a
 totalScore: 4204.307692307692 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <we X145> to <survivors 49> with score of -8804.692307692309
 
+substring the airline:
+substring comparing a
+substring comparing country
+substring comparing the plane
+substring comparing the home country
+substring comparing the current agreement
+substring comparing survivors
+substring comparing suit
+substring comparing negotiations
+substring comparing point
+substring comparing court
+substring comparing disputes
+substring comparing the victim
+substring comparing normal life
+substring comparing The sticking
+substring comparing the remaining years
+substring comparing families
+substring comparing the amount
+substring comparing negotiations
+substring comparing The airlines
 matching <The airlines> <- <the airline>
 
+substring its:
+substring comparing a
+substring comparing country
+substring comparing the plane
+substring comparing the home country
+substring comparing the current agreement
+substring comparing survivors
+substring comparing suit
+substring comparing negotiations
+substring comparing point
+substring comparing court
+substring comparing disputes
+substring comparing the victim
+substring comparing normal life
+substring comparing The sticking
+substring comparing the remaining years
+substring comparing families
+substring comparing the amount
+substring comparing negotiations
+substring comparing The airlines
+substring comparing U.S. officials
+substring comparing government
+substring comparing U.S. airlines
+substring comparing an antitrust exemption
+substring comparing no
+substring comparing week
+substring comparing Montreal
+substring comparing a system
+substring comparing the details
+substring comparing airlines
+substring comparing this
+substring comparing the world
+substring comparing the airlines
+substring comparing a realistic limit and uniform
+substring comparing an acting administrator of the Federal Aviation Administration in the Bush administration
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
+substring comparing the American Eagle commuter flight
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
 matching <its> <- <its>
 
+substring United States:
+substring comparing the contract
+substring comparing transportation
+substring comparing the airline
+substring comparing its
+substring comparing country
+substring comparing the country
+substring comparing a
+substring comparing country
+substring comparing the plane
+substring comparing the home country
+substring comparing the current agreement
+substring comparing survivors
+substring comparing suit
+substring comparing negotiations
+substring comparing point
+substring comparing court
+substring comparing disputes
+substring comparing the victim
+substring comparing normal life
+substring comparing The sticking
+substring comparing the remaining years
+substring comparing families
+substring comparing the amount
+substring comparing negotiations
+substring comparing The airlines
+substring comparing U.S. officials
+substring comparing government
+substring comparing U.S. airlines
+substring comparing an antitrust exemption
+substring comparing no
+substring comparing week
+substring comparing Montreal
+substring comparing a system
+substring comparing the details
+substring comparing airlines
+substring comparing this
+substring comparing the world
+substring comparing the airlines
+substring comparing a realistic limit and uniform
+substring comparing an acting administrator of the Federal Aviation Administration in the Bush administration
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
+substring comparing the American Eagle commuter flight
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
+substring comparing the people
+substring comparing the limits
+substring comparing general good
+substring comparing families
+substring comparing a lengthy trial
+substring comparing the low liability limit
+substring comparing many airlines
+substring comparing the airlines
+substring comparing the document
+substring comparing airlines
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
 matching <United States> <- <United States>
 
+substring Americans:
+substring comparing the contract
+substring comparing transportation
+substring comparing the airline
+substring comparing its
+substring comparing country
+substring comparing the country
+substring comparing a
+substring comparing country
+substring comparing the plane
+substring comparing the home country
+substring comparing the current agreement
+substring comparing survivors
+substring comparing suit
+substring comparing negotiations
+substring comparing point
+substring comparing court
+substring comparing disputes
+substring comparing the victim
+substring comparing normal life
+substring comparing The sticking
+substring comparing the remaining years
+substring comparing families
+substring comparing the amount
+substring comparing negotiations
+substring comparing The airlines
+substring comparing U.S. officials
+substring comparing government
+substring comparing U.S. airlines
+substring comparing an antitrust exemption
+substring comparing no
+substring comparing week
+substring comparing Montreal
+substring comparing a system
+substring comparing the details
+substring comparing airlines
+substring comparing this
+substring comparing the world
+substring comparing the airlines
+substring comparing a realistic limit and uniform
+substring comparing an acting administrator of the Federal Aviation Administration in the Bush administration
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
 matching <American> <- <Americans>
 
+substring United States:
+substring comparing United States
 matching <United States> <- <United States>
+
+substring domestic carriers:
+substring comparing United States
+substring comparing Americans
+substring comparing the contract
+substring comparing transportation
+substring comparing the airline
+substring comparing its
+substring comparing country
+substring comparing the country
+substring comparing a
+substring comparing country
+substring comparing the plane
+substring comparing the home country
+substring comparing the current agreement
+substring comparing survivors
+substring comparing suit
+substring comparing negotiations
+substring comparing point
+substring comparing court
+substring comparing disputes
+substring comparing the victim
+substring comparing normal life
+substring comparing The sticking
+substring comparing the remaining years
+substring comparing families
+substring comparing the amount
+substring comparing negotiations
+substring comparing The airlines
+substring comparing U.S. officials
+substring comparing government
+substring comparing U.S. airlines
+substring comparing an antitrust exemption
+substring comparing no
+substring comparing week
+substring comparing Montreal
+substring comparing a system
+substring comparing the details
+substring comparing airlines
+substring comparing this
+substring comparing the world
+substring comparing the airlines
+substring comparing a realistic limit and uniform
+substring comparing an acting administrator of the Federal Aviation Administration in the Bush administration
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
+substring comparing the American Eagle commuter flight
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
+substring comparing the people
+substring comparing the limits
+substring comparing general good
+substring comparing families
+substring comparing a lengthy trial
+substring comparing the low liability limit
+substring comparing many airlines
+substring comparing the airlines
+substring comparing the document
+substring comparing airlines
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
 
 comparing domestic carriers - id<56>pos<125>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate> with:
 totalScore: -948.5384615384615 United States - id<55>pos<124>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
@@ -966,6 +2292,124 @@ totalScore: 4704.307692307692 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur
 totalScore: 4742.7692307692305 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 totalScore: 4781.2307692307695 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <we X145> to <domestic carriers 56> with score of -8222.76923076923
+
+substring here:
+substring comparing United States
+substring comparing Americans
+substring comparing the contract
+substring comparing transportation
+substring comparing the airline
+substring comparing its
+substring comparing country
+substring comparing the country
+substring comparing a
+substring comparing country
+substring comparing the plane
+substring comparing the home country
+substring comparing the current agreement
+substring comparing survivors
+substring comparing suit
+substring comparing negotiations
+substring comparing point
+substring comparing court
+substring comparing disputes
+substring comparing the victim
+substring comparing normal life
+substring comparing The sticking
+substring comparing the remaining years
+substring comparing families
+substring comparing the amount
+substring comparing negotiations
+substring comparing The airlines
+substring comparing U.S. officials
+substring comparing government
+substring comparing U.S. airlines
+substring comparing an antitrust exemption
+substring comparing no
+substring comparing week
+substring comparing Montreal
+substring comparing a system
+substring comparing the details
+substring comparing airlines
+substring comparing this
+substring comparing the world
+substring comparing the airlines
+substring comparing a realistic limit and uniform
+substring comparing an acting administrator of the Federal Aviation Administration in the Bush administration
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
+substring comparing the American Eagle commuter flight
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
+substring comparing the people
+substring comparing the limits
+substring comparing general good
+substring comparing families
+substring comparing a lengthy trial
+substring comparing the low liability limit
+substring comparing many airlines
+substring comparing the airlines
+substring comparing the document
+substring comparing airlines
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
 
 comparing here - id<57>pos<126>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
 totalScore: 50.46153846153847 domestic carriers - id<56>pos<125>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
@@ -1225,7 +2669,132 @@ totalScore: 4808.692307692308 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>a
 totalScore: 4847.153846153846 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <we X145> to <they 58> with score of -8150.846153846154
 
+substring here:
+substring comparing United States
+substring comparing domestic carriers
+substring comparing here
 matching <here> <- <here>
+
+substring the ``fifth jurisdiction'':
+substring comparing United States
+substring comparing domestic carriers
+substring comparing here
+substring comparing United States
+substring comparing Americans
+substring comparing the contract
+substring comparing transportation
+substring comparing the airline
+substring comparing its
+substring comparing country
+substring comparing the country
+substring comparing a
+substring comparing country
+substring comparing the plane
+substring comparing the home country
+substring comparing the current agreement
+substring comparing survivors
+substring comparing suit
+substring comparing negotiations
+substring comparing point
+substring comparing court
+substring comparing disputes
+substring comparing the victim
+substring comparing normal life
+substring comparing The sticking
+substring comparing the remaining years
+substring comparing families
+substring comparing the amount
+substring comparing negotiations
+substring comparing The airlines
+substring comparing U.S. officials
+substring comparing government
+substring comparing U.S. airlines
+substring comparing an antitrust exemption
+substring comparing no
+substring comparing week
+substring comparing Montreal
+substring comparing a system
+substring comparing the details
+substring comparing airlines
+substring comparing this
+substring comparing the world
+substring comparing the airlines
+substring comparing a realistic limit and uniform
+substring comparing an acting administrator of the Federal Aviation Administration in the Bush administration
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
+substring comparing the American Eagle commuter flight
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
+substring comparing the people
+substring comparing the limits
+substring comparing general good
+substring comparing families
+substring comparing a lengthy trial
+substring comparing the low liability limit
+substring comparing many airlines
+substring comparing the airlines
+substring comparing the document
+substring comparing airlines
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
 
 comparing the ``fifth jurisdiction'' - id<60>pos<129>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
 totalScore: -948.5384615384615 here - id<59>pos<128>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
@@ -1357,6 +2926,129 @@ totalScore: 3859.1538461538457 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plu
 totalScore: 3897.6153846153848 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 totalScore: 3936.076923076924 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
 assigning <here 59> to <the ``fifth jurisdiction'' 60> with score of -948.5384615384615
+
+substring 04-05-96:
+substring comparing here
+substring comparing the ``fifth jurisdiction''
+substring comparing United States
+substring comparing domestic carriers
+substring comparing here
+substring comparing United States
+substring comparing Americans
+substring comparing the contract
+substring comparing transportation
+substring comparing the airline
+substring comparing its
+substring comparing country
+substring comparing the country
+substring comparing a
+substring comparing country
+substring comparing the plane
+substring comparing the home country
+substring comparing the current agreement
+substring comparing survivors
+substring comparing suit
+substring comparing negotiations
+substring comparing point
+substring comparing court
+substring comparing disputes
+substring comparing the victim
+substring comparing normal life
+substring comparing The sticking
+substring comparing the remaining years
+substring comparing families
+substring comparing the amount
+substring comparing negotiations
+substring comparing The airlines
+substring comparing U.S. officials
+substring comparing government
+substring comparing U.S. airlines
+substring comparing an antitrust exemption
+substring comparing no
+substring comparing week
+substring comparing Montreal
+substring comparing a system
+substring comparing the details
+substring comparing airlines
+substring comparing this
+substring comparing the world
+substring comparing the airlines
+substring comparing a realistic limit and uniform
+substring comparing an acting administrator of the Federal Aviation Administration in the Bush administration
+substring comparing a jury
+substring comparing Barry Lambert
+substring comparing American
+substring comparing the American Eagle commuter flight
+substring comparing the same
+substring comparing the 16 passengers
+substring comparing international trips
+substring comparing the limit
+substring comparing its
+substring comparing one
+substring comparing Colombia
+substring comparing December
+substring comparing families
+substring comparing the people
+substring comparing the limits
+substring comparing general good
+substring comparing families
+substring comparing a lengthy trial
+substring comparing the low liability limit
+substring comparing many airlines
+substring comparing the airlines
+substring comparing the document
+substring comparing airlines
+substring comparing and
+substring comparing commercial
+substring comparing All nations
+substring comparing United States
+substring comparing and
+substring comparing The Warsaw Convention
+substring comparing 1929
+substring comparing 29 countries
+substring comparing international affairs
+substring comparing and
+substring comparing policy
+substring comparing transportation
+substring comparing assistant secretary
+substring comparing an aviation lawyer
+substring comparing time
+substring comparing something
+substring comparing suits
+substring comparing high limits
+substring comparing aircraft manufacturers
+substring comparing Trial lawyers
+substring comparing the higher limits
+substring comparing United States
+substring comparing the limit
+substring comparing 1977 and 1988
+substring comparing 1966
+substring comparing all parties
+substring comparing the third effort
+substring comparing the $75,000 limit
+substring comparing This
+substring comparing Some foreign airlines
+substring comparing the
+substring comparing Americans
+substring comparing damage suits
+substring comparing the accord
+substring comparing Transportation
+substring comparing U.S. Department
+substring comparing the
+substring comparing a new agreement
+substring comparing the accord
+substring comparing airlines
+substring comparing The Warsaw Convention
+substring comparing the liability of an airline when passengers die in a plane crash
+substring comparing N.Y. Times News Service
+substring comparing MATTHEW L. WALD
+substring comparing NEW PRESSURES
+substring comparing AIRLINE CRASH-LIABILITY ACCORD
+substring comparing AIRLINE-LIABILITY
+substring comparing 1094
+substring comparing 04-05
+substring comparing BC-AIRLINE-LIABILITY-575
+substring comparing A0222
 
 comparing 04-05-96 - id<61>pos<130>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
 totalScore: -948.5384615384615 the ``fifth jurisdiction'' - id<60>pos<129>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
