@@ -1,1 +1,1 @@
-./testset1/input/22.crf
+./testset1/input/14.crf

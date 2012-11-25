@@ -1,1 +1,1492 @@
-processing ./testset1/input/22.crf...
+processing ./testset1/input/14.crf...
+comparing AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate> with:
+totalScore: -948.5384615384615 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -910.0769230769231 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -9871.615384615385 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 165.8461538461538 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <BC-AIRLINE-LIABILITY-575 X3> to <AIRLINE-LIABILITY 2> with score of -9871.615384615385
+
+comparing The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate> with:
+totalScore: 50.46153846153845 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 88.9230769230769 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 127.38461538461536 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 165.8461538461538 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 204.30769230769238 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -756.2307692307693 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -717.7692307692307 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 319.69230769230774 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 358.1538461538462 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <1094 X5> to <The Warsaw Convention 7> with score of -756.2307692307693
+
+matching <AIRLINE CRASH-LIABILITY ACCORD> <- <the liability of an airline when passengers die in a plane crash>
+
+matching <AIRLINE CRASH-LIABILITY ACCORD> <- <the accord>
+
+matching <the accord> <- <the accord>
+
+comparing the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
+totalScore: 88.92307692307693 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 50.46153846153847 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 88.92307692307693 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 127.38461538461539 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: -836.4871794871794 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -794.6923076923076 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -756.2307692307693 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -721.1025641025641 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -679.3076923076923 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -644.1794871794871 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 396.61538461538464 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -567.2564102564102 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -526.2948717948718 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -487.0 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -448.53846153846155 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -410.0769230769231 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: -371.6153846153845 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -333.1538461538461 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -294.6923076923076 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -256.23076923076917 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -217.76923076923072 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -179.30769230769226 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -140.8461538461538 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <the X38> to <the third effort 13> with score of -836.4871794871794
+
+comparing the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
+totalScore: 50.46153846153847 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: -951.8717948717949 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 88.92307692307693 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 127.38461538461539 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 165.84615384615387 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: -798.025641025641 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -756.2307692307693 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -717.7692307692307 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -682.6410256410256 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -640.8461538461538 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -605.7179487179487 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 435.0769230769231 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -528.7948717948718 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -487.8333333333333 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -448.53846153846155 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -410.0769230769231 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -371.6153846153845 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: -333.1538461538461 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -294.6923076923076 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -256.23076923076917 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -217.76923076923072 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -179.30769230769226 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -140.8461538461538 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -102.38461538461536 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <the third effort 13> to <the $75,000 limit 14> with score of -951.8717948717949
+
+matching <the $75,000 limit> <- <the limit>
+
+comparing United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate> with:
+totalScore: 50.46153846153847 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 88.92307692307693 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -871.6153846153846 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 165.84615384615387 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 204.30769230769238 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 242.76923076923077 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 281.2307692307692 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -679.3076923076923 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -640.8461538461538 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 396.61538461538464 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 435.0769230769231 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1472.5384615384614 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1511.0 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 550.4615384615385 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 588.9230769230769 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 627.3846153846155 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -333.1538461538461 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 704.3076923076924 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 742.7692307692308 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1780.2307692307693 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1818.6923076923076 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1857.1538461538462 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 1895.6153846153848 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1934.076923076923 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1972.5384615384614 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1012.0 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1050.4615384615386 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2087.923076923077 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2126.3846153846152 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <all parties X51> to <United States 17> with score of -871.6153846153846
+
+comparing them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate> with:
+totalScore: -954.5384615384615 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 84.5897435897436 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 121.38461538461539 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -839.1538461538462 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 193.30769230769232 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -767.2307692307693 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 276.8974358974359 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 315.3589743589744 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -645.1794871794871 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -608.3846153846154 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -574.9230769230769 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 462.53846153846155 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 506.0 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 539.4615384615385 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 582.9230769230769 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 623.0512820512821 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 654.8461538461539 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -305.6923076923076 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 736.7692307692308 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 779.3974358974359 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 815.3589743589744 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 854.6538461538462 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 892.2820512820513 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 930.7435897435897 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 967.5384615384615 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1001.0 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1039.4615384615386 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1077.923076923077 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1116.3846153846155 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1154.8461538461538 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <United States 17> to <them 18> with score of -954.5384615384615
+
+comparing them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate> with:
+totalScore: -959.5384615384615 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -954.5384615384615 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -916.0769230769231 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -875.9487179487179 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -839.1538461538462 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -9805.692307692309 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -762.2307692307693 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 276.8974358974359 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 313.69230769230774 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -646.8461538461538 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 385.61538461538464 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -574.9230769230769 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 469.20512820512823 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 507.6666666666667 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -452.8717948717949 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -416.0769230769231 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -382.6153846153845 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 654.8461538461539 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 698.3076923076924 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 731.7692307692308 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 775.2307692307693 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 815.3589743589744 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 847.1538461538462 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -113.38461538461536 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 929.0769230769231 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 971.7051282051282 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1007.6666666666666 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1046.9615384615386 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1084.5897435897436 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 1123.0512820512822 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1159.8461538461538 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1193.3076923076924 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1231.769230769231 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1270.230769230769 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1308.6923076923078 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1347.1538461538462 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <them 18> to <them 19> with score of -9805.692307692309
+
+matching <Trial lawyers> <- <an aviation lawyer>
+
+matching <The Warsaw Convention> <- <The Warsaw Convention>
+
+matching <United States> <- <United States>
+
+matching <Some foreign airlines> <- <the airlines>
+
+comparing the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
+totalScore: 50.46153846153847 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 45.46153846153847 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 88.92307692307693 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -871.6153846153846 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -833.1538461538462 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -794.6923076923076 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 242.76923076923077 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 281.2307692307692 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 319.69230769230774 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -640.8461538461538 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -602.3846153846154 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -563.9230769230769 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -525.4615384615385 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -487.0 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -448.53846153846155 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -410.0769230769231 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -371.6153846153845 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -333.1538461538461 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 704.3076923076924 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 737.7692307692308 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 781.2307692307693 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 819.6923076923077 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 854.8205128205128 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 896.6153846153846 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 930.0769230769231 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 973.5384615384615 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 13.0 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 46.46153846153857 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1088.923076923077 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 128.38461538461547 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1165.8461538461538 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 201.97435897435912 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 240.4358974358977 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1281.230769230769 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1319.6923076923078 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1358.1538461538462 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 392.61538461538476 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 436.0769230769231 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 474.53846153846166 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 508.0 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 551.4615384615386 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 584.9230769230769 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1627.3846153846155 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 661.8461538461538 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 704.4743589743591 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 743.7692307692307 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 782.2307692307693 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 820.6923076923076 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 859.1538461538462 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 897.6153846153845 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 936.0769230769231 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 974.5384615384614 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1013.0 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1051.461538461538 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1089.9230769230771 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <commercial X97> to <the document 25> with score of -871.6153846153846
+
+matching <high limits> <- <the low liability limit>
+
+comparing themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate> with:
+totalScore: -954.5384615384615 many airlines - id<X103>pos<58>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 85.42307692307693 the low liability limit - id<26>pos<57>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -882.6153846153846 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 159.84615384615387 the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -800.6923076923076 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -762.2307692307693 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 270.2307692307692 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 308.69230769230774 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 347.1538461538462 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -608.3846153846154 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: -569.9230769230769 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -531.4615384615385 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 501.0 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 546.1282051282051 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 582.9230769230769 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 616.3846153846155 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 654.8461538461539 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 693.3076923076924 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 738.4358974358975 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 770.2307692307693 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 808.6923076923077 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -151.8461538461538 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -9112.384615384615 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -69.9230769230769 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -31.461538461538453 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 8.666666666666629 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 45.46153846153857 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -8920.076923076924 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 122.38461538461547 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1161.5128205128206 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1198.3076923076924 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 237.76923076923094 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1270.230769230769 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 309.69230769230785 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1353.820512820513 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1392.2820512820515 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 431.74358974358984 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 468.53846153846166 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 502.0 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1539.4615384615386 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1582.923076923077 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1616.3846153846155 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1659.8461538461538 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1699.9743589743591 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1731.7692307692307 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 771.2307692307693 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1813.6923076923076 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1856.320512820513 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1892.2820512820513 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1931.576923076923 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1969.2051282051282 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 2007.6666666666667 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2044.4615384615383 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2077.923076923077 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2116.3846153846152 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2154.846153846154 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2193.3076923076924 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2231.769230769231 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <them 19> to <themselves 27> with score of -9112.384615384615
+
+comparing they - id<28>pos<62>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate> with:
+totalScore: 44.46153846153847 general good - id<X114>pos<63>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -959.5384615384615 families - id<X108>pos<61>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 84.5897435897436 a lengthy trial - id<X106>pos<60>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -9881.615384615385 themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -839.1538461538462 many airlines - id<X103>pos<58>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 200.80769230769232 the low liability limit - id<26>pos<57>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -767.2307692307693 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 275.2307692307692 the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -685.3076923076923 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -646.8461538461538 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 385.61538461538464 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 424.0769230769231 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 462.53846153846155 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -493.0 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: -454.53846153846155 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -416.0769230769231 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 616.3846153846155 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 661.5128205128206 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 698.3076923076924 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 731.7692307692308 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 770.2307692307693 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 808.6923076923077 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 853.8205128205128 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 885.6153846153846 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 924.0769230769231 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -36.46153846153845 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -8997.0 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 45.46153846153857 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 83.9230769230769 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 124.05128205128221 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 160.8461538461538 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -8804.692307692309 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 237.76923076923094 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1276.8974358974358 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1313.6923076923078 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 353.1538461538462 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1385.6153846153848 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 425.0769230769231 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1469.2051282051284 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1507.6666666666667 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 547.1282051282053 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 583.9230769230769 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 617.3846153846155 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1654.8461538461538 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1698.3076923076924 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1731.7692307692307 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1775.2307692307693 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1815.3589743589744 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1847.1538461538462 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 886.6153846153845 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1929.076923076923 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1971.7051282051282 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2007.6666666666667 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2046.9615384615383 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2084.5897435897436 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 2123.0512820512818 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2159.846153846154 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2193.3076923076924 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2231.769230769231 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2270.230769230769 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2308.6923076923076 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2347.153846153846 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <themselves 27> to <they 28> with score of -9881.615384615385
+
+comparing its - id<29>pos<67>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate> with:
+totalScore: 50.46153846153847 one - id<X124>pos<68>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 50.46153846153847 the people - id<X120>pos<66>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -910.0769230769231 families - id<X119>pos<65>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -10870.615384615385 the limits - id<X117>pos<64>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 165.84615384615387 general good - id<X114>pos<63>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -9804.692307692309 they - id<28>pos<62>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -756.2307692307693 families - id<X108>pos<61>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 281.2307692307692 a lengthy trial - id<X106>pos<60>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -9689.307692307691 themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -640.8461538461538 many airlines - id<X103>pos<58>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 396.61538461538464 the low liability limit - id<26>pos<57>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -563.9230769230769 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 473.53846153846155 the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -487.0 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -448.53846153846155 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 588.9230769230769 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 627.3846153846155 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 665.8461538461539 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -294.6923076923076 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: -256.23076923076917 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -217.76923076923072 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 819.6923076923077 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 858.1538461538462 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 896.6153846153846 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 935.0769230769231 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 973.5384615384615 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1012.0 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1050.4615384615386 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1088.923076923077 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1127.3846153846155 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -9832.153846153846 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -8804.692307692309 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 243.76923076923094 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -9716.76923076923 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -9678.307692307691 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 359.1538461538462 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -8612.384615384615 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 436.0769230769231 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1473.5384615384617 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1512.0 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 551.4615384615386 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1588.923076923077 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 628.3846153846155 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1665.8461538461538 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1704.3076923076924 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 743.7692307692307 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -9216.76923076923 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 820.6923076923076 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1858.1538461538462 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1896.6153846153845 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1935.076923076923 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1973.5384615384614 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2012.0 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2050.461538461538 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1089.9230769230771 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2127.3846153846152 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2165.846153846154 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2204.3076923076924 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2242.769230769231 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2281.230769230769 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 2319.6923076923076 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2358.153846153846 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2396.6153846153848 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2435.076923076923 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2473.538461538462 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2512.0 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2550.461538461538 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <the limits X117> to <its 29> with score of -10870.615384615385
+
+comparing it - id<30>pos<71>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
+totalScore: -959.5384615384615 December - id<X126>pos<70>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -921.0769230769231 Colombia - id<X125>pos<69>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -882.6153846153846 one - id<X124>pos<68>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 154.84615384615387 its - id<29>pos<67>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -800.6923076923076 the people - id<X120>pos<66>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 231.76923076923077 families - id<X119>pos<65>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 275.2307692307692 the limits - id<X117>pos<64>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -685.3076923076923 general good - id<X114>pos<63>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 348.1538461538462 they - id<28>pos<62>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 385.61538461538464 families - id<X108>pos<61>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -568.2564102564102 a lengthy trial - id<X106>pos<60>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 463.53846153846155 themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 506.0 many airlines - id<X103>pos<58>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -452.03846153846155 the low liability limit - id<26>pos<57>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 577.9230769230769 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -377.6153846153845 the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 659.8461538461539 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 698.3076923076924 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -267.23076923076917 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -228.76923076923072 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -190.30769230769226 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 852.1538461538462 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 890.6153846153846 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 929.0769230769231 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -36.46153846153845 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 8.666666666666629 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 45.46153846153857 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 78.9230769230769 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 117.38461538461547 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 155.8461538461538 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 200.97435897435912 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 232.76923076923094 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 271.23076923076906 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1308.6923076923078 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1348.1538461538462 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1390.6153846153848 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1429.076923076923 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1469.2051282051284 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1506.0 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1540.4615384615386 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1582.923076923077 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 624.0512820512822 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 660.8461538461538 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1698.3076923076924 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 732.7692307692307 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1770.2307692307693 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 816.3589743589744 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 854.8205128205129 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1892.2820512820513 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1929.076923076923 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1962.5384615384614 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1002.0 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1045.4615384615383 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1078.9230769230771 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1122.3846153846152 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1162.5128205128203 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1194.3076923076924 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2231.769230769231 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1276.230769230769 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1318.8589743589741 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1354.8205128205127 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1394.1153846153848 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1431.7435897435894 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 1470.2051282051284 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1507.0 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1540.461538461538 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1578.9230769230767 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1617.3846153846157 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1655.8461538461538 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1694.3076923076924 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <December X126> to <it 30> with score of -959.5384615384615
+
+matching <the limits> <- <the limit>
+
+comparing it - id<32>pos<73>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
+totalScore: -954.5384615384615 the limit - id<31>pos<72>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -20919.076923076922 it - id<30>pos<71>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -882.6153846153846 December - id<X126>pos<70>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -844.1538461538462 Colombia - id<X125>pos<69>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -805.6923076923076 one - id<X124>pos<68>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 231.76923076923077 its - id<29>pos<67>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -723.7692307692307 the people - id<X120>pos<66>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 308.69230769230774 families - id<X119>pos<65>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 352.1538461538462 the limits - id<X117>pos<64>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -608.3846153846154 general good - id<X114>pos<63>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 425.0769230769231 they - id<28>pos<62>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 462.53846153846155 families - id<X108>pos<61>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -491.3333333333333 a lengthy trial - id<X106>pos<60>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 540.4615384615385 themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 582.9230769230769 many airlines - id<X103>pos<58>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -375.1153846153845 the low liability limit - id<26>pos<57>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 654.8461538461539 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -300.6923076923076 the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 736.7692307692308 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 775.2307692307693 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -190.30769230769226 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -151.8461538461538 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -113.38461538461536 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 929.0769230769231 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 967.5384615384615 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1006.0 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 40.46153846153857 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 85.58974358974365 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 122.38461538461547 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 155.8461538461538 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 194.30769230769238 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 232.76923076923094 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 277.8974358974358 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 309.69230769230785 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 348.1538461538462 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1385.6153846153848 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1425.076923076923 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1467.5384615384617 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1506.0 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1546.1282051282053 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1582.923076923077 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1617.3846153846155 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1659.8461538461538 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 700.9743589743591 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 737.7692307692307 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1775.2307692307693 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 809.6923076923076 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1847.1538461538462 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 893.2820512820513 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 931.7435897435898 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1969.2051282051282 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2006.0 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2039.4615384615383 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1078.9230769230771 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1122.3846153846152 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1155.8461538461538 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1199.3076923076924 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1239.4358974358975 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1271.230769230769 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2308.6923076923076 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1353.1538461538462 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1395.7820512820513 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1431.7435897435894 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1471.038461538462 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1508.6666666666665 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 1547.1282051282046 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1583.9230769230767 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1617.3846153846157 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1655.8461538461538 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1694.3076923076924 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1732.7692307692305 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1771.2307692307695 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <it 30> to <it 32> with score of -20919.076923076922
+
+matching <Americans> <- <American>
+
+matching <an aviation lawyer> <- <an acting administrator of the Federal Aviation Administration in the Bush administration>
+
+matching <many airlines> <- <the airlines>
+
+matching <the airlines> <- <airlines>
+
+matching <U.S. airlines> <- <The airlines>
+
+matching <U.S. airlines> <- <U.S. officials>
+
+matching <families> <- <families>
+
+comparing the amount - id<42>pos<99>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
+totalScore: 50.46153846153847 negotiations - id<X177>pos<100>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 50.46153846153847 families - id<41>pos<98>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 88.92307692307693 U.S. officials - id<39>pos<97>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 127.38461538461539 The airlines - id<38>pos<96>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -833.1538461538462 government - id<X169>pos<95>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -794.6923076923076 an antitrust exemption - id<X168>pos<94>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 242.76923076923077 U.S. airlines - id<X167>pos<93>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 276.2307692307692 the details - id<X163>pos<92>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -679.3076923076923 a system - id<X162>pos<91>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -640.8461538461538 Montreal - id<X161>pos<90>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -602.3846153846154 week - id<X160>pos<89>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -563.9230769230769 no - id<X159>pos<88>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -530.4615384615385 the world - id<X157>pos<87>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 512.0 this - id<X155>pos<86>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 550.4615384615385 airlines - id<36>pos<85>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -410.0769230769231 a realistic limit and uniform - id<X154>pos<84>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 622.3846153846155 the airlines - id<35>pos<83>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -333.1538461538461 an acting administrator of the Federal Aviation Administration in the Bush administration - id<34>pos<82>pron<none>art<the>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -294.6923076923076 Barry Lambert - id<X147>pos<81>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: -256.23076923076917 a jury - id<X146>pos<80>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 776.2307692307693 we - id<X145>pos<79>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -179.30769230769226 American - id<33>pos<78>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: -142.8461538461538 the American Eagle commuter flight - id<X138>pos<77>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 896.6153846153846 international trips - id<X134>pos<76>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 931.7435897435897 the 16 passengers - id<X133>pos<75>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -30.461538461538453 the same - id<X132>pos<74>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 8.0 it - id<32>pos<73>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 46.46153846153857 the limit - id<31>pos<72>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 84.9230769230769 it - id<30>pos<71>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 128.38461538461547 December - id<X126>pos<70>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 166.8461538461538 Colombia - id<X125>pos<69>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 205.30769230769238 one - id<X124>pos<68>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1242.769230769231 its - id<29>pos<67>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 277.23076923076906 the people - id<X120>pos<66>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1319.6923076923078 families - id<X119>pos<65>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1353.1538461538462 the limits - id<X117>pos<64>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 397.61538461538476 general good - id<X114>pos<63>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1430.076923076923 they - id<28>pos<62>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1473.5384615384617 families - id<X108>pos<61>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 513.0 a lengthy trial - id<X106>pos<60>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1545.4615384615386 themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1588.923076923077 many airlines - id<X103>pos<58>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 625.8846153846155 the low liability limit - id<26>pos<57>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1665.8461538461538 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 700.3076923076924 the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1737.7692307692307 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1781.2307692307693 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 820.6923076923076 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 859.1538461538462 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 897.6153846153845 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1935.076923076923 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1973.5384615384614 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2012.0 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1051.461538461538 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1089.9230769230771 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1128.3846153846152 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1166.8461538461538 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1205.3076923076924 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1243.769230769231 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1282.230769230769 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1320.6923076923076 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1359.1538461538462 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2396.6153846153848 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2430.076923076923 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2473.538461538462 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2512.0 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2547.1282051282046 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2588.9230769230767 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2622.3846153846157 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2665.846153846154 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1705.3076923076924 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1738.7692307692305 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2781.2307692307695 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1820.6923076923076 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2858.153846153846 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1894.2820512820508 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1932.7435897435898 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2973.5384615384614 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3012.0 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3050.461538461538 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 2084.923076923077 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2128.3846153846152 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2166.846153846154 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2200.307692307692 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2243.769230769231 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2277.230769230769 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3319.6923076923076 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2354.1538461538457 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2396.7820512820513 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2436.0769230769233 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2474.5384615384614 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2513.0 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 2551.4615384615386 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2589.923076923077 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2628.3846153846152 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2666.846153846154 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2705.3076923076924 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2743.769230769231 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2782.230769230769 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <government X169> to <the amount 42> with score of -833.1538461538462
+
+matching <negotiations> <- <negotiations>
+
+matching <a new agreement> <- <the current agreement>
+
+appositiveSuccess the current agreement <- survivors
+comparing survivors - id<49>pos<110>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate> with:
+totalScore: 50.46153846153847 the current agreement - id<48>pos<109>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -910.0769230769231 disputes - id<X191>pos<108>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 127.38461538461539 court - id<X190>pos<107>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 165.84615384615387 point - id<X189>pos<106>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -794.6923076923076 negotiations - id<47>pos<105>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -756.2307692307693 the remaining years - id<X185>pos<104>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 281.2307692307692 The sticking - id<X183>pos<103>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 319.69230769230774 normal life - id<X182>pos<102>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 358.1538461538462 the victim - id<X181>pos<101>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -602.3846153846154 negotiations - id<X177>pos<100>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 435.0769230769231 the amount - id<42>pos<99>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -525.4615384615385 families - id<41>pos<98>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -487.0 U.S. officials - id<39>pos<97>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -448.53846153846155 The airlines - id<38>pos<96>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 588.9230769230769 government - id<X169>pos<95>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 627.3846153846155 an antitrust exemption - id<X168>pos<94>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -333.1538461538461 U.S. airlines - id<X167>pos<93>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -294.6923076923076 the details - id<X163>pos<92>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 742.7692307692308 a system - id<X162>pos<91>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 781.2307692307693 Montreal - id<X161>pos<90>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 819.6923076923077 week - id<X160>pos<89>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 858.1538461538462 no - id<X159>pos<88>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 896.6153846153846 the world - id<X157>pos<87>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -63.923076923076906 this - id<X155>pos<86>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -25.461538461538453 airlines - id<36>pos<85>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1012.0 a realistic limit and uniform - id<X154>pos<84>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 51.46153846153857 the airlines - id<35>pos<83>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1088.923076923077 an acting administrator of the Federal Aviation Administration in the Bush administration - id<34>pos<82>pron<none>art<the>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1127.3846153846155 Barry Lambert - id<X147>pos<81>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 1165.8461538461538 a jury - id<X146>pos<80>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -8804.692307692309 we - id<X145>pos<79>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1242.769230769231 American - id<33>pos<78>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1281.230769230769 the American Eagle commuter flight - id<X138>pos<77>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 320.69230769230785 international trips - id<X134>pos<76>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 359.1538461538462 the 16 passengers - id<X133>pos<75>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1396.6153846153848 the same - id<X132>pos<74>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1425.076923076923 it - id<32>pos<73>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1473.5384615384617 the limit - id<31>pos<72>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1502.0 it - id<30>pos<71>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1550.4615384615386 December - id<X126>pos<70>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1588.923076923077 Colombia - id<X125>pos<69>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1627.3846153846155 one - id<X124>pos<68>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 666.8461538461538 its - id<29>pos<67>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1704.3076923076924 the people - id<X120>pos<66>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 743.7692307692307 families - id<X119>pos<65>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 782.2307692307693 the limits - id<X117>pos<64>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1819.6923076923076 general good - id<X114>pos<63>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -8150.846153846154 they - id<28>pos<62>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 897.6153846153845 families - id<X108>pos<61>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1935.076923076923 a lengthy trial - id<X106>pos<60>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -8035.461538461539 themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1013.0 many airlines - id<X103>pos<58>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2050.461538461538 the low liability limit - id<26>pos<57>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1089.9230769230771 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2127.3846153846152 the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1166.8461538461538 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1205.3076923076924 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2242.769230769231 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2281.230769230769 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2319.6923076923076 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1359.1538461538462 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1397.6153846153848 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1436.0769230769229 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2473.538461538462 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2512.0 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2550.461538461538 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2588.9230769230767 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2627.3846153846157 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2665.846153846154 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2704.3076923076924 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2742.7692307692305 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2781.2307692307695 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1820.6923076923076 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -7150.846153846154 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1897.6153846153843 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1936.0769230769233 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1974.5384615384614 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2013.0 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -6958.538461538462 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2089.923076923077 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3127.3846153846152 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3165.846153846154 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2205.307692307692 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3242.769230769231 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2282.230769230769 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3319.6923076923076 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3358.1538461538457 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2397.6153846153848 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2436.0769230769233 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2474.5384615384614 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3512.0 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3550.4615384615386 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3588.923076923077 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3627.3846153846152 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3665.846153846154 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3704.3076923076924 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2743.769230769231 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3781.230769230769 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3819.6923076923076 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3858.153846153846 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3896.6153846153848 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3935.076923076923 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 3973.5384615384614 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4012.0 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4050.4615384615386 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4088.9230769230767 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4127.384615384615 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4165.846153846154 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4204.307692307692 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <we X145> to <survivors 49> with score of -8804.692307692309
+
+matching <The airlines> <- <the airline>
+
+matching <its> <- <its>
+
+matching <United States> <- <United States>
+
+matching <American> <- <Americans>
+
+matching <United States> <- <United States>
+
+comparing domestic carriers - id<56>pos<125>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate> with:
+totalScore: -948.5384615384615 United States - id<55>pos<124>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: -910.0769230769231 Americans - id<54>pos<123>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: -871.6153846153846 United States - id<53>pos<122>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 165.84615384615387 transportation - id<X211>pos<121>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 204.30769230769232 the contract - id<X210>pos<120>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 242.76923076923077 the country - id<X207>pos<119>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 281.2307692307692 country - id<X205>pos<118>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -679.3076923076923 its - id<52>pos<117>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 358.1538461538462 the airline - id<51>pos<116>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 396.61538461538464 the home country - id<X202>pos<115>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 435.0769230769231 the plane - id<X199>pos<114>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 473.53846153846155 country - id<X198>pos<113>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 512.0 a - id<X197>pos<112>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 550.4615384615385 suit - id<X194>pos<111>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -410.0769230769231 survivors - id<49>pos<110>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 627.3846153846155 the current agreement - id<48>pos<109>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -333.1538461538461 disputes - id<X191>pos<108>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 704.3076923076924 court - id<X190>pos<107>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 742.7692307692308 point - id<X189>pos<106>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -217.76923076923072 negotiations - id<47>pos<105>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -179.30769230769226 the remaining years - id<X185>pos<104>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 858.1538461538462 The sticking - id<X183>pos<103>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 896.6153846153846 normal life - id<X182>pos<102>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 935.0769230769231 the victim - id<X181>pos<101>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -25.461538461538453 negotiations - id<X177>pos<100>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1012.0 the amount - id<42>pos<99>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 51.46153846153857 families - id<41>pos<98>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 89.9230769230769 U.S. officials - id<39>pos<97>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 128.38461538461547 The airlines - id<38>pos<96>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1165.8461538461538 government - id<X169>pos<95>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1204.3076923076924 an antitrust exemption - id<X168>pos<94>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 243.76923076923094 U.S. airlines - id<X167>pos<93>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 282.23076923076906 the details - id<X163>pos<92>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1319.6923076923078 a system - id<X162>pos<91>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1358.1538461538462 Montreal - id<X161>pos<90>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1396.6153846153848 week - id<X160>pos<89>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1435.076923076923 no - id<X159>pos<88>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1473.5384615384617 the world - id<X157>pos<87>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 513.0 this - id<X155>pos<86>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 551.4615384615386 airlines - id<36>pos<85>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1588.923076923077 a realistic limit and uniform - id<X154>pos<84>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 628.3846153846155 the airlines - id<35>pos<83>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1665.8461538461538 an acting administrator of the Federal Aviation Administration in the Bush administration - id<34>pos<82>pron<none>art<the>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1704.3076923076924 Barry Lambert - id<X147>pos<81>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 1742.7692307692307 a jury - id<X146>pos<80>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -8222.76923076923 we - id<X145>pos<79>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1819.6923076923076 American - id<33>pos<78>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1858.1538461538462 the American Eagle commuter flight - id<X138>pos<77>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 897.6153846153845 international trips - id<X134>pos<76>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 936.0769230769231 the 16 passengers - id<X133>pos<75>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1973.5384615384614 the same - id<X132>pos<74>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2007.0 it - id<32>pos<73>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2050.461538461538 the limit - id<31>pos<72>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2083.923076923077 it - id<30>pos<71>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2127.3846153846152 December - id<X126>pos<70>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2165.846153846154 Colombia - id<X125>pos<69>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2204.3076923076924 one - id<X124>pos<68>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1243.769230769231 its - id<29>pos<67>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2281.230769230769 the people - id<X120>pos<66>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1320.6923076923076 families - id<X119>pos<65>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1359.1538461538462 the limits - id<X117>pos<64>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2396.6153846153848 general good - id<X114>pos<63>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -7568.923076923077 they - id<28>pos<62>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1474.538461538462 families - id<X108>pos<61>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2512.0 a lengthy trial - id<X106>pos<60>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -7453.538461538462 themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1589.9230769230767 many airlines - id<X103>pos<58>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2627.3846153846157 the low liability limit - id<26>pos<57>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1666.8461538461538 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2704.3076923076924 the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1743.7692307692305 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1782.2307692307695 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2819.6923076923076 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2858.153846153846 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2896.6153846153843 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1936.0769230769233 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 1974.5384615384614 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2013.0 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3050.461538461538 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3088.923076923077 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3127.3846153846152 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3165.846153846154 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3204.307692307692 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3242.769230769231 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3281.230769230769 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3319.6923076923076 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3358.1538461538457 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2397.6153846153848 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -6568.923076923076 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2474.5384615384614 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2513.0 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2551.4615384615386 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2589.923076923077 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -6376.615384615385 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2666.846153846154 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3704.3076923076924 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3742.769230769231 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2782.230769230769 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3819.6923076923076 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2859.153846153846 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3896.6153846153848 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3935.076923076923 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2974.5384615384614 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3013.0 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3051.4615384615386 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 4088.9230769230767 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4127.384615384615 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4165.846153846154 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4204.307692307692 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4242.7692307692305 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4281.230769230769 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3320.6923076923076 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 4358.153846153847 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4396.615384615385 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4435.076923076923 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4473.538461538462 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4512.0 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 4550.461538461538 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4588.923076923077 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4627.384615384615 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4665.846153846154 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4704.307692307692 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4742.7692307692305 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4781.2307692307695 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <we X145> to <domestic carriers 56> with score of -8222.76923076923
+
+comparing here - id<57>pos<126>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
+totalScore: 50.46153846153847 domestic carriers - id<56>pos<125>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 88.92307692307693 United States - id<55>pos<124>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 127.38461538461539 Americans - id<54>pos<123>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 165.84615384615387 United States - id<53>pos<122>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: -794.6923076923076 transportation - id<X211>pos<121>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -756.2307692307693 the contract - id<X210>pos<120>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -717.7692307692307 the country - id<X207>pos<119>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -679.3076923076923 country - id<X205>pos<118>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 358.1538461538462 its - id<52>pos<117>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -602.3846153846154 the airline - id<51>pos<116>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -563.9230769230769 the home country - id<X202>pos<115>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -525.4615384615385 the plane - id<X199>pos<114>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -487.0 country - id<X198>pos<113>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -448.53846153846155 a - id<X197>pos<112>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -410.0769230769231 suit - id<X194>pos<111>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 627.3846153846155 survivors - id<49>pos<110>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -333.1538461538461 the current agreement - id<48>pos<109>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 704.3076923076924 disputes - id<X191>pos<108>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -256.23076923076917 court - id<X190>pos<107>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -217.76923076923072 point - id<X189>pos<106>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 819.6923076923077 negotiations - id<47>pos<105>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 858.1538461538462 the remaining years - id<X185>pos<104>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -102.38461538461536 The sticking - id<X183>pos<103>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -63.923076923076906 normal life - id<X182>pos<102>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -25.461538461538453 the victim - id<X181>pos<101>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1012.0 negotiations - id<X177>pos<100>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 51.46153846153857 the amount - id<42>pos<99>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1088.923076923077 families - id<41>pos<98>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1127.3846153846155 U.S. officials - id<39>pos<97>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1165.8461538461538 The airlines - id<38>pos<96>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 205.30769230769238 government - id<X169>pos<95>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 243.76923076923094 an antitrust exemption - id<X168>pos<94>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1281.230769230769 U.S. airlines - id<X167>pos<93>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1319.6923076923078 the details - id<X163>pos<92>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 359.1538461538462 a system - id<X162>pos<91>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 397.61538461538476 Montreal - id<X161>pos<90>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 436.0769230769231 week - id<X160>pos<89>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 474.53846153846166 no - id<X159>pos<88>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 513.0 the world - id<X157>pos<87>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1550.4615384615386 this - id<X155>pos<86>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1588.923076923077 airlines - id<36>pos<85>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 628.3846153846155 a realistic limit and uniform - id<X154>pos<84>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1665.8461538461538 the airlines - id<35>pos<83>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 705.3076923076924 an acting administrator of the Federal Aviation Administration in the Bush administration - id<34>pos<82>pron<none>art<the>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 743.7692307692307 Barry Lambert - id<X147>pos<81>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 782.2307692307693 a jury - id<X146>pos<80>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1809.6923076923076 we - id<X145>pos<79>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 859.1538461538462 American - id<33>pos<78>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 897.6153846153845 the American Eagle commuter flight - id<X138>pos<77>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1935.076923076923 international trips - id<X134>pos<76>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1973.5384615384614 the 16 passengers - id<X133>pos<75>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1013.0 the same - id<X132>pos<74>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1041.4615384615383 it - id<32>pos<73>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1089.9230769230771 the limit - id<31>pos<72>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1118.3846153846152 it - id<30>pos<71>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1166.8461538461538 December - id<X126>pos<70>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1205.3076923076924 Colombia - id<X125>pos<69>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1243.769230769231 one - id<X124>pos<68>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2281.230769230769 its - id<29>pos<67>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1320.6923076923076 the people - id<X120>pos<66>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2358.153846153846 families - id<X119>pos<65>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2396.6153846153848 the limits - id<X117>pos<64>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1436.0769230769229 general good - id<X114>pos<63>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2463.538461538462 they - id<28>pos<62>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2512.0 families - id<X108>pos<61>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1551.461538461538 a lengthy trial - id<X106>pos<60>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2578.9230769230767 themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2627.3846153846157 many airlines - id<X103>pos<58>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1666.8461538461538 the low liability limit - id<26>pos<57>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2704.3076923076924 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1743.7692307692305 the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2781.2307692307695 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2819.6923076923076 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1859.1538461538462 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1897.6153846153843 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1936.0769230769233 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2973.5384615384614 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3012.0 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3050.461538461538 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2089.923076923077 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2128.3846153846152 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2166.846153846154 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2205.307692307692 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2243.769230769231 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2282.230769230769 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2320.6923076923076 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2359.1538461538457 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2397.6153846153848 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3435.0769230769233 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3463.5384615384614 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3512.0 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3550.4615384615386 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3588.923076923077 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3627.3846153846152 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3655.846153846154 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3704.3076923076924 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 2743.769230769231 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2782.230769230769 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3819.6923076923076 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2859.153846153846 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3896.6153846153848 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 2936.076923076923 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2974.5384615384614 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4012.0 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 4050.4615384615386 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 4088.9230769230767 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3128.3846153846152 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3166.8461538461543 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3205.3076923076924 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3243.7692307692305 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3282.2307692307686 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3320.6923076923076 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4358.153846153847 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3397.6153846153848 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3436.076923076923 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3474.538461538462 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3513.0 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3551.461538461538 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 3589.923076923077 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3628.3846153846152 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3666.8461538461543 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3705.3076923076924 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3743.7692307692305 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3782.2307692307695 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3820.6923076923076 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <transportation X211> to <here 57> with score of -794.6923076923076
+
+appositiveSuccess here <- they
+comparing they - id<58>pos<127>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate> with:
+totalScore: 39.46153846153847 here - id<57>pos<126>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -916.0769230769231 domestic carriers - id<56>pos<125>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -877.6153846153846 United States - id<55>pos<124>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: -844.1538461538462 Americans - id<54>pos<123>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: -800.6923076923076 United States - id<53>pos<122>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 231.76923076923077 transportation - id<X211>pos<121>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 275.2307692307692 the contract - id<X210>pos<120>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 313.69230769230774 the country - id<X207>pos<119>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 347.1538461538462 country - id<X205>pos<118>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -613.3846153846154 its - id<52>pos<117>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 429.0769230769231 the airline - id<51>pos<116>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 469.20512820512823 the home country - id<X202>pos<115>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 506.0 the plane - id<X199>pos<114>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 539.4615384615385 country - id<X198>pos<113>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 577.9230769230769 a - id<X197>pos<112>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 616.3846153846155 suit - id<X194>pos<111>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -344.1538461538461 survivors - id<49>pos<110>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 699.974358974359 the current agreement - id<48>pos<109>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -267.23076923076917 disputes - id<X191>pos<108>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 770.2307692307693 court - id<X190>pos<107>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 808.6923076923077 point - id<X189>pos<106>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -151.8461538461538 negotiations - id<47>pos<105>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -106.71794871794873 the remaining years - id<X185>pos<104>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 929.0769230769231 The sticking - id<X183>pos<103>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 967.5384615384615 normal life - id<X182>pos<102>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1006.0 the victim - id<X181>pos<101>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 40.46153846153857 negotiations - id<X177>pos<100>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1082.923076923077 the amount - id<42>pos<99>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 117.38461538461547 families - id<41>pos<98>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 160.8461538461538 U.S. officials - id<39>pos<97>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 199.30769230769238 The airlines - id<38>pos<96>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1231.769230769231 government - id<X169>pos<95>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1276.8974358974358 an antitrust exemption - id<X168>pos<94>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 314.69230769230785 U.S. airlines - id<X167>pos<93>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 353.1538461538462 the details - id<X163>pos<92>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1390.6153846153848 a system - id<X162>pos<91>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1424.076923076923 Montreal - id<X161>pos<90>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1462.5384615384617 week - id<X160>pos<89>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1501.0 no - id<X159>pos<88>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1544.4615384615386 the world - id<X157>pos<87>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 578.9230769230769 this - id<X155>pos<86>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 617.3846153846155 airlines - id<36>pos<85>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1662.8461538461538 a realistic limit and uniform - id<X154>pos<84>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 699.3076923076924 the airlines - id<35>pos<83>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1740.9358974358975 an acting administrator of the Federal Aviation Administration in the Bush administration - id<34>pos<82>pron<none>art<the>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1775.2307692307693 Barry Lambert - id<X147>pos<81>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 1813.6923076923076 a jury - id<X146>pos<80>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -8150.846153846154 we - id<X145>pos<79>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1885.6153846153845 American - id<33>pos<78>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1932.076923076923 the American Eagle commuter flight - id<X138>pos<77>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 968.5384615384614 international trips - id<X134>pos<76>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1008.6666666666667 the 16 passengers - id<X133>pos<75>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2044.4615384615383 the same - id<X132>pos<74>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2078.923076923077 it - id<32>pos<73>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2121.3846153846152 the limit - id<31>pos<72>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2155.846153846154 it - id<30>pos<71>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2193.3076923076924 December - id<X126>pos<70>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2231.769230769231 Colombia - id<X125>pos<69>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2270.230769230769 one - id<X124>pos<68>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1309.6923076923076 its - id<29>pos<67>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2352.153846153846 the people - id<X120>pos<66>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1386.6153846153848 families - id<X119>pos<65>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1430.0769230769229 the limits - id<X117>pos<64>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2467.538461538462 general good - id<X114>pos<63>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -7498.0 they - id<28>pos<62>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1540.461538461538 families - id<X108>pos<61>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2584.589743589743 a lengthy trial - id<X106>pos<60>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -7381.615384615385 themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1660.8461538461538 many airlines - id<X103>pos<58>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2700.8076923076924 the low liability limit - id<26>pos<57>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1732.7692307692305 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2775.2307692307695 the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1814.6923076923076 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1853.1538461538462 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2885.6153846153843 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2924.0769230769233 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2962.5384615384614 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2007.0 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 2045.461538461538 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2083.923076923077 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3116.3846153846152 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3161.5128205128203 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3198.307692307692 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3231.769230769231 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3270.230769230769 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3308.6923076923076 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3353.8205128205122 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3385.6153846153848 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3424.0769230769233 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2463.5384615384614 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -6497.0 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2545.4615384615386 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2583.923076923077 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2624.0512820512818 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2660.846153846154 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -6304.692307692308 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2737.769230769231 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3776.8974358974356 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3813.6923076923076 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2853.153846153846 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3885.6153846153848 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2925.076923076923 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3969.205128205128 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4007.6666666666665 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3047.128205128205 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3083.9230769230767 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3117.3846153846152 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 4154.846153846154 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4198.307692307692 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4231.7692307692305 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4275.230769230769 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4315.358974358975 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4347.153846153847 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3386.6153846153848 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 4429.076923076923 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4471.705128205129 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4507.666666666667 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4546.961538461538 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4584.589743589744 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 4623.051282051282 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4659.846153846154 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4693.307692307692 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4731.7692307692305 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4770.2307692307695 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4808.692307692308 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 4847.153846153846 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <we X145> to <they 58> with score of -8150.846153846154
+
+matching <here> <- <here>
+
+comparing the ``fifth jurisdiction'' - id<60>pos<129>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
+totalScore: -948.5384615384615 here - id<59>pos<128>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 85.5897435897436 they - id<58>pos<127>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -871.6153846153846 here - id<57>pos<126>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 165.84615384615387 domestic carriers - id<56>pos<125>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 204.30769230769232 United States - id<55>pos<124>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 242.76923076923077 Americans - id<54>pos<123>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 281.2307692307692 United States - id<53>pos<122>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: -679.3076923076923 transportation - id<X211>pos<121>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -644.1794871794871 the contract - id<X210>pos<120>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -605.7179487179487 the country - id<X207>pos<119>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -563.9230769230769 country - id<X205>pos<118>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 473.53846153846155 its - id<52>pos<117>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -490.3333333333333 the airline - id<51>pos<116>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -451.8717948717949 the home country - id<X202>pos<115>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -413.41025641025647 the plane - id<X199>pos<114>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -371.6153846153845 country - id<X198>pos<113>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -333.1538461538461 a - id<X197>pos<112>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -294.6923076923076 suit - id<X194>pos<111>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 742.7692307692308 survivors - id<49>pos<110>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -221.1025641025641 the current agreement - id<48>pos<109>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 819.6923076923077 disputes - id<X191>pos<108>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -140.8461538461538 court - id<X190>pos<107>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -102.38461538461536 point - id<X189>pos<106>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 935.0769230769231 negotiations - id<47>pos<105>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 970.2051282051282 the remaining years - id<X185>pos<104>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 13.0 The sticking - id<X183>pos<103>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 51.46153846153857 normal life - id<X182>pos<102>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 86.58974358974365 the victim - id<X181>pos<101>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1127.3846153846155 negotiations - id<X177>pos<100>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 163.51282051282055 the amount - id<42>pos<99>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1204.3076923076924 families - id<41>pos<98>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1242.769230769231 U.S. officials - id<39>pos<97>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1281.230769230769 The airlines - id<38>pos<96>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 320.69230769230785 government - id<X169>pos<95>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 359.1538461538462 an antitrust exemption - id<X168>pos<94>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1396.6153846153848 U.S. airlines - id<X167>pos<93>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1431.7435897435898 the details - id<X163>pos<92>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 474.53846153846166 a system - id<X162>pos<91>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 513.0 Montreal - id<X161>pos<90>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 551.4615384615386 week - id<X160>pos<89>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 589.9230769230769 no - id<X159>pos<88>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 625.0512820512822 the world - id<X157>pos<87>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1665.8461538461538 this - id<X155>pos<86>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1704.3076923076924 airlines - id<36>pos<85>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 743.7692307692307 a realistic limit and uniform - id<X154>pos<84>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1777.897435897436 the airlines - id<35>pos<83>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 820.6923076923076 an acting administrator of the Federal Aviation Administration in the Bush administration - id<34>pos<82>pron<none>art<the>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 859.1538461538462 Barry Lambert - id<X147>pos<81>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 897.6153846153845 a jury - id<X146>pos<80>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1931.7435897435898 we - id<X145>pos<79>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 974.5384615384614 American - id<33>pos<78>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1011.0 the American Eagle commuter flight - id<X138>pos<77>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2050.461538461538 international trips - id<X134>pos<76>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2085.5897435897436 the 16 passengers - id<X133>pos<75>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1125.0512820512818 the same - id<X132>pos<74>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1163.5128205128203 it - id<32>pos<73>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1201.974358974359 the limit - id<31>pos<72>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1240.4358974358975 it - id<30>pos<71>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1282.230769230769 December - id<X126>pos<70>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1320.6923076923076 Colombia - id<X125>pos<69>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1359.1538461538462 one - id<X124>pos<68>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2396.6153846153848 its - id<29>pos<67>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1432.7435897435894 the people - id<X120>pos<66>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2473.538461538462 families - id<X119>pos<65>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2508.6666666666665 the limits - id<X117>pos<64>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1551.461538461538 general good - id<X114>pos<63>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2585.589743589743 they - id<28>pos<62>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2627.3846153846157 families - id<X108>pos<61>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1666.8461538461538 a lengthy trial - id<X106>pos<60>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2700.974358974359 themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2742.7692307692305 many airlines - id<X103>pos<58>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1779.7307692307695 the low liability limit - id<26>pos<57>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2819.6923076923076 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1855.8205128205127 the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2893.282051282051 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2935.0769230769233 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1974.5384615384614 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2013.0 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2051.461538461538 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3088.923076923077 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3127.3846153846152 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3165.846153846154 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2205.307692307692 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2243.769230769231 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2282.230769230769 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2320.6923076923076 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2359.1538461538457 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2397.6153846153848 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2436.0769230769233 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2474.5384615384614 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2513.0 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3550.4615384615386 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3585.5897435897436 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3627.3846153846152 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3665.846153846154 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3700.974358974359 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3742.769230769231 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3777.8974358974356 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3819.6923076923076 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 2859.153846153846 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2894.2820512820513 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3935.076923076923 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2974.5384615384614 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4012.0 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3048.128205128205 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3086.589743589743 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4127.384615384615 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 4165.846153846154 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 4204.307692307692 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3240.4358974358975 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3282.2307692307686 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3320.6923076923076 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3355.8205128205136 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3397.6153846153848 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3432.74358974359 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4473.538461538462 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3509.666666666667 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3550.628205128205 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3589.923076923077 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3628.3846153846152 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3666.8461538461543 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 3705.3076923076924 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3743.7692307692305 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3782.2307692307695 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3820.6923076923076 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3859.1538461538457 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3897.6153846153848 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3936.076923076924 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <here 59> to <the ``fifth jurisdiction'' 60> with score of -948.5384615384615
+
+comparing 04-05-96 - id<61>pos<130>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate> with:
+totalScore: -948.5384615384615 the ``fifth jurisdiction'' - id<60>pos<129>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -910.0769230769231 here - id<59>pos<128>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 117.38461538461539 they - id<58>pos<127>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -833.1538461538462 here - id<57>pos<126>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 204.30769230769232 domestic carriers - id<56>pos<125>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 242.76923076923077 United States - id<55>pos<124>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 281.2307692307692 Americans - id<54>pos<123>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 319.69230769230774 United States - id<53>pos<122>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: -640.8461538461538 transportation - id<X211>pos<121>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -602.3846153846154 the contract - id<X210>pos<120>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -563.9230769230769 the country - id<X207>pos<119>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -525.4615384615385 country - id<X205>pos<118>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 512.0 its - id<52>pos<117>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -448.53846153846155 the airline - id<51>pos<116>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -410.0769230769231 the home country - id<X202>pos<115>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -371.6153846153845 the plane - id<X199>pos<114>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -333.1538461538461 country - id<X198>pos<113>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -294.6923076923076 a - id<X197>pos<112>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -256.23076923076917 suit - id<X194>pos<111>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 781.2307692307693 survivors - id<49>pos<110>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -179.30769230769226 the current agreement - id<48>pos<109>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 858.1538461538462 disputes - id<X191>pos<108>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: -102.38461538461536 court - id<X190>pos<107>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -63.923076923076906 point - id<X189>pos<106>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 973.5384615384615 negotiations - id<47>pos<105>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1012.0 the remaining years - id<X185>pos<104>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 51.46153846153857 The sticking - id<X183>pos<103>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 89.9230769230769 normal life - id<X182>pos<102>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 128.38461538461547 the victim - id<X181>pos<101>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1165.8461538461538 negotiations - id<X177>pos<100>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 205.30769230769238 the amount - id<42>pos<99>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1242.769230769231 families - id<41>pos<98>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1281.230769230769 U.S. officials - id<39>pos<97>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1319.6923076923078 The airlines - id<38>pos<96>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 359.1538461538462 government - id<X169>pos<95>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 397.61538461538476 an antitrust exemption - id<X168>pos<94>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1435.076923076923 U.S. airlines - id<X167>pos<93>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1473.5384615384617 the details - id<X163>pos<92>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 513.0 a system - id<X162>pos<91>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 551.4615384615386 Montreal - id<X161>pos<90>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 589.9230769230769 week - id<X160>pos<89>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 628.3846153846155 no - id<X159>pos<88>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 666.8461538461538 the world - id<X157>pos<87>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1704.3076923076924 this - id<X155>pos<86>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1742.7692307692307 airlines - id<36>pos<85>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 782.2307692307693 a realistic limit and uniform - id<X154>pos<84>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1819.6923076923076 the airlines - id<35>pos<83>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 859.1538461538462 an acting administrator of the Federal Aviation Administration in the Bush administration - id<34>pos<82>pron<none>art<the>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 897.6153846153845 Barry Lambert - id<X147>pos<81>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 936.0769230769231 a jury - id<X146>pos<80>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1963.5384615384614 we - id<X145>pos<79>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1013.0 American - id<33>pos<78>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1051.461538461538 the American Eagle commuter flight - id<X138>pos<77>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2088.923076923077 international trips - id<X134>pos<76>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2127.3846153846152 the 16 passengers - id<X133>pos<75>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1166.8461538461538 the same - id<X132>pos<74>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1195.3076923076924 it - id<32>pos<73>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1243.769230769231 the limit - id<31>pos<72>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1272.230769230769 it - id<30>pos<71>pron<ambig>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 1320.6923076923076 December - id<X126>pos<70>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1359.1538461538462 Colombia - id<X125>pos<69>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 1397.6153846153848 one - id<X124>pos<68>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2435.076923076923 its - id<29>pos<67>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1474.538461538462 the people - id<X120>pos<66>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2512.0 families - id<X119>pos<65>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2550.461538461538 the limits - id<X117>pos<64>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1589.9230769230767 general good - id<X114>pos<63>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2617.3846153846157 they - id<28>pos<62>pron<nomi>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2665.846153846154 families - id<X108>pos<61>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1705.3076923076924 a lengthy trial - id<X106>pos<60>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2732.7692307692305 themselves - id<27>pos<59>pron<>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2781.2307692307695 many airlines - id<X103>pos<58>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1820.6923076923076 the low liability limit - id<26>pos<57>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2858.153846153846 airlines - id<X100>pos<56>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 1897.6153846153843 the document - id<25>pos<55>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2935.0769230769233 the airlines - id<24>pos<54>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2973.5384615384614 All nations - id<X98>pos<53>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2013.0 commercial - id<X97>pos<52>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2051.461538461538 and - id<X95>pos<51>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2089.923076923077 and - id<X91>pos<50>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3127.3846153846152 United States - id<23>pos<49>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3165.846153846154 international affairs - id<X86>pos<48>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3204.307692307692 29 countries - id<X84>pos<47>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 2243.769230769231 1929 - id<X82>pos<46>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2282.230769230769 The Warsaw Convention - id<22>pos<45>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 2320.6923076923076 assistant secretary - id<X80>pos<44>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2359.1538461538457 transportation - id<X79>pos<43>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2397.6153846153848 policy - id<X78>pos<42>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2436.0769230769233 and - id<X77>pos<41>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2474.5384615384614 an aviation lawyer - id<20>pos<40>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2513.0 something - id<X69>pos<39>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2551.4615384615386 time - id<X68>pos<38>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3588.923076923077 suits - id<X65>pos<37>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3617.3846153846152 them - id<19>pos<36>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3665.846153846154 aircraft manufacturers - id<X62>pos<35>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3704.3076923076924 high limits - id<X61>pos<34>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3742.769230769231 the higher limits - id<X59>pos<33>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3781.230769230769 Trial lawyers - id<X58>pos<32>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3809.6923076923076 them - id<18>pos<31>pron<accu>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3858.153846153846 United States - id<17>pos<30>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 2897.6153846153848 1977 and 1988 - id<X54>pos<29>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 2936.076923076923 the limit - id<15>pos<28>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3973.5384615384614 all parties - id<X51>pos<27>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3013.0 1966 - id<X50>pos<26>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4050.4615384615386 This - id<X46>pos<25>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3089.9230769230767 the $75,000 limit - id<14>pos<24>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3128.3846153846152 the third effort - id<13>pos<23>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4165.846153846154 Some foreign airlines - id<X44>pos<22>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 4204.307692307692 damage suits - id<X40>pos<21>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 4242.7692307692305 Americans - id<X39>pos<20>pron<none>art<NONE>appos<>plur<true>prop<true>gend<>anim<inanimate>
+totalScore: 3282.2307692307686 the - id<X38>pos<19>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3320.6923076923076 U.S. Department - id<X36>pos<18>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3359.1538461538466 Transportation - id<X35>pos<17>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3397.6153846153848 the accord - id<12>pos<16>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3436.076923076923 a new agreement - id<X33>pos<15>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3474.538461538462 the - id<X32>pos<14>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 4512.0 airlines - id<X28>pos<13>pron<none>art<NONE>appos<>plur<true>prop<false>gend<>anim<inanimate>
+totalScore: 3551.461538461538 the accord - id<11>pos<12>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3589.923076923077 the liability of an airline when passengers die in a plane crash - id<8>pos<11>pron<none>art<a>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3628.3846153846152 The Warsaw Convention - id<7>pos<10>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3666.8461538461543 N.Y. Times News Service - id<X15>pos<9>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3705.3076923076924 MATTHEW L. WALD - id<X13>pos<8>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<animate>
+totalScore: 3743.7692307692305 AIRLINE CRASH-LIABILITY ACCORD - id<X11>pos<7>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3782.2307692307695 NEW PRESSURES - id<X10>pos<6>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3820.6923076923076 AIRLINE-LIABILITY - id<2>pos<5>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3859.1538461538457 1094 - id<X5>pos<4>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: -6101.384615384615 04-05 - id<X4>pos<3>pron<none>art<NONE>appos<>plur<false>prop<false>gend<>anim<inanimate>
+totalScore: 3936.076923076924 BC-AIRLINE-LIABILITY-575 - id<X3>pos<2>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+totalScore: 3974.538461538462 A0222 - id<X2>pos<1>pron<none>art<NONE>appos<>plur<false>prop<true>gend<>anim<inanimate>
+assigning <04-05 X4> to <04-05-96 61> with score of -6101.384615384615
+
