@@ -96,7 +96,7 @@ class Rules
 
         		if nextNp.length == 1
          			
-         			puts "appositiveSuccess #{nextNp[0].phrase} <- #{npModel.phrase}"
+         			Ncrf.log "appositiveSuccess #{nextNp[0].phrase} <- #{npModel.phrase}"
           			npModel.ref = nextNp[0]
           			nextNp[0].included = true
           			return true
@@ -134,15 +134,15 @@ class Rules
 
 		dist = 0
 		
-		puts "substring #{npModel.phrase}:"
+		Ncrf.log "substring #{npModel.phrase}:"
 		prevSentences.each do |prevSent|
 	  
 		  prevSent.npModels.select{|t| t.pronounType == 'none'}.each do |acceptableNp|
-		  	puts "substring comparing #{acceptableNp.phrase}"
+		  	Ncrf.log "substring comparing #{acceptableNp.phrase}"
 		  	#first, headnouns same? success!
 		  	if Utilities.editDistance(npModel.headNoun, acceptableNp.headNoun) <= 1
-		  		  puts "matching <#{acceptableNp.phrase}> <- <#{npModel.phrase}>"
-				  puts ""
+		  		  Ncrf.log "matching <#{acceptableNp.phrase}> <- <#{npModel.phrase}>"
+				  Ncrf.log ""
 				  #this acceptableNp is a match
 				  acceptableNp.included = true
 				  npModel.ref = acceptableNp
@@ -172,7 +172,8 @@ class Rules
 		  		score = (foundCount.to_f / acceptableWords.length.to_f)
 
 		  		kvp = { :np => acceptableNp, :acc =>  score }
-		  		puts "\tpushing #{acceptableNp.phrase} with #{kvp[:acc]}"
+		  		
+		  		Ncrf.log "\tpushing #{acceptableNp.phrase} with #{kvp[:acc]}"
 		  		foundMatches.push kvp
 		  	end
 
@@ -182,16 +183,16 @@ class Rules
 
 		if foundMatches.length > 0
 			bestMatch = foundMatches.sort{|a,b| b[:acc] <=> a[:acc] }
-
-			puts "matching <#{bestMatch[0][:np].phrase}> <- <#{npModel.phrase}>"
-			puts ""
+	
+			Ncrf.log "matching <#{bestMatch[0][:np].phrase}> <- <#{npModel.phrase}>"
+			Ncrf.log ""
 			#this acceptableNp is a match
 			bestMatch[0][:np].included = true
 			npModel.ref = bestMatch[0][:np]
 
 			true
 		else
-			puts ""
+			Ncrf.log ""
 			false
 		end
 	end
@@ -364,7 +365,7 @@ class Rules
 
 	results = []
 
-	puts "comparing #{npModel} with:"
+	Ncrf.log "comparing #{npModel} with:"
 
 	prevNps.each do |prevNp|
 		score = 0
@@ -403,16 +404,18 @@ class Rules
 
 		tmpKvp = {:np => prevNp, :score => totalScore }
 		results.push tmpKvp
-		puts "totalScore: #{totalScore} #{prevNp}"
+		
+		Ncrf.log "totalScore: #{totalScore} #{prevNp}"
+		
 	end
 
 	foundNp = results.sort{|a, b| a[:score] <=> b[:score] }.first
 
 	if foundNp != nil
 		
-		puts "assigning <#{foundNp[:np].phrase} #{foundNp[:np].id}> to <#{npModel.phrase} #{npModel.id}> with score of #{foundNp[:score]}"
-		puts ""
-
+		Ncrf.log "assigning <#{foundNp[:np].phrase} #{foundNp[:np].id}> to <#{npModel.phrase} #{npModel.id}> with score of #{foundNp[:score]}"
+		Ncrf.log ""
+		
 		foundNp[:np].included = true
 		npModel.ref = foundNp[:np]
 	end

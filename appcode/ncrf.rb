@@ -10,11 +10,18 @@ require './rules.rb'
 class Ncrf
   attr_accessor :xml, :fileName, :sentences, :nps, :seed, :parseAdapter, :responseDir
   
-  #factory method for reading in a ton
-  def self.factory(inputLoc, responseDir)
+  @@verbose = false
+  def self.log(content)
+    if @@verbose
+      puts content
+    end
+  end
 
-	#inputLoc is a directory, read all files and process each one
-	pa = ParseAdapter.new
+  #factory method for reading in a ton
+  def self.factory(inputLoc, responseDir, verbose)
+    @@verbose = verbose
+    #inputLoc is a directory, read all files and process each one
+    pa = ParseAdapter.new
 	listFileLocations = (File.new inputLoc).read
 	listFileContent = ""
 	
@@ -25,7 +32,7 @@ class Ncrf
     
 		  realFileName = Pathname.new(file).basename
 		  realFileName.to_s =~ /(.+)\.crf/
-			puts "processing #{file}..."
+			log "processing #{file}..."
 			content = (File.new file).read
 			ncrf = Ncrf.new content, $1, pa, responseDir
 			ncrf.produceXml
