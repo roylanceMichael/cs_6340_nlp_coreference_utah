@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Version: 2.0.3
-Created-By: Stanford JavaNLP (horatio)
-Main-class: edu.stanford.nlp.parser.ui.Parser
-Built-Date: 2012-07-09
-
