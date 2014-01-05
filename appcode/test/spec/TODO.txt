@@ -1,9 +1,0 @@
-Try and acheive 100% code coverage.
-Look up gem to help with ^
-Make a Rake file to make compilation easier on Prafulla and get the project a bit cleaner.
-Make spec for main.rb
-Make spec for parseAdapter.rb
-Make spec for parseData.rb
-Make spec for npModel.rb
-Make spec for utilities.rb
-
