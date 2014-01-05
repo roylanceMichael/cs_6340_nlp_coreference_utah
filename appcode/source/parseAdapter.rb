@@ -11,7 +11,7 @@ class ParseAdapter
     attr_accessor :lp
     
     def initialize
-      @lp = LexicalizedParser.getParserFromSerializedFile "englishPCFG.ser.gz"
+      @lp = LexicalizedParser.getParserFromSerializedFile "source/stanford-parser/englishPCFG.ser.gz"
     end
   
     def parse(sentence)

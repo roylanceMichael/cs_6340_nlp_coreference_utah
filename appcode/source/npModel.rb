@@ -16,6 +16,8 @@ class NpModel
   classifierRoute = "source/stanford-ner-2012-07-09/classifiers/english.all.3class.distsim.crf.ser.gz"
   @@classifier = CRFClassifier.getClassifierNoExceptions(classifierRoute)
 
+  @@male_names = []
+
   #sent model, 
   #probably should pass in the parse tree from the orig np sent parse
   #to make certain identifications easier
@@ -210,9 +212,11 @@ class NpModel
    #get male names from file 
    #this'll probably result in a slowdown...probably should
    #make this static accross all classes
-   male_names = []
-   File.readlines("male_names.txt").each do |line|
-	male_names << line	
+   
+   if @@male_names.length == 0
+    File.readlines("source/assets/male_names.txt").each do |line|
+      @@male_names << line  
+    end
    end
 
    female = [/\b[Ss]he\b/,/\b[Hh]er\b/, /\b[Hh]erself\b/,
@@ -222,7 +226,7 @@ class NpModel
     #if it's a male name, consider the gender to be
     #male no matter what 
     @phrase.split(' ').each do |word|
-	if(male_names.include?(word.upcase))
+	if(@@male_names.include?(word.upcase))
 	    gender = "MALE"
 	    return	    
 	end

@@ -1,7 +1,7 @@
 #! /bin/bash
 echo -e "Running the first devset\n\n"
 echo -e "======================================\n"
-./jrubyLib/jbin/jruby ./source/main.rb $1 $2
+./jrubyLib/jbin/jruby ./source/main.rb $1 $2 $3
 
 #echo -e "======================================"
 #echo -e "running the grader..."
