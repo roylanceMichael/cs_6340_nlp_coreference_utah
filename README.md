@@ -22,14 +22,14 @@ identified as having antecedents. It attempts to correctly label them. Once fini
 response document with the chosen antecedents labeled. For example:
 
 The input document:
-'''
+'''xml
 <TXT>
 Mary goes on a walk.
 <COREF ID=”1”>She</COREF> loves doing that.
 </TXT>
 '''
 returns the response document:
-'''
+'''xml
 <TXT>
 <COREF ID=”X1”>Mary</COREF> goes on a walk.
 <COREF ID=”1” REF=”X1”>She</COREF> loves doing that.
