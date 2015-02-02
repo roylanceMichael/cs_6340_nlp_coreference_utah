@@ -22,19 +22,19 @@ identified as having antecedents. It attempts to correctly label them. Once fini
 response document with the chosen antecedents labeled. For example:
 
 The input document:
-
+'''
 <TXT>
 Mary goes on a walk.
 <COREF ID=”1”>She</COREF> loves doing that.
 </TXT>
-
+'''
 returns the response document:
-
+'''
 <TXT>
 <COREF ID=”X1”>Mary</COREF> goes on a walk.
 <COREF ID=”1” REF=”X1”>She</COREF> loves doing that.
 </TXT>
-
+'''
 How It Works
 
 The application first takes in a file with the same XML format as referenced above. It then
@@ -46,7 +46,7 @@ sentences and their corresponding parts of speech are then stored in the order t
 the document.
 
 Once all the data for the document has been created, the application examines each
-noun phrase and runs through a series of heuristics to determine what the most likelyantecedent is. It evaluates a set of criteria for each possible candidate and scores them with
+noun phrase and runs through a series of heuristics to determine what the most likely antecedent is. It evaluates a set of criteria for each possible candidate and scores them with
 variable weights. The criteria are:
 Plurality matching ­ do the noun phrases match in plurality?
 Gender matching ­ do the noun phrases match in gender?
