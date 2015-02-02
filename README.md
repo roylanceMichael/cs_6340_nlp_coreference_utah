@@ -22,19 +22,19 @@ identified as having antecedents. It attempts to correctly label them. Once fini
 response document with the chosen antecedents labeled. For example:
 
 The input document:
-'''xml
-<TXT>
+
+&lt;TXT&gt;
 Mary goes on a walk.
-<COREF ID=”1”>She</COREF> loves doing that.
-</TXT>
-'''
+&lt;COREF ID=”1”&gt;She&lt;/COREF&gt; loves doing that.
+&lt;/TXT&gt;
+
 returns the response document:
-'''xml
-<TXT>
-<COREF ID=”X1”>Mary</COREF> goes on a walk.
-<COREF ID=”1” REF=”X1”>She</COREF> loves doing that.
-</TXT>
-'''
+
+&lt;TXT&gt;
+&lt;COREF ID=”X1”&gt;Mary&lt;/COREF&gt; goes on a walk.
+&lt;COREF ID=”1” REF=”X1”&gt;She&lt;/COREF&gt; loves doing that.
+&lt;/TXT&gt;
+
 How It Works
 
 The application first takes in a file with the same XML format as referenced above. It then
